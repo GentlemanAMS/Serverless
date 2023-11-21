@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source ~/.bashrc
+source /etc/profile
+
 cd $HOME/vhive
 
 # Run the node setup script
@@ -16,6 +19,19 @@ sudo screen -dmS containerd containerd; sleep 5;
 
 # Run the single node cluster setup script
 ./setup_tool create_one_node_cluster stock-only
+
+
+# Copying files from benchmarks to vSwarm/tools/invoke: TO BE TESTED
+cp $HOME/benchmarking/collect_endpoints.py $HOME/vSwarm/tools/invoke/
+cp $HOME/benchmarking/invoke_functions.sh $HOME/vSwarm/tools/invoke/
+cp $HOME/benchmarking/client.go $HOME/vSwarm/tools/invoke/
+echo "Copying necessary files"
+
+# Build invoker: TO BE TESTED
+cd $HOME/vSwarm/tools/invoke/
+make invoker
+echo "Building invoker"
+
 
 # Wait for all the containers to boot up:
 watch kubectl get pods -A

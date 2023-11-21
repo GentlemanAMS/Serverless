@@ -5,7 +5,7 @@ import json
 
 # Do not invoke these services: USER INPUT
 # User should change here only, do not touch the 'compulsory-avoid-services'
-user_avoid_services = ["bert-python"]
+user_avoid_services = ["bert-python", "hotel-app-rate", "hotel-app-search"]
 
 # Compulsorily avoid these services: DO NOT TOUCH THIS
 # These services are not to be invoked by the invoker because these functions
