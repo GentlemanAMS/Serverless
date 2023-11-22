@@ -33,7 +33,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-	"os/exec"
 
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"
@@ -70,9 +69,6 @@ func main() {
 	zipkin := flag.String("zipkin", "http://localhost:9411/api/v2/spans", "zipkin url")
 	debug := flag.Bool("dbg", false, "Enable debug logging")
 	grpcTimeout = time.Duration(*flag.Int("grpcTimeout", 30, "Timeout in seconds for gRPC requests")) * time.Second
-	perfFile := flag.String("perf", "perf.dat", "Path to the perf data file")
-	mpstatFile := flag.String("mpstat", "mpstat.dat", "Path to the mpstat data file")
-	statInterval := flag.Int("statinterval", 30000, "Interval at which stats are collected in milliseconds")
 
 	flag.Parse()
 
@@ -108,7 +104,7 @@ func main() {
 		defer shutdown()
 	}
 
-	realRPS := runExperiment(endpoints, *runDuration, *rps, *perfFile, *mpstatFile, *statInterval)
+	realRPS := runExperiment(endpoints, *runDuration, *rps)
 
 	writeLatencies(realRPS, *latencyOutputFile)
 }
@@ -124,39 +120,14 @@ func readEndpoints(path string) (endpoints []*endpoint.Endpoint, _ error) {
 	return
 }
 
-func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64, perfoutputFilename string, mpstatoutputFilename string, timeinterval_ms int) (realRPS float64) {
+func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64) (realRPS float64) {
 	var issued int
-
-	statstart_ms := runDuration * 100 // Start after 10% of runDuration in milliseconds: 0.1 * 1000 = 100
-	// timeinterval_ms := 30000 // Print details every 30 seconds
-	intervalcount := (runDuration * 800) / (timeinterval_ms)
-
-	perfstartString := strconv.Itoa(statstart_ms)
-	intervalcountString := strconv.Itoa(intervalcount)
-	timeintervalinmsString := strconv.Itoa(timeinterval_ms)
-	// perfoutputFilename := "perf.dat"
-	perfcmd := exec.Command("sudo", "perf", "stat", "-e", "LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,LLC-prefetch-misses", "--delay", perfstartString, "-I", timeintervalinmsString, "--interval-count", intervalcountString, "-o", perfoutputFilename)
-
-	timeinterval := timeinterval_ms / 1000
-	timeintervalString := strconv.Itoa(timeinterval)
-
-	// mpstatoutputFilename := "mpstat.dat"
-	mpstatoutputFile, err := os.Create(mpstatoutputFilename)
-	if err != nil {
-		log.Fatalf("Error creating output file: %v", err)
-	}
-	mpstatcmd := exec.Command("mpstat", timeintervalString, intervalcountString)
-	mpstatcmd.Stdout = mpstatoutputFile
 
 	Start(TimeseriesDBAddr, endpoints, workflowIDs)
 
-	perfcmd.Start()
-
-	cpustat := time.After(time.Duration(statstart_ms / 1000) * time.Second)
 	timeout := time.After(time.Duration(runDuration) * time.Second)
 	tick := time.Tick(time.Duration(1000/targetRPS) * time.Millisecond)
 	start := time.Now()
-
 loop:
 	for {
 		ep := endpoints[issued%len(endpoints)]
@@ -168,25 +139,12 @@ loop:
 		issued++
 
 		select {
-		case <- cpustat:
-			mpstatcmd.Start()
 		case <-timeout:
 			break loop
 		case <-tick:
 			continue
 		}
 	}
-
-	perferr := perfcmd.Wait()
-    if perferr != nil {
-        log.Warnf("Perf failure: %v", perferr)
-    }
-	mpstaterr := mpstatcmd.Wait()
-    if mpstaterr != nil {
-        log.Warnf("MPStat failure: %v", mpstaterr)
-    }
-	mpstatoutputFile.Close()
-
 
 	duration := time.Since(start).Seconds()
 	realRPS = float64(completed) / duration

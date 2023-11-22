@@ -10,6 +10,6 @@ sudo apt install linux-tools-common linux-tools-generic linux-cloud-tools-generi
 sudo apt install linux-tools-$(uname -r) linux-cloud-tools-$(uname -r)
 echo "Perf Tools Installed"
 
-sudo apt-get install sysstat
-echo "MPstats Installed"
-
+sudo apt install python3-pip
+pip install matplotlib
+echo "Installing matplotlib"

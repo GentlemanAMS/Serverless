@@ -80,4 +80,3 @@ cd $HOME/vhive
 pushd scripts && go build -o setup_tool && popd && mv scripts/setup_tool .
 echo "vHive setup tool built"
 cd $HOME/vhive
-
