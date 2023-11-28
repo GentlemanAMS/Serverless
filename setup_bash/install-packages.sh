@@ -19,3 +19,6 @@ echo "MPStat Installed"
 sudo apt install python3-pip
 pip install matplotlib
 echo "Installing matplotlib"
+
+sudo apt install jq
+echo "Installing jq to process json"

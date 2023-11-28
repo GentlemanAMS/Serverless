@@ -124,65 +124,23 @@ func readEndpoints(path string) (endpoints []*endpoint.Endpoint, _ error) {
 	return
 }
 
-func warmupExpt(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64) {
-	var issued int
-
-	Start(TimeseriesDBAddr, endpoints, workflowIDs)
-
-	timeout := time.After(time.Duration(runDuration) * time.Second)
-	tick := time.Tick(time.Duration(1000/targetRPS) * time.Millisecond)
-	start := time.Now()
-loop:
-	for {
-		ep := endpoints[issued%len(endpoints)]
-		if ep.Eventing {
-			go invokeEventingFunction(ep)
-		} else {
-			go invokeServingFunction(ep)
-		}
-		issued++
-
-		select {
-		case <-timeout:
-			break loop
-		case <-tick:
-			continue
-		}
-	}
-
-	duration := time.Since(start).Seconds()
-	realRPS := float64(completed) / duration
-	// addDurations(End())
-	log.Infof("WarmUp: Issued / completed requests: %d, %d", issued, completed)
-	log.Infof("WarmUp: Real / target RPS: %.2f / %v", realRPS, targetRPS)
-	completed = 0
-	return
-}
-
 func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64, perfoutputFilename string, mpstatoutputFilename string, timeinterval_ms int) (realRPS float64) {
 	var issued int
 
-	// Warmup Process
-	var warmupRPS float64
-	var warmpupRunDuration int
-	for i := 0.1; i <= 1; i += 0.1 {
-		warmupRPS = targetRPS * i
-		warmpupRunDuration = int(float64(runDuration) * 0.04)
-		warmupExpt(endpoints, warmpupRunDuration, warmupRPS)
-	}
-
-	// Actual process 
 	statstart_ms := runDuration * 100 // Start after 10% of runDuration in milliseconds: 0.1 * 1000 = 100
+	// timeinterval_ms := 30000 // Print details every 30 seconds
 	intervalcount := (runDuration * 800) / (timeinterval_ms)
 
 	perfstartString := strconv.Itoa(statstart_ms)
 	intervalcountString := strconv.Itoa(intervalcount)
 	timeintervalinmsString := strconv.Itoa(timeinterval_ms)
-	perfcmd := exec.Command("sudo", "perf", "stat", "-e", "instructions,LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,LLC-prefetch-misses", "--delay", perfstartString, "-I", timeintervalinmsString, "--interval-count", intervalcountString, "-o", perfoutputFilename)
+	// perfoutputFilename := "perf.dat"
+	perfcmd := exec.Command("sudo", "perf", "stat", "-e", "LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,LLC-prefetch-misses", "--delay", perfstartString, "-I", timeintervalinmsString, "--interval-count", intervalcountString, "-o", perfoutputFilename)
 
 	timeinterval := timeinterval_ms / 1000
 	timeintervalString := strconv.Itoa(timeinterval)
 
+	// mpstatoutputFilename := "mpstat.dat"
 	mpstatoutputFile, err := os.Create(mpstatoutputFilename)
 	if err != nil {
 		log.Fatalf("Error creating output file: %v", err)
