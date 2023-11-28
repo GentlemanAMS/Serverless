@@ -1,0 +1,255 @@
+{
+    "Total-Time-Stats-Collected": [
+        90.0,
+        810.0
+    ],
+    "time": {
+        "120.004": {
+            "LLC-loads": 1607734860,
+            "LLC-load-misses": 499398822,
+            "LLC-stores": 469502041,
+            "LLC-store-misses": 182244382,
+            "CPU-utilization": 33.76,
+            "user-CPU-utilization": 22.44,
+            "sys-CPU-utilization": 22.44
+        },
+        "150.006": {
+            "LLC-loads": 1479570133,
+            "LLC-load-misses": 435714070,
+            "LLC-stores": 440161669,
+            "LLC-store-misses": 163780119,
+            "CPU-utilization": 31.9,
+            "user-CPU-utilization": 21.46,
+            "sys-CPU-utilization": 21.46
+        },
+        "180.007": {
+            "LLC-loads": 1442069927,
+            "LLC-load-misses": 444564370,
+            "LLC-stores": 431204554,
+            "LLC-store-misses": 161272580,
+            "CPU-utilization": 31.08,
+            "user-CPU-utilization": 20.88,
+            "sys-CPU-utilization": 20.88
+        },
+        "210.009": {
+            "LLC-loads": 1317487003,
+            "LLC-load-misses": 371487958,
+            "LLC-stores": 397721954,
+            "LLC-store-misses": 149545568,
+            "CPU-utilization": 28.82,
+            "user-CPU-utilization": 19.66,
+            "sys-CPU-utilization": 19.66
+        },
+        "240.01": {
+            "LLC-loads": 1324035387,
+            "LLC-load-misses": 371194435,
+            "LLC-stores": 399824520,
+            "LLC-store-misses": 148175879,
+            "CPU-utilization": 28.96,
+            "user-CPU-utilization": 19.74,
+            "sys-CPU-utilization": 19.74
+        },
+        "270.012": {
+            "LLC-loads": 1284175364,
+            "LLC-load-misses": 353224832,
+            "LLC-stores": 385939077,
+            "LLC-store-misses": 145406186,
+            "CPU-utilization": 27.88,
+            "user-CPU-utilization": 19.01,
+            "sys-CPU-utilization": 19.01
+        },
+        "300.014": {
+            "LLC-loads": 1329925919,
+            "LLC-load-misses": 384163685,
+            "LLC-stores": 398166861,
+            "LLC-store-misses": 149180827,
+            "CPU-utilization": 28.64,
+            "user-CPU-utilization": 19.36,
+            "sys-CPU-utilization": 19.36
+        },
+        "330.015": {
+            "LLC-loads": 1321746906,
+            "LLC-load-misses": 394016949,
+            "LLC-stores": 399170449,
+            "LLC-store-misses": 151631729,
+            "CPU-utilization": 28.91,
+            "user-CPU-utilization": 19.42,
+            "sys-CPU-utilization": 19.42
+        },
+        "360.017": {
+            "LLC-loads": 1275065025,
+            "LLC-load-misses": 363514138,
+            "LLC-stores": 389393818,
+            "LLC-store-misses": 146668758,
+            "CPU-utilization": 27.96,
+            "user-CPU-utilization": 19.09,
+            "sys-CPU-utilization": 19.09
+        },
+        "390.019": {
+            "LLC-loads": 1242337353,
+            "LLC-load-misses": 345989851,
+            "LLC-stores": 381951436,
+            "LLC-store-misses": 142885790,
+            "CPU-utilization": 27.05,
+            "user-CPU-utilization": 18.46,
+            "sys-CPU-utilization": 18.46
+        },
+        "420.02": {
+            "LLC-loads": 1340424595,
+            "LLC-load-misses": 405061940,
+            "LLC-stores": 405149920,
+            "LLC-store-misses": 154148515,
+            "CPU-utilization": 29.15,
+            "user-CPU-utilization": 19.43,
+            "sys-CPU-utilization": 19.43
+        },
+        "450.021": {
+            "LLC-loads": 1243577783,
+            "LLC-load-misses": 377267079,
+            "LLC-stores": 382071978,
+            "LLC-store-misses": 148362443,
+            "CPU-utilization": 27.37,
+            "user-CPU-utilization": 18.31,
+            "sys-CPU-utilization": 18.31
+        },
+        "480.023": {
+            "LLC-loads": 1209623382,
+            "LLC-load-misses": 355567354,
+            "LLC-stores": 378313531,
+            "LLC-store-misses": 146541617,
+            "CPU-utilization": 27.07,
+            "user-CPU-utilization": 18.5,
+            "sys-CPU-utilization": 18.5
+        },
+        "510.024": {
+            "LLC-loads": 1157554036,
+            "LLC-load-misses": 332620612,
+            "LLC-stores": 356563431,
+            "LLC-store-misses": 140118878,
+            "CPU-utilization": 25.49,
+            "user-CPU-utilization": 17.25,
+            "sys-CPU-utilization": 17.25
+        },
+        "540.026": {
+            "LLC-loads": 1160286897,
+            "LLC-load-misses": 332620137,
+            "LLC-stores": 356128137,
+            "LLC-store-misses": 138809506,
+            "CPU-utilization": 25.32,
+            "user-CPU-utilization": 17.24,
+            "sys-CPU-utilization": 17.24
+        },
+        "570.028": {
+            "LLC-loads": 1155580493,
+            "LLC-load-misses": 328414670,
+            "LLC-stores": 358195359,
+            "LLC-store-misses": 136402693,
+            "CPU-utilization": 25.23,
+            "user-CPU-utilization": 17.11,
+            "sys-CPU-utilization": 17.11
+        },
+        "600.029": {
+            "LLC-loads": 1153756367,
+            "LLC-load-misses": 329142102,
+            "LLC-stores": 356048248,
+            "LLC-store-misses": 137260026,
+            "CPU-utilization": 25.36,
+            "user-CPU-utilization": 17.37,
+            "sys-CPU-utilization": 17.37
+        },
+        "630.031": {
+            "LLC-loads": 1150706061,
+            "LLC-load-misses": 326987464,
+            "LLC-stores": 357363516,
+            "LLC-store-misses": 137611195,
+            "CPU-utilization": 25.42,
+            "user-CPU-utilization": 17.26,
+            "sys-CPU-utilization": 17.26
+        },
+        "660.032": {
+            "LLC-loads": 1162371059,
+            "LLC-load-misses": 327997899,
+            "LLC-stores": 357481298,
+            "LLC-store-misses": 136981954,
+            "CPU-utilization": 25.34,
+            "user-CPU-utilization": 17.25,
+            "sys-CPU-utilization": 17.25
+        },
+        "690.033": {
+            "LLC-loads": 1167538215,
+            "LLC-load-misses": 330842440,
+            "LLC-stores": 360870243,
+            "LLC-store-misses": 140116568,
+            "CPU-utilization": 25.51,
+            "user-CPU-utilization": 17.35,
+            "sys-CPU-utilization": 17.35
+        },
+        "720.035": {
+            "LLC-loads": 1155475784,
+            "LLC-load-misses": 328317693,
+            "LLC-stores": 357228814,
+            "LLC-store-misses": 137664376,
+            "CPU-utilization": 25.47,
+            "user-CPU-utilization": 17.35,
+            "sys-CPU-utilization": 17.35
+        },
+        "750.037": {
+            "LLC-loads": 1159225187,
+            "LLC-load-misses": 327135855,
+            "LLC-stores": 357334204,
+            "LLC-store-misses": 136145902,
+            "CPU-utilization": 25.2,
+            "user-CPU-utilization": 17.18,
+            "sys-CPU-utilization": 17.18
+        },
+        "780.038": {
+            "LLC-loads": 1158046364,
+            "LLC-load-misses": 324463117,
+            "LLC-stores": 357346546,
+            "LLC-store-misses": 136477661,
+            "CPU-utilization": 25.28,
+            "user-CPU-utilization": 17.28,
+            "sys-CPU-utilization": 17.28
+        },
+        "810.04": {
+            "LLC-loads": 1155459546,
+            "LLC-load-misses": 325851274,
+            "LLC-stores": 358302837,
+            "LLC-store-misses": 137000724,
+            "CPU-utilization": 25.48,
+            "user-CPU-utilization": 17.29,
+            "sys-CPU-utilization": 17.29
+        }
+    },
+    "Issued-requests": 299623,
+    "Completed-requests": 299517,
+    "Real-RPS": 332.8,
+    "Target-RPS": 300,
+    "Average-CPU-Utilization": 27.4,
+    "Average-user-CPU-Utilization": 18.57,
+    "Average-sys-CPU-Utilization": 18.57,
+    "Total-LLC-loads": 30153773646,
+    "Total-LLC-loads-misses": 8715558746,
+    "Total-LLC-stores": 9191434441,
+    "Total-LLC-stores-misses": 3504433876,
+    "endpoints": [
+        "aes-go.default.192.168.1.240.sslip.io",
+        "aes-go-tracing.default.192.168.1.240.sslip.io",
+        "aes-nodejs.default.192.168.1.240.sslip.io",
+        "aes-nodejs-tracing.default.192.168.1.240.sslip.io",
+        "aes-python.default.192.168.1.240.sslip.io",
+        "aes-python-tracing.default.192.168.1.240.sslip.io",
+        "auth-go.default.192.168.1.240.sslip.io",
+        "auth-go-tracing.default.192.168.1.240.sslip.io",
+        "auth-nodejs.default.192.168.1.240.sslip.io",
+        "auth-nodejs-tracing.default.192.168.1.240.sslip.io",
+        "auth-python.default.192.168.1.240.sslip.io",
+        "auth-python-tracing.default.192.168.1.240.sslip.io",
+        "fibonacci-go.default.192.168.1.240.sslip.io",
+        "fibonacci-go-tracing.default.192.168.1.240.sslip.io",
+        "fibonacci-nodejs.default.192.168.1.240.sslip.io",
+        "fibonacci-nodejs-tracing.default.192.168.1.240.sslip.io",
+        "fibonacci-python.default.192.168.1.240.sslip.io",
+        "fibonacci-python-tracing.default.192.168.1.240.sslip.io"
+    ]
+}

@@ -1,0 +1,5 @@
+time="2023-11-27T14:49:31.435668989-07:00" level=info msg="Reading the endpoints from the file: endpoints.json"
+time="2023-11-27T15:04:31.436769791-07:00" level=info msg="Issued / completed requests: 45001, 45001"
+time="2023-11-27T15:04:31.436883205-07:00" level=info msg="Real / target RPS: 50.00 / 50"
+time="2023-11-27T15:04:31.4369089-07:00" level=info msg="Experiment finished!"
+time="2023-11-27T15:04:31.436933457-07:00" level=info msg="The measured latencies are saved in rps50.00_lat.csv"
