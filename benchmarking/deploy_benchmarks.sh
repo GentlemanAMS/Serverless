@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Following benchmarks can be deployed and invoked
-DEPLOY_AES=0
+DEPLOY_AES=1
 DEPLOY_AUTH=0
 DEPLOY_CHAINED_FUNCTION_SERVING=0
 DEPLOY_FIBONACCI=0
@@ -12,7 +12,7 @@ DEPLOY_VIDEO_ANALYTICS=0
 
 # Following benchmarks can be deployed but some functions of these benchmarks face some issue when invoked
 DEPLOY_BERT=0
-DEPLOY_HOTEL_APP=1
+DEPLOY_HOTEL_APP=0
 
 # Following benchmarks cannot be deployed
 # These do not seem to work because I think they require AWS S3 Secret keys and stuffs like that
