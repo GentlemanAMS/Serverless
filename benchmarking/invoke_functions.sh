@@ -25,6 +25,8 @@ OUTPUT_PNG_FILE=$FOLDER
 # Run the command
 cd $VSWARM_FOLDER
 python3 collect_endpoints.py
+source /etc/profile
+source $HOME/.bashrc
 make invoker
 sudo ./invoker -port $PORT -time $TIME -rps $RPS -dbg=$DEBUG_FLAG -perf=$PERF_FILE -mpstat=$MPSTAT_FILE -statinterval=$STATISTICS_INTERVAL > $RESULTS_FILE
 python3 ./statanalysis.py $PERF_FILE $MPSTAT_FILE $RESULTS_FILE $OUTPUT_JSON_FILE $TIME

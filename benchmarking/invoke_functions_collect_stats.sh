@@ -25,6 +25,8 @@ run_analysis() {
 
     # Run the command
     cd $VSWARM_FOLDER
+    source /etc/profile
+    source $HOME/.bashrc
     python3 collect_endpoints.py
     make invoker
     sudo ./invoker -port $PORT -time $TIME -rps $RPS -dbg=$DEBUG_FLAG -perf=$PERF_FILE -mpstat=$MPSTAT_FILE -statinterval=$STATISTICS_INTERVAL > $RESULTS_FILE
