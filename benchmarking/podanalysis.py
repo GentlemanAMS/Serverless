@@ -4,6 +4,7 @@ import json
 import os
 import psutil 
 import time
+from collections import OrderedDict
 
 home_directory = os.path.expanduser("~")
 
@@ -16,9 +17,11 @@ timestamp = sys.argv[2]
 
 try:
     with open(output_json_file, "r") as file:
-        podanalysis = json.load(file)
+        podanalysis = json.load(file, object_pairs_hook=OrderedDict)
 except FileNotFoundError:
-    podanalysis = {}
+    podanalysis = OrderedDict()
+    podanalysis["services"] = OrderedDict()
+    podanalysis["pods"] = OrderedDict()
 
 
 def get_service_list():
@@ -59,17 +62,22 @@ def get_pod_list(services_deployed):
         line = line.split()
         pod_name = line[0]
         pod_status = line[2]
-        pod_age = line[4]
-        pod_service = None
+
+        pod_service = []
         for service in services_deployed:
             if service in pod_name:
-                pod_service = service
-                break
+                pod_service.append(service)
+        try:
+            command = f"kubectl get pod {pod_name} -o=json | jq '.metadata.labels[\"serving.knative.dev/service\"]'"
+            result = subprocess.run(command, check=True, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            if result.returncode == 0: pod_service = result.stdout.replace('"','').replace(' ','').replace('\n','') 
+            else: print("XXX")
+        except subprocess.CalledProcessError as e: print(e)
+
         pods[pod_name] = {}
         pods[pod_name]['name'] = pod_name 
         pods[pod_name]['status'] = pod_status 
         pods[pod_name]['service'] = pod_service
-
     return pods
 
 def parse_pods_details(pods, services_deployed):
@@ -84,7 +92,7 @@ def parse_pods_details(pods, services_deployed):
     pod_names_to_be_deleted = []
     for pod_name in pods.keys():
         service = pods[pod_name]['service']
-        if service not in pods_by_services.keys():
+        if service not in services_deployed:
             pod_names_to_be_deleted.append(pod_name)
     for pod_name in pod_names_to_be_deleted:
         pods.pop(pod_name)
@@ -103,6 +111,7 @@ services_deployed = get_service_list()
 pods = get_pod_list(services_deployed)
 pods_by_services = parse_pods_details(pods, services_deployed)
 
-podanalysis[timestamp] = pods_by_services
+podanalysis["services"][timestamp] = pods_by_services
+podanalysis["pods"][timestamp] = pods
 with open(output_json_file, "w") as file:
-    json.dump(output_json_file, file, indent=2)
+    json.dump(podanalysis, file, indent=2)

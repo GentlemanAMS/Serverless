@@ -72,6 +72,8 @@ func main() {
 	grpcTimeout = time.Duration(*flag.Int("grpcTimeout", 30, "Timeout in seconds for gRPC requests")) * time.Second
 	perfFile := flag.String("perf", "perf.dat", "Path to the perf data file")
 	mpstatFile := flag.String("mpstat", "mpstat.dat", "Path to the mpstat data file")
+	podanalysisPythonFile := flag.String("podanalpy", "podanalysis.py", "Path to the pod analysis python file")
+	podanalysisOutputFile := flag.String("podanaloutput", "podanalysis.json", "Path to the pod analysis output json file")
 	statInterval := flag.Int("statinterval", 30000, "Interval at which stats are collected in milliseconds")
 
 	flag.Parse()
@@ -108,7 +110,7 @@ func main() {
 		defer shutdown()
 	}
 
-	realRPS := runExperiment(endpoints, *runDuration, *rps, *perfFile, *mpstatFile, *statInterval)
+	realRPS := runExperiment(endpoints, *runDuration, *rps, *perfFile, *mpstatFile, *podanalysisPythonFile, *podanalysisOutputFile, *statInterval)
 
 	writeLatencies(realRPS, *latencyOutputFile)
 }
@@ -159,7 +161,7 @@ loop:
 	return
 }
 
-func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64, perfoutputFilename string, mpstatoutputFilename string, timeinterval_ms int) (realRPS float64) {
+func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64, perfoutputFilename string, mpstatoutputFilename string, podanalysisPythonFilename string, podanalysisOutputFilename string, timeinterval_ms int) (realRPS float64) {
 	var issued int
 
 	// Warmup Process
@@ -190,11 +192,12 @@ func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS fl
 	mpstatcmd := exec.Command("mpstat", timeintervalString, intervalcountString)
 	mpstatcmd.Stdout = mpstatoutputFile
 
+
 	Start(TimeseriesDBAddr, endpoints, workflowIDs)
 
 	perfcmd.Start()
 
-	cpustat := time.After(time.Duration(statstart_ms / 1000) * time.Second)
+	stat := time.After(time.Duration(statstart_ms / 1000) * time.Second)
 	timeout := time.After(time.Duration(runDuration) * time.Second)
 	tick := time.Tick(time.Duration(1000/targetRPS) * time.Millisecond)
 	start := time.Now()
@@ -210,8 +213,11 @@ loop:
 		issued++
 
 		select {
-		case <- cpustat:
+		case <- stat:
 			mpstatcmd.Start()
+			time_elapsed := time.Since(start)
+			podanalysiscmd := exec.Command("python3", podanalysisPythonFilename, podanalysisOutputFilename, time_elapsed.String())
+			podanalysiscmd.Start()
 		case <-timeout:
 			break loop
 		case <-tick:
@@ -228,7 +234,6 @@ loop:
         log.Warnf("MPStat failure: %v", mpstaterr)
     }
 	mpstatoutputFile.Close()
-
 
 	duration := time.Since(start).Seconds()
 	realRPS = float64(completed) / duration

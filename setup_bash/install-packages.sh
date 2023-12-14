@@ -18,6 +18,7 @@ echo "MPStat Installed"
 
 sudo apt install python3-pip
 pip install matplotlib
+pip install psutil
 echo "Installing matplotlib"
 
 sudo apt install jq
