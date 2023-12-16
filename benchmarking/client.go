@@ -199,7 +199,7 @@ func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS fl
 
 	stat := time.After(time.Duration(statstart_ms / 1000) * time.Second)
 	timeout := time.After(time.Duration(runDuration) * time.Second)
-	tick := time.Tick(time.Duration(1000/targetRPS) * time.Millisecond)
+	tick := time.Tick(time.Duration(1000000/targetRPS) * time.Microsecond)
 	start := time.Now()
 
 loop:
