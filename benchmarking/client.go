@@ -197,7 +197,8 @@ func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS fl
 
 	perfcmd.Start()
 
-	stat := time.After(time.Duration(statstart_ms / 1000) * time.Second)
+	statstart := time.After(time.Duration(statstart_ms / 1000) * time.Second)
+	statcollect := time.Tick(time.Duration(timeinterval_ms / 1000) * time.Second)
 	timeout := time.After(time.Duration(runDuration) * time.Second)
 	tick := time.Tick(time.Duration(1000000/targetRPS) * time.Microsecond)
 	start := time.Now()
@@ -213,8 +214,9 @@ loop:
 		issued++
 
 		select {
-		case <- stat:
+		case <- statstart:
 			mpstatcmd.Start()
+		case <- statcollect:
 			time_elapsed := time.Since(start)
 			podanalysiscmd := exec.Command("python3", podanalysisPythonFilename, podanalysisOutputFilename, time_elapsed.String())
 			podanalysiscmd.Start()

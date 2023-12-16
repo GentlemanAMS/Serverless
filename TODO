@@ -1,0 +1,10 @@
+-) Run multiple invoker to check whether the bottleneck is in invoker or in the queueing process
+-) Run on multi-node cluster and check
+-) Run zipkin collector and see where it leads to
+-) kubectl get pods -A -o json
+
+
+
+
+
+
