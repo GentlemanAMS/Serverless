@@ -39,20 +39,42 @@ def get_pod_list(services_deployed):
 
     pods = {}
 
-    def run_kubectl_command_to_get(): 
-        try:
-            result = subprocess.run(["kubectl","get","pods"], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-            if result.returncode == 0:
-                result = result.stdout
-                return result
-            else:
-                print(f"Error: {result.stderr}")
-                sys.exit(1)
-        except subprocess.CalledProcessError as e:
-            print(f"Error: {e}")
+    try:
+        command = f"kubectl get pods -o=json"
+        result = subprocess.run(command, check=True, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if result.returncode == 0: json_file = json.loads(result.stdout)
+        else: 
+            print("kubectl get pods -o=json returned non-zero")
             sys.exit(1)
+    except subprocess.CalledProcessError as e: 
+        print(f"Error: {e}")
+        sys.exit(1)
 
-    command_result = run_kubectl_command_to_get()
+    json_file = json_file["items"]
+
+    for pod_info in json_file:
+
+        try: pod_name = pod_info["metadata"]["name"]
+        except: pod_name = "Null"
+        try: pod_service = pod_info["metadata"]["labels"]["serving.knative.dev/service"]
+        except: pod_service = "Null"
+
+        pods[pod_name] = {}
+        pods[pod_name]['name'] = pod_name 
+        pods[pod_name]['service'] = pod_service
+
+
+    try:
+        result = subprocess.run(["kubectl","get","pods"], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if result.returncode == 0:
+            command_result = result.stdout
+        else:
+            print(f"Error: {result.stderr}")
+            sys.exit(1)
+    except subprocess.CalledProcessError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+
     command_result = command_result.split('\n')
     command_result = command_result[1:]     # Removing header
     command_result = command_result[:-2]    # Removing last endline - empty line
@@ -62,23 +84,10 @@ def get_pod_list(services_deployed):
         line = line.split()
         pod_name = line[0]
         pod_status = line[2]
+        pods[pod_name]['status'] = pod_status
 
-        pod_service = []
-        for service in services_deployed:
-            if service in pod_name:
-                pod_service.append(service)
-        try:
-            command = f"kubectl get pod {pod_name} -o=json | jq '.metadata.labels[\"serving.knative.dev/service\"]'"
-            result = subprocess.run(command, check=True, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-            if result.returncode == 0: pod_service = result.stdout.replace('"','').replace(' ','').replace('\n','') 
-            else: print("XXX")
-        except subprocess.CalledProcessError as e: print(e)
-
-        pods[pod_name] = {}
-        pods[pod_name]['name'] = pod_name 
-        pods[pod_name]['status'] = pod_status 
-        pods[pod_name]['service'] = pod_service
     return pods
+
 
 def parse_pods_details(pods, services_deployed):
 
