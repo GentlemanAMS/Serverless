@@ -53,6 +53,7 @@ const TimeseriesDBAddr = "10.96.0.84:90"
 
 var (
 	completed   int64
+	completed_in_interval int64
 	latSlice    LatencySlice
 	portFlag    *int
 	grpcTimeout time.Duration
@@ -163,7 +164,7 @@ loop:
 
 func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64, perfoutputFilename string, mpstatoutputFilename string, podanalysisPythonFilename string, podanalysisOutputFilename string, timeinterval_ms int) (realRPS float64) {
 	var issued int
-
+	
 	// Warmup Process
 	var warmupRPS float64
 	var warmpupRunDuration int
@@ -203,6 +204,10 @@ func runExperiment(endpoints []*endpoint.Endpoint, runDuration int, targetRPS fl
 	tick := time.Tick(time.Duration(1000000/targetRPS) * time.Microsecond)
 	start := time.Now()
 
+	completed = 0
+	completed_in_interval = 0
+	var realRPS_in_interval float64
+
 loop:
 	for {
 		ep := endpoints[issued%len(endpoints)]
@@ -214,16 +219,28 @@ loop:
 		issued++
 
 		select {
+
 		case <- statstart:
 			mpstatcmd.Start()
+			completed_in_interval = 0
+
 		case <- statcollect:
+
 			time_elapsed := time.Since(start)
+			
 			podanalysiscmd := exec.Command("python3", podanalysisPythonFilename, podanalysisOutputFilename, time_elapsed.String())
 			podanalysiscmd.Start()
+			
+			realRPS_in_interval = float64(completed_in_interval) * 1000.0 / float64(timeinterval_ms)
+			log.Infof("%v: Interval: Real / target RPS: %.2f / %v", time_elapsed.String(), realRPS_in_interval, targetRPS)
+			completed_in_interval = 0
+		
 		case <-timeout:
 			break loop
+
 		case <-tick:
 			continue
+
 		}
 	}
 
@@ -275,6 +292,7 @@ func SayHello(address, workflowID string) {
 		log.Warnf("Failed to invoke %v, err=%v", address, err)
 	} else {
 		atomic.AddInt64(&completed, 1)
+		atomic.AddInt64(&completed_in_interval, 1)
 	}
 }
 

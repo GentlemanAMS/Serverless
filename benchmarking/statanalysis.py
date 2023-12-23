@@ -116,6 +116,10 @@ def parse_invoke_functions_data(invoke_functions_data_filepath):
     statanalysis["Real-RPS"] = Real_RPS
     statanalysis["Target-RPS"] = Target_RPS
 
+    for line in lines:
+        pattern = re.compile(r'Interval')
+
+
     # print(f"Issued requests: {Issued_requests}")
     # print(f"Completed requests: {Completed_requests}")
     # print(f"Real RPS: {Real_RPS}")
