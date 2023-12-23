@@ -6,6 +6,9 @@
 -) Rewrite invoker and make the code clean. Now it looks very bad. Uniform Timestamp everywhere for all the stat collection among RPS, perf and mpstat
 
 
+-) In all of the invoker bash scripts, write 'rm invoker'
+
+
 LOAD GENERATOR:
 Loader function
 -) Deploy different versions of aes: with different input sizes as different functions. The inputs to the function: try to pass it in the yaml file itself when it is deployed.

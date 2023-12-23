@@ -5,9 +5,9 @@ VSWARM_FOLDER=$HOME/vSwarm/tools/invoker
 # Define variables
 PORT=80
 DEBUG_FLAG="false"
-TIME=900
-RPS=100
-STATISTICS_INTERVAL=30000
+TIME=300
+RPS=5000
+STATISTICS_INTERVAL=15000
 
 FOLDER=$VSWARM_FOLDER/expt1/rps$RPS
 mkdir -p $FOLDER
@@ -29,6 +29,7 @@ cd $VSWARM_FOLDER
 python3 collect_endpoints.py
 source /etc/profile
 source $HOME/.bashrc
+rm ./invoker
 make invoker
 sudo ./invoker -port $PORT -time $TIME -rps $RPS -dbg=$DEBUG_FLAG -perf=$PERF_FILE -mpstat=$MPSTAT_FILE -statinterval=$STATISTICS_INTERVAL -podanalpy=$PODANALYSIS_PYTHON_FILE -podanaloutput=$PODANALYSIS_OUTPUT_FILE > $RESULTS_FILE
 python3 ./statanalysis.py $PERF_FILE $MPSTAT_FILE $RESULTS_FILE $OUTPUT_JSON_FILE $TIME

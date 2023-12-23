@@ -94,7 +94,7 @@ def timestamp_generation(functions, duration):
         invocation_endpoint = []
         for timestamp in invocation_timestamp:
             invocation_endpoint.append(invocations_dict[timestamp]) 
-        load.append([invocation_timestamp,invocation_endpoint])
+        load.append({"timestamp":invocation_timestamp,"endpoint":invocation_endpoint})
 
     return load
 
@@ -109,11 +109,15 @@ def load_generator():
     iat_distribution = config["IATDistribution"]
     minute_granularity = config["MinuteGranularity"]
     duration = config["ExperimentDuration"] + config["WarmupDuration"]
+    output_json_file_path = config["OutputPathPrefix"] + '/load.json'
 
     functions = load_trace(directory_name, iat_distribution, minute_granularity)
     load = timestamp_generation(functions, duration)   
-    json_data = json.dumps(load, indent=2)
-    print(json_data)
+    # json_data = json.dumps(load, indent=2)
+    # print(json_data)
+    with open(output_json_file_path, 'w') as json_file:
+        json.dump(load, json_file, indent=2)
+
 
 load_generator()
 

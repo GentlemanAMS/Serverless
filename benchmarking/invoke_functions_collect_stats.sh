@@ -30,6 +30,7 @@ run_analysis() {
     source /etc/profile
     source $HOME/.bashrc
     python3 collect_endpoints.py
+    rm ./invoker
     make invoker
     sudo ./invoker -port $PORT -time $TIME -rps $RPS -dbg=$DEBUG_FLAG -perf=$PERF_FILE -mpstat=$MPSTAT_FILE -statinterval=$STATISTICS_INTERVAL -podanalpy=$PODANALYSIS_PYTHON_FILE -podanaloutput=$PODANALYSIS_OUTPUT_FILE > $RESULTS_FILE
     python3 ./statanalysis.py $PERF_FILE $MPSTAT_FILE $RESULTS_FILE $OUTPUT_JSON_FILE $TIME
