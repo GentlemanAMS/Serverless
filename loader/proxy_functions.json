@@ -1,0 +1,38 @@
+{
+    "aes-go": {
+        "duration": 1000,
+        "memory": 210
+    },
+    "aes-python": {
+        "duration": 121,
+        "memory": 312
+    },
+    "aes-nodejs": {
+        "duration": 111,
+        "memory": 131
+    },
+    "auth-go": {
+        "duration": 725,
+        "memory": 500
+    },
+    "auth-python": {
+        "duration": 342,
+        "memory": 102
+    },
+    "auth-nodejs": {
+        "duration": 452,
+        "memory": 121
+    },
+    "fibonacci-go": {
+        "duration": 129,
+        "memory": 143
+    },
+    "fibonacci-python": {
+        "duration": 510,
+        "memory": 213
+    },
+    "fibonacci-nodejs": {
+        "duration": 262,
+        "memory": 213
+    }
+}
