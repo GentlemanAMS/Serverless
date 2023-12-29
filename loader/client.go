@@ -52,12 +52,13 @@ const TimeseriesDBAddr = "10.96.0.84:90"
 
 var (
 	completed   int64
-	completed_in_interval int64
+	issued 		int64
 	latSlice    LatencySlice
 	portFlag    *int
 	grpcTimeout time.Duration
 	withTracing *bool
 	workflowIDs map[string]string
+	statCollection bool
 )
 
 type InvocationTimestamp struct {
@@ -65,14 +66,26 @@ type InvocationTimestamp struct {
 	Endpoints []string	`json:"endpoint"`
 }
 
+type loadGeneratorConfig struct {
+	IATDistribution    string `json:"IATDistribution"`
+	TracePath          string `json:"TracePath"`
+	OutputPathPrefix   string `json:"OutputPathPrefix"`
+	MinuteGranularity  string `json:"MinuteGranularity"`
+	ExperimentDuration int    `json:"ExperimentDuration"`
+	WarmupDuration     int    `json:"WarmupDuration"` 
+}
+
+
 func main() {
 	traceEndpointsFile := flag.String("traceFile", "load.json", "File with trace endpoints' metadata")
+	configJSONFile := flag.String("config", "config.json", "File with configuraton details")
 	latencyOutputFile := flag.String("latf", "lat.csv", "CSV file for the latency measurements in microseconds")
 	portFlag = flag.Int("port", 80, "The port that functions listen to")
 	withTracing = flag.Bool("trace", false, "Enable tracing in the client")
 	zipkin := flag.String("zipkin", "http://localhost:9411/api/v2/spans", "zipkin url")
 	debug := flag.Bool("dbg", false, "Enable debug logging")
 	grpcTimeout = time.Duration(*flag.Int("grpcTimeout", 30, "Timeout in seconds for gRPC requests")) * time.Second
+	statCollection = false
 
 	flag.Parse()
 
@@ -87,10 +100,14 @@ func main() {
 	} else {
 		log.SetLevel(log.InfoLevel)
 	}
-	
-	// TODO: This needs to be done by passing the filename as parameter
-	log.Info("Reading the endpoints from the file: ", *traceEndpointsFile)
 
+	log.Info("Reading the load generator configuration from the file: ", *configJSONFile)
+	loaderConfig, err := readConfigJSON(*configJSONFile)
+	if err != nil {
+		log.Fatal("Failed to read the load generator configuration file: ", err)
+	}
+
+	log.Info("Reading the trace endpoints from the file: ", *traceEndpointsFile)
 	invocations, err := readTraceEndpoints(*traceEndpointsFile)
 	if err != nil {
 		log.Fatal("Failed to read the trace endpoints file: ", err)
@@ -113,8 +130,10 @@ func main() {
 		defer shutdown()
 	}
 
-	// TODO: Warmup time, Granularity must be read from the configuration file and appropriately passed
-	err = runExperiment(invocations, 2, "minute")
+	err = runExperiment(invocations, loaderConfig)
+	if err != nil {
+		log.Print(err)
+	}
 
 	writeLatencies(*latencyOutputFile)
 }
@@ -130,12 +149,34 @@ func readTraceEndpoints(path string) (invocations []*InvocationTimestamp, _ erro
 	return 
 }
 
+func readConfigJSON(path string) (loaderConfig *loadGeneratorConfig, _ error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	if err := json.Unmarshal(data, &loaderConfig); err != nil {
+		return nil, err
+	}
+	return 
+}
 
-func runMinuteTrace(invocation InvocationTimestamp, granularity string) {
-	log.Info("Timestamp: ", invocation.Timestamp)
-	log.Info("Endpoints: ", invocation.Endpoints)
+
+func runMinuteTrace(invocation InvocationTimestamp, l *loadGeneratorConfig) {
 
 	numberOfInvocations := len(invocation.Timestamp)		
+	log.Debug("Number of Invocations this iteration: ", numberOfInvocations)
+
+	if (l.MinuteGranularity == "True") {
+		if (invocation.Timestamp[numberOfInvocations - 1] > 1000000 * 60) {
+			log.Warnf("Minute trace longer than minute")
+		}
+	} else if (l.MinuteGranularity == "False") {
+		if (invocation.Timestamp[numberOfInvocations - 1] > 1000000 ) {
+			log.Warnf("Second trace longer than second")
+		}
+	} else {
+	}
+
 
 	invocationNo := 0
 	var previousIAT int64
@@ -145,107 +186,89 @@ loop:
 		iat := time.Duration(invocation.Timestamp[invocationNo]) * time.Microsecond  
 		sleepFor := iat.Microseconds() - previousIAT
 		time.Sleep(time.Duration(sleepFor) * time.Microsecond)
-		// go invokeFunction(invocation.Endpoints[invocationNo])
 		go invokeServingFunction(invocation.Endpoints[invocationNo])
 
 		invocationNo += 1
 		previousIAT = iat.Microseconds()
+		atomic.AddInt64(&issued, 1)
 		if (invocationNo >= numberOfInvocations) {
 			break loop
 		}
 	}
 }
 
-// func invokeFunction(endpoint string) {
-// 	log.Info("Endpoint: ", endpoint)
-// }
+func runExperiment(invocations []*InvocationTimestamp, l *loadGeneratorConfig) (_ error) {
 
+	warmupTime := l.WarmupDuration
+	experimentDuration := l.ExperimentDuration
+	numberOfMinutes := warmupTime + experimentDuration
 
-// TODO: add all debug statements. Log statements.
-func runExperiment(invocations []*InvocationTimestamp, warmupTime int, granularity string) (_ error) {
+	var waitDuration time.Duration
+	switch l.MinuteGranularity {
+	case "False":
+		waitDuration = 1 * time.Second
+	case "True":
+		waitDuration = 1 * time.Minute
+	default:
+		log.Warnf("Invalid Granularity. Defaulting to Second granularity")
+		l.MinuteGranularity = "False"
+		waitDuration = 1 * time.Second
+	}
 
-	numberOfMinutes := len(invocations)
+	log.Infof("Warmup Duration: %d", warmupTime)
+	log.Infof("Experiment Duration: %d", experimentDuration)
+	log.Infof("Minute Granularity: %s", l.MinuteGranularity)
+
+	if (numberOfMinutes != len(invocations)) {
+		log.Warnf("Inconsistent Details: Length of trace mismatch with the configuration details")
+	}
+
 	if (warmupTime > numberOfMinutes) {
 		log.Warnf("Warm up time larger than total experiment time. Setting warm up time to 1")
 		warmupTime = 1
 	}
 
-	var waitDuration time.Duration
-	switch granularity {
-	case "second":
-		waitDuration = 1 * time.Second
-	case "minute":
-		waitDuration = 1 * time.Minute
-	default:
-		log.Warnf("Invalid Granularity. Granularity set to a second.")
-		waitDuration = 1 * time.Second
-	}
-	tick := time.Tick (waitDuration)
-
 	var minute int
-	minute = 0	
+	minute = 0
+
+	completed = 0
+	issued = 0	
+
+	var start time.Time
+	tick := time.Tick (waitDuration)
 
 loop:
 	for {
 		select {
 		case <- tick:
 			if (minute == 0) { 
-				log.Info("Running Warmup Phase") 
+				log.Info("Running Warmup Phase")
+				start = time.Now() 
 			}
 			if (minute == warmupTime) { 
 				log.Info("Warmup Phase Completed")
 				log.Info("Running Experiment Phase")
+				statCollection = true
 			}
 			if (minute >= numberOfMinutes) { 
 				log.Info("Experiment Phase Completed")
 				break loop
 			}
-			go runMinuteTrace(*invocations[minute], granularity)
+			log.Debug("Minute: ", minute)
+			go runMinuteTrace(*invocations[minute], l)
 			minute += 1
 		}
 	}
-		
+	
+	duration := time.Since(start).Seconds()
+	realRPS := float64(completed) / duration
+	log.Infof("Issued / completed requests: %d, %d", issued, completed)
+	log.Infof("Average Real RPS: %.2f ", realRPS)
+	log.Println("Experiment finished!")
+
 	return nil
 }
 
-
-
-
-// func runExperimentTemp(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64) (realRPS float64) {
-// 	var issued int
-
-// 	Start(TimeseriesDBAddr, endpoints, workflowIDs)
-// 	timeout := time.After(time.Duration(runDuration) * time.Second)
-// 	tick := time.Tick(time.Duration(1000000/targetRPS) * time.Microsecond)
-// 	start := time.Now()
-
-// 	completed = 0
-
-// loop:
-// 	for {
-// 		ep := endpoints[issued%len(endpoints)]
-// 		go invokeServingFunction(ep)
-// 		issued++
-
-// 		select {
-
-// 		case <-timeout:
-// 			break loop
-
-// 		case <-tick:
-// 			continue
-
-// 		}
-// 	}
-
-// 	duration := time.Since(start).Seconds()
-// 	realRPS = float64(completed) / duration
-// 	addDurations(End())
-// 	log.Infof("Issued / completed requests: %d, %d", issued, completed)
-// 	log.Infof("Real / target RPS: %.2f / %v", realRPS, targetRPS)
-// 	log.Println("Experiment finished!")
-// 	return
-// }
 
 func SayHello(address, workflowID string) {
 	dialOptions := make([]grpc.DialOption, 0)
@@ -280,7 +303,9 @@ func SayHello(address, workflowID string) {
 }
 
 func invokeServingFunction(endpointHostname string) {
-	defer getDuration(startMeasurement(endpointHostname)) // measure entire invocation time
+	if (statCollection){
+		defer getDuration(startMeasurement(endpointHostname)) // measure entire invocation time
+	}
 
 	address := fmt.Sprintf("%s:%d", endpointHostname, *portFlag)
 	log.Debug("Invoking: ", address)

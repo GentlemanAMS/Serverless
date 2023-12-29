@@ -13,7 +13,7 @@ import (
 
 	"github.com/vhive-serverless/vSwarm/tools/benchmarking_eventing/proto"
 
-	"github.com/vhive-serverless/vSwarm/tools/endpoint"
+	// "github.com/vhive-serverless/vSwarm/tools/endpoint"
 )
 
 var (
@@ -22,7 +22,7 @@ var (
 	lock       sync.Mutex
 )
 
-func Start(tdbAddr string, endpoints []*endpoint.Endpoint, workflowIDs map[*endpoint.Endpoint]string) {
+func Start() {
 	lock.Lock()
 	defer lock.Unlock()
 	return

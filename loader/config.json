@@ -3,6 +3,6 @@
     "TracePath": "./trace",
     "OutputPathPrefix": "./trace",
     "MinuteGranularity": "True",
-    "ExperimentDuration": 10,
-    "WarmupDuration": 2
+    "ExperimentDuration": 3,
+    "WarmupDuration": 1
 }
