@@ -7,8 +7,8 @@
 #ssh-keygen -t rsa -b 4096 -C "arunkrish2603@gmail.com"
 
 # Set the desired ClientAliveInterval and ClientAliveCountMax values
-CLIENT_ALIVE_INTERVAL=1200
-CLIENT_ALIVE_COUNT_MAX=3
+CLIENT_ALIVE_INTERVAL=3
+CLIENT_ALIVE_COUNT_MAX=1200
 
 # Backup the original sshd_config file
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config_backup

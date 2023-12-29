@@ -42,7 +42,7 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 
 	"github.com/vhive-serverless/vSwarm/tools/benchmarking_eventing/vhivemetadata"
-	"github.com/vhive-serverless/vSwarm/tools/endpoint"
+	// "github.com/vhive-serverless/vSwarm/tools/endpoint"
 	tracing "github.com/vhive-serverless/vSwarm/utils/tracing/go"
 
 	pb "github.com/vhive-serverless/vSwarm/tools/invoker/proto"
@@ -57,7 +57,7 @@ var (
 	portFlag    *int
 	grpcTimeout time.Duration
 	withTracing *bool
-	workflowIDs map[*endpoint.Endpoint]string
+	workflowIDs map[string]string
 )
 
 type InvocationTimestamp struct {
@@ -66,9 +66,7 @@ type InvocationTimestamp struct {
 }
 
 func main() {
-	endpointsFile := flag.String("endpointsFile", "endpoints.json", "File with endpoints' metadata")
-	rps := flag.Float64("rps", 1.0, "Target requests per second")
-	runDuration := flag.Int("time", 5, "Run the experiment for X seconds")
+	traceEndpointsFile := flag.String("traceFile", "load.json", "File with trace endpoints' metadata")
 	latencyOutputFile := flag.String("latf", "lat.csv", "CSV file for the latency measurements in microseconds")
 	portFlag = flag.Int("port", 80, "The port that functions listen to")
 	withTracing = flag.Bool("trace", false, "Enable tracing in the client")
@@ -89,27 +87,22 @@ func main() {
 	} else {
 		log.SetLevel(log.InfoLevel)
 	}
-
-	// TODO: Remove the next set of lines
-	log.Info("Reading the endpoints from the file: ", *endpointsFile)
-	endpoints, err := readEndpointsTemp(*endpointsFile)
-	if err != nil {
-		log.Fatal("Failed to read the endpoints file: ", err)
-	}
-
 	
 	// TODO: This needs to be done by passing the filename as parameter
-	traceEndpointsFile := "load.json"
-	log.Info("Reading the endpoints from the file: ", traceEndpointsFile)
+	log.Info("Reading the endpoints from the file: ", *traceEndpointsFile)
 
-	invocations, err := readTraceEndpoints(traceEndpointsFile)
+	invocations, err := readTraceEndpoints(*traceEndpointsFile)
 	if err != nil {
 		log.Fatal("Failed to read the trace endpoints file: ", err)
 	}
 
-	workflowIDs = make(map[*endpoint.Endpoint]string)
-	for _, ep := range endpoints {
-		workflowIDs[ep] = uuid.New().String()
+	workflowIDs = make(map[string]string)
+	for _, iv := range invocations {
+		for _, ep := range iv.Endpoints {
+			if _, exists := workflowIDs[ep]; !exists {
+				workflowIDs[ep] = uuid.New().String()
+			}
+		}
 	}
 
 	if *withTracing {
@@ -123,21 +116,7 @@ func main() {
 	// TODO: Warmup time, Granularity must be read from the configuration file and appropriately passed
 	err = runExperiment(invocations, 2, "minute")
 
-	// TODO: Remove the next set of lines
-	realRPS := runExperimentTemp(endpoints, *runDuration, *rps)
-
-	writeLatencies(realRPS, *latencyOutputFile)
-}
-
-func readEndpointsTemp(path string) (endpoints []*endpoint.Endpoint, _ error) {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return nil, err
-	}
-	if err := json.Unmarshal(data, &endpoints); err != nil {
-		return nil, err
-	}
-	return
+	writeLatencies(*latencyOutputFile)
 }
 
 func readTraceEndpoints(path string) (invocations []*InvocationTimestamp, _ error){
@@ -145,27 +124,18 @@ func readTraceEndpoints(path string) (invocations []*InvocationTimestamp, _ erro
 	if err != nil {
 		return nil, err
 	}
-	// var invocations []InvocationTimestamp
 	if err := json.Unmarshal(data, &invocations); err != nil {
 		return nil, err
 	}
-	// for i, invocation := range invocations {
-	// 	log.Info("Invocation: ", i+1)
-	// 	log.Info("Timestamp: ", invocation.Timestamp)
-	// 	log.Info("Endpoints: ", invocation.Endpoints)
-	// }
 	return 
 }
 
 
 func runMinuteTrace(invocation InvocationTimestamp, granularity string) {
-	// 	log.Info("Invocation: ", i+1)
 	log.Info("Timestamp: ", invocation.Timestamp)
 	log.Info("Endpoints: ", invocation.Endpoints)
 
 	numberOfInvocations := len(invocation.Timestamp)		
-
-	
 
 	invocationNo := 0
 	var previousIAT int64
@@ -175,7 +145,8 @@ loop:
 		iat := time.Duration(invocation.Timestamp[invocationNo]) * time.Microsecond  
 		sleepFor := iat.Microseconds() - previousIAT
 		time.Sleep(time.Duration(sleepFor) * time.Microsecond)
-		go invokeFunction(invocation.Endpoints[invocationNo])
+		// go invokeFunction(invocation.Endpoints[invocationNo])
+		go invokeServingFunction(invocation.Endpoints[invocationNo])
 
 		invocationNo += 1
 		previousIAT = iat.Microseconds()
@@ -185,10 +156,9 @@ loop:
 	}
 }
 
-// TODO: Modify this such that it invokes actual function. 
-func invokeFunction(endpoint string) {
-	log.Info("Endpoint: ", endpoint)
-}
+// func invokeFunction(endpoint string) {
+// 	log.Info("Endpoint: ", endpoint)
+// }
 
 
 // TODO: add all debug statements. Log statements.
@@ -241,45 +211,41 @@ loop:
 
 
 
-func runExperimentTemp(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64) (realRPS float64) {
-	var issued int
+// func runExperimentTemp(endpoints []*endpoint.Endpoint, runDuration int, targetRPS float64) (realRPS float64) {
+// 	var issued int
 
-	Start(TimeseriesDBAddr, endpoints, workflowIDs)
-	timeout := time.After(time.Duration(runDuration) * time.Second)
-	tick := time.Tick(time.Duration(1000000/targetRPS) * time.Microsecond)
-	start := time.Now()
+// 	Start(TimeseriesDBAddr, endpoints, workflowIDs)
+// 	timeout := time.After(time.Duration(runDuration) * time.Second)
+// 	tick := time.Tick(time.Duration(1000000/targetRPS) * time.Microsecond)
+// 	start := time.Now()
 
-	completed = 0
+// 	completed = 0
 
-loop:
-	for {
-		ep := endpoints[issued%len(endpoints)]
-		if ep.Eventing {
-			go invokeEventingFunction(ep)
-		} else {
-			go invokeServingFunction(ep)
-		}
-		issued++
+// loop:
+// 	for {
+// 		ep := endpoints[issued%len(endpoints)]
+// 		go invokeServingFunction(ep)
+// 		issued++
 
-		select {
+// 		select {
 
-		case <-timeout:
-			break loop
+// 		case <-timeout:
+// 			break loop
 
-		case <-tick:
-			continue
+// 		case <-tick:
+// 			continue
 
-		}
-	}
+// 		}
+// 	}
 
-	duration := time.Since(start).Seconds()
-	realRPS = float64(completed) / duration
-	addDurations(End())
-	log.Infof("Issued / completed requests: %d, %d", issued, completed)
-	log.Infof("Real / target RPS: %.2f / %v", realRPS, targetRPS)
-	log.Println("Experiment finished!")
-	return
-}
+// 	duration := time.Since(start).Seconds()
+// 	realRPS = float64(completed) / duration
+// 	addDurations(End())
+// 	log.Infof("Issued / completed requests: %d, %d", issued, completed)
+// 	log.Infof("Real / target RPS: %.2f / %v", realRPS, targetRPS)
+// 	log.Println("Experiment finished!")
+// 	return
+// }
 
 func SayHello(address, workflowID string) {
 	dialOptions := make([]grpc.DialOption, 0)
@@ -313,20 +279,13 @@ func SayHello(address, workflowID string) {
 	}
 }
 
-func invokeEventingFunction(endpoint *endpoint.Endpoint) {
-	address := fmt.Sprintf("%s:%d", endpoint.Hostname, *portFlag)
-	log.Debug("Invoking asynchronously: ", address)
+func invokeServingFunction(endpointHostname string) {
+	defer getDuration(startMeasurement(endpointHostname)) // measure entire invocation time
 
-	SayHello(address, workflowIDs[endpoint])
-}
-
-func invokeServingFunction(endpoint *endpoint.Endpoint) {
-	defer getDuration(startMeasurement(endpoint.Hostname)) // measure entire invocation time
-
-	address := fmt.Sprintf("%s:%d", endpoint.Hostname, *portFlag)
+	address := fmt.Sprintf("%s:%d", endpointHostname, *portFlag)
 	log.Debug("Invoking: ", address)
 
-	SayHello(address, workflowIDs[endpoint])
+	SayHello(address, workflowIDs[endpointHostname])
 }
 
 // LatencySlice is a thread-safe slice to hold a slice of latency measurements.
@@ -353,11 +312,11 @@ func addDurations(ds []time.Duration) {
 	latSlice.Unlock()
 }
 
-func writeLatencies(rps float64, latencyOutputFile string) {
+func writeLatencies(latencyOutputFile string) {
 	latSlice.Lock()
 	defer latSlice.Unlock()
 
-	fileName := fmt.Sprintf("rps%.2f_%s", rps, latencyOutputFile)
+	fileName := fmt.Sprintf("rps_%s", latencyOutputFile)
 	log.Info("The measured latencies are saved in ", fileName)
 
 	file, err := os.OpenFile(fileName, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0644)
