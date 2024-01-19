@@ -33,8 +33,22 @@ eval "$(ssh-agent -s)" && ssh-add
 echo "Shell: $SHELL"
 echo "If Shell is not BASH i.e., /bin/bash - Change the terminal\n\n"
 
-# Print the authentication keys
-echo "SSH RSA Public Key:\n"
-sudo cat "/root/.ssh/id_rsa.pub"
 
-echo -e "\n\n Add the Authentication Keys"
+# Setting up oh-my-bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+source ~/.bashrc
+
+cd $HOME && git clone https://github.com/powerline/fonts.git
+cd $HOME/fonts && ./install.sh && cd $HOME
+rm -rf $HOME/fonts
+
+echo "Edit OS_THEME in ~/.bashrc to agnoster"
+echo "In host computer change the font to Meslo LG M DZ for Powerline Regular: 10"
+
+# sudo apt-get install gawk git gmake
+# git clone --recursive --depth 1 --shallow-submodules https://github.com/akinomyoga/ble.sh.git
+# make -C ble.sh install PREFIX=~/.local
+# echo 'source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
+# bind 'set show-all-if-ambiguous on'
+# bind 'TAB:menu-complete'
+

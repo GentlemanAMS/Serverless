@@ -1,8 +1,0 @@
-{
-    "IATDistribution": "uniform",
-    "TracePath": "./trace",
-    "OutputPathPrefix": "./trace",
-    "MinuteGranularity": "True",
-    "ExperimentDuration": 3,
-    "WarmupDuration": 1
-}

@@ -14,6 +14,9 @@ RPS=5000
 cd $VSWARM_FOLDER
 python3 collect_endpoints.py
 
+source /etc/profile
+source ~/.bashrc
+
 rm ./invoker
 make invoker
 sudo ./invoker -port $PORT -time $TIME -rps $RPS -dbg=$DEBUG_FLAG
