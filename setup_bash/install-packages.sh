@@ -21,5 +21,8 @@ pip install matplotlib
 pip install psutil
 echo "Installing matplotlib"
 
+pip install colorlog
+echo "Color Logging Installed"
+
 sudo apt install jq
 echo "Installing jq to process json"
