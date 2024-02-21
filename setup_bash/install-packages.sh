@@ -21,6 +21,9 @@ pip install matplotlib
 pip install psutil
 echo "Installing matplotlib"
 
+pip install scipy
+echo "Installing scipy"
+
 pip install colorlog
 echo "Color Logging Installed"
 
