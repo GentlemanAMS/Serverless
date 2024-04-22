@@ -1,0 +1,594 @@
+{
+    "aes-go-10-10": {
+        "name": "aes-go-10-10",
+        "yaml": "./yamls/aes-go/kn-aes-go-10-10.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.0968840579710144,
+            "99-percentile": 3.1330601053980915,
+            "100-percentile": 3.1416666666666666
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.531666666666666,
+            "5-percentile": 18.279761904761905,
+            "25-percentile": 21.779838709677417,
+            "50-percentile": 23.611338797814206,
+            "75-percentile": 24.764468864468867,
+            "95-percentile": 25.439710144927535,
+            "99-percentile": 25.542267483264492,
+            "100-percentile": 25.566666666666666
+        },
+        "duration": {
+            "0-percentile": 0.54,
+            "1-percentile": 0.5488466666666667,
+            "5-percentile": 0.5891350000000001,
+            "25-percentile": 0.6593057971014492,
+            "50-percentile": 0.7075056776556775,
+            "75-percentile": 0.7466532679738556,
+            "95-percentile": 0.7770619832041339,
+            "99-percentile": 0.789011097545665,
+            "100-percentile": 0.8001722222222215
+        }
+    },
+    "aes-go-100-101": {
+        "name": "aes-go-100-101",
+        "yaml": "./yamls/aes-go/kn-aes-go-100-101.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.1407246376811595,
+            "99-percentile": 3.1751445663010966,
+            "100-percentile": 3.183333333333333
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 17.991666666666667,
+            "25-percentile": 22.170161290322582,
+            "50-percentile": 24.206420765027325,
+            "75-percentile": 25.329578754578755,
+            "95-percentile": 26.05391304347826,
+            "99-percentile": 26.17873095000712,
+            "100-percentile": 26.216666666666665
+        },
+        "duration": {
+            "0-percentile": 0.576,
+            "1-percentile": 0.5958983333333334,
+            "5-percentile": 0.628515,
+            "25-percentile": 0.696682971014493,
+            "50-percentile": 0.7450747252747252,
+            "75-percentile": 0.7846476307189542,
+            "95-percentile": 0.8163378875968992,
+            "99-percentile": 0.8271174684577239,
+            "100-percentile": 0.8395444444444444
+        }
+    },
+    "aes-go-500-505": {
+        "name": "aes-go-500-505",
+        "yaml": "./yamls/aes-go/kn-aes-go-500-505.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.105652173913043,
+            "99-percentile": 3.1414769975786925,
+            "100-percentile": 3.158333333333333
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.531666666666666,
+            "5-percentile": 18.55952380952381,
+            "25-percentile": 22.51962365591398,
+            "50-percentile": 24.693989071038253,
+            "75-percentile": 26.041483516483517,
+            "95-percentile": 26.825942028985505,
+            "99-percentile": 26.968308645492094,
+            "100-percentile": 27.008333333333333
+        },
+        "duration": {
+            "0-percentile": 0.589,
+            "1-percentile": 0.6172150000000001,
+            "5-percentile": 0.6524705555555557,
+            "25-percentile": 0.7158211352657003,
+            "50-percentile": 0.7554399877899878,
+            "75-percentile": 0.7878806781045747,
+            "95-percentile": 0.8197289728682168,
+            "99-percentile": 0.8583239903333123,
+            "100-percentile": 0.8814833333333332
+        }
+    },
+    "aes-go-1000-1010": {
+        "name": "aes-go-1000-1010",
+        "yaml": "./yamls/aes-go/kn-aes-go-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.1407246376811595,
+            "99-percentile": 3.181951288990172,
+            "100-percentile": 3.3333333333333335
+        },
+        "memory": {
+            "0-percentile": 15.0,
+            "1-percentile": 16.126666666666665,
+            "5-percentile": 18.11904761904762,
+            "25-percentile": 23.096774193548388,
+            "50-percentile": 25.495628415300544,
+            "75-percentile": 26.941758241758244,
+            "95-percentile": 27.764565217391304,
+            "99-percentile": 27.91780729240849,
+            "100-percentile": 27.958333333333332
+        },
+        "duration": {
+            "0-percentile": 0.591,
+            "1-percentile": 0.6088483333333333,
+            "5-percentile": 0.6540066666666666,
+            "25-percentile": 0.7393117149758457,
+            "50-percentile": 0.7929691697191699,
+            "75-percentile": 0.8398063725490201,
+            "95-percentile": 0.8939175064599483,
+            "99-percentile": 0.9568333048772836,
+            "100-percentile": 0.9875722222222224
+        }
+    },
+    "aes-go-2000-2020": {
+        "name": "aes-go-2000-2020",
+        "yaml": "./yamls/aes-go/kn-aes-go-2000-2020.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 2.988919413919414,
+            "95-percentile": 3.1933333333333334,
+            "99-percentile": 3.232452642073779,
+            "100-percentile": 3.25
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 18.695238095238096,
+            "25-percentile": 23.324462365591398,
+            "50-percentile": 26.06584699453552,
+            "75-percentile": 27.531776556776556,
+            "95-percentile": 28.3086231884058,
+            "99-percentile": 28.456488391966953,
+            "100-percentile": 28.491666666666667
+        },
+        "duration": {
+            "0-percentile": 0.672,
+            "1-percentile": 0.7197966666666666,
+            "5-percentile": 0.7560455555555555,
+            "25-percentile": 0.8241309178743963,
+            "50-percentile": 0.869489499389499,
+            "75-percentile": 0.9041485702614375,
+            "95-percentile": 0.9819720607235141,
+            "99-percentile": 1.0456028981231564,
+            "100-percentile": 1.0680000000000003
+        }
+    },
+    "aes-go-4500-4545": {
+        "name": "aes-go-4500-4545",
+        "yaml": "./yamls/aes-go/kn-aes-go-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.024908424908425,
+            "95-percentile": 3.237608695652174,
+            "99-percentile": 3.308204671699188,
+            "100-percentile": 3.325
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.531666666666666,
+            "5-percentile": 20.415476190476188,
+            "25-percentile": 25.869086021505375,
+            "50-percentile": 28.28073770491803,
+            "75-percentile": 29.50686813186813,
+            "95-percentile": 30.06268115942029,
+            "99-percentile": 30.180341119498646,
+            "100-percentile": 30.208333333333332
+        },
+        "duration": {
+            "0-percentile": 0.703,
+            "1-percentile": 0.7363266666666667,
+            "5-percentile": 0.8168899999999999,
+            "25-percentile": 0.9018252415458937,
+            "50-percentile": 0.9470141025641023,
+            "75-percentile": 0.9852958333333331,
+            "95-percentile": 1.0787872739018083,
+            "99-percentile": 1.1410278711317554,
+            "100-percentile": 1.163983333333333
+        }
+    },
+    "aes-go-7000-7070": {
+        "name": "aes-go-7000-7070",
+        "yaml": "./yamls/aes-go/kn-aes-go-7000-7070.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 3.058150183150183,
+            "95-percentile": 3.2547101449275364,
+            "99-percentile": 3.2845641646489105,
+            "100-percentile": 3.3
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.65833333333333,
+            "5-percentile": 20.983333333333334,
+            "25-percentile": 27.096774193548388,
+            "50-percentile": 29.421311475409837,
+            "75-percentile": 30.50686813186813,
+            "95-percentile": 31.02717391304348,
+            "99-percentile": 31.12142287423444,
+            "100-percentile": 31.15
+        },
+        "duration": {
+            "0-percentile": 0.778,
+            "1-percentile": 0.8148,
+            "5-percentile": 0.8958733333333333,
+            "25-percentile": 0.9880820048309177,
+            "50-percentile": 1.0329367521367514,
+            "75-percentile": 1.075758047385621,
+            "95-percentile": 1.181804941860465,
+            "99-percentile": 1.2567183186868371,
+            "100-percentile": 1.2954944444444445
+        }
+    },
+    "aes-go-10000-10100": {
+        "name": "aes-go-10000-10100",
+        "yaml": "./yamls/aes-go/kn-aes-go-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.058150183150183,
+            "95-percentile": 3.281449275362319,
+            "99-percentile": 3.3502891326021933,
+            "100-percentile": 3.3666666666666667
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.65833333333333,
+            "5-percentile": 21.254761904761903,
+            "25-percentile": 27.064247311827955,
+            "50-percentile": 29.528688524590166,
+            "75-percentile": 30.673076923076923,
+            "95-percentile": 31.32572463768116,
+            "99-percentile": 31.432847884916676,
+            "100-percentile": 31.458333333333332
+        },
+        "duration": {
+            "0-percentile": 0.883,
+            "1-percentile": 0.8945283333333333,
+            "5-percentile": 0.9600522222222222,
+            "25-percentile": 1.0494324879227055,
+            "50-percentile": 1.0924727716727718,
+            "75-percentile": 1.1368613970588233,
+            "95-percentile": 1.2448607558139537,
+            "99-percentile": 1.3027701428033398,
+            "100-percentile": 1.3337222222222225
+        }
+    },
+    "aes-go-20000-20200": {
+        "name": "aes-go-20000-20200",
+        "yaml": "./yamls/aes-go/kn-aes-go-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.3883879781420765,
+            "75-percentile": 3.590018315018315,
+            "95-percentile": 3.798768115942029,
+            "99-percentile": 3.8621093861273326,
+            "100-percentile": 3.8833333333333333
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 20.19,
+            "5-percentile": 23.975,
+            "25-percentile": 29.81236559139785,
+            "50-percentile": 31.75191256830601,
+            "75-percentile": 32.52902930402931,
+            "95-percentile": 33.044710144927535,
+            "99-percentile": 33.12303304372597,
+            "100-percentile": 33.141666666666666
+        },
+        "duration": {
+            "0-percentile": 0.954,
+            "1-percentile": 1.074755,
+            "5-percentile": 1.2633788888888888,
+            "25-percentile": 1.420319927536232,
+            "50-percentile": 1.4897084249084254,
+            "75-percentile": 1.5969799836601313,
+            "95-percentile": 1.7915447674418612,
+            "99-percentile": 1.8622614409013882,
+            "100-percentile": 1.9046888888888898
+        }
+    },
+    "aes-go-45000-45450": {
+        "name": "aes-go-45000-45450",
+        "yaml": "./yamls/aes-go/kn-aes-go-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.7723118279569894,
+            "50-percentile": 4.107377049180328,
+            "75-percentile": 4.592765567765568,
+            "95-percentile": 4.921956521739131,
+            "99-percentile": 5.018809998575701,
+            "100-percentile": 5.158333333333333
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 19.848333333333333,
+            "5-percentile": 24.686904761904763,
+            "25-percentile": 29.779838709677417,
+            "50-percentile": 31.619672131147542,
+            "75-percentile": 32.562271062271066,
+            "95-percentile": 33.071014492753626,
+            "99-percentile": 33.14828372026777,
+            "100-percentile": 33.166666666666664
+        },
+        "duration": {
+            "0-percentile": 1.681,
+            "1-percentile": 1.723485,
+            "5-percentile": 1.975587777777778,
+            "25-percentile": 2.333556280193236,
+            "50-percentile": 2.5997015262515255,
+            "75-percentile": 2.9358647058823517,
+            "95-percentile": 3.1890446382428923,
+            "99-percentile": 3.261981831648985,
+            "100-percentile": 3.3085833333333325
+        }
+    },
+    "aes-go-70000-70700": {
+        "name": "aes-go-70000-70700",
+        "yaml": "./yamls/aes-go/kn-aes-go-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.707258064516129,
+            "50-percentile": 5.0247267759562835,
+            "75-percentile": 5.559523809523809,
+            "95-percentile": 5.895652173913043,
+            "99-percentile": 5.979945876655747,
+            "100-percentile": 6.0
+        },
+        "memory": {
+            "0-percentile": 21.0,
+            "1-percentile": 23.65833333333333,
+            "5-percentile": 26.271428571428572,
+            "25-percentile": 29.942473118279572,
+            "50-percentile": 31.768442622950822,
+            "75-percentile": 32.75064102564103,
+            "95-percentile": 33.22007246376811,
+            "99-percentile": 33.32342828656887,
+            "100-percentile": 33.35
+        },
+        "duration": {
+            "0-percentile": 2.794,
+            "1-percentile": 2.898955,
+            "5-percentile": 3.2293188888888884,
+            "25-percentile": 3.5553873188405802,
+            "50-percentile": 3.9823094627594626,
+            "75-percentile": 4.291702532679739,
+            "95-percentile": 4.581720897932818,
+            "99-percentile": 4.673492374929384,
+            "100-percentile": 4.721600000000001
+        }
+    },
+    "aes-go-100000-101000": {
+        "name": "aes-go-100000-101000",
+        "yaml": "./yamls/aes-go/kn-aes-go-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 4.0633333333333335,
+            "5-percentile": 4.711904761904762,
+            "25-percentile": 5.1217741935483865,
+            "50-percentile": 5.636202185792349,
+            "75-percentile": 6.5733516483516485,
+            "95-percentile": 7.079782608695652,
+            "99-percentile": 7.156700612448369,
+            "100-percentile": 7.175
+        },
+        "memory": {
+            "0-percentile": 24.0,
+            "1-percentile": 26.65833333333333,
+            "5-percentile": 28.70357142857143,
+            "25-percentile": 31.723118279569892,
+            "50-percentile": 33.25601092896175,
+            "75-percentile": 34.185531135531136,
+            "95-percentile": 34.77289855072464,
+            "99-percentile": 34.86210938612733,
+            "100-percentile": 34.88333333333333
+        },
+        "duration": {
+            "0-percentile": 4.789,
+            "1-percentile": 4.814006666666667,
+            "5-percentile": 5.07517388888889,
+            "25-percentile": 5.5035211352657,
+            "50-percentile": 5.699034554334553,
+            "75-percentile": 5.8570338235294095,
+            "95-percentile": 6.021321511627906,
+            "99-percentile": 6.086848570397337,
+            "100-percentile": 6.164549999999998
+        }
+    },
+    "aes-go-200000-202000": {
+        "name": "aes-go-200000-202000",
+        "yaml": "./yamls/aes-go/kn-aes-go-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 6.0,
+            "1-percentile": 6.531666666666666,
+            "5-percentile": 7.135714285714286,
+            "25-percentile": 7.804838709677419,
+            "50-percentile": 8.2974043715847,
+            "75-percentile": 9.977747252747253,
+            "95-percentile": 10.905289855072464,
+            "99-percentile": 11.092951858709585,
+            "100-percentile": 11.141666666666667
+        },
+        "memory": {
+            "0-percentile": 29.0,
+            "1-percentile": 29.531666666666666,
+            "5-percentile": 30.70357142857143,
+            "25-percentile": 33.649731182795705,
+            "50-percentile": 35.57008196721311,
+            "75-percentile": 36.61767399267399,
+            "95-percentile": 37.20297101449275,
+            "99-percentile": 37.35387551630822,
+            "100-percentile": 37.4
+        },
+        "duration": {
+            "0-percentile": 7.422,
+            "1-percentile": 7.694951666666667,
+            "5-percentile": 9.298962777777778,
+            "25-percentile": 11.151827657004828,
+            "50-percentile": 12.105173809523809,
+            "75-percentile": 12.772469403594773,
+            "95-percentile": 13.346538662790703,
+            "99-percentile": 13.546799942250965,
+            "100-percentile": 13.65257222222223
+        }
+    },
+    "aes-go-450000-454500": {
+        "name": "aes-go-450000-454500",
+        "yaml": "./yamls/aes-go/kn-aes-go-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 6.848333333333334,
+            "5-percentile": 10.415476190476191,
+            "25-percentile": 11.991666666666667,
+            "50-percentile": 12.8672131147541,
+            "75-percentile": 16.03305860805861,
+            "95-percentile": 17.79304347826087,
+            "99-percentile": 18.121788918957414,
+            "100-percentile": 18.216666666666665
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 26.291666666666668,
+            "5-percentile": 34.82261904761904,
+            "25-percentile": 41.259408602150536,
+            "50-percentile": 43.718715846994535,
+            "75-percentile": 45.276923076923076,
+            "95-percentile": 46.24768115942029,
+            "99-percentile": 46.468491667853584,
+            "100-percentile": 46.541666666666664
+        },
+        "duration": {
+            "0-percentile": 17.362,
+            "1-percentile": 19.284828333333333,
+            "5-percentile": 21.334655555555557,
+            "25-percentile": 24.06964359903381,
+            "50-percentile": 25.603810378510378,
+            "75-percentile": 27.004323202614366,
+            "95-percentile": 28.441829263565882,
+            "99-percentile": 28.867114101751298,
+            "100-percentile": 29.009422222222216
+        }
+    },
+    "aes-go-700000-707000": {
+        "name": "aes-go-700000-707000",
+        "yaml": "./yamls/aes-go/kn-aes-go-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 9.443333333333333,
+            "5-percentile": 13.983333333333333,
+            "25-percentile": 16.796505376344086,
+            "50-percentile": 17.768442622950822,
+            "75-percentile": 22.440201465201465,
+            "95-percentile": 24.969710144927536,
+            "99-percentile": 25.41835635949295,
+            "100-percentile": 25.541666666666668
+        },
+        "memory": {
+            "0-percentile": 44.0,
+            "1-percentile": 44.531666666666666,
+            "5-percentile": 45.41547619047619,
+            "25-percentile": 48.04838709677419,
+            "50-percentile": 49.53702185792349,
+            "75-percentile": 50.819871794871794,
+            "95-percentile": 51.712391304347825,
+            "99-percentile": 51.92300384560604,
+            "100-percentile": 51.99166666666667
+        },
+        "duration": {
+            "0-percentile": 28.232,
+            "1-percentile": 29.82291,
+            "5-percentile": 32.71136,
+            "25-percentile": 39.01018502415459,
+            "50-percentile": 42.79647997557999,
+            "75-percentile": 45.64411078431373,
+            "95-percentile": 47.87254447674419,
+            "99-percentile": 48.47095301958446,
+            "100-percentile": 48.66045555555555
+        }
+    },
+    "aes-go-1000000-1010000": {
+        "name": "aes-go-1000000-1010000",
+        "yaml": "./yamls/aes-go/kn-aes-go-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 11.038333333333334,
+            "5-percentile": 17.11904761904762,
+            "25-percentile": 20.178494623655915,
+            "50-percentile": 21.503688524590164,
+            "75-percentile": 27.761446886446887,
+            "95-percentile": 30.970579710144925,
+            "99-percentile": 31.53136234154679,
+            "100-percentile": 31.675
+        },
+        "memory": {
+            "0-percentile": 46.0,
+            "1-percentile": 47.65833333333333,
+            "5-percentile": 50.830952380952375,
+            "25-percentile": 55.12930107526882,
+            "50-percentile": 57.693989071038246,
+            "75-percentile": 59.41538461538461,
+            "95-percentile": 60.79260869565218,
+            "99-percentile": 61.17624270047002,
+            "100-percentile": 61.333333333333336
+        },
+        "duration": {
+            "0-percentile": 44.893,
+            "1-percentile": 45.74082666666666,
+            "5-percentile": 50.341810555555554,
+            "25-percentile": 56.14591956521739,
+            "50-percentile": 59.8922528083028,
+            "75-percentile": 63.05085674019608,
+            "95-percentile": 65.50751941214469,
+            "99-percentile": 66.15982064779358,
+            "100-percentile": 66.35714444444442
+        }
+    }
+}

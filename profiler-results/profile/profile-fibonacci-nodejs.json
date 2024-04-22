@@ -1,0 +1,436 @@
+{
+    "fibonacci-nodejs-10-10": {
+        "name": "fibonacci-nodejs-10-10",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-10-10.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 2.988919413919414,
+            "95-percentile": 3.176231884057971,
+            "99-percentile": 3.2560931491240566,
+            "100-percentile": 3.283333333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.06333333333333,
+            "5-percentile": 41.99166666666667,
+            "25-percentile": 45.59301075268817,
+            "50-percentile": 47.43784153005464,
+            "75-percentile": 48.28525641025641,
+            "95-percentile": 48.8518115942029,
+            "99-percentile": 48.93786141575274,
+            "100-percentile": 48.958333333333336
+        },
+        "duration": {
+            "0-percentile": 1.582,
+            "1-percentile": 1.857335,
+            "5-percentile": 2.2145625,
+            "25-percentile": 2.5510133265856947,
+            "50-percentile": 2.6467807894736834,
+            "75-percentile": 2.7342261575537288,
+            "95-percentile": 2.8956517605633785,
+            "99-percentile": 2.9777184663522562,
+            "100-percentile": 3.1547199999999984
+        }
+    },
+    "fibonacci-nodejs-1000-1010": {
+        "name": "fibonacci-nodejs-1000-1010",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 3.047069597069597,
+            "95-percentile": 3.245942028985507,
+            "99-percentile": 3.282953995157385,
+            "100-percentile": 3.375
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 39.0,
+            "5-percentile": 39.70357142857143,
+            "25-percentile": 43.560483870967744,
+            "50-percentile": 45.44603825136612,
+            "75-percentile": 46.61767399267399,
+            "95-percentile": 47.22050724637681,
+            "99-percentile": 47.33184517874947,
+            "100-percentile": 47.358333333333334
+        },
+        "duration": {
+            "0-percentile": 1.723,
+            "1-percentile": 1.8817183333333336,
+            "5-percentile": 2.2755312500000002,
+            "25-percentile": 2.6969600202429156,
+            "50-percentile": 2.9000318421052635,
+            "75-percentile": 3.0536306494943117,
+            "95-percentile": 3.2304919826652236,
+            "99-percentile": 3.3132030078904418,
+            "100-percentile": 3.429106666666668
+        }
+    },
+    "fibonacci-nodejs-4500-4545": {
+        "name": "fibonacci-nodejs-4500-4545",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.47103825136612,
+            "75-percentile": 3.6454212454212453,
+            "95-percentile": 3.772463768115942,
+            "99-percentile": 3.8216350947158526,
+            "100-percentile": 3.908333333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.531666666666666,
+            "5-percentile": 42.55952380952381,
+            "25-percentile": 46.17016129032258,
+            "50-percentile": 47.94193989071038,
+            "75-percentile": 48.95009157509158,
+            "95-percentile": 49.41340579710145,
+            "99-percentile": 49.51701680672269,
+            "100-percentile": 49.541666666666664
+        },
+        "duration": {
+            "0-percentile": 3.829,
+            "1-percentile": 3.970001666666667,
+            "5-percentile": 5.10969375,
+            "25-percentile": 6.336779858299595,
+            "50-percentile": 6.670673157894737,
+            "75-percentile": 6.958191588969657,
+            "95-percentile": 7.290513001083421,
+            "99-percentile": 7.458475398149824,
+            "100-percentile": 7.621473333333331
+        }
+    },
+    "fibonacci-nodejs-10000-10100": {
+        "name": "fibonacci-nodejs-10000-10100",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 3.4238095238095236,
+            "25-percentile": 3.8698924731182798,
+            "50-percentile": 3.9916666666666667,
+            "75-percentile": 4.61492673992674,
+            "95-percentile": 4.939492753623188,
+            "99-percentile": 5.028837060247828,
+            "100-percentile": 5.133333333333334
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.0,
+            "5-percentile": 41.56785714285714,
+            "25-percentile": 45.81236559139785,
+            "50-percentile": 47.82622950819672,
+            "75-percentile": 48.98608058608058,
+            "95-percentile": 49.633043478260866,
+            "99-percentile": 49.76791340264919,
+            "100-percentile": 49.8
+        },
+        "duration": {
+            "0-percentile": 8.412,
+            "1-percentile": 9.434163333333334,
+            "5-percentile": 12.774525,
+            "25-percentile": 16.021738022941967,
+            "50-percentile": 16.999891929824564,
+            "75-percentile": 17.678409548830594,
+            "95-percentile": 18.3035585048754,
+            "99-percentile": 18.50936806502811,
+            "100-percentile": 18.67483333333333
+        }
+    },
+    "fibonacci-nodejs-20000-20200": {
+        "name": "fibonacci-nodejs-20000-20200",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 3.1266666666666665,
+            "5-percentile": 4.423809523809524,
+            "25-percentile": 4.86989247311828,
+            "50-percentile": 5.264344262295082,
+            "75-percentile": 6.1495421245421245,
+            "95-percentile": 6.536159420289855,
+            "99-percentile": 6.64166001994018,
+            "100-percentile": 7.216666666666667
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 41.65833333333333,
+            "5-percentile": 43.70357142857143,
+            "25-percentile": 48.36532258064516,
+            "50-percentile": 50.39644808743169,
+            "75-percentile": 51.73122710622711,
+            "95-percentile": 52.41340579710145,
+            "99-percentile": 52.51701680672269,
+            "100-percentile": 52.541666666666664
+        },
+        "duration": {
+            "0-percentile": 18.679,
+            "1-percentile": 19.661976666666664,
+            "5-percentile": 23.975637499999998,
+            "25-percentile": 29.341979925775973,
+            "50-percentile": 30.966688684210514,
+            "75-percentile": 31.843966893173185,
+            "95-percentile": 32.60899593716142,
+            "99-percentile": 32.93683941320514,
+            "100-percentile": 33.063886666666654
+        }
+    },
+    "fibonacci-nodejs-45000-45450": {
+        "name": "fibonacci-nodejs-45000-45450",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 4.126666666666667,
+            "5-percentile": 5.991666666666666,
+            "25-percentile": 6.772311827956989,
+            "50-percentile": 7.4295081967213115,
+            "75-percentile": 8.91959706959707,
+            "95-percentile": 9.738260869565217,
+            "99-percentile": 9.875722831505485,
+            "100-percentile": 9.916666666666666
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 43.531666666666666,
+            "5-percentile": 44.83928571428571,
+            "25-percentile": 48.87741935483871,
+            "50-percentile": 50.908879781420765,
+            "75-percentile": 52.01932234432235,
+            "95-percentile": 52.765,
+            "99-percentile": 52.93464107676969,
+            "100-percentile": 52.975
+        },
+        "duration": {
+            "0-percentile": 47.23,
+            "1-percentile": 49.000493333333324,
+            "5-percentile": 53.101531249999994,
+            "25-percentile": 58.65550151821861,
+            "50-percentile": 60.55991552631576,
+            "75-percentile": 62.060871325853334,
+            "95-percentile": 63.5644258125677,
+            "99-percentile": 64.11513183157989,
+            "100-percentile": 64.37378
+        }
+    },
+    "fibonacci-nodejs-70000-70700": {
+        "name": "fibonacci-nodejs-70000-70700",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 6.253333333333333,
+            "5-percentile": 8.847619047619048,
+            "25-percentile": 9.959139784946236,
+            "50-percentile": 10.652459016393443,
+            "75-percentile": 13.160531135531135,
+            "95-percentile": 14.39717391304348,
+            "99-percentile": 14.636829511465603,
+            "100-percentile": 14.716666666666667
+        },
+        "memory": {
+            "0-percentile": 45.0,
+            "1-percentile": 45.0,
+            "5-percentile": 45.695238095238096,
+            "25-percentile": 50.20268817204301,
+            "50-percentile": 52.222950819672135,
+            "75-percentile": 53.41822344322344,
+            "95-percentile": 54.045144927536235,
+            "99-percentile": 54.163507335137446,
+            "100-percentile": 54.19166666666667
+        },
+        "duration": {
+            "0-percentile": 92.417,
+            "1-percentile": 95.42235333333333,
+            "5-percentile": 98.93173125,
+            "25-percentile": 104.13105280026993,
+            "50-percentile": 106.31696263157899,
+            "75-percentile": 108.28008272756007,
+            "95-percentile": 110.95019818526546,
+            "99-percentile": 111.63892583937965,
+            "100-percentile": 111.91608666666667
+        }
+    },
+    "fibonacci-nodejs-100000-101000": {
+        "name": "fibonacci-nodejs-100000-101000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 15.0,
+            "1-percentile": 15.531666666666666,
+            "5-percentile": 15.855952380952381,
+            "25-percentile": 15.96747311827957,
+            "50-percentile": 16.42964480874317,
+            "75-percentile": 20.517765567765565,
+            "95-percentile": 22.811014492753625,
+            "99-percentile": 23.179096994730095,
+            "100-percentile": 23.275
+        },
+        "memory": {
+            "0-percentile": 46.0,
+            "1-percentile": 46.06333333333333,
+            "5-percentile": 47.27142857142857,
+            "25-percentile": 51.17016129032258,
+            "50-percentile": 53.37172131147541,
+            "75-percentile": 54.565018315018314,
+            "95-percentile": 55.28188405797101,
+            "99-percentile": 55.39076342401368,
+            "100-percentile": 55.416666666666664
+        },
+        "duration": {
+            "0-percentile": 176.512,
+            "1-percentile": 179.09403666666665,
+            "5-percentile": 182.99290000000002,
+            "25-percentile": 188.25458215249665,
+            "50-percentile": 191.77864578947364,
+            "75-percentile": 194.7972338219027,
+            "95-percentile": 198.07494666847245,
+            "99-percentile": 199.1366753074552,
+            "100-percentile": 199.5721400000001
+        }
+    },
+    "fibonacci-nodejs-200000-202000": {
+        "name": "fibonacci-nodejs-200000-202000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 24.39333333333333,
+            "5-percentile": 38.94166666666667,
+            "25-percentile": 45.17016129032258,
+            "50-percentile": 47.62527322404371,
+            "75-percentile": 62.17655677655678,
+            "95-percentile": 69.03847826086957,
+            "99-percentile": 70.15853083606324,
+            "100-percentile": 70.525
+        },
+        "memory": {
+            "0-percentile": 57.0,
+            "1-percentile": 57.595,
+            "5-percentile": 59.27142857142857,
+            "25-percentile": 63.649731182795705,
+            "50-percentile": 65.76010928961749,
+            "75-percentile": 66.82820512820513,
+            "95-percentile": 67.2814492753623,
+            "99-percentile": 67.3502891326022,
+            "100-percentile": 67.36666666666666
+        },
+        "duration": {
+            "0-percentile": 610.978,
+            "1-percentile": 613.95039,
+            "5-percentile": 622.5780375,
+            "25-percentile": 635.7805767543861,
+            "50-percentile": 644.2919010526316,
+            "75-percentile": 652.6893344461124,
+            "95-percentile": 662.0543267605633,
+            "99-percentile": 665.5391448825503,
+            "100-percentile": 666.6176800000001
+        }
+    },
+    "fibonacci-nodejs-450000-454500": {
+        "name": "fibonacci-nodejs-450000-454500",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 53.705,
+            "5-percentile": 192.0511904761905,
+            "25-percentile": 244.5247311827957,
+            "50-percentile": 257.10573770491806,
+            "75-percentile": 300.16959706959705,
+            "95-percentile": 320.3333333333333,
+            "99-percentile": 323.62709656744056,
+            "100-percentile": 324.43333333333334
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 57.735,
+            "5-percentile": 71.65357142857142,
+            "25-percentile": 79.48709677419355,
+            "50-percentile": 81.68579234972677,
+            "75-percentile": 82.77280219780219,
+            "95-percentile": 83.37833333333333,
+            "99-percentile": 83.48334923800029,
+            "100-percentile": 83.50833333333334
+        },
+        "duration": {
+            "0-percentile": 3114.054,
+            "1-percentile": 3119.782905,
+            "5-percentile": 3130.00510625,
+            "25-percentile": 3167.3106914642376,
+            "50-percentile": 3195.9571630701757,
+            "75-percentile": 3220.027185050569,
+            "95-percentile": 3244.157842659805,
+            "99-percentile": 3250.9370501432977,
+            "100-percentile": 3252.8857533333335
+        }
+    },
+    "fibonacci-nodejs-700000-707000": {
+        "name": "fibonacci-nodejs-700000-707000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 236.0,
+            "1-percentile": 421.07666666666665,
+            "5-percentile": 630.6321428571429,
+            "25-percentile": 713.5698924731182,
+            "50-percentile": 736.9546448087432,
+            "75-percentile": 762.0761904761905,
+            "95-percentile": 775.8594927536233,
+            "99-percentile": 778.3005939324883,
+            "100-percentile": 778.9333333333333
+        },
+        "memory": {
+            "0-percentile": 75.0,
+            "1-percentile": 76.06333333333333,
+            "5-percentile": 77.98333333333333,
+            "25-percentile": 81.94247311827957,
+            "50-percentile": 83.78497267759562,
+            "75-percentile": 84.6952380952381,
+            "95-percentile": 85.1854347826087,
+            "99-percentile": 85.29817761002705,
+            "100-percentile": 85.325
+        },
+        "duration": {
+            "0-percentile": 7457.805,
+            "1-percentile": 7499.354943333334,
+            "5-percentile": 7548.98973125,
+            "25-percentile": 7630.983272773278,
+            "50-percentile": 7690.933878508768,
+            "75-percentile": 7745.229207095449,
+            "95-percentile": 7796.952547074756,
+            "99-percentile": 7810.417074892526,
+            "100-percentile": 7814.156986666666
+        }
+    },
+    "fibonacci-nodejs-1000000-1010000": {
+        "name": "fibonacci-nodejs-1000000-1010000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 53.406284153005465,
+            "75-percentile": 366.1543956043956,
+            "95-percentile": 499.0613043478261,
+            "99-percentile": 519.2847927645635,
+            "100-percentile": 524.1166666666667
+        },
+        "memory": {
+            "0-percentile": 73.0,
+            "1-percentile": 73.53166666666667,
+            "5-percentile": 74.4154761904762,
+            "25-percentile": 80.72231182795699,
+            "50-percentile": 85.85068306010929,
+            "75-percentile": 88.86135531135531,
+            "95-percentile": 90.19550724637682,
+            "99-percentile": 90.4280173764421,
+            "100-percentile": 90.48333333333333
+        },
+        "duration": {}
+    }
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-10-10.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-100-101.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-500-505.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-1000-1010.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-2000-2020.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-4500-4545.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-7000-7070.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-10000-10100.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-20000-20200.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-45000-45450.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-70000-70700.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-100000-101000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-200000-202000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-450000-454500.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-700000-707000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/aes-go/kn-aes-go-1000000-1010000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    }
+]

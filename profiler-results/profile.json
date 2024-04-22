@@ -1,0 +1,3618 @@
+{
+    "aes-go-10-10": {
+        "name": "aes-go-10-10",
+        "yaml": "./yamls/aes-go/kn-aes-go-10-10.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.0968840579710144,
+            "99-percentile": 3.1330601053980915,
+            "100-percentile": 3.1416666666666666
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.531666666666666,
+            "5-percentile": 18.279761904761905,
+            "25-percentile": 21.779838709677417,
+            "50-percentile": 23.611338797814206,
+            "75-percentile": 24.764468864468867,
+            "95-percentile": 25.439710144927535,
+            "99-percentile": 25.542267483264492,
+            "100-percentile": 25.566666666666666
+        },
+        "duration": {
+            "0-percentile": 0.54,
+            "1-percentile": 0.5488466666666667,
+            "5-percentile": 0.5891350000000001,
+            "25-percentile": 0.6593057971014492,
+            "50-percentile": 0.7075056776556775,
+            "75-percentile": 0.7466532679738556,
+            "95-percentile": 0.7770619832041339,
+            "99-percentile": 0.789011097545665,
+            "100-percentile": 0.8001722222222215
+        }
+    },
+    "aes-go-100-101": {
+        "name": "aes-go-100-101",
+        "yaml": "./yamls/aes-go/kn-aes-go-100-101.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.1407246376811595,
+            "99-percentile": 3.1751445663010966,
+            "100-percentile": 3.183333333333333
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 17.991666666666667,
+            "25-percentile": 22.170161290322582,
+            "50-percentile": 24.206420765027325,
+            "75-percentile": 25.329578754578755,
+            "95-percentile": 26.05391304347826,
+            "99-percentile": 26.17873095000712,
+            "100-percentile": 26.216666666666665
+        },
+        "duration": {
+            "0-percentile": 0.576,
+            "1-percentile": 0.5958983333333334,
+            "5-percentile": 0.628515,
+            "25-percentile": 0.696682971014493,
+            "50-percentile": 0.7450747252747252,
+            "75-percentile": 0.7846476307189542,
+            "95-percentile": 0.8163378875968992,
+            "99-percentile": 0.8271174684577239,
+            "100-percentile": 0.8395444444444444
+        }
+    },
+    "aes-go-500-505": {
+        "name": "aes-go-500-505",
+        "yaml": "./yamls/aes-go/kn-aes-go-500-505.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.105652173913043,
+            "99-percentile": 3.1414769975786925,
+            "100-percentile": 3.158333333333333
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.531666666666666,
+            "5-percentile": 18.55952380952381,
+            "25-percentile": 22.51962365591398,
+            "50-percentile": 24.693989071038253,
+            "75-percentile": 26.041483516483517,
+            "95-percentile": 26.825942028985505,
+            "99-percentile": 26.968308645492094,
+            "100-percentile": 27.008333333333333
+        },
+        "duration": {
+            "0-percentile": 0.589,
+            "1-percentile": 0.6172150000000001,
+            "5-percentile": 0.6524705555555557,
+            "25-percentile": 0.7158211352657003,
+            "50-percentile": 0.7554399877899878,
+            "75-percentile": 0.7878806781045747,
+            "95-percentile": 0.8197289728682168,
+            "99-percentile": 0.8583239903333123,
+            "100-percentile": 0.8814833333333332
+        }
+    },
+    "aes-go-1000-1010": {
+        "name": "aes-go-1000-1010",
+        "yaml": "./yamls/aes-go/kn-aes-go-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.1407246376811595,
+            "99-percentile": 3.181951288990172,
+            "100-percentile": 3.3333333333333335
+        },
+        "memory": {
+            "0-percentile": 15.0,
+            "1-percentile": 16.126666666666665,
+            "5-percentile": 18.11904761904762,
+            "25-percentile": 23.096774193548388,
+            "50-percentile": 25.495628415300544,
+            "75-percentile": 26.941758241758244,
+            "95-percentile": 27.764565217391304,
+            "99-percentile": 27.91780729240849,
+            "100-percentile": 27.958333333333332
+        },
+        "duration": {
+            "0-percentile": 0.591,
+            "1-percentile": 0.6088483333333333,
+            "5-percentile": 0.6540066666666666,
+            "25-percentile": 0.7393117149758457,
+            "50-percentile": 0.7929691697191699,
+            "75-percentile": 0.8398063725490201,
+            "95-percentile": 0.8939175064599483,
+            "99-percentile": 0.9568333048772836,
+            "100-percentile": 0.9875722222222224
+        }
+    },
+    "aes-go-2000-2020": {
+        "name": "aes-go-2000-2020",
+        "yaml": "./yamls/aes-go/kn-aes-go-2000-2020.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 2.988919413919414,
+            "95-percentile": 3.1933333333333334,
+            "99-percentile": 3.232452642073779,
+            "100-percentile": 3.25
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 18.695238095238096,
+            "25-percentile": 23.324462365591398,
+            "50-percentile": 26.06584699453552,
+            "75-percentile": 27.531776556776556,
+            "95-percentile": 28.3086231884058,
+            "99-percentile": 28.456488391966953,
+            "100-percentile": 28.491666666666667
+        },
+        "duration": {
+            "0-percentile": 0.672,
+            "1-percentile": 0.7197966666666666,
+            "5-percentile": 0.7560455555555555,
+            "25-percentile": 0.8241309178743963,
+            "50-percentile": 0.869489499389499,
+            "75-percentile": 0.9041485702614375,
+            "95-percentile": 0.9819720607235141,
+            "99-percentile": 1.0456028981231564,
+            "100-percentile": 1.0680000000000003
+        }
+    },
+    "aes-go-4500-4545": {
+        "name": "aes-go-4500-4545",
+        "yaml": "./yamls/aes-go/kn-aes-go-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.024908424908425,
+            "95-percentile": 3.237608695652174,
+            "99-percentile": 3.308204671699188,
+            "100-percentile": 3.325
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.531666666666666,
+            "5-percentile": 20.415476190476188,
+            "25-percentile": 25.869086021505375,
+            "50-percentile": 28.28073770491803,
+            "75-percentile": 29.50686813186813,
+            "95-percentile": 30.06268115942029,
+            "99-percentile": 30.180341119498646,
+            "100-percentile": 30.208333333333332
+        },
+        "duration": {
+            "0-percentile": 0.703,
+            "1-percentile": 0.7363266666666667,
+            "5-percentile": 0.8168899999999999,
+            "25-percentile": 0.9018252415458937,
+            "50-percentile": 0.9470141025641023,
+            "75-percentile": 0.9852958333333331,
+            "95-percentile": 1.0787872739018083,
+            "99-percentile": 1.1410278711317554,
+            "100-percentile": 1.163983333333333
+        }
+    },
+    "aes-go-7000-7070": {
+        "name": "aes-go-7000-7070",
+        "yaml": "./yamls/aes-go/kn-aes-go-7000-7070.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 3.058150183150183,
+            "95-percentile": 3.2547101449275364,
+            "99-percentile": 3.2845641646489105,
+            "100-percentile": 3.3
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.65833333333333,
+            "5-percentile": 20.983333333333334,
+            "25-percentile": 27.096774193548388,
+            "50-percentile": 29.421311475409837,
+            "75-percentile": 30.50686813186813,
+            "95-percentile": 31.02717391304348,
+            "99-percentile": 31.12142287423444,
+            "100-percentile": 31.15
+        },
+        "duration": {
+            "0-percentile": 0.778,
+            "1-percentile": 0.8148,
+            "5-percentile": 0.8958733333333333,
+            "25-percentile": 0.9880820048309177,
+            "50-percentile": 1.0329367521367514,
+            "75-percentile": 1.075758047385621,
+            "95-percentile": 1.181804941860465,
+            "99-percentile": 1.2567183186868371,
+            "100-percentile": 1.2954944444444445
+        }
+    },
+    "aes-go-10000-10100": {
+        "name": "aes-go-10000-10100",
+        "yaml": "./yamls/aes-go/kn-aes-go-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.058150183150183,
+            "95-percentile": 3.281449275362319,
+            "99-percentile": 3.3502891326021933,
+            "100-percentile": 3.3666666666666667
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.65833333333333,
+            "5-percentile": 21.254761904761903,
+            "25-percentile": 27.064247311827955,
+            "50-percentile": 29.528688524590166,
+            "75-percentile": 30.673076923076923,
+            "95-percentile": 31.32572463768116,
+            "99-percentile": 31.432847884916676,
+            "100-percentile": 31.458333333333332
+        },
+        "duration": {
+            "0-percentile": 0.883,
+            "1-percentile": 0.8945283333333333,
+            "5-percentile": 0.9600522222222222,
+            "25-percentile": 1.0494324879227055,
+            "50-percentile": 1.0924727716727718,
+            "75-percentile": 1.1368613970588233,
+            "95-percentile": 1.2448607558139537,
+            "99-percentile": 1.3027701428033398,
+            "100-percentile": 1.3337222222222225
+        }
+    },
+    "aes-go-20000-20200": {
+        "name": "aes-go-20000-20200",
+        "yaml": "./yamls/aes-go/kn-aes-go-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.3883879781420765,
+            "75-percentile": 3.590018315018315,
+            "95-percentile": 3.798768115942029,
+            "99-percentile": 3.8621093861273326,
+            "100-percentile": 3.8833333333333333
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 20.19,
+            "5-percentile": 23.975,
+            "25-percentile": 29.81236559139785,
+            "50-percentile": 31.75191256830601,
+            "75-percentile": 32.52902930402931,
+            "95-percentile": 33.044710144927535,
+            "99-percentile": 33.12303304372597,
+            "100-percentile": 33.141666666666666
+        },
+        "duration": {
+            "0-percentile": 0.954,
+            "1-percentile": 1.074755,
+            "5-percentile": 1.2633788888888888,
+            "25-percentile": 1.420319927536232,
+            "50-percentile": 1.4897084249084254,
+            "75-percentile": 1.5969799836601313,
+            "95-percentile": 1.7915447674418612,
+            "99-percentile": 1.8622614409013882,
+            "100-percentile": 1.9046888888888898
+        }
+    },
+    "aes-go-45000-45450": {
+        "name": "aes-go-45000-45450",
+        "yaml": "./yamls/aes-go/kn-aes-go-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.7723118279569894,
+            "50-percentile": 4.107377049180328,
+            "75-percentile": 4.592765567765568,
+            "95-percentile": 4.921956521739131,
+            "99-percentile": 5.018809998575701,
+            "100-percentile": 5.158333333333333
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 19.848333333333333,
+            "5-percentile": 24.686904761904763,
+            "25-percentile": 29.779838709677417,
+            "50-percentile": 31.619672131147542,
+            "75-percentile": 32.562271062271066,
+            "95-percentile": 33.071014492753626,
+            "99-percentile": 33.14828372026777,
+            "100-percentile": 33.166666666666664
+        },
+        "duration": {
+            "0-percentile": 1.681,
+            "1-percentile": 1.723485,
+            "5-percentile": 1.975587777777778,
+            "25-percentile": 2.333556280193236,
+            "50-percentile": 2.5997015262515255,
+            "75-percentile": 2.9358647058823517,
+            "95-percentile": 3.1890446382428923,
+            "99-percentile": 3.261981831648985,
+            "100-percentile": 3.3085833333333325
+        }
+    },
+    "aes-go-70000-70700": {
+        "name": "aes-go-70000-70700",
+        "yaml": "./yamls/aes-go/kn-aes-go-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.707258064516129,
+            "50-percentile": 5.0247267759562835,
+            "75-percentile": 5.559523809523809,
+            "95-percentile": 5.895652173913043,
+            "99-percentile": 5.979945876655747,
+            "100-percentile": 6.0
+        },
+        "memory": {
+            "0-percentile": 21.0,
+            "1-percentile": 23.65833333333333,
+            "5-percentile": 26.271428571428572,
+            "25-percentile": 29.942473118279572,
+            "50-percentile": 31.768442622950822,
+            "75-percentile": 32.75064102564103,
+            "95-percentile": 33.22007246376811,
+            "99-percentile": 33.32342828656887,
+            "100-percentile": 33.35
+        },
+        "duration": {
+            "0-percentile": 2.794,
+            "1-percentile": 2.898955,
+            "5-percentile": 3.2293188888888884,
+            "25-percentile": 3.5553873188405802,
+            "50-percentile": 3.9823094627594626,
+            "75-percentile": 4.291702532679739,
+            "95-percentile": 4.581720897932818,
+            "99-percentile": 4.673492374929384,
+            "100-percentile": 4.721600000000001
+        }
+    },
+    "aes-go-100000-101000": {
+        "name": "aes-go-100000-101000",
+        "yaml": "./yamls/aes-go/kn-aes-go-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 4.0633333333333335,
+            "5-percentile": 4.711904761904762,
+            "25-percentile": 5.1217741935483865,
+            "50-percentile": 5.636202185792349,
+            "75-percentile": 6.5733516483516485,
+            "95-percentile": 7.079782608695652,
+            "99-percentile": 7.156700612448369,
+            "100-percentile": 7.175
+        },
+        "memory": {
+            "0-percentile": 24.0,
+            "1-percentile": 26.65833333333333,
+            "5-percentile": 28.70357142857143,
+            "25-percentile": 31.723118279569892,
+            "50-percentile": 33.25601092896175,
+            "75-percentile": 34.185531135531136,
+            "95-percentile": 34.77289855072464,
+            "99-percentile": 34.86210938612733,
+            "100-percentile": 34.88333333333333
+        },
+        "duration": {
+            "0-percentile": 4.789,
+            "1-percentile": 4.814006666666667,
+            "5-percentile": 5.07517388888889,
+            "25-percentile": 5.5035211352657,
+            "50-percentile": 5.699034554334553,
+            "75-percentile": 5.8570338235294095,
+            "95-percentile": 6.021321511627906,
+            "99-percentile": 6.086848570397337,
+            "100-percentile": 6.164549999999998
+        }
+    },
+    "aes-go-200000-202000": {
+        "name": "aes-go-200000-202000",
+        "yaml": "./yamls/aes-go/kn-aes-go-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 6.0,
+            "1-percentile": 6.531666666666666,
+            "5-percentile": 7.135714285714286,
+            "25-percentile": 7.804838709677419,
+            "50-percentile": 8.2974043715847,
+            "75-percentile": 9.977747252747253,
+            "95-percentile": 10.905289855072464,
+            "99-percentile": 11.092951858709585,
+            "100-percentile": 11.141666666666667
+        },
+        "memory": {
+            "0-percentile": 29.0,
+            "1-percentile": 29.531666666666666,
+            "5-percentile": 30.70357142857143,
+            "25-percentile": 33.649731182795705,
+            "50-percentile": 35.57008196721311,
+            "75-percentile": 36.61767399267399,
+            "95-percentile": 37.20297101449275,
+            "99-percentile": 37.35387551630822,
+            "100-percentile": 37.4
+        },
+        "duration": {
+            "0-percentile": 7.422,
+            "1-percentile": 7.694951666666667,
+            "5-percentile": 9.298962777777778,
+            "25-percentile": 11.151827657004828,
+            "50-percentile": 12.105173809523809,
+            "75-percentile": 12.772469403594773,
+            "95-percentile": 13.346538662790703,
+            "99-percentile": 13.546799942250965,
+            "100-percentile": 13.65257222222223
+        }
+    },
+    "aes-go-450000-454500": {
+        "name": "aes-go-450000-454500",
+        "yaml": "./yamls/aes-go/kn-aes-go-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 6.848333333333334,
+            "5-percentile": 10.415476190476191,
+            "25-percentile": 11.991666666666667,
+            "50-percentile": 12.8672131147541,
+            "75-percentile": 16.03305860805861,
+            "95-percentile": 17.79304347826087,
+            "99-percentile": 18.121788918957414,
+            "100-percentile": 18.216666666666665
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 26.291666666666668,
+            "5-percentile": 34.82261904761904,
+            "25-percentile": 41.259408602150536,
+            "50-percentile": 43.718715846994535,
+            "75-percentile": 45.276923076923076,
+            "95-percentile": 46.24768115942029,
+            "99-percentile": 46.468491667853584,
+            "100-percentile": 46.541666666666664
+        },
+        "duration": {
+            "0-percentile": 17.362,
+            "1-percentile": 19.284828333333333,
+            "5-percentile": 21.334655555555557,
+            "25-percentile": 24.06964359903381,
+            "50-percentile": 25.603810378510378,
+            "75-percentile": 27.004323202614366,
+            "95-percentile": 28.441829263565882,
+            "99-percentile": 28.867114101751298,
+            "100-percentile": 29.009422222222216
+        }
+    },
+    "aes-go-700000-707000": {
+        "name": "aes-go-700000-707000",
+        "yaml": "./yamls/aes-go/kn-aes-go-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 9.443333333333333,
+            "5-percentile": 13.983333333333333,
+            "25-percentile": 16.796505376344086,
+            "50-percentile": 17.768442622950822,
+            "75-percentile": 22.440201465201465,
+            "95-percentile": 24.969710144927536,
+            "99-percentile": 25.41835635949295,
+            "100-percentile": 25.541666666666668
+        },
+        "memory": {
+            "0-percentile": 44.0,
+            "1-percentile": 44.531666666666666,
+            "5-percentile": 45.41547619047619,
+            "25-percentile": 48.04838709677419,
+            "50-percentile": 49.53702185792349,
+            "75-percentile": 50.819871794871794,
+            "95-percentile": 51.712391304347825,
+            "99-percentile": 51.92300384560604,
+            "100-percentile": 51.99166666666667
+        },
+        "duration": {
+            "0-percentile": 28.232,
+            "1-percentile": 29.82291,
+            "5-percentile": 32.71136,
+            "25-percentile": 39.01018502415459,
+            "50-percentile": 42.79647997557999,
+            "75-percentile": 45.64411078431373,
+            "95-percentile": 47.87254447674419,
+            "99-percentile": 48.47095301958446,
+            "100-percentile": 48.66045555555555
+        }
+    },
+    "aes-go-1000000-1010000": {
+        "name": "aes-go-1000000-1010000",
+        "yaml": "./yamls/aes-go/kn-aes-go-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 11.038333333333334,
+            "5-percentile": 17.11904761904762,
+            "25-percentile": 20.178494623655915,
+            "50-percentile": 21.503688524590164,
+            "75-percentile": 27.761446886446887,
+            "95-percentile": 30.970579710144925,
+            "99-percentile": 31.53136234154679,
+            "100-percentile": 31.675
+        },
+        "memory": {
+            "0-percentile": 46.0,
+            "1-percentile": 47.65833333333333,
+            "5-percentile": 50.830952380952375,
+            "25-percentile": 55.12930107526882,
+            "50-percentile": 57.693989071038246,
+            "75-percentile": 59.41538461538461,
+            "95-percentile": 60.79260869565218,
+            "99-percentile": 61.17624270047002,
+            "100-percentile": 61.333333333333336
+        },
+        "duration": {
+            "0-percentile": 44.893,
+            "1-percentile": 45.74082666666666,
+            "5-percentile": 50.341810555555554,
+            "25-percentile": 56.14591956521739,
+            "50-percentile": 59.8922528083028,
+            "75-percentile": 63.05085674019608,
+            "95-percentile": 65.50751941214469,
+            "99-percentile": 66.15982064779358,
+            "100-percentile": 66.35714444444442
+        }
+    },
+    "aes-nodejs-10-10": {
+        "name": "aes-nodejs-10-10",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-10-10.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0167290886392006,
+            "95-percentile": 3.240482844278839,
+            "99-percentile": 3.3109647979139503,
+            "100-percentile": 3.436974789915966
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.53,
+            "5-percentile": 43.273809523809526,
+            "25-percentile": 47.58924731182796,
+            "50-percentile": 49.9,
+            "75-percentile": 51.1730961298377,
+            "95-percentile": 51.93189722092843,
+            "99-percentile": 52.07023468057366,
+            "100-percentile": 52.109243697478995
+        },
+        "duration": {
+            "0-percentile": 1.539,
+            "1-percentile": 1.7363766666666667,
+            "5-percentile": 2.374836666666667,
+            "25-percentile": 2.8750952898550732,
+            "50-percentile": 3.0084783272283273,
+            "75-percentile": 3.146845383986929,
+            "95-percentile": 3.409679586563308,
+            "99-percentile": 3.537995432176261,
+            "100-percentile": 3.6996000000000007
+        }
+    },
+    "aes-nodejs-100-101": {
+        "name": "aes-nodejs-100-101",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-100-101.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0692307692307694,
+            "95-percentile": 3.263478260869565,
+            "99-percentile": 3.3250384560603905,
+            "100-percentile": 3.341666666666667
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.06333333333333,
+            "5-percentile": 42.99166666666667,
+            "25-percentile": 47.23521505376344,
+            "50-percentile": 48.88415300546448,
+            "75-percentile": 50.052564102564105,
+            "95-percentile": 50.8522463768116,
+            "99-percentile": 50.97833570716422,
+            "100-percentile": 51.00833333333333
+        },
+        "duration": {
+            "0-percentile": 2.106,
+            "1-percentile": 2.29812,
+            "5-percentile": 2.7205866666666667,
+            "25-percentile": 3.0785527777777784,
+            "50-percentile": 3.2325826007325986,
+            "75-percentile": 3.3962651960784305,
+            "95-percentile": 3.678778423772609,
+            "99-percentile": 3.8015022051346423,
+            "100-percentile": 3.9976888888888875
+        }
+    },
+    "aes-nodejs-500-505": {
+        "name": "aes-nodejs-500-505",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-500-505.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.2354395604395605,
+            "95-percentile": 3.4042028985507247,
+            "99-percentile": 3.474932345819684,
+            "100-percentile": 3.6
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.531666666666666,
+            "5-percentile": 43.135714285714286,
+            "25-percentile": 47.649731182795705,
+            "50-percentile": 50.02459016393443,
+            "75-percentile": 51.32124542124542,
+            "95-percentile": 52.106956521739136,
+            "99-percentile": 52.26289987181313,
+            "100-percentile": 52.3
+        },
+        "duration": {
+            "0-percentile": 2.703,
+            "1-percentile": 2.74185,
+            "5-percentile": 3.1561611111111114,
+            "25-percentile": 3.5163271739130426,
+            "50-percentile": 3.6554107448107436,
+            "75-percentile": 3.8245304330065357,
+            "95-percentile": 4.114028811369507,
+            "99-percentile": 4.30211895706484,
+            "100-percentile": 4.505355555555553
+        }
+    },
+    "aes-nodejs-1000-1010": {
+        "name": "aes-nodejs-1000-1010",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.140437158469945,
+            "75-percentile": 3.4238095238095236,
+            "95-percentile": 3.5444927536231883,
+            "99-percentile": 3.618019512889902,
+            "100-percentile": 3.7416666666666667
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.531666666666666,
+            "5-percentile": 44.55119047619048,
+            "25-percentile": 48.81236559139785,
+            "50-percentile": 51.18155737704918,
+            "75-percentile": 52.62042124542125,
+            "95-percentile": 53.510289855072465,
+            "99-percentile": 53.66530052699046,
+            "100-percentile": 53.708333333333336
+        },
+        "duration": {
+            "0-percentile": 2.324,
+            "1-percentile": 2.5326833333333334,
+            "5-percentile": 3.241168888888889,
+            "25-percentile": 3.8218531400966196,
+            "50-percentile": 4.029342918192919,
+            "75-percentile": 4.255483374183005,
+            "95-percentile": 4.613215665374675,
+            "99-percentile": 4.81589614650681,
+            "100-percentile": 5.011516666666664
+        }
+    },
+    "aes-nodejs-2000-2020": {
+        "name": "aes-nodejs-2000-2020",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-2000-2020.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.1734972677595628,
+            "75-percentile": 3.445970695970696,
+            "95-percentile": 3.6409420289855072,
+            "99-percentile": 3.746249109813417,
+            "100-percentile": 3.875
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 44.06333333333333,
+            "5-percentile": 45.40714285714286,
+            "25-percentile": 49.87741935483871,
+            "50-percentile": 51.94193989071038,
+            "75-percentile": 53.08580586080586,
+            "95-percentile": 53.81717391304348,
+            "99-percentile": 53.959891753311496,
+            "100-percentile": 54.0
+        },
+        "duration": {
+            "0-percentile": 2.973,
+            "1-percentile": 3.0360200000000006,
+            "5-percentile": 3.6752927777777784,
+            "25-percentile": 4.403389251207729,
+            "50-percentile": 4.601347191697194,
+            "75-percentile": 4.929634803921569,
+            "95-percentile": 5.319028682170544,
+            "99-percentile": 5.539727251898815,
+            "100-percentile": 5.747172222222224
+        }
+    },
+    "aes-nodejs-4500-4545": {
+        "name": "aes-nodejs-4500-4545",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.33879781420765,
+            "75-percentile": 3.5567765567765566,
+            "95-percentile": 3.763695652173913,
+            "99-percentile": 3.860499216635807,
+            "100-percentile": 3.933333333333333
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 43.126666666666665,
+            "5-percentile": 45.41547619047619,
+            "25-percentile": 50.35698924731183,
+            "50-percentile": 52.66092896174864,
+            "75-percentile": 54.121794871794876,
+            "95-percentile": 54.94913043478261,
+            "99-percentile": 55.111395812562314,
+            "100-percentile": 55.15
+        },
+        "duration": {
+            "0-percentile": 3.373,
+            "1-percentile": 4.29507,
+            "5-percentile": 5.729198333333333,
+            "25-percentile": 6.359152294685989,
+            "50-percentile": 6.823368620268619,
+            "75-percentile": 7.258519771241829,
+            "95-percentile": 7.730627745478037,
+            "99-percentile": 8.08147440399222,
+            "100-percentile": 8.326427777777779
+        }
+    },
+    "aes-nodejs-7000-7070": {
+        "name": "aes-nodejs-7000-7070",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-7000-7070.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 3.674731182795699,
+            "50-percentile": 3.8428961748633883,
+            "75-percentile": 4.2243589743589745,
+            "95-percentile": 4.509420289855073,
+            "99-percentile": 4.607992451217775,
+            "100-percentile": 4.675
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 43.65833333333333,
+            "5-percentile": 46.12738095238095,
+            "25-percentile": 50.77150537634408,
+            "50-percentile": 53.429508196721315,
+            "75-percentile": 55.11071428571429,
+            "95-percentile": 56.0981884057971,
+            "99-percentile": 56.286540378863414,
+            "100-percentile": 56.333333333333336
+        },
+        "duration": {
+            "0-percentile": 4.755,
+            "1-percentile": 5.123348333333333,
+            "5-percentile": 7.067423333333334,
+            "25-percentile": 8.901384541062802,
+            "50-percentile": 9.454292551892552,
+            "75-percentile": 9.897487704248372,
+            "95-percentile": 10.544062596899227,
+            "99-percentile": 10.939718195028563,
+            "100-percentile": 11.260077777777779
+        }
+    },
+    "aes-nodejs-10000-10100": {
+        "name": "aes-nodejs-10000-10100",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0633333333333335,
+            "5-percentile": 3.711904761904762,
+            "25-percentile": 3.93494623655914,
+            "50-percentile": 4.057786885245902,
+            "75-percentile": 4.382234432234433,
+            "95-percentile": 4.729057971014493,
+            "99-percentile": 4.855668708161231,
+            "100-percentile": 4.983333333333333
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 43.65833333333333,
+            "5-percentile": 46.830952380952375,
+            "25-percentile": 52.12930107526882,
+            "50-percentile": 54.801366120218574,
+            "75-percentile": 56.45695970695971,
+            "95-percentile": 57.555,
+            "99-percentile": 57.77310995584675,
+            "100-percentile": 57.825
+        },
+        "duration": {
+            "0-percentile": 5.572,
+            "1-percentile": 6.931838333333333,
+            "5-percentile": 8.53348277777778,
+            "25-percentile": 11.122353502415459,
+            "50-percentile": 11.780428144078147,
+            "75-percentile": 12.29035441176471,
+            "95-percentile": 13.027429263565892,
+            "99-percentile": 13.406845859017013,
+            "100-percentile": 13.714144444444443
+        }
+    },
+    "aes-nodejs-20000-20200": {
+        "name": "aes-nodejs-20000-20200",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 3.0633333333333335,
+            "5-percentile": 3.711904761904762,
+            "25-percentile": 4.707258064516129,
+            "50-percentile": 5.1816939890710385,
+            "75-percentile": 5.781135531135531,
+            "95-percentile": 6.291956521739131,
+            "99-percentile": 6.566274035037744,
+            "100-percentile": 7.1
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 42.848333333333336,
+            "5-percentile": 48.534523809523805,
+            "25-percentile": 55.064247311827955,
+            "50-percentile": 57.39644808743169,
+            "75-percentile": 58.8558608058608,
+            "95-percentile": 59.89695652173913,
+            "99-percentile": 60.108175473579266,
+            "100-percentile": 60.166666666666664
+        },
+        "duration": {
+            "0-percentile": 13.326,
+            "1-percentile": 15.13196,
+            "5-percentile": 17.822828888888886,
+            "25-percentile": 20.289735507246377,
+            "50-percentile": 21.125404884004883,
+            "75-percentile": 21.780911111111116,
+            "95-percentile": 22.512131944444445,
+            "99-percentile": 23.017854326156556,
+            "100-percentile": 23.397688888888894
+        }
+    },
+    "aes-nodejs-45000-45450": {
+        "name": "aes-nodejs-45000-45450",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 5.721666666666667,
+            "5-percentile": 8.415476190476191,
+            "25-percentile": 9.642204301075267,
+            "50-percentile": 10.156967213114754,
+            "75-percentile": 10.481959706959707,
+            "95-percentile": 10.887318840579711,
+            "99-percentile": 11.064480843184732,
+            "100-percentile": 11.166666666666666
+        },
+        "memory": {
+            "0-percentile": 47.0,
+            "1-percentile": 48.06333333333333,
+            "5-percentile": 49.70357142857143,
+            "25-percentile": 53.59301075268817,
+            "50-percentile": 55.065983606557374,
+            "75-percentile": 56.714560439560444,
+            "95-percentile": 58.00217391304348,
+            "99-percentile": 58.2023714570574,
+            "100-percentile": 58.25
+        },
+        "duration": {
+            "0-percentile": 22.412,
+            "1-percentile": 24.104893333333333,
+            "5-percentile": 27.859910555555555,
+            "25-percentile": 33.79206268115942,
+            "50-percentile": 35.56167429792431,
+            "75-percentile": 36.80414207516341,
+            "95-percentile": 38.450170639534875,
+            "99-percentile": 39.08622151371539,
+            "100-percentile": 39.47093333333332
+        }
+    },
+    "aes-nodejs-70000-70700": {
+        "name": "aes-nodejs-70000-70700",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 4.658333333333333,
+            "5-percentile": 6.279761904761905,
+            "25-percentile": 8.202688172043011,
+            "50-percentile": 10.5698087431694,
+            "75-percentile": 13.193772893772893,
+            "95-percentile": 14.625579710144928,
+            "99-percentile": 14.916563167639938,
+            "100-percentile": 15.033333333333333
+        },
+        "memory": {
+            "0-percentile": 46.0,
+            "1-percentile": 47.19,
+            "5-percentile": 50.12738095238095,
+            "25-percentile": 53.755645161290325,
+            "50-percentile": 55.77663934426229,
+            "75-percentile": 57.75054945054945,
+            "95-percentile": 59.20471014492753,
+            "99-percentile": 59.47690856003418,
+            "100-percentile": 59.541666666666664
+        },
+        "duration": {
+            "0-percentile": 37.744,
+            "1-percentile": 39.96681666666667,
+            "5-percentile": 42.21163388888889,
+            "25-percentile": 45.105065942028986,
+            "50-percentile": 46.76340219780219,
+            "75-percentile": 48.41243223039217,
+            "95-percentile": 50.700976291989654,
+            "99-percentile": 51.59548145408323,
+            "100-percentile": 52.03093333333333
+        }
+    },
+    "aes-nodejs-100000-101000": {
+        "name": "aes-nodejs-100000-101000",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 7.848333333333334,
+            "5-percentile": 11.551190476190476,
+            "25-percentile": 13.447043010752688,
+            "50-percentile": 14.586065573770492,
+            "75-percentile": 18.287912087912087,
+            "95-percentile": 20.17927536231884,
+            "99-percentile": 20.539413189004417,
+            "100-percentile": 20.65
+        },
+        "memory": {
+            "0-percentile": 46.0,
+            "1-percentile": 48.19,
+            "5-percentile": 50.41547619047619,
+            "25-percentile": 53.65806451612903,
+            "50-percentile": 55.04945355191256,
+            "75-percentile": 55.79496336996337,
+            "95-percentile": 56.25514492753623,
+            "99-percentile": 56.340262070930066,
+            "100-percentile": 56.36666666666667
+        },
+        "duration": {
+            "0-percentile": 52.427,
+            "1-percentile": 55.141529999999996,
+            "5-percentile": 58.92849666666667,
+            "25-percentile": 64.28644577294685,
+            "50-percentile": 66.1491542124542,
+            "75-percentile": 67.83785085784312,
+            "95-percentile": 70.44427919896638,
+            "99-percentile": 71.56051499874457,
+            "100-percentile": 71.98308888888887
+        }
+    },
+    "aes-nodejs-200000-202000": {
+        "name": "aes-nodejs-200000-202000",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.0,
+            "5-percentile": 18.423809523809524,
+            "25-percentile": 19.154301075268815,
+            "50-percentile": 20.106420765027323,
+            "75-percentile": 25.46510989010989,
+            "95-percentile": 28.066159420289857,
+            "99-percentile": 28.510942173479563,
+            "100-percentile": 28.641666666666666
+        },
+        "memory": {
+            "0-percentile": 52.0,
+            "1-percentile": 53.19,
+            "5-percentile": 57.67857142857143,
+            "25-percentile": 62.71478494623656,
+            "50-percentile": 64.80969945355191,
+            "75-percentile": 65.88635531135532,
+            "95-percentile": 66.53659420289856,
+            "99-percentile": 66.67532758866258,
+            "100-percentile": 66.70833333333333
+        },
+        "duration": {
+            "0-percentile": 103.603,
+            "1-percentile": 104.85933166666666,
+            "5-percentile": 108.69532444444444,
+            "25-percentile": 115.48213405797097,
+            "50-percentile": 118.33175299145299,
+            "75-percentile": 120.3822189133987,
+            "95-percentile": 122.56225749354009,
+            "99-percentile": 123.51526587533745,
+            "100-percentile": 123.83082222222228
+        }
+    },
+    "aes-nodejs-450000-454500": {
+        "name": "aes-nodejs-450000-454500",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 12.0,
+            "1-percentile": 21.038333333333334,
+            "5-percentile": 26.551190476190477,
+            "25-percentile": 28.731451612903225,
+            "50-percentile": 31.46120218579235,
+            "75-percentile": 39.75027472527473,
+            "95-percentile": 44.2813768115942,
+            "99-percentile": 45.19022219057115,
+            "100-percentile": 45.458333333333336
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 53.95,
+            "5-percentile": 65.50952380952381,
+            "25-percentile": 75.53548387096774,
+            "50-percentile": 78.93360655737706,
+            "75-percentile": 80.57884615384614,
+            "95-percentile": 82.87586956521739,
+            "99-percentile": 83.76132673408347,
+            "100-percentile": 84.05833333333334
+        },
+        "duration": {
+            "0-percentile": 192.17,
+            "1-percentile": 196.94842,
+            "5-percentile": 202.09361777777775,
+            "25-percentile": 208.8710911835748,
+            "50-percentile": 213.26324261294246,
+            "75-percentile": 217.1356540032678,
+            "95-percentile": 221.35936166020664,
+            "99-percentile": 222.59030932929508,
+            "100-percentile": 222.9896722222222
+        }
+    },
+    "aes-nodejs-700000-707000": {
+        "name": "aes-nodejs-700000-707000",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 37.0,
+            "1-percentile": 37.531666666666666,
+            "5-percentile": 38.423809523809524,
+            "25-percentile": 40.04838709677419,
+            "50-percentile": 42.02404371584699,
+            "75-percentile": 53.85531135531136,
+            "95-percentile": 60.116521739130434,
+            "99-percentile": 61.20742201965532,
+            "100-percentile": 61.516666666666666
+        },
+        "memory": {
+            "0-percentile": 77.0,
+            "1-percentile": 83.44333333333333,
+            "5-percentile": 90.22976190476192,
+            "25-percentile": 105.83924731182796,
+            "50-percentile": 123.39508196721312,
+            "75-percentile": 131.72811355311356,
+            "95-percentile": 135.8763043478261,
+            "99-percentile": 136.61589730807577,
+            "100-percentile": 136.80833333333334
+        },
+        "duration": {
+            "0-percentile": 285.632,
+            "1-percentile": 291.59712500000006,
+            "5-percentile": 302.69627555555553,
+            "25-percentile": 314.10865603864727,
+            "50-percentile": 320.16012557997544,
+            "75-percentile": 326.36003925653586,
+            "95-percentile": 332.22659467054257,
+            "99-percentile": 333.92243160190816,
+            "100-percentile": 334.41848333333326
+        }
+    },
+    "aes-nodejs-1000000-1010000": {
+        "name": "aes-nodejs-1000000-1010000",
+        "yaml": "./yamls/aes-nodejs/kn-aes-nodejs-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 24.925,
+            "5-percentile": 40.22142857142857,
+            "25-percentile": 47.77983870967742,
+            "50-percentile": 50.64412568306011,
+            "75-percentile": 65.72774725274726,
+            "95-percentile": 73.25021739130435,
+            "99-percentile": 74.60696838057257,
+            "100-percentile": 75.025
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 76.19166666666666,
+            "5-percentile": 105.31547619047619,
+            "25-percentile": 119.177688172043,
+            "50-percentile": 123.64248633879782,
+            "75-percentile": 138.11272893772895,
+            "95-percentile": 146.18971014492755,
+            "99-percentile": 147.5496603047999,
+            "100-percentile": 147.94166666666666
+        },
+        "duration": {
+            "0-percentile": 381.567,
+            "1-percentile": 384.0458,
+            "5-percentile": 390.33024,
+            "25-percentile": 401.06386038647344,
+            "50-percentile": 408.96432203907204,
+            "75-percentile": 416.22837071078413,
+            "95-percentile": 422.7795244186046,
+            "99-percentile": 425.4652925732846,
+            "100-percentile": 426.3402277777776
+        }
+    },
+    "aes-python-10-10": {
+        "name": "aes-python-10-10",
+        "yaml": "./yamls/aes-python/kn-aes-python-10-10.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.0,
+            "5-percentile": 48.0,
+            "25-percentile": 48.21935483870968,
+            "50-percentile": 48.60327868852459,
+            "75-percentile": 48.73406593406594,
+            "95-percentile": 48.903985507246375,
+            "99-percentile": 48.97152898447514,
+            "100-percentile": 49.00833333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.0,
+            "5-percentile": 41.70357142857143,
+            "25-percentile": 45.3002688172043,
+            "50-percentile": 46.83456284153006,
+            "75-percentile": 47.54844322344322,
+            "95-percentile": 47.9745652173913,
+            "99-percentile": 48.05569790628116,
+            "100-percentile": 48.075
+        },
+        "duration": {
+            "0-percentile": 2.574,
+            "1-percentile": 2.6714883333333335,
+            "5-percentile": 2.735051666666666,
+            "25-percentile": 2.8266463768115955,
+            "50-percentile": 3.059575030525031,
+            "75-percentile": 3.955115359477125,
+            "95-percentile": 4.519842990956073,
+            "99-percentile": 4.698042886824432,
+            "100-percentile": 4.885316666666668
+        }
+    },
+    "aes-python-100-101": {
+        "name": "aes-python-100-101",
+        "yaml": "./yamls/aes-python/kn-aes-python-100-101.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 47.0,
+            "5-percentile": 47.279761904761905,
+            "25-percentile": 47.83736559139785,
+            "50-percentile": 48.28920765027323,
+            "75-percentile": 48.5235347985348,
+            "95-percentile": 48.825072463768116,
+            "99-percentile": 48.904193847030335,
+            "100-percentile": 48.93333333333333
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.06333333333333,
+            "5-percentile": 41.135714285714286,
+            "25-percentile": 44.918279569892476,
+            "50-percentile": 46.53702185792349,
+            "75-percentile": 47.34899267399267,
+            "95-percentile": 47.69355072463768,
+            "99-percentile": 47.745883065090446,
+            "100-percentile": 47.75833333333333
+        },
+        "duration": {
+            "0-percentile": 2.697,
+            "1-percentile": 2.909456666666667,
+            "5-percentile": 3.9799172222222223,
+            "25-percentile": 4.656141425120774,
+            "50-percentile": 5.054136446886448,
+            "75-percentile": 6.026035498366012,
+            "95-percentile": 6.771586014211888,
+            "99-percentile": 7.023334042119142,
+            "100-percentile": 7.264383333333336
+        }
+    },
+    "aes-python-500-505": {
+        "name": "aes-python-500-505",
+        "yaml": "./yamls/aes-python/kn-aes-python-500-505.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.0,
+            "5-percentile": 48.0,
+            "25-percentile": 48.57715053763441,
+            "50-percentile": 48.82636612021858,
+            "75-percentile": 49.21327838827838,
+            "95-percentile": 49.4568115942029,
+            "99-percentile": 49.518626976214215,
+            "100-percentile": 49.53333333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.06333333333333,
+            "5-percentile": 41.99166666666667,
+            "25-percentile": 45.61720430107527,
+            "50-percentile": 47.45437158469945,
+            "75-percentile": 48.562271062271066,
+            "95-percentile": 49.071014492753626,
+            "99-percentile": 49.14828372026777,
+            "100-percentile": 49.166666666666664
+        },
+        "duration": {
+            "0-percentile": 6.01,
+            "1-percentile": 6.14002,
+            "5-percentile": 7.396639999999999,
+            "25-percentile": 11.47027548309179,
+            "50-percentile": 12.838741147741153,
+            "75-percentile": 14.00263218954249,
+            "95-percentile": 14.869861918604657,
+            "99-percentile": 15.218875843324348,
+            "100-percentile": 15.434377777777788
+        }
+    },
+    "aes-python-1000-1010": {
+        "name": "aes-python-1000-1010",
+        "yaml": "./yamls/aes-python/kn-aes-python-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 49.0,
+            "5-percentile": 49.0,
+            "25-percentile": 49.70725806451613,
+            "50-percentile": 50.00819672131148,
+            "75-percentile": 50.493040293040295,
+            "95-percentile": 50.90442028985507,
+            "99-percentile": 50.995169491525424,
+            "100-percentile": 51.025
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.06333333333333,
+            "5-percentile": 40.84761904761905,
+            "25-percentile": 44.6255376344086,
+            "50-percentile": 46.495628415300544,
+            "75-percentile": 47.65091575091575,
+            "95-percentile": 48.28188405797101,
+            "99-percentile": 48.39076342401368,
+            "100-percentile": 48.416666666666664
+        },
+        "duration": {
+            "0-percentile": 11.598,
+            "1-percentile": 12.379855000000001,
+            "5-percentile": 16.118443888888887,
+            "25-percentile": 19.316738647342994,
+            "50-percentile": 20.602046825396826,
+            "75-percentile": 21.706487214052302,
+            "95-percentile": 22.846833785529732,
+            "99-percentile": 23.242845617349836,
+            "100-percentile": 23.460838888888905
+        }
+    },
+    "aes-python-2000-2020": {
+        "name": "aes-python-2000-2020",
+        "yaml": "./yamls/aes-python/kn-aes-python-2000-2020.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.0,
+            "25-percentile": 50.12177419354839,
+            "50-percentile": 50.59494535519126,
+            "75-percentile": 51.371153846153845,
+            "95-percentile": 51.8522463768116,
+            "99-percentile": 51.97833570716422,
+            "100-percentile": 52.583333333333336
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 39.531666666666666,
+            "5-percentile": 40.83928571428571,
+            "25-percentile": 45.13763440860215,
+            "50-percentile": 47.305601092896175,
+            "75-percentile": 48.26309523809523,
+            "95-percentile": 48.83427536231884,
+            "99-percentile": 48.92102763139154,
+            "100-percentile": 48.94166666666667
+        },
+        "duration": {
+            "0-percentile": 14.642,
+            "1-percentile": 18.97788,
+            "5-percentile": 25.57634555555555,
+            "25-percentile": 29.56505929951691,
+            "50-percentile": 30.9588126984127,
+            "75-percentile": 32.12461021241829,
+            "95-percentile": 33.335586724806184,
+            "99-percentile": 33.71553069581317,
+            "100-percentile": 33.892783333333306
+        }
+    },
+    "aes-python-4500-4545": {
+        "name": "aes-python-4500-4545",
+        "yaml": "./yamls/aes-python/kn-aes-python-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 49.595,
+            "5-percentile": 50.56785714285714,
+            "25-percentile": 51.316935483870964,
+            "50-percentile": 51.81803278688524,
+            "75-percentile": 52.86419413919414,
+            "95-percentile": 53.53659420289855,
+            "99-percentile": 53.67532758866258,
+            "100-percentile": 54.38333333333333
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 40.19,
+            "5-percentile": 42.70357142857143,
+            "25-percentile": 46.84489247311828,
+            "50-percentile": 48.586612021857924,
+            "75-percentile": 49.38223443223443,
+            "95-percentile": 49.90442028985507,
+            "99-percentile": 49.988362768836346,
+            "100-percentile": 50.00833333333333
+        },
+        "duration": {
+            "0-percentile": 32.389,
+            "1-percentile": 35.16899000000001,
+            "5-percentile": 39.495982222222224,
+            "25-percentile": 45.47904855072464,
+            "50-percentile": 47.57533113553113,
+            "75-percentile": 49.09454109477124,
+            "95-percentile": 50.84747561369509,
+            "99-percentile": 51.544712698198495,
+            "100-percentile": 51.753716666666676
+        }
+    },
+    "aes-python-7000-7070": {
+        "name": "aes-python-7000-7070",
+        "yaml": "./yamls/aes-python/kn-aes-python-7000-7070.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 50.595,
+            "5-percentile": 51.56785714285714,
+            "25-percentile": 52.57715053763441,
+            "50-percentile": 53.20642076502732,
+            "75-percentile": 54.58717948717948,
+            "95-percentile": 55.370000000000005,
+            "99-percentile": 55.54585386697052,
+            "100-percentile": 55.61666666666667
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.65833333333333,
+            "5-percentile": 43.70357142857143,
+            "25-percentile": 47.39784946236559,
+            "50-percentile": 48.95846994535519,
+            "75-percentile": 49.96117216117216,
+            "95-percentile": 50.38666666666666,
+            "99-percentile": 50.45129183876941,
+            "100-percentile": 50.46666666666667
+        },
+        "duration": {
+            "0-percentile": 52.552,
+            "1-percentile": 53.70583,
+            "5-percentile": 57.300893888888886,
+            "25-percentile": 61.1093,
+            "50-percentile": 63.09549932844932,
+            "75-percentile": 64.91567275326798,
+            "95-percentile": 67.40229728682169,
+            "99-percentile": 68.37319683729835,
+            "100-percentile": 68.72755000000001
+        }
+    },
+    "aes-python-10000-10100": {
+        "name": "aes-python-10000-10100",
+        "yaml": "./yamls/aes-python/kn-aes-python-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 53.0,
+            "1-percentile": 53.0,
+            "5-percentile": 53.0,
+            "25-percentile": 53.73978494623656,
+            "50-percentile": 54.34699453551913,
+            "75-percentile": 56.07747252747253,
+            "95-percentile": 57.081086956521744,
+            "99-percentile": 57.30176399373309,
+            "100-percentile": 57.36666666666667
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.65833333333333,
+            "5-percentile": 43.55952380952381,
+            "25-percentile": 47.527956989247315,
+            "50-percentile": 49.20642076502732,
+            "75-percentile": 50.12738095238095,
+            "95-percentile": 50.518188405797105,
+            "99-percentile": 50.577545221478424,
+            "100-percentile": 50.59166666666667
+        },
+        "duration": {
+            "0-percentile": 71.139,
+            "1-percentile": 73.37148,
+            "5-percentile": 76.43507388888888,
+            "25-percentile": 80.70990217391304,
+            "50-percentile": 83.26575463980464,
+            "75-percentile": 85.69285751633987,
+            "95-percentile": 88.83923168604652,
+            "99-percentile": 89.9445583048773,
+            "100-percentile": 90.29166666666669
+        }
+    },
+    "aes-python-20000-20200": {
+        "name": "aes-python-20000-20200",
+        "yaml": "./yamls/aes-python/kn-aes-python-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 56.0,
+            "1-percentile": 56.531666666666666,
+            "5-percentile": 56.85595238095238,
+            "25-percentile": 57.95913978494624,
+            "50-percentile": 58.908879781420765,
+            "75-percentile": 62.11062271062271,
+            "95-percentile": 63.84521739130435,
+            "99-percentile": 64.17748682523857,
+            "100-percentile": 64.29166666666667
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 42.06333333333333,
+            "5-percentile": 43.983333333333334,
+            "25-percentile": 47.69059139784946,
+            "50-percentile": 49.25601092896175,
+            "75-percentile": 50.16062271062271,
+            "95-percentile": 50.553695652173914,
+            "99-percentile": 50.6516870816123,
+            "100-percentile": 50.675
+        },
+        "duration": {
+            "0-percentile": 130.232,
+            "1-percentile": 133.33608500000003,
+            "5-percentile": 138.24777333333333,
+            "25-percentile": 144.2611251207729,
+            "50-percentile": 148.35721172161166,
+            "75-percentile": 152.64610714869272,
+            "95-percentile": 157.59458572351411,
+            "99-percentile": 159.1998562099051,
+            "100-percentile": 159.7628888888888
+        }
+    },
+    "aes-python-45000-45450": {
+        "name": "aes-python-45000-45450",
+        "yaml": "./yamls/aes-python/kn-aes-python-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 58.165,
+            "5-percentile": 64.975,
+            "25-percentile": 68.3736559139785,
+            "50-percentile": 70.21352459016393,
+            "75-percentile": 77.14093406593406,
+            "95-percentile": 80.57688405797101,
+            "99-percentile": 81.28763851303233,
+            "100-percentile": 81.69166666666666
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 41.785,
+            "5-percentile": 45.40714285714286,
+            "25-percentile": 49.36532258064516,
+            "50-percentile": 51.04945355191256,
+            "75-percentile": 51.8503663003663,
+            "95-percentile": 52.29898550724638,
+            "99-percentile": 52.367122916963396,
+            "100-percentile": 52.391666666666666
+        },
+        "duration": {
+            "0-percentile": 291.649,
+            "1-percentile": 296.974085,
+            "5-percentile": 301.13017055555554,
+            "25-percentile": 307.5403760869566,
+            "50-percentile": 313.63193089133097,
+            "75-percentile": 320.06311858660126,
+            "95-percentile": 326.86148294573627,
+            "99-percentile": 329.77456864352513,
+            "100-percentile": 331.1695888888888
+        }
+    },
+    "aes-python-70000-70700": {
+        "name": "aes-python-70000-70700",
+        "yaml": "./yamls/aes-python/kn-aes-python-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 63.48166666666667,
+            "5-percentile": 74.10238095238095,
+            "25-percentile": 79.04005376344085,
+            "50-percentile": 81.40437158469945,
+            "75-percentile": 91.89697802197801,
+            "95-percentile": 96.98282608695652,
+            "99-percentile": 97.84834995014954,
+            "100-percentile": 98.10833333333333
+        },
+        "memory": {
+            "0-percentile": 45.0,
+            "1-percentile": 45.06333333333333,
+            "5-percentile": 46.135714285714286,
+            "25-percentile": 48.47123655913978,
+            "50-percentile": 49.65273224043716,
+            "75-percentile": 50.42655677655678,
+            "95-percentile": 50.825507246376816,
+            "99-percentile": 50.91261073921094,
+            "100-percentile": 50.93333333333333
+        },
+        "duration": {
+            "0-percentile": 452.101,
+            "1-percentile": 453.3229283333334,
+            "5-percentile": 456.74081444444437,
+            "25-percentile": 466.6243307971013,
+            "50-percentile": 476.01149731379724,
+            "75-percentile": 486.19204317810454,
+            "95-percentile": 496.16177932816527,
+            "99-percentile": 499.3957379834912,
+            "100-percentile": 500.54356111111093
+        }
+    },
+    "aes-python-100000-101000": {
+        "name": "aes-python-100000-101000",
+        "yaml": "./yamls/aes-python/kn-aes-python-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 71.925,
+            "5-percentile": 86.65357142857142,
+            "25-percentile": 93.48709677419355,
+            "50-percentile": 96.32759562841531,
+            "75-percentile": 112.01584249084249,
+            "95-percentile": 119.70702898550725,
+            "99-percentile": 121.05306366614442,
+            "100-percentile": 121.48333333333333
+        },
+        "memory": {
+            "0-percentile": 44.0,
+            "1-percentile": 45.595,
+            "5-percentile": 47.27142857142857,
+            "25-percentile": 50.438709677419354,
+            "50-percentile": 51.685792349726775,
+            "75-percentile": 52.49578754578754,
+            "95-percentile": 53.05391304347826,
+            "99-percentile": 53.17192422731805,
+            "100-percentile": 53.2
+        },
+        "duration": {
+            "0-percentile": 641.179,
+            "1-percentile": 651.9755916666667,
+            "5-percentile": 659.8964855555555,
+            "25-percentile": 677.2121388888888,
+            "50-percentile": 691.9468537851037,
+            "75-percentile": 705.450083006536,
+            "95-percentile": 718.8827206395347,
+            "99-percentile": 723.2116620152531,
+            "100-percentile": 725.1830111111109
+        }
+    },
+    "aes-python-200000-202000": {
+        "name": "aes-python-200000-202000",
+        "yaml": "./yamls/aes-python/kn-aes-python-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 136.0,
+            "1-percentile": 136.595,
+            "5-percentile": 137.84761904761905,
+            "25-percentile": 139.9508064516129,
+            "50-percentile": 143.73428961748635,
+            "75-percentile": 172.42509157509159,
+            "95-percentile": 186.63065217391303,
+            "99-percentile": 189.0380601053981,
+            "100-percentile": 189.69166666666666
+        },
+        "memory": {
+            "0-percentile": 49.0,
+            "1-percentile": 50.19,
+            "5-percentile": 52.83928571428571,
+            "25-percentile": 56.59301075268817,
+            "50-percentile": 57.9172131147541,
+            "75-percentile": 58.68415750915751,
+            "95-percentile": 59.25601449275362,
+            "99-percentile": 59.42121065375303,
+            "100-percentile": 59.46666666666667
+        },
+        "duration": {
+            "0-percentile": 1260.842,
+            "1-percentile": 1273.1759616666668,
+            "5-percentile": 1289.1391666666666,
+            "25-percentile": 1318.320514009662,
+            "50-percentile": 1343.17950006105,
+            "75-percentile": 1370.0456660539214,
+            "95-percentile": 1394.619601905685,
+            "99-percentile": 1401.2515672920724,
+            "100-percentile": 1404.2920833333337
+        }
+    },
+    "aes-python-450000-454500": {
+        "name": "aes-python-450000-454500",
+        "yaml": "./yamls/aes-python/kn-aes-python-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 173.0,
+            "1-percentile": 219.09333333333333,
+            "5-percentile": 293.71666666666664,
+            "25-percentile": 327.0784946236559,
+            "50-percentile": 337.4771857923497,
+            "75-percentile": 349.714010989011,
+            "95-percentile": 356.7105072463768,
+            "99-percentile": 358.38688505910835,
+            "100-percentile": 358.8
+        },
+        "memory": {
+            "0-percentile": 48.0,
+            "1-percentile": 53.975,
+            "5-percentile": 59.82261904761904,
+            "25-percentile": 65.81236559139785,
+            "50-percentile": 67.77663934426229,
+            "75-percentile": 69.13287545787546,
+            "95-percentile": 70.08108695652174,
+            "99-percentile": 70.33221122347244,
+            "100-percentile": 70.40833333333333
+        },
+        "duration": {
+            "0-percentile": 2882.651,
+            "1-percentile": 2900.642961666667,
+            "5-percentile": 2945.7268133333337,
+            "25-percentile": 2996.1865868357486,
+            "50-percentile": 3032.9502869352873,
+            "75-percentile": 3064.1781899918305,
+            "95-percentile": 3096.814892312662,
+            "99-percentile": 3108.7996261571784,
+            "100-percentile": 3112.0094666666673
+        }
+    },
+    "aes-python-700000-707000": {
+        "name": "aes-python-700000-707000",
+        "yaml": "./yamls/aes-python/kn-aes-python-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 305.0,
+            "1-percentile": 343.06666666666666,
+            "5-percentile": 396.775,
+            "25-percentile": 423.0543010752688,
+            "50-percentile": 434.79043715846996,
+            "75-percentile": 497.1132783882784,
+            "95-percentile": 526.0780434782608,
+            "99-percentile": 530.9278364905284,
+            "100-percentile": 532.1166666666667
+        },
+        "memory": {
+            "0-percentile": 52.0,
+            "1-percentile": 60.165,
+            "5-percentile": 68.67023809523809,
+            "25-percentile": 75.90161290322581,
+            "50-percentile": 78.850956284153,
+            "75-percentile": 80.66749084249084,
+            "95-percentile": 81.91492753623189,
+            "99-percentile": 82.19754094858283,
+            "100-percentile": 82.275
+        },
+        "duration": {
+            "0-percentile": 4571.407,
+            "1-percentile": 4588.163206666667,
+            "5-percentile": 4644.332821666667,
+            "25-percentile": 4721.971728019325,
+            "50-percentile": 4765.70589822955,
+            "75-percentile": 4806.363354616014,
+            "95-percentile": 4849.066143443153,
+            "99-percentile": 4859.7595612736195,
+            "100-percentile": 4865.280866666669
+        }
+    },
+    "aes-python-1000000-1010000": {
+        "name": "aes-python-1000000-1010000",
+        "yaml": "./yamls/aes-python/kn-aes-python-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 179.0,
+            "1-percentile": 376.61833333333334,
+            "5-percentile": 549.6214285714286,
+            "25-percentile": 620.1403225806451,
+            "50-percentile": 641.7979508196722,
+            "75-percentile": 703.3653846153846,
+            "95-percentile": 732.5006521739131,
+            "99-percentile": 737.476910696482,
+            "100-percentile": 738.6833333333333
+        },
+        "memory": {
+            "0-percentile": 52.0,
+            "1-percentile": 65.33,
+            "5-percentile": 81.21309523809525,
+            "25-percentile": 90.31612903225806,
+            "50-percentile": 93.74344262295082,
+            "75-percentile": 95.83644688644688,
+            "95-percentile": 97.40768115942029,
+            "99-percentile": 97.839200968523,
+            "100-percentile": 97.95833333333333
+        },
+        "duration": {
+            "0-percentile": 6635.636,
+            "1-percentile": 6663.037758333334,
+            "5-percentile": 6694.488358333333,
+            "25-percentile": 6774.28552705314,
+            "50-percentile": 6836.852614529918,
+            "75-percentile": 6892.823198856212,
+            "95-percentile": 6949.364521931526,
+            "99-percentile": 6963.193299536753,
+            "100-percentile": 6967.046855555556
+        }
+    },
+    "auth-go": {
+        "name": "auth-go",
+        "yaml": "./yamls/auth/kn-auth-go.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.235294117647059,
+            "95-percentile": 3.3924695459579177,
+            "99-percentile": 3.5906666666666673,
+            "100-percentile": 3.7333333333333334
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.22,
+            "5-percentile": 18.733333333333334,
+            "25-percentile": 21.166666666666668,
+            "50-percentile": 23.0,
+            "75-percentile": 24.235294117647058,
+            "95-percentile": 24.985714285714284,
+            "99-percentile": 25.104666666666667,
+            "100-percentile": 25.133333333333333
+        },
+        "duration": {
+            "0-percentile": 0.601,
+            "1-percentile": 0.6106333333333334,
+            "5-percentile": 0.6376266666666667,
+            "25-percentile": 0.693581038647343,
+            "50-percentile": 0.7269429181929187,
+            "75-percentile": 0.7567883578431375,
+            "95-percentile": 0.7833937661498709,
+            "99-percentile": 0.7966316913564749,
+            "100-percentile": 0.8098055555555557
+        }
+    },
+    "auth-python": {
+        "name": "auth-python",
+        "yaml": "./yamls/auth/kn-auth-python.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.0,
+            "25-percentile": 50.25,
+            "50-percentile": 50.608695652173914,
+            "75-percentile": 50.73529411764706,
+            "95-percentile": 50.90177187153931,
+            "99-percentile": 52.26177777777778,
+            "100-percentile": 53.28888888888889
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.0,
+            "5-percentile": 40.36666666666667,
+            "25-percentile": 43.083333333333336,
+            "50-percentile": 45.130434782608695,
+            "75-percentile": 46.205882352941174,
+            "95-percentile": 46.79878183831672,
+            "99-percentile": 46.92511111111111,
+            "100-percentile": 46.955555555555556
+        },
+        "duration": {
+            "0-percentile": 1.551,
+            "1-percentile": 1.6067000000000002,
+            "5-percentile": 1.6762422222222224,
+            "25-percentile": 1.7689864734299516,
+            "50-percentile": 1.8337699633699636,
+            "75-percentile": 1.900869158496732,
+            "95-percentile": 2.4661275193798446,
+            "99-percentile": 2.5776823702215803,
+            "100-percentile": 2.8009277777777775
+        }
+    },
+    "auth-nodejs": {
+        "name": "auth-nodejs",
+        "yaml": "./yamls/auth/kn-auth-nodejs.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.5833333333333335,
+            "50-percentile": 3.782608695652174,
+            "75-percentile": 3.8529411764705883,
+            "95-percentile": 4.018604651162791,
+            "99-percentile": 4.266444444444446,
+            "100-percentile": 4.4222222222222225
+        },
+        "memory": {
+            "0-percentile": 37.0,
+            "1-percentile": 37.22,
+            "5-percentile": 37.733333333333334,
+            "25-percentile": 40.0,
+            "50-percentile": 41.21739130434783,
+            "75-percentile": 42.088235294117645,
+            "95-percentile": 42.593244739756365,
+            "99-percentile": 42.68822222222222,
+            "100-percentile": 42.71111111111111
+        },
+        "duration": {
+            "0-percentile": 2.398,
+            "1-percentile": 2.4046333333333334,
+            "5-percentile": 2.4209222222222215,
+            "25-percentile": 2.460679951690821,
+            "50-percentile": 2.4938214285714286,
+            "75-percentile": 2.5301590277777772,
+            "95-percentile": 2.661198352713177,
+            "99-percentile": 2.74822847812441,
+            "100-percentile": 2.8869722222222207
+        }
+    },
+    "fibonacci-go-10-10": {
+        "name": "fibonacci-go-10-10",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-10-10.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.105652173913043,
+            "99-percentile": 3.1482837202677683,
+            "100-percentile": 3.1666666666666665
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 17.991666666666667,
+            "25-percentile": 21.747311827956988,
+            "50-percentile": 23.685792349726775,
+            "75-percentile": 24.750641025641023,
+            "95-percentile": 25.369565217391305,
+            "99-percentile": 25.47493234581968,
+            "100-percentile": 25.5
+        },
+        "duration": {
+            "0-percentile": 0.554,
+            "1-percentile": 0.5873233333333334,
+            "5-percentile": 0.62723,
+            "25-percentile": 0.6934536231884059,
+            "50-percentile": 0.7429145299145297,
+            "75-percentile": 0.7799120506535943,
+            "95-percentile": 0.8089053294573644,
+            "99-percentile": 0.817270183918147,
+            "100-percentile": 0.8279777777777778
+        }
+    },
+    "fibonacci-go-1000-1010": {
+        "name": "fibonacci-go-1000-1010",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 2.988919413919414,
+            "95-percentile": 3.105652173913043,
+            "99-percentile": 3.1414769975786925,
+            "100-percentile": 3.15
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 18.135714285714286,
+            "25-percentile": 21.43037634408602,
+            "50-percentile": 23.545218579234973,
+            "75-percentile": 24.853113553113552,
+            "95-percentile": 25.50985507246377,
+            "99-percentile": 25.609602620709303,
+            "100-percentile": 25.633333333333333
+        },
+        "duration": {
+            "0-percentile": 0.577,
+            "1-percentile": 0.6029,
+            "5-percentile": 0.6566388888888889,
+            "25-percentile": 0.7866048309178746,
+            "50-percentile": 0.8402844932844937,
+            "75-percentile": 0.8799617647058828,
+            "95-percentile": 0.9194588501291995,
+            "99-percentile": 0.9312128761534123,
+            "100-percentile": 0.9361722222222228
+        }
+    },
+    "fibonacci-go-4500-4545": {
+        "name": "fibonacci-go-4500-4545",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.0,
+            "95-percentile": 3.167028985507246,
+            "99-percentile": 3.2156188577125766,
+            "100-percentile": 3.2333333333333334
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.063333333333333,
+            "5-percentile": 17.991666666666667,
+            "25-percentile": 22.00752688172043,
+            "50-percentile": 24.247677595628414,
+            "75-percentile": 25.833699633699634,
+            "95-percentile": 26.7031884057971,
+            "99-percentile": 26.835248540094003,
+            "100-percentile": 26.866666666666667
+        },
+        "duration": {
+            "0-percentile": 1.087,
+            "1-percentile": 1.146015,
+            "5-percentile": 1.2870438888888889,
+            "25-percentile": 1.5442500000000003,
+            "50-percentile": 1.6300730769230771,
+            "75-percentile": 1.7014443218954245,
+            "95-percentile": 1.8236005167958653,
+            "99-percentile": 1.8932334991525952,
+            "100-percentile": 1.9369722222222217
+        }
+    },
+    "fibonacci-go-10000-10100": {
+        "name": "fibonacci-go-10000-10100",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.3072409488139822,
+            "95-percentile": 3.451808725353206,
+            "99-percentile": 3.473767926988266,
+            "100-percentile": 3.4789915966386555
+        },
+        "memory": {
+            "0-percentile": 17.0,
+            "1-percentile": 17.53,
+            "5-percentile": 18.547619047619047,
+            "25-percentile": 23.490860215053765,
+            "50-percentile": 25.8,
+            "75-percentile": 27.094881398252184,
+            "95-percentile": 27.755061325881076,
+            "99-percentile": 27.885045632333767,
+            "100-percentile": 27.915966386554622
+        },
+        "duration": {
+            "0-percentile": 1.59,
+            "1-percentile": 1.907415,
+            "5-percentile": 2.5554466666666666,
+            "25-percentile": 3.3334173913043488,
+            "50-percentile": 3.4981367521367526,
+            "75-percentile": 3.63983725490196,
+            "95-percentile": 3.851205329457364,
+            "99-percentile": 3.932580248571967,
+            "100-percentile": 3.9654222222222226
+        }
+    },
+    "fibonacci-go-20000-20200": {
+        "name": "fibonacci-go-20000-20200",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.4379781420765028,
+            "75-percentile": 3.6232600732600733,
+            "95-percentile": 3.9394927536231883,
+            "99-percentile": 4.028837060247828,
+            "100-percentile": 4.191666666666666
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 17.126666666666665,
+            "5-percentile": 19.686904761904763,
+            "25-percentile": 26.771505376344084,
+            "50-percentile": 29.231147540983606,
+            "75-percentile": 30.473626373626374,
+            "95-percentile": 31.07144927536232,
+            "99-percentile": 31.188758011679248,
+            "100-percentile": 31.216666666666665
+        },
+        "duration": {
+            "0-percentile": 3.196,
+            "1-percentile": 3.7946866666666668,
+            "5-percentile": 4.86346611111111,
+            "25-percentile": 8.00890458937198,
+            "50-percentile": 8.643794139194139,
+            "75-percentile": 9.000155555555558,
+            "95-percentile": 9.38911582687339,
+            "99-percentile": 9.548997582072694,
+            "100-percentile": 9.605600000000006
+        }
+    },
+    "fibonacci-go-45000-45450": {
+        "name": "fibonacci-go-45000-45450",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.5316666666666667,
+            "5-percentile": 3.855952380952381,
+            "25-percentile": 4.7397849462365595,
+            "50-percentile": 5.0412568306010925,
+            "75-percentile": 5.6481684981684985,
+            "95-percentile": 6.044710144927537,
+            "99-percentile": 6.1230330437259655,
+            "100-percentile": 6.141666666666667
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 19.595,
+            "5-percentile": 22.407142857142855,
+            "25-percentile": 27.38951612903226,
+            "50-percentile": 29.495628415300544,
+            "75-percentile": 30.65091575091575,
+            "95-percentile": 31.264347826086958,
+            "99-percentile": 31.37392963965247,
+            "100-percentile": 31.4
+        },
+        "duration": {
+            "0-percentile": 17.548,
+            "1-percentile": 17.9248,
+            "5-percentile": 19.510066111111115,
+            "25-percentile": 24.070841908212564,
+            "50-percentile": 25.529694261294267,
+            "75-percentile": 26.48237769607843,
+            "95-percentile": 27.56146511627908,
+            "99-percentile": 27.84283640794678,
+            "100-percentile": 27.935605555555565
+        }
+    },
+    "fibonacci-go-70000-70700": {
+        "name": "fibonacci-go-70000-70700",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 3.5949999999999998,
+            "5-percentile": 4.991666666666666,
+            "25-percentile": 5.894086021505377,
+            "50-percentile": 6.586612021857923,
+            "75-percentile": 7.5733516483516485,
+            "95-percentile": 8.194202898550724,
+            "99-percentile": 8.306594502207663,
+            "100-percentile": 8.333333333333334
+        },
+        "memory": {
+            "0-percentile": 21.0,
+            "1-percentile": 22.063333333333333,
+            "5-percentile": 24.551190476190477,
+            "25-percentile": 29.19435483870968,
+            "50-percentile": 31.305601092896175,
+            "75-percentile": 32.24093406593407,
+            "95-percentile": 32.81673913043478,
+            "99-percentile": 32.904193847030335,
+            "100-percentile": 32.925
+        },
+        "duration": {
+            "0-percentile": 29.511,
+            "1-percentile": 29.873833333333334,
+            "5-percentile": 31.717069444444444,
+            "25-percentile": 39.11662028985507,
+            "50-percentile": 41.92182698412698,
+            "75-percentile": 44.932497916666655,
+            "95-percentile": 47.68884489664082,
+            "99-percentile": 48.25504449406815,
+            "100-percentile": 48.41626111111109
+        }
+    },
+    "fibonacci-go-100000-101000": {
+        "name": "fibonacci-go-100000-101000",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 5.1899999999999995,
+            "5-percentile": 7.135714285714286,
+            "25-percentile": 8.479569892473119,
+            "50-percentile": 8.801502732240436,
+            "75-percentile": 10.745054945054944,
+            "95-percentile": 11.8268115942029,
+            "99-percentile": 12.034033613445379,
+            "100-percentile": 12.083333333333334
+        },
+        "memory": {
+            "0-percentile": 20.0,
+            "1-percentile": 21.126666666666665,
+            "5-percentile": 23.839285714285715,
+            "25-percentile": 28.649731182795698,
+            "50-percentile": 30.743579234972678,
+            "75-percentile": 31.963919413919413,
+            "95-percentile": 32.597536231884064,
+            "99-percentile": 32.693771542515314,
+            "100-percentile": 32.71666666666667
+        },
+        "duration": {
+            "0-percentile": 51.554,
+            "1-percentile": 59.7049,
+            "5-percentile": 65.16506055555554,
+            "25-percentile": 73.61468128019322,
+            "50-percentile": 78.0110955433455,
+            "75-percentile": 80.3902894199346,
+            "95-percentile": 82.03767235142116,
+            "99-percentile": 82.47502650053352,
+            "100-percentile": 82.7239722222222
+        }
+    },
+    "fibonacci-go-200000-202000": {
+        "name": "fibonacci-go-200000-202000",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 12.633333333333333,
+            "5-percentile": 19.398809523809522,
+            "25-percentile": 22.950806451612905,
+            "50-percentile": 24.602049180327867,
+            "75-percentile": 31.442857142857143,
+            "95-percentile": 34.90086956521739,
+            "99-percentile": 35.48086098846318,
+            "100-percentile": 35.63333333333333
+        },
+        "memory": {
+            "0-percentile": 22.0,
+            "1-percentile": 23.126666666666665,
+            "5-percentile": 25.686904761904763,
+            "25-percentile": 29.81236559139785,
+            "50-percentile": 31.63620218579235,
+            "75-percentile": 32.606593406593404,
+            "95-percentile": 33.10608695652174,
+            "99-percentile": 33.18875801167925,
+            "100-percentile": 33.21666666666667
+        },
+        "duration": {
+            "0-percentile": 241.54,
+            "1-percentile": 245.05272,
+            "5-percentile": 258.18029500000006,
+            "25-percentile": 277.41338876811596,
+            "50-percentile": 287.1275873015874,
+            "75-percentile": 294.6618588235296,
+            "95-percentile": 300.6226730297158,
+            "99-percentile": 301.9518582094659,
+            "100-percentile": 302.3689833333334
+        }
+    },
+    "fibonacci-go-450000-454500": {
+        "name": "fibonacci-go-450000-454500",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 13.0,
+            "1-percentile": 68.015,
+            "5-percentile": 105.1297619047619,
+            "25-percentile": 122.20188172043011,
+            "50-percentile": 127.88620218579234,
+            "75-percentile": 160.63553113553115,
+            "95-percentile": 175.36760869565217,
+            "99-percentile": 177.74507904856858,
+            "100-percentile": 178.33333333333334
+        },
+        "memory": {
+            "0-percentile": 23.0,
+            "1-percentile": 24.126666666666665,
+            "5-percentile": 26.695238095238096,
+            "25-percentile": 30.52795698924731,
+            "50-percentile": 32.388251366120215,
+            "75-percentile": 33.27417582417583,
+            "95-percentile": 33.843043478260874,
+            "99-percentile": 33.929444523572144,
+            "100-percentile": 33.95
+        },
+        "duration": {
+            "0-percentile": 1539.963,
+            "1-percentile": 1540.3697783333332,
+            "5-percentile": 1561.876606666667,
+            "25-percentile": 1601.4141657004834,
+            "50-percentile": 1620.1131926129424,
+            "75-percentile": 1634.8603642565354,
+            "95-percentile": 1647.7982245155029,
+            "99-percentile": 1651.3801148537436,
+            "100-percentile": 1652.4275499999992
+        }
+    },
+    "fibonacci-go-700000-707000": {
+        "name": "fibonacci-go-700000-707000",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 44.0,
+            "1-percentile": 173.335,
+            "5-percentile": 264.79404761904766,
+            "25-percentile": 301.84247311827954,
+            "50-percentile": 312.66803278688525,
+            "75-percentile": 381.4730769230769,
+            "95-percentile": 412.9311594202899,
+            "99-percentile": 417.9718971656459,
+            "100-percentile": 419.2083333333333
+        },
+        "memory": {
+            "0-percentile": 24.0,
+            "1-percentile": 25.65833333333333,
+            "5-percentile": 28.127380952380953,
+            "25-percentile": 31.788172043010753,
+            "50-percentile": 33.61133879781421,
+            "75-percentile": 34.728479853479854,
+            "95-percentile": 35.202536231884054,
+            "99-percentile": 35.27453710297679,
+            "100-percentile": 35.3
+        },
+        "duration": {
+            "0-percentile": 3765.116,
+            "1-percentile": 3777.03686,
+            "5-percentile": 3807.9851100000005,
+            "25-percentile": 3865.980658695652,
+            "50-percentile": 3898.986292429793,
+            "75-percentile": 3927.2786735702625,
+            "95-percentile": 3952.516164470286,
+            "99-percentile": 3958.406194381711,
+            "100-percentile": 3960.31087777778
+        }
+    },
+    "fibonacci-go-1000000-1010000": {
+        "name": "fibonacci-go-1000000-1010000",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 379.0,
+            "1-percentile": 489.6716666666666,
+            "5-percentile": 699.4964285714286,
+            "25-percentile": 779.0994623655914,
+            "50-percentile": 800.4516393442623,
+            "75-percentile": 842.8869963369964,
+            "95-percentile": 864.0036231884059,
+            "99-percentile": 867.6835265631676,
+            "100-percentile": 868.6583333333333
+        },
+        "memory": {
+            "0-percentile": 22.0,
+            "1-percentile": 24.253333333333334,
+            "5-percentile": 27.415476190476188,
+            "25-percentile": 31.46290322580645,
+            "50-percentile": 33.11557377049181,
+            "75-percentile": 34.01657509157509,
+            "95-percentile": 34.5186231884058,
+            "99-percentile": 34.6180195128899,
+            "100-percentile": 34.641666666666666
+        },
+        "duration": {
+            "0-percentile": 7725.116,
+            "1-percentile": 7854.469413333334,
+            "5-percentile": 7944.663184444444,
+            "25-percentile": 8042.1801015700485,
+            "50-percentile": 8093.239605494506,
+            "75-percentile": 8135.185007679738,
+            "95-percentile": 8173.603060917316,
+            "99-percentile": 8183.748153906538,
+            "100-percentile": 8187.390172222225
+        }
+    },
+    "fibonacci-nodejs-10-10": {
+        "name": "fibonacci-nodejs-10-10",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-10-10.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 2.988919413919414,
+            "95-percentile": 3.176231884057971,
+            "99-percentile": 3.2560931491240566,
+            "100-percentile": 3.283333333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.06333333333333,
+            "5-percentile": 41.99166666666667,
+            "25-percentile": 45.59301075268817,
+            "50-percentile": 47.43784153005464,
+            "75-percentile": 48.28525641025641,
+            "95-percentile": 48.8518115942029,
+            "99-percentile": 48.93786141575274,
+            "100-percentile": 48.958333333333336
+        },
+        "duration": {
+            "0-percentile": 1.582,
+            "1-percentile": 1.857335,
+            "5-percentile": 2.2145625,
+            "25-percentile": 2.5510133265856947,
+            "50-percentile": 2.6467807894736834,
+            "75-percentile": 2.7342261575537288,
+            "95-percentile": 2.8956517605633785,
+            "99-percentile": 2.9777184663522562,
+            "100-percentile": 3.1547199999999984
+        }
+    },
+    "fibonacci-nodejs-1000-1010": {
+        "name": "fibonacci-nodejs-1000-1010",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 2.9834699453551914,
+            "75-percentile": 3.047069597069597,
+            "95-percentile": 3.245942028985507,
+            "99-percentile": 3.282953995157385,
+            "100-percentile": 3.375
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 39.0,
+            "5-percentile": 39.70357142857143,
+            "25-percentile": 43.560483870967744,
+            "50-percentile": 45.44603825136612,
+            "75-percentile": 46.61767399267399,
+            "95-percentile": 47.22050724637681,
+            "99-percentile": 47.33184517874947,
+            "100-percentile": 47.358333333333334
+        },
+        "duration": {
+            "0-percentile": 1.723,
+            "1-percentile": 1.8817183333333336,
+            "5-percentile": 2.2755312500000002,
+            "25-percentile": 2.6969600202429156,
+            "50-percentile": 2.9000318421052635,
+            "75-percentile": 3.0536306494943117,
+            "95-percentile": 3.2304919826652236,
+            "99-percentile": 3.3132030078904418,
+            "100-percentile": 3.429106666666668
+        }
+    },
+    "fibonacci-nodejs-4500-4545": {
+        "name": "fibonacci-nodejs-4500-4545",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.47103825136612,
+            "75-percentile": 3.6454212454212453,
+            "95-percentile": 3.772463768115942,
+            "99-percentile": 3.8216350947158526,
+            "100-percentile": 3.908333333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.531666666666666,
+            "5-percentile": 42.55952380952381,
+            "25-percentile": 46.17016129032258,
+            "50-percentile": 47.94193989071038,
+            "75-percentile": 48.95009157509158,
+            "95-percentile": 49.41340579710145,
+            "99-percentile": 49.51701680672269,
+            "100-percentile": 49.541666666666664
+        },
+        "duration": {
+            "0-percentile": 3.829,
+            "1-percentile": 3.970001666666667,
+            "5-percentile": 5.10969375,
+            "25-percentile": 6.336779858299595,
+            "50-percentile": 6.670673157894737,
+            "75-percentile": 6.958191588969657,
+            "95-percentile": 7.290513001083421,
+            "99-percentile": 7.458475398149824,
+            "100-percentile": 7.621473333333331
+        }
+    },
+    "fibonacci-nodejs-10000-10100": {
+        "name": "fibonacci-nodejs-10000-10100",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 3.4238095238095236,
+            "25-percentile": 3.8698924731182798,
+            "50-percentile": 3.9916666666666667,
+            "75-percentile": 4.61492673992674,
+            "95-percentile": 4.939492753623188,
+            "99-percentile": 5.028837060247828,
+            "100-percentile": 5.133333333333334
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.0,
+            "5-percentile": 41.56785714285714,
+            "25-percentile": 45.81236559139785,
+            "50-percentile": 47.82622950819672,
+            "75-percentile": 48.98608058608058,
+            "95-percentile": 49.633043478260866,
+            "99-percentile": 49.76791340264919,
+            "100-percentile": 49.8
+        },
+        "duration": {
+            "0-percentile": 8.412,
+            "1-percentile": 9.434163333333334,
+            "5-percentile": 12.774525,
+            "25-percentile": 16.021738022941967,
+            "50-percentile": 16.999891929824564,
+            "75-percentile": 17.678409548830594,
+            "95-percentile": 18.3035585048754,
+            "99-percentile": 18.50936806502811,
+            "100-percentile": 18.67483333333333
+        }
+    },
+    "fibonacci-nodejs-20000-20200": {
+        "name": "fibonacci-nodejs-20000-20200",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 3.1266666666666665,
+            "5-percentile": 4.423809523809524,
+            "25-percentile": 4.86989247311828,
+            "50-percentile": 5.264344262295082,
+            "75-percentile": 6.1495421245421245,
+            "95-percentile": 6.536159420289855,
+            "99-percentile": 6.64166001994018,
+            "100-percentile": 7.216666666666667
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 41.65833333333333,
+            "5-percentile": 43.70357142857143,
+            "25-percentile": 48.36532258064516,
+            "50-percentile": 50.39644808743169,
+            "75-percentile": 51.73122710622711,
+            "95-percentile": 52.41340579710145,
+            "99-percentile": 52.51701680672269,
+            "100-percentile": 52.541666666666664
+        },
+        "duration": {
+            "0-percentile": 18.679,
+            "1-percentile": 19.661976666666664,
+            "5-percentile": 23.975637499999998,
+            "25-percentile": 29.341979925775973,
+            "50-percentile": 30.966688684210514,
+            "75-percentile": 31.843966893173185,
+            "95-percentile": 32.60899593716142,
+            "99-percentile": 32.93683941320514,
+            "100-percentile": 33.063886666666654
+        }
+    },
+    "fibonacci-nodejs-45000-45450": {
+        "name": "fibonacci-nodejs-45000-45450",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 4.126666666666667,
+            "5-percentile": 5.991666666666666,
+            "25-percentile": 6.772311827956989,
+            "50-percentile": 7.4295081967213115,
+            "75-percentile": 8.91959706959707,
+            "95-percentile": 9.738260869565217,
+            "99-percentile": 9.875722831505485,
+            "100-percentile": 9.916666666666666
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 43.531666666666666,
+            "5-percentile": 44.83928571428571,
+            "25-percentile": 48.87741935483871,
+            "50-percentile": 50.908879781420765,
+            "75-percentile": 52.01932234432235,
+            "95-percentile": 52.765,
+            "99-percentile": 52.93464107676969,
+            "100-percentile": 52.975
+        },
+        "duration": {
+            "0-percentile": 47.23,
+            "1-percentile": 49.000493333333324,
+            "5-percentile": 53.101531249999994,
+            "25-percentile": 58.65550151821861,
+            "50-percentile": 60.55991552631576,
+            "75-percentile": 62.060871325853334,
+            "95-percentile": 63.5644258125677,
+            "99-percentile": 64.11513183157989,
+            "100-percentile": 64.37378
+        }
+    },
+    "fibonacci-nodejs-70000-70700": {
+        "name": "fibonacci-nodejs-70000-70700",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 6.253333333333333,
+            "5-percentile": 8.847619047619048,
+            "25-percentile": 9.959139784946236,
+            "50-percentile": 10.652459016393443,
+            "75-percentile": 13.160531135531135,
+            "95-percentile": 14.39717391304348,
+            "99-percentile": 14.636829511465603,
+            "100-percentile": 14.716666666666667
+        },
+        "memory": {
+            "0-percentile": 45.0,
+            "1-percentile": 45.0,
+            "5-percentile": 45.695238095238096,
+            "25-percentile": 50.20268817204301,
+            "50-percentile": 52.222950819672135,
+            "75-percentile": 53.41822344322344,
+            "95-percentile": 54.045144927536235,
+            "99-percentile": 54.163507335137446,
+            "100-percentile": 54.19166666666667
+        },
+        "duration": {
+            "0-percentile": 92.417,
+            "1-percentile": 95.42235333333333,
+            "5-percentile": 98.93173125,
+            "25-percentile": 104.13105280026993,
+            "50-percentile": 106.31696263157899,
+            "75-percentile": 108.28008272756007,
+            "95-percentile": 110.95019818526546,
+            "99-percentile": 111.63892583937965,
+            "100-percentile": 111.91608666666667
+        }
+    },
+    "fibonacci-nodejs-100000-101000": {
+        "name": "fibonacci-nodejs-100000-101000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 15.0,
+            "1-percentile": 15.531666666666666,
+            "5-percentile": 15.855952380952381,
+            "25-percentile": 15.96747311827957,
+            "50-percentile": 16.42964480874317,
+            "75-percentile": 20.517765567765565,
+            "95-percentile": 22.811014492753625,
+            "99-percentile": 23.179096994730095,
+            "100-percentile": 23.275
+        },
+        "memory": {
+            "0-percentile": 46.0,
+            "1-percentile": 46.06333333333333,
+            "5-percentile": 47.27142857142857,
+            "25-percentile": 51.17016129032258,
+            "50-percentile": 53.37172131147541,
+            "75-percentile": 54.565018315018314,
+            "95-percentile": 55.28188405797101,
+            "99-percentile": 55.39076342401368,
+            "100-percentile": 55.416666666666664
+        },
+        "duration": {
+            "0-percentile": 176.512,
+            "1-percentile": 179.09403666666665,
+            "5-percentile": 182.99290000000002,
+            "25-percentile": 188.25458215249665,
+            "50-percentile": 191.77864578947364,
+            "75-percentile": 194.7972338219027,
+            "95-percentile": 198.07494666847245,
+            "99-percentile": 199.1366753074552,
+            "100-percentile": 199.5721400000001
+        }
+    },
+    "fibonacci-nodejs-200000-202000": {
+        "name": "fibonacci-nodejs-200000-202000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 24.39333333333333,
+            "5-percentile": 38.94166666666667,
+            "25-percentile": 45.17016129032258,
+            "50-percentile": 47.62527322404371,
+            "75-percentile": 62.17655677655678,
+            "95-percentile": 69.03847826086957,
+            "99-percentile": 70.15853083606324,
+            "100-percentile": 70.525
+        },
+        "memory": {
+            "0-percentile": 57.0,
+            "1-percentile": 57.595,
+            "5-percentile": 59.27142857142857,
+            "25-percentile": 63.649731182795705,
+            "50-percentile": 65.76010928961749,
+            "75-percentile": 66.82820512820513,
+            "95-percentile": 67.2814492753623,
+            "99-percentile": 67.3502891326022,
+            "100-percentile": 67.36666666666666
+        },
+        "duration": {
+            "0-percentile": 610.978,
+            "1-percentile": 613.95039,
+            "5-percentile": 622.5780375,
+            "25-percentile": 635.7805767543861,
+            "50-percentile": 644.2919010526316,
+            "75-percentile": 652.6893344461124,
+            "95-percentile": 662.0543267605633,
+            "99-percentile": 665.5391448825503,
+            "100-percentile": 666.6176800000001
+        }
+    },
+    "fibonacci-nodejs-450000-454500": {
+        "name": "fibonacci-nodejs-450000-454500",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 53.705,
+            "5-percentile": 192.0511904761905,
+            "25-percentile": 244.5247311827957,
+            "50-percentile": 257.10573770491806,
+            "75-percentile": 300.16959706959705,
+            "95-percentile": 320.3333333333333,
+            "99-percentile": 323.62709656744056,
+            "100-percentile": 324.43333333333334
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 57.735,
+            "5-percentile": 71.65357142857142,
+            "25-percentile": 79.48709677419355,
+            "50-percentile": 81.68579234972677,
+            "75-percentile": 82.77280219780219,
+            "95-percentile": 83.37833333333333,
+            "99-percentile": 83.48334923800029,
+            "100-percentile": 83.50833333333334
+        },
+        "duration": {
+            "0-percentile": 3114.054,
+            "1-percentile": 3119.782905,
+            "5-percentile": 3130.00510625,
+            "25-percentile": 3167.3106914642376,
+            "50-percentile": 3195.9571630701757,
+            "75-percentile": 3220.027185050569,
+            "95-percentile": 3244.157842659805,
+            "99-percentile": 3250.9370501432977,
+            "100-percentile": 3252.8857533333335
+        }
+    },
+    "fibonacci-nodejs-700000-707000": {
+        "name": "fibonacci-nodejs-700000-707000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 236.0,
+            "1-percentile": 421.07666666666665,
+            "5-percentile": 630.6321428571429,
+            "25-percentile": 713.5698924731182,
+            "50-percentile": 736.9546448087432,
+            "75-percentile": 762.0761904761905,
+            "95-percentile": 775.8594927536233,
+            "99-percentile": 778.3005939324883,
+            "100-percentile": 778.9333333333333
+        },
+        "memory": {
+            "0-percentile": 75.0,
+            "1-percentile": 76.06333333333333,
+            "5-percentile": 77.98333333333333,
+            "25-percentile": 81.94247311827957,
+            "50-percentile": 83.78497267759562,
+            "75-percentile": 84.6952380952381,
+            "95-percentile": 85.1854347826087,
+            "99-percentile": 85.29817761002705,
+            "100-percentile": 85.325
+        },
+        "duration": {
+            "0-percentile": 7457.805,
+            "1-percentile": 7499.354943333334,
+            "5-percentile": 7548.98973125,
+            "25-percentile": 7630.983272773278,
+            "50-percentile": 7690.933878508768,
+            "75-percentile": 7745.229207095449,
+            "95-percentile": 7796.952547074756,
+            "99-percentile": 7810.417074892526,
+            "100-percentile": 7814.156986666666
+        }
+    },
+    "fibonacci-nodejs-1000000-1010000": {
+        "name": "fibonacci-nodejs-1000000-1010000",
+        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 2.0,
+            "1-percentile": 2.5316666666666667,
+            "5-percentile": 2.855952380952381,
+            "25-percentile": 2.96747311827957,
+            "50-percentile": 53.406284153005465,
+            "75-percentile": 366.1543956043956,
+            "95-percentile": 499.0613043478261,
+            "99-percentile": 519.2847927645635,
+            "100-percentile": 524.1166666666667
+        },
+        "memory": {
+            "0-percentile": 73.0,
+            "1-percentile": 73.53166666666667,
+            "5-percentile": 74.4154761904762,
+            "25-percentile": 80.72231182795699,
+            "50-percentile": 85.85068306010929,
+            "75-percentile": 88.86135531135531,
+            "95-percentile": 90.19550724637682,
+            "99-percentile": 90.4280173764421,
+            "100-percentile": 90.48333333333333
+        },
+        "duration": {}
+    },
+    "fibonacci-python-10-10": {
+        "name": "fibonacci-python-10-10",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-10-10.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 49.0,
+            "5-percentile": 49.0,
+            "25-percentile": 49.46964285714286,
+            "50-percentile": 49.72835365853659,
+            "75-percentile": 49.81741803278689,
+            "95-percentile": 49.94805194805195,
+            "99-percentile": 50.00525,
+            "100-percentile": 50.025
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 42.5825,
+            "25-percentile": 46.769642857142856,
+            "50-percentile": 48.78963414634146,
+            "75-percentile": 49.8422131147541,
+            "95-percentile": 50.29058441558442,
+            "99-percentile": 50.35875,
+            "100-percentile": 50.375
+        },
+        "duration": {
+            "0-percentile": 1.526,
+            "1-percentile": 1.56291,
+            "5-percentile": 1.6364097916666664,
+            "25-percentile": 1.7472285964912282,
+            "50-percentile": 1.8146330463576164,
+            "75-percentile": 1.8990673156342184,
+            "95-percentile": 2.4041254662004663,
+            "99-percentile": 2.5171610514541385,
+            "100-percentile": 2.726833333333333
+        }
+    },
+    "fibonacci-python-1000-1010": {
+        "name": "fibonacci-python-1000-1010",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 47.395,
+            "5-percentile": 47.7975,
+            "25-percentile": 47.95178571428571,
+            "50-percentile": 48.43201219512195,
+            "75-percentile": 48.61823770491803,
+            "95-percentile": 48.79025974025974,
+            "99-percentile": 48.841125,
+            "100-percentile": 48.8625
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.0,
+            "5-percentile": 40.785,
+            "25-percentile": 44.9625,
+            "50-percentile": 47.036585365853654,
+            "75-percentile": 48.145081967213116,
+            "95-percentile": 48.73831168831169,
+            "99-percentile": 48.828500000000005,
+            "100-percentile": 48.85
+        },
+        "duration": {
+            "0-percentile": 1.466,
+            "1-percentile": 1.5598299999999998,
+            "5-percentile": 1.7288135416666668,
+            "25-percentile": 1.949250087719299,
+            "50-percentile": 2.0579675275938194,
+            "75-percentile": 2.278604144542773,
+            "95-percentile": 2.7573142890442877,
+            "99-percentile": 2.8722505704697974,
+            "100-percentile": 3.046246666666666
+        }
+    },
+    "fibonacci-python-4500-4545": {
+        "name": "fibonacci-python-4500-4545",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.0,
+            "5-percentile": 48.595,
+            "25-percentile": 48.903571428571425,
+            "50-percentile": 48.95060975609756,
+            "75-percentile": 49.2530737704918,
+            "95-percentile": 49.43522727272727,
+            "99-percentile": 49.497625,
+            "100-percentile": 49.5125
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 42.379999999999995,
+            "25-percentile": 46.348214285714285,
+            "50-percentile": 48.271036585365856,
+            "75-percentile": 49.49364754098361,
+            "95-percentile": 50.01444805194805,
+            "99-percentile": 50.093625,
+            "100-percentile": 50.1125
+        },
+        "duration": {
+            "0-percentile": 2.459,
+            "1-percentile": 2.6568308333333333,
+            "5-percentile": 3.208316458333333,
+            "25-percentile": 3.968591140350877,
+            "50-percentile": 4.173490529801324,
+            "75-percentile": 4.673443333333331,
+            "95-percentile": 5.387382738927739,
+            "99-percentile": 5.579949854586132,
+            "100-percentile": 5.730256666666669
+        }
+    },
+    "fibonacci-python-10000-10100": {
+        "name": "fibonacci-python-10000-10100",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.595,
+            "25-percentile": 50.9875,
+            "50-percentile": 51.48140243902439,
+            "75-percentile": 51.65143442622951,
+            "95-percentile": 51.81655844155844,
+            "99-percentile": 51.866375,
+            "100-percentile": 51.8875
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 42.379999999999995,
+            "25-percentile": 46.010714285714286,
+            "50-percentile": 47.93780487804878,
+            "75-percentile": 48.941803278688525,
+            "95-percentile": 49.55422077922078,
+            "99-percentile": 49.65175,
+            "100-percentile": 49.675
+        },
+        "duration": {
+            "0-percentile": 5.571,
+            "1-percentile": 6.156753333333334,
+            "5-percentile": 8.35032125,
+            "25-percentile": 10.023917850877194,
+            "50-percentile": 10.509000176600445,
+            "75-percentile": 11.346081489675514,
+            "95-percentile": 12.230743904428902,
+            "99-percentile": 12.53797553691275,
+            "100-percentile": 12.690526666666663
+        }
+    },
+    "fibonacci-python-20000-20200": {
+        "name": "fibonacci-python-20000-20200",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 53.0,
+            "1-percentile": 53.0,
+            "5-percentile": 53.190000000000005,
+            "25-percentile": 53.80714285714286,
+            "50-percentile": 54.333231707317076,
+            "75-percentile": 54.55184426229508,
+            "95-percentile": 54.685064935064936,
+            "99-percentile": 54.740125,
+            "100-percentile": 54.7625
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.395,
+            "5-percentile": 43.57,
+            "25-percentile": 47.528571428571425,
+            "50-percentile": 49.55518292682927,
+            "75-percentile": 50.49364754098361,
+            "95-percentile": 51.041396103896105,
+            "99-percentile": 51.159375,
+            "100-percentile": 51.1875
+        },
+        "duration": {
+            "0-percentile": 16.248,
+            "1-percentile": 17.285579166666665,
+            "5-percentile": 19.805543958333335,
+            "25-percentile": 23.21911074561404,
+            "50-percentile": 24.426932935982343,
+            "75-percentile": 25.30593169616519,
+            "95-percentile": 26.23745289044289,
+            "99-percentile": 26.51401661073825,
+            "100-percentile": 26.65905666666666
+        }
+    },
+    "fibonacci-python-45000-45450": {
+        "name": "fibonacci-python-45000-45450",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 58.0,
+            "1-percentile": 58.0,
+            "5-percentile": 58.595,
+            "25-percentile": 58.903571428571425,
+            "50-percentile": 59.40731707317073,
+            "75-percentile": 59.601639344262296,
+            "95-percentile": 59.882954545454545,
+            "99-percentile": 60.16375,
+            "100-percentile": 60.875
+        },
+        "memory": {
+            "0-percentile": 38.0,
+            "1-percentile": 39.58,
+            "5-percentile": 42.3675,
+            "25-percentile": 47.43214285714286,
+            "50-percentile": 49.59207317073171,
+            "75-percentile": 50.709426229508196,
+            "95-percentile": 51.185389610389606,
+            "99-percentile": 51.272999999999996,
+            "100-percentile": 51.3
+        },
+        "duration": {
+            "0-percentile": 40.663,
+            "1-percentile": 42.44438,
+            "5-percentile": 47.114877916666664,
+            "25-percentile": 53.69953355263158,
+            "50-percentile": 55.78738412803534,
+            "75-percentile": 57.200076297935084,
+            "95-percentile": 58.60038586247085,
+            "99-percentile": 59.148245984340036,
+            "100-percentile": 59.40432666666665
+        }
+    },
+    "fibonacci-python-70000-70700": {
+        "name": "fibonacci-python-70000-70700",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 63.0,
+            "1-percentile": 64.95,
+            "5-percentile": 66.975,
+            "25-percentile": 68.46309523809524,
+            "50-percentile": 69.1,
+            "75-percentile": 69.45367231638417,
+            "95-percentile": 69.77494736842104,
+            "99-percentile": 69.83936708860759,
+            "100-percentile": 69.86075949367088
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 44.17,
+            "5-percentile": 45.565000000000005,
+            "25-percentile": 49.55952380952381,
+            "50-percentile": 51.35,
+            "75-percentile": 52.2183615819209,
+            "95-percentile": 52.77626315789474,
+            "99-percentile": 52.86493670886076,
+            "100-percentile": 52.88607594936709
+        },
+        "duration": {
+            "0-percentile": 89.024,
+            "1-percentile": 89.78595833333333,
+            "5-percentile": 96.66121125000001,
+            "25-percentile": 102.11184728070174,
+            "50-percentile": 104.27016759381894,
+            "75-percentile": 106.07084113569326,
+            "95-percentile": 107.66844312354308,
+            "99-percentile": 108.29686371364652,
+            "100-percentile": 108.61834666666664
+        }
+    },
+    "fibonacci-python-100000-101000": {
+        "name": "fibonacci-python-100000-101000",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 61.0,
+            "1-percentile": 65.74,
+            "5-percentile": 77.11500000000001,
+            "25-percentile": 83.07142857142858,
+            "50-percentile": 84.49359756097562,
+            "75-percentile": 85.19077868852459,
+            "95-percentile": 85.67321428571428,
+            "99-percentile": 85.8085,
+            "100-percentile": 85.85
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 43.1775,
+            "25-percentile": 47.91428571428571,
+            "50-percentile": 49.93780487804878,
+            "75-percentile": 50.941803278688525,
+            "95-percentile": 51.46217532467532,
+            "99-percentile": 51.563375,
+            "100-percentile": 51.5875
+        },
+        "duration": {
+            "0-percentile": 169.426,
+            "1-percentile": 172.42210833333334,
+            "5-percentile": 176.9495675,
+            "25-percentile": 183.2372557017543,
+            "50-percentile": 186.20286214128038,
+            "75-percentile": 188.68757514749262,
+            "95-percentile": 191.318671794872,
+            "99-percentile": 192.33044482102926,
+            "100-percentile": 192.74339000000018
+        }
+    },
+    "fibonacci-python-200000-202000": {
+        "name": "fibonacci-python-200000-202000",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 136.0,
+            "1-percentile": 151.8,
+            "5-percentile": 168.495,
+            "25-percentile": 175.49285714285713,
+            "50-percentile": 177.28353658536585,
+            "75-percentile": 178.27786885245902,
+            "95-percentile": 179.0025974025974,
+            "99-percentile": 179.17725000000002,
+            "100-percentile": 179.225
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.79,
+            "5-percentile": 44.7725,
+            "25-percentile": 48.39642857142857,
+            "50-percentile": 50.234146341463415,
+            "75-percentile": 51.14098360655738,
+            "95-percentile": 51.68571428571428,
+            "99-percentile": 51.778,
+            "100-percentile": 51.8
+        },
+        "duration": {
+            "0-percentile": 637.796,
+            "1-percentile": 640.375555,
+            "5-percentile": 644.2786295833331,
+            "25-percentile": 651.991237850877,
+            "50-percentile": 658.6152150993374,
+            "75-percentile": 665.4902088938054,
+            "95-percentile": 672.30735034965,
+            "99-percentile": 674.3604185906036,
+            "100-percentile": 675.0491333333329
+        }
+    },
+    "fibonacci-python-450000-454500": {
+        "name": "fibonacci-python-450000-454500",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 475.0,
+            "1-percentile": 547.68,
+            "5-percentile": 625.1075000000001,
+            "25-percentile": 657.8017857142858,
+            "50-percentile": 664.5911585365855,
+            "75-percentile": 668.202868852459,
+            "95-percentile": 670.7474025974026,
+            "99-percentile": 671.403375,
+            "100-percentile": 671.5875
+        },
+        "memory": {
+            "0-percentile": 44.0,
+            "1-percentile": 44.395,
+            "5-percentile": 45.975,
+            "25-percentile": 50.10714285714286,
+            "50-percentile": 51.87621951219512,
+            "75-percentile": 52.87540983606557,
+            "95-percentile": 53.31688311688312,
+            "99-percentile": 53.411875,
+            "100-percentile": 53.4375
+        },
+        "duration": {
+            "0-percentile": 3107.925,
+            "1-percentile": 3113.3630383333334,
+            "5-percentile": 3132.6161289583333,
+            "25-percentile": 3159.813004561403,
+            "50-percentile": 3180.430764944812,
+            "75-percentile": 3197.938465958701,
+            "95-percentile": 3214.095288822842,
+            "99-percentile": 3218.3728642729293,
+            "100-percentile": 3219.848319999999
+        }
+    },
+    "gptj-python": {
+        "name": "gptj-python",
+        "yaml": "./yamls/gptj/kn-gptj-python.yaml",
+        "cpu": {
+            "0-percentile": 6.0,
+            "1-percentile": 6.0,
+            "5-percentile": 6.05,
+            "25-percentile": 6.75,
+            "50-percentile": 6.869565217391305,
+            "75-percentile": 7.0588235294117645,
+            "95-percentile": 7.252270210409745,
+            "99-percentile": 7.294222222222222,
+            "100-percentile": 7.311111111111111
+        },
+        "memory": {
+            "0-percentile": 249.0,
+            "1-percentile": 249.0,
+            "5-percentile": 249.0,
+            "25-percentile": 250.25,
+            "50-percentile": 251.08695652173913,
+            "75-percentile": 251.61764705882354,
+            "95-percentile": 251.9017718715393,
+            "99-percentile": 251.98000000000002,
+            "100-percentile": 252.0
+        },
+        "duration": {
+            "0-percentile": 2.063,
+            "1-percentile": 2.0912716666666666,
+            "5-percentile": 2.1259838888888885,
+            "25-percentile": 2.1734047101449274,
+            "50-percentile": 2.2229969474969464,
+            "75-percentile": 2.274976184640522,
+            "95-percentile": 2.330856686046511,
+            "99-percentile": 2.3723507877722674,
+            "100-percentile": 2.410727777777777
+        }
+    },
+    "hotel-app-geo": {
+        "name": "hotel-app-geo",
+        "yaml": "./yamls/hotel-app/kn-geo.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.1666666666666665,
+            "50-percentile": 3.5652173913043477,
+            "75-percentile": 3.7058823529411766,
+            "95-percentile": 3.7663344407530452,
+            "99-percentile": 4.009555555555557,
+            "100-percentile": 4.177777777777778
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 19.22,
+            "5-percentile": 20.05,
+            "25-percentile": 23.25,
+            "50-percentile": 25.652173913043477,
+            "75-percentile": 27.323529411764707,
+            "95-percentile": 28.28471760797342,
+            "99-percentile": 28.44377777777778,
+            "100-percentile": 28.488888888888887
+        },
+        "duration": {
+            "0-percentile": 0.514,
+            "1-percentile": 0.5568550000000001,
+            "5-percentile": 0.6613205555555556,
+            "25-percentile": 0.7764921497584544,
+            "50-percentile": 0.8179923687423685,
+            "75-percentile": 0.848272589869281,
+            "95-percentile": 0.8776526808785527,
+            "99-percentile": 0.9001861979787834,
+            "100-percentile": 0.9335166666666664
+        }
+    },
+    "hotel-app-profile": {
+        "name": "hotel-app-profile",
+        "yaml": "./yamls/hotel-app/kn-profile.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.0,
+            "95-percentile": 4.163617886178862,
+            "99-percentile": 4.196590909090909,
+            "100-percentile": 4.204545454545454
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 19.43,
+            "5-percentile": 20.395833333333332,
+            "25-percentile": 24.25,
+            "50-percentile": 26.66501976284585,
+            "75-percentile": 27.871657754010695,
+            "95-percentile": 28.65447154471545,
+            "99-percentile": 28.786363636363635,
+            "100-percentile": 28.818181818181817
+        },
+        "duration": {
+            "0-percentile": 1.513,
+            "1-percentile": 1.530371666666667,
+            "5-percentile": 1.5718616666666665,
+            "25-percentile": 1.65198345410628,
+            "50-percentile": 1.7024009157509148,
+            "75-percentile": 1.7397437908496736,
+            "95-percentile": 1.7745512273901807,
+            "99-percentile": 1.8022914462368966,
+            "100-percentile": 1.917927777777778
+        }
+    },
+    "hotel-app-recommendation": {
+        "name": "hotel-app-recommendation",
+        "yaml": "./yamls/hotel-app/kn-recommendation.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.5738636363636367,
+            "50-percentile": 3.7776679841897236,
+            "75-percentile": 3.8495989304812834,
+            "95-percentile": 3.9246515679442506,
+            "99-percentile": 3.98,
+            "100-percentile": 4.0
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 19.215,
+            "5-percentile": 19.71666666666667,
+            "25-percentile": 22.1875,
+            "50-percentile": 24.57608695652174,
+            "75-percentile": 25.90909090909091,
+            "95-percentile": 26.750058072009292,
+            "99-percentile": 26.87818181818182,
+            "100-percentile": 26.90909090909091
+        },
+        "duration": {
+            "0-percentile": 0.707,
+            "1-percentile": 0.7403733333333333,
+            "5-percentile": 0.8590527777777777,
+            "25-percentile": 0.9531379227053138,
+            "50-percentile": 0.9860642857142861,
+            "75-percentile": 1.0175313316993466,
+            "95-percentile": 1.0476947997416026,
+            "99-percentile": 1.0801311022534688,
+            "100-percentile": 1.1121500000000006
+        }
+    },
+    "hotel-app-reservation": {
+        "name": "hotel-app-reservation",
+        "yaml": "./yamls/hotel-app/kn-reservation.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.22,
+            "5-percentile": 3.683333333333333,
+            "25-percentile": 3.9166666666666665,
+            "50-percentile": 3.9565217391304346,
+            "75-percentile": 3.9705882352941178,
+            "95-percentile": 4.1354374307862685,
+            "99-percentile": 4.169555555555556,
+            "100-percentile": 4.177777777777778
+        },
+        "memory": {
+            "0-percentile": 20.0,
+            "1-percentile": 20.0,
+            "5-percentile": 20.416666666666664,
+            "25-percentile": 23.416666666666668,
+            "50-percentile": 25.130434782608695,
+            "75-percentile": 26.470588235294116,
+            "95-percentile": 27.33145071982281,
+            "99-percentile": 27.476222222222223,
+            "100-percentile": 27.511111111111113
+        },
+        "duration": {
+            "0-percentile": 1.202,
+            "1-percentile": 1.4950933333333332,
+            "5-percentile": 1.6464044444444446,
+            "25-percentile": 1.7526500000000003,
+            "50-percentile": 1.8005885836385835,
+            "75-percentile": 1.840152246732026,
+            "95-percentile": 1.8792585271317828,
+            "99-percentile": 1.9248171828510456,
+            "100-percentile": 2.003683333333334
+        }
+    },
+    "hotel-app-user": {
+        "name": "hotel-app-user",
+        "yaml": "./yamls/hotel-app/kn-user.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.088235294117647,
+            "95-percentile": 4.294241417497231,
+            "99-percentile": 4.51088888888889,
+            "100-percentile": 4.644444444444445
+        },
+        "memory": {
+            "0-percentile": 21.0,
+            "1-percentile": 21.22,
+            "5-percentile": 21.733333333333334,
+            "25-percentile": 24.666666666666668,
+            "50-percentile": 26.08695652173913,
+            "75-percentile": 27.176470588235293,
+            "95-percentile": 27.756810631229236,
+            "99-percentile": 27.845333333333333,
+            "100-percentile": 27.866666666666667
+        },
+        "duration": {
+            "0-percentile": 1.926,
+            "1-percentile": 1.9332116666666666,
+            "5-percentile": 1.9595761111111114,
+            "25-percentile": 2.0158915458937203,
+            "50-percentile": 2.055246520146521,
+            "75-percentile": 2.091980269607844,
+            "95-percentile": 2.1313205103359167,
+            "99-percentile": 2.145134624317368,
+            "100-percentile": 2.1595222222222215
+        }
+    },
+    "adservice": {
+        "name": "adservice",
+        "yaml": "./yamls/online-shop/kn-adservice.yaml",
+        "cpu": {
+            "0-percentile": 38.0,
+            "1-percentile": 38.0,
+            "5-percentile": 38.05,
+            "25-percentile": 39.0,
+            "50-percentile": 39.69565217391305,
+            "75-percentile": 40.23529411764706,
+            "95-percentile": 40.99955703211517,
+            "99-percentile": 41.61511111111111,
+            "100-percentile": 41.955555555555556
+        },
+        "memory": {
+            "0-percentile": 183.0,
+            "1-percentile": 183.0,
+            "5-percentile": 183.73333333333332,
+            "25-percentile": 187.91666666666666,
+            "50-percentile": 191.1304347826087,
+            "75-percentile": 193.61764705882354,
+            "95-percentile": 194.9294573643411,
+            "99-percentile": 195.16444444444446,
+            "100-percentile": 195.22222222222223
+        },
+        "duration": {
+            "0-percentile": 4.329,
+            "1-percentile": 4.571986666666667,
+            "5-percentile": 4.78501111111111,
+            "25-percentile": 5.173797463768116,
+            "50-percentile": 5.613109462759462,
+            "75-percentile": 6.115855269607842,
+            "95-percentile": 6.841859560723511,
+            "99-percentile": 7.429053444855942,
+            "100-percentile": 8.363327777777776
+        }
+    },
+    "cartservice": {
+        "name": "cartservice",
+        "yaml": "./yamls/online-shop/kn-cartservice.yaml",
+        "cpu": {
+            "0-percentile": 6.0,
+            "1-percentile": 6.0,
+            "5-percentile": 6.358333333333333,
+            "25-percentile": 6.829545454545454,
+            "50-percentile": 6.911067193675889,
+            "75-percentile": 7.157754010695188,
+            "95-percentile": 7.715185830429733,
+            "99-percentile": 8.305,
+            "100-percentile": 8.5
+        },
+        "memory": {
+            "0-percentile": 61.0,
+            "1-percentile": 61.0,
+            "5-percentile": 61.50833333333333,
+            "25-percentile": 67.48295454545455,
+            "50-percentile": 70.5088932806324,
+            "75-percentile": 72.18716577540107,
+            "95-percentile": 73.26846689895471,
+            "99-percentile": 73.455,
+            "100-percentile": 73.5
+        },
+        "duration": {
+            "0-percentile": 2.361,
+            "1-percentile": 2.3854283333333335,
+            "5-percentile": 2.473817777777778,
+            "25-percentile": 2.6019339371980674,
+            "50-percentile": 2.704132234432234,
+            "75-percentile": 2.817422916666666,
+            "95-percentile": 2.9715597222222225,
+            "99-percentile": 3.1362516310966058,
+            "100-percentile": 7.434977777777778
+        }
+    },
+    "currencyservice": {
+        "name": "currencyservice",
+        "yaml": "./yamls/online-shop/kn-currencyservice.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.0,
+            "95-percentile": 4.182170542635659,
+            "99-percentile": 4.363777777777778,
+            "100-percentile": 4.488888888888889
+        },
+        "memory": {
+            "0-percentile": 33.0,
+            "1-percentile": 33.0,
+            "5-percentile": 33.41666666666667,
+            "25-percentile": 36.166666666666664,
+            "50-percentile": 37.82608695652174,
+            "75-percentile": 38.76470588235294,
+            "95-percentile": 39.289479512735326,
+            "99-percentile": 39.39644444444445,
+            "100-percentile": 39.422222222222224
+        },
+        "duration": {
+            "0-percentile": 2.226,
+            "1-percentile": 2.5685783333333334,
+            "5-percentile": 2.769601111111111,
+            "25-percentile": 2.8888789855072465,
+            "50-percentile": 2.944980402930403,
+            "75-percentile": 3.0031439133986932,
+            "95-percentile": 3.1451607235142114,
+            "99-percentile": 3.236922684075074,
+            "100-percentile": 3.388177777777778
+        }
+    },
+    "emailservice": {
+        "name": "emailservice",
+        "yaml": "./yamls/online-shop/kn-emailservice.yaml",
+        "cpu": {
+            "0-percentile": 52.0,
+            "1-percentile": 52.215,
+            "5-percentile": 52.67916666666667,
+            "25-percentile": 52.91477272727273,
+            "50-percentile": 52.955533596837945,
+            "75-percentile": 53.157754010695186,
+            "95-percentile": 53.330894308943094,
+            "99-percentile": 53.35727272727273,
+            "100-percentile": 53.36363636363637
+        },
+        "memory": {
+            "0-percentile": 56.0,
+            "1-percentile": 56.215,
+            "5-percentile": 56.71666666666666,
+            "25-percentile": 58.80681818181819,
+            "50-percentile": 59.577075098814234,
+            "75-percentile": 60.13502673796792,
+            "95-percentile": 60.51840882694541,
+            "99-percentile": 60.57681818181818,
+            "100-percentile": 60.59090909090909
+        },
+        "duration": {
+            "0-percentile": 2.4,
+            "1-percentile": 2.417478333333333,
+            "5-percentile": 2.4553305555555553,
+            "25-percentile": 2.547253985507246,
+            "50-percentile": 2.6467774114774123,
+            "75-percentile": 2.7795509803921576,
+            "95-percentile": 3.579400872093024,
+            "99-percentile": 3.833163307701967,
+            "100-percentile": 3.9199500000000014
+        }
+    },
+    "paymentservice": {
+        "name": "paymentservice",
+        "yaml": "./yamls/online-shop/kn-paymentservice.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.0,
+            "95-percentile": 4.11582462253194,
+            "99-percentile": 4.150681818181818,
+            "100-percentile": 4.159090909090909
+        },
+        "memory": {
+            "0-percentile": 33.0,
+            "1-percentile": 33.215,
+            "5-percentile": 34.43333333333334,
+            "25-percentile": 37.03977272727273,
+            "50-percentile": 38.420948616600796,
+            "75-percentile": 39.41310160427807,
+            "95-percentile": 39.944889663182344,
+            "99-percentile": 40.06181818181818,
+            "100-percentile": 40.09090909090909
+        },
+        "duration": {
+            "0-percentile": 2.841,
+            "1-percentile": 2.89322,
+            "5-percentile": 2.9539066666666667,
+            "25-percentile": 3.0394317632850236,
+            "50-percentile": 3.0996258852258856,
+            "75-percentile": 3.1731397875817002,
+            "95-percentile": 3.3155790051679603,
+            "99-percentile": 3.4374723586090035,
+            "100-percentile": 3.599344444444446
+        }
+    },
+    "productcatalogservice": {
+        "name": "productcatalogservice",
+        "yaml": "./yamls/online-shop/kn-productcatalogservice.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.22,
+            "5-percentile": 3.683333333333333,
+            "25-percentile": 3.9166666666666665,
+            "50-percentile": 3.9565217391304346,
+            "75-percentile": 3.9705882352941178,
+            "95-percentile": 4.1774086378737545,
+            "99-percentile": 4.261777777777778,
+            "100-percentile": 4.288888888888889
+        },
+        "memory": {
+            "0-percentile": 23.0,
+            "1-percentile": 23.22,
+            "5-percentile": 23.783333333333335,
+            "25-percentile": 27.083333333333332,
+            "50-percentile": 29.17391304347826,
+            "75-percentile": 30.41176470588235,
+            "95-percentile": 31.12591362126246,
+            "99-percentile": 31.23933333333333,
+            "100-percentile": 31.266666666666666
+        },
+        "duration": {
+            "0-percentile": 1.087,
+            "1-percentile": 1.0967916666666668,
+            "5-percentile": 1.1190005555555556,
+            "25-percentile": 1.1769830917874395,
+            "50-percentile": 1.2255110500610502,
+            "75-percentile": 1.2755824346405227,
+            "95-percentile": 1.3291250322997412,
+            "99-percentile": 1.3675410062142992,
+            "100-percentile": 1.3926055555555552
+        }
+    },
+    "shippingservice": {
+        "name": "shippingservice",
+        "yaml": "./yamls/online-shop/kn-shippingservice.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.5833333333333335,
+            "50-percentile": 3.782608695652174,
+            "75-percentile": 3.8529411764705883,
+            "95-percentile": 4.060575858250277,
+            "99-percentile": 4.348666666666667,
+            "100-percentile": 4.533333333333333
+        },
+        "memory": {
+            "0-percentile": 23.0,
+            "1-percentile": 23.22,
+            "5-percentile": 23.733333333333334,
+            "25-percentile": 26.416666666666668,
+            "50-percentile": 28.304347826086957,
+            "75-percentile": 29.323529411764707,
+            "95-percentile": 29.873643410852715,
+            "99-percentile": 29.957555555555558,
+            "100-percentile": 29.977777777777778
+        },
+        "duration": {
+            "0-percentile": 0.895,
+            "1-percentile": 0.9532716666666666,
+            "5-percentile": 0.9974088888888888,
+            "25-percentile": 1.052881521739131,
+            "50-percentile": 1.085633516483516,
+            "75-percentile": 1.1153132761437905,
+            "95-percentile": 1.1456142764857873,
+            "99-percentile": 1.182935254221329,
+            "100-percentile": 1.210077777777777
+        }
+    }
+}

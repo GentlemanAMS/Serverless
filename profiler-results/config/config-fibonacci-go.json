@@ -1,0 +1,62 @@
+[
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-10-10.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-1000-1010.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-4500-4545.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-10000-10100.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-20000-20200.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-45000-45450.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-70000-70700.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-100000-101000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-200000-202000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-450000-454500.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-700000-707000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-1000000-1010000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    }
+]

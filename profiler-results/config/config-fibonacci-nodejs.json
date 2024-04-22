@@ -1,0 +1,62 @@
+[
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-10-10.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000-1010.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-4500-4545.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-10000-10100.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-20000-20200.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-45000-45450.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-70000-70700.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-100000-101000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-200000-202000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-450000-454500.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-700000-707000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000000-1010000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    }
+]

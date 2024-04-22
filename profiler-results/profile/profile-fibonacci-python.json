@@ -1,0 +1,372 @@
+{
+    "fibonacci-python-10-10": {
+        "name": "fibonacci-python-10-10",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-10-10.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 49.0,
+            "5-percentile": 49.0,
+            "25-percentile": 49.46964285714286,
+            "50-percentile": 49.72835365853659,
+            "75-percentile": 49.81741803278689,
+            "95-percentile": 49.94805194805195,
+            "99-percentile": 50.00525,
+            "100-percentile": 50.025
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 42.5825,
+            "25-percentile": 46.769642857142856,
+            "50-percentile": 48.78963414634146,
+            "75-percentile": 49.8422131147541,
+            "95-percentile": 50.29058441558442,
+            "99-percentile": 50.35875,
+            "100-percentile": 50.375
+        },
+        "duration": {
+            "0-percentile": 1.526,
+            "1-percentile": 1.56291,
+            "5-percentile": 1.6364097916666664,
+            "25-percentile": 1.7472285964912282,
+            "50-percentile": 1.8146330463576164,
+            "75-percentile": 1.8990673156342184,
+            "95-percentile": 2.4041254662004663,
+            "99-percentile": 2.5171610514541385,
+            "100-percentile": 2.726833333333333
+        }
+    },
+    "fibonacci-python-1000-1010": {
+        "name": "fibonacci-python-1000-1010",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 47.395,
+            "5-percentile": 47.7975,
+            "25-percentile": 47.95178571428571,
+            "50-percentile": 48.43201219512195,
+            "75-percentile": 48.61823770491803,
+            "95-percentile": 48.79025974025974,
+            "99-percentile": 48.841125,
+            "100-percentile": 48.8625
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.0,
+            "5-percentile": 40.785,
+            "25-percentile": 44.9625,
+            "50-percentile": 47.036585365853654,
+            "75-percentile": 48.145081967213116,
+            "95-percentile": 48.73831168831169,
+            "99-percentile": 48.828500000000005,
+            "100-percentile": 48.85
+        },
+        "duration": {
+            "0-percentile": 1.466,
+            "1-percentile": 1.5598299999999998,
+            "5-percentile": 1.7288135416666668,
+            "25-percentile": 1.949250087719299,
+            "50-percentile": 2.0579675275938194,
+            "75-percentile": 2.278604144542773,
+            "95-percentile": 2.7573142890442877,
+            "99-percentile": 2.8722505704697974,
+            "100-percentile": 3.046246666666666
+        }
+    },
+    "fibonacci-python-4500-4545": {
+        "name": "fibonacci-python-4500-4545",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.0,
+            "5-percentile": 48.595,
+            "25-percentile": 48.903571428571425,
+            "50-percentile": 48.95060975609756,
+            "75-percentile": 49.2530737704918,
+            "95-percentile": 49.43522727272727,
+            "99-percentile": 49.497625,
+            "100-percentile": 49.5125
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 42.379999999999995,
+            "25-percentile": 46.348214285714285,
+            "50-percentile": 48.271036585365856,
+            "75-percentile": 49.49364754098361,
+            "95-percentile": 50.01444805194805,
+            "99-percentile": 50.093625,
+            "100-percentile": 50.1125
+        },
+        "duration": {
+            "0-percentile": 2.459,
+            "1-percentile": 2.6568308333333333,
+            "5-percentile": 3.208316458333333,
+            "25-percentile": 3.968591140350877,
+            "50-percentile": 4.173490529801324,
+            "75-percentile": 4.673443333333331,
+            "95-percentile": 5.387382738927739,
+            "99-percentile": 5.579949854586132,
+            "100-percentile": 5.730256666666669
+        }
+    },
+    "fibonacci-python-10000-10100": {
+        "name": "fibonacci-python-10000-10100",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.595,
+            "25-percentile": 50.9875,
+            "50-percentile": 51.48140243902439,
+            "75-percentile": 51.65143442622951,
+            "95-percentile": 51.81655844155844,
+            "99-percentile": 51.866375,
+            "100-percentile": 51.8875
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 42.379999999999995,
+            "25-percentile": 46.010714285714286,
+            "50-percentile": 47.93780487804878,
+            "75-percentile": 48.941803278688525,
+            "95-percentile": 49.55422077922078,
+            "99-percentile": 49.65175,
+            "100-percentile": 49.675
+        },
+        "duration": {
+            "0-percentile": 5.571,
+            "1-percentile": 6.156753333333334,
+            "5-percentile": 8.35032125,
+            "25-percentile": 10.023917850877194,
+            "50-percentile": 10.509000176600445,
+            "75-percentile": 11.346081489675514,
+            "95-percentile": 12.230743904428902,
+            "99-percentile": 12.53797553691275,
+            "100-percentile": 12.690526666666663
+        }
+    },
+    "fibonacci-python-20000-20200": {
+        "name": "fibonacci-python-20000-20200",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 53.0,
+            "1-percentile": 53.0,
+            "5-percentile": 53.190000000000005,
+            "25-percentile": 53.80714285714286,
+            "50-percentile": 54.333231707317076,
+            "75-percentile": 54.55184426229508,
+            "95-percentile": 54.685064935064936,
+            "99-percentile": 54.740125,
+            "100-percentile": 54.7625
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.395,
+            "5-percentile": 43.57,
+            "25-percentile": 47.528571428571425,
+            "50-percentile": 49.55518292682927,
+            "75-percentile": 50.49364754098361,
+            "95-percentile": 51.041396103896105,
+            "99-percentile": 51.159375,
+            "100-percentile": 51.1875
+        },
+        "duration": {
+            "0-percentile": 16.248,
+            "1-percentile": 17.285579166666665,
+            "5-percentile": 19.805543958333335,
+            "25-percentile": 23.21911074561404,
+            "50-percentile": 24.426932935982343,
+            "75-percentile": 25.30593169616519,
+            "95-percentile": 26.23745289044289,
+            "99-percentile": 26.51401661073825,
+            "100-percentile": 26.65905666666666
+        }
+    },
+    "fibonacci-python-45000-45450": {
+        "name": "fibonacci-python-45000-45450",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 58.0,
+            "1-percentile": 58.0,
+            "5-percentile": 58.595,
+            "25-percentile": 58.903571428571425,
+            "50-percentile": 59.40731707317073,
+            "75-percentile": 59.601639344262296,
+            "95-percentile": 59.882954545454545,
+            "99-percentile": 60.16375,
+            "100-percentile": 60.875
+        },
+        "memory": {
+            "0-percentile": 38.0,
+            "1-percentile": 39.58,
+            "5-percentile": 42.3675,
+            "25-percentile": 47.43214285714286,
+            "50-percentile": 49.59207317073171,
+            "75-percentile": 50.709426229508196,
+            "95-percentile": 51.185389610389606,
+            "99-percentile": 51.272999999999996,
+            "100-percentile": 51.3
+        },
+        "duration": {
+            "0-percentile": 40.663,
+            "1-percentile": 42.44438,
+            "5-percentile": 47.114877916666664,
+            "25-percentile": 53.69953355263158,
+            "50-percentile": 55.78738412803534,
+            "75-percentile": 57.200076297935084,
+            "95-percentile": 58.60038586247085,
+            "99-percentile": 59.148245984340036,
+            "100-percentile": 59.40432666666665
+        }
+    },
+    "fibonacci-python-70000-70700": {
+        "name": "fibonacci-python-70000-70700",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 63.0,
+            "1-percentile": 64.95,
+            "5-percentile": 66.975,
+            "25-percentile": 68.46309523809524,
+            "50-percentile": 69.1,
+            "75-percentile": 69.45367231638417,
+            "95-percentile": 69.77494736842104,
+            "99-percentile": 69.83936708860759,
+            "100-percentile": 69.86075949367088
+        },
+        "memory": {
+            "0-percentile": 43.0,
+            "1-percentile": 44.17,
+            "5-percentile": 45.565000000000005,
+            "25-percentile": 49.55952380952381,
+            "50-percentile": 51.35,
+            "75-percentile": 52.2183615819209,
+            "95-percentile": 52.77626315789474,
+            "99-percentile": 52.86493670886076,
+            "100-percentile": 52.88607594936709
+        },
+        "duration": {
+            "0-percentile": 89.024,
+            "1-percentile": 89.78595833333333,
+            "5-percentile": 96.66121125000001,
+            "25-percentile": 102.11184728070174,
+            "50-percentile": 104.27016759381894,
+            "75-percentile": 106.07084113569326,
+            "95-percentile": 107.66844312354308,
+            "99-percentile": 108.29686371364652,
+            "100-percentile": 108.61834666666664
+        }
+    },
+    "fibonacci-python-100000-101000": {
+        "name": "fibonacci-python-100000-101000",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 61.0,
+            "1-percentile": 65.74,
+            "5-percentile": 77.11500000000001,
+            "25-percentile": 83.07142857142858,
+            "50-percentile": 84.49359756097562,
+            "75-percentile": 85.19077868852459,
+            "95-percentile": 85.67321428571428,
+            "99-percentile": 85.8085,
+            "100-percentile": 85.85
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.395,
+            "5-percentile": 43.1775,
+            "25-percentile": 47.91428571428571,
+            "50-percentile": 49.93780487804878,
+            "75-percentile": 50.941803278688525,
+            "95-percentile": 51.46217532467532,
+            "99-percentile": 51.563375,
+            "100-percentile": 51.5875
+        },
+        "duration": {
+            "0-percentile": 169.426,
+            "1-percentile": 172.42210833333334,
+            "5-percentile": 176.9495675,
+            "25-percentile": 183.2372557017543,
+            "50-percentile": 186.20286214128038,
+            "75-percentile": 188.68757514749262,
+            "95-percentile": 191.318671794872,
+            "99-percentile": 192.33044482102926,
+            "100-percentile": 192.74339000000018
+        }
+    },
+    "fibonacci-python-200000-202000": {
+        "name": "fibonacci-python-200000-202000",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 136.0,
+            "1-percentile": 151.8,
+            "5-percentile": 168.495,
+            "25-percentile": 175.49285714285713,
+            "50-percentile": 177.28353658536585,
+            "75-percentile": 178.27786885245902,
+            "95-percentile": 179.0025974025974,
+            "99-percentile": 179.17725000000002,
+            "100-percentile": 179.225
+        },
+        "memory": {
+            "0-percentile": 42.0,
+            "1-percentile": 42.79,
+            "5-percentile": 44.7725,
+            "25-percentile": 48.39642857142857,
+            "50-percentile": 50.234146341463415,
+            "75-percentile": 51.14098360655738,
+            "95-percentile": 51.68571428571428,
+            "99-percentile": 51.778,
+            "100-percentile": 51.8
+        },
+        "duration": {
+            "0-percentile": 637.796,
+            "1-percentile": 640.375555,
+            "5-percentile": 644.2786295833331,
+            "25-percentile": 651.991237850877,
+            "50-percentile": 658.6152150993374,
+            "75-percentile": 665.4902088938054,
+            "95-percentile": 672.30735034965,
+            "99-percentile": 674.3604185906036,
+            "100-percentile": 675.0491333333329
+        }
+    },
+    "fibonacci-python-450000-454500": {
+        "name": "fibonacci-python-450000-454500",
+        "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 475.0,
+            "1-percentile": 547.68,
+            "5-percentile": 625.1075000000001,
+            "25-percentile": 657.8017857142858,
+            "50-percentile": 664.5911585365855,
+            "75-percentile": 668.202868852459,
+            "95-percentile": 670.7474025974026,
+            "99-percentile": 671.403375,
+            "100-percentile": 671.5875
+        },
+        "memory": {
+            "0-percentile": 44.0,
+            "1-percentile": 44.395,
+            "5-percentile": 45.975,
+            "25-percentile": 50.10714285714286,
+            "50-percentile": 51.87621951219512,
+            "75-percentile": 52.87540983606557,
+            "95-percentile": 53.31688311688312,
+            "99-percentile": 53.411875,
+            "100-percentile": 53.4375
+        },
+        "duration": {
+            "0-percentile": 3107.925,
+            "1-percentile": 3113.3630383333334,
+            "5-percentile": 3132.6161289583333,
+            "25-percentile": 3159.813004561403,
+            "50-percentile": 3180.430764944812,
+            "75-percentile": 3197.938465958701,
+            "95-percentile": 3214.095288822842,
+            "99-percentile": 3218.3728642729293,
+            "100-percentile": 3219.848319999999
+        }
+    }
+}

@@ -1,0 +1,594 @@
+{
+    "aes-python-10-10": {
+        "name": "aes-python-10-10",
+        "yaml": "./yamls/aes-python/kn-aes-python-10-10.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.0,
+            "5-percentile": 48.0,
+            "25-percentile": 48.21935483870968,
+            "50-percentile": 48.60327868852459,
+            "75-percentile": 48.73406593406594,
+            "95-percentile": 48.903985507246375,
+            "99-percentile": 48.97152898447514,
+            "100-percentile": 49.00833333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.0,
+            "5-percentile": 41.70357142857143,
+            "25-percentile": 45.3002688172043,
+            "50-percentile": 46.83456284153006,
+            "75-percentile": 47.54844322344322,
+            "95-percentile": 47.9745652173913,
+            "99-percentile": 48.05569790628116,
+            "100-percentile": 48.075
+        },
+        "duration": {
+            "0-percentile": 2.574,
+            "1-percentile": 2.6714883333333335,
+            "5-percentile": 2.735051666666666,
+            "25-percentile": 2.8266463768115955,
+            "50-percentile": 3.059575030525031,
+            "75-percentile": 3.955115359477125,
+            "95-percentile": 4.519842990956073,
+            "99-percentile": 4.698042886824432,
+            "100-percentile": 4.885316666666668
+        }
+    },
+    "aes-python-100-101": {
+        "name": "aes-python-100-101",
+        "yaml": "./yamls/aes-python/kn-aes-python-100-101.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 47.0,
+            "5-percentile": 47.279761904761905,
+            "25-percentile": 47.83736559139785,
+            "50-percentile": 48.28920765027323,
+            "75-percentile": 48.5235347985348,
+            "95-percentile": 48.825072463768116,
+            "99-percentile": 48.904193847030335,
+            "100-percentile": 48.93333333333333
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.06333333333333,
+            "5-percentile": 41.135714285714286,
+            "25-percentile": 44.918279569892476,
+            "50-percentile": 46.53702185792349,
+            "75-percentile": 47.34899267399267,
+            "95-percentile": 47.69355072463768,
+            "99-percentile": 47.745883065090446,
+            "100-percentile": 47.75833333333333
+        },
+        "duration": {
+            "0-percentile": 2.697,
+            "1-percentile": 2.909456666666667,
+            "5-percentile": 3.9799172222222223,
+            "25-percentile": 4.656141425120774,
+            "50-percentile": 5.054136446886448,
+            "75-percentile": 6.026035498366012,
+            "95-percentile": 6.771586014211888,
+            "99-percentile": 7.023334042119142,
+            "100-percentile": 7.264383333333336
+        }
+    },
+    "aes-python-500-505": {
+        "name": "aes-python-500-505",
+        "yaml": "./yamls/aes-python/kn-aes-python-500-505.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.0,
+            "5-percentile": 48.0,
+            "25-percentile": 48.57715053763441,
+            "50-percentile": 48.82636612021858,
+            "75-percentile": 49.21327838827838,
+            "95-percentile": 49.4568115942029,
+            "99-percentile": 49.518626976214215,
+            "100-percentile": 49.53333333333333
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.06333333333333,
+            "5-percentile": 41.99166666666667,
+            "25-percentile": 45.61720430107527,
+            "50-percentile": 47.45437158469945,
+            "75-percentile": 48.562271062271066,
+            "95-percentile": 49.071014492753626,
+            "99-percentile": 49.14828372026777,
+            "100-percentile": 49.166666666666664
+        },
+        "duration": {
+            "0-percentile": 6.01,
+            "1-percentile": 6.14002,
+            "5-percentile": 7.396639999999999,
+            "25-percentile": 11.47027548309179,
+            "50-percentile": 12.838741147741153,
+            "75-percentile": 14.00263218954249,
+            "95-percentile": 14.869861918604657,
+            "99-percentile": 15.218875843324348,
+            "100-percentile": 15.434377777777788
+        }
+    },
+    "aes-python-1000-1010": {
+        "name": "aes-python-1000-1010",
+        "yaml": "./yamls/aes-python/kn-aes-python-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 49.0,
+            "5-percentile": 49.0,
+            "25-percentile": 49.70725806451613,
+            "50-percentile": 50.00819672131148,
+            "75-percentile": 50.493040293040295,
+            "95-percentile": 50.90442028985507,
+            "99-percentile": 50.995169491525424,
+            "100-percentile": 51.025
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.06333333333333,
+            "5-percentile": 40.84761904761905,
+            "25-percentile": 44.6255376344086,
+            "50-percentile": 46.495628415300544,
+            "75-percentile": 47.65091575091575,
+            "95-percentile": 48.28188405797101,
+            "99-percentile": 48.39076342401368,
+            "100-percentile": 48.416666666666664
+        },
+        "duration": {
+            "0-percentile": 11.598,
+            "1-percentile": 12.379855000000001,
+            "5-percentile": 16.118443888888887,
+            "25-percentile": 19.316738647342994,
+            "50-percentile": 20.602046825396826,
+            "75-percentile": 21.706487214052302,
+            "95-percentile": 22.846833785529732,
+            "99-percentile": 23.242845617349836,
+            "100-percentile": 23.460838888888905
+        }
+    },
+    "aes-python-2000-2020": {
+        "name": "aes-python-2000-2020",
+        "yaml": "./yamls/aes-python/kn-aes-python-2000-2020.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.0,
+            "25-percentile": 50.12177419354839,
+            "50-percentile": 50.59494535519126,
+            "75-percentile": 51.371153846153845,
+            "95-percentile": 51.8522463768116,
+            "99-percentile": 51.97833570716422,
+            "100-percentile": 52.583333333333336
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 39.531666666666666,
+            "5-percentile": 40.83928571428571,
+            "25-percentile": 45.13763440860215,
+            "50-percentile": 47.305601092896175,
+            "75-percentile": 48.26309523809523,
+            "95-percentile": 48.83427536231884,
+            "99-percentile": 48.92102763139154,
+            "100-percentile": 48.94166666666667
+        },
+        "duration": {
+            "0-percentile": 14.642,
+            "1-percentile": 18.97788,
+            "5-percentile": 25.57634555555555,
+            "25-percentile": 29.56505929951691,
+            "50-percentile": 30.9588126984127,
+            "75-percentile": 32.12461021241829,
+            "95-percentile": 33.335586724806184,
+            "99-percentile": 33.71553069581317,
+            "100-percentile": 33.892783333333306
+        }
+    },
+    "aes-python-4500-4545": {
+        "name": "aes-python-4500-4545",
+        "yaml": "./yamls/aes-python/kn-aes-python-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 49.595,
+            "5-percentile": 50.56785714285714,
+            "25-percentile": 51.316935483870964,
+            "50-percentile": 51.81803278688524,
+            "75-percentile": 52.86419413919414,
+            "95-percentile": 53.53659420289855,
+            "99-percentile": 53.67532758866258,
+            "100-percentile": 54.38333333333333
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 40.19,
+            "5-percentile": 42.70357142857143,
+            "25-percentile": 46.84489247311828,
+            "50-percentile": 48.586612021857924,
+            "75-percentile": 49.38223443223443,
+            "95-percentile": 49.90442028985507,
+            "99-percentile": 49.988362768836346,
+            "100-percentile": 50.00833333333333
+        },
+        "duration": {
+            "0-percentile": 32.389,
+            "1-percentile": 35.16899000000001,
+            "5-percentile": 39.495982222222224,
+            "25-percentile": 45.47904855072464,
+            "50-percentile": 47.57533113553113,
+            "75-percentile": 49.09454109477124,
+            "95-percentile": 50.84747561369509,
+            "99-percentile": 51.544712698198495,
+            "100-percentile": 51.753716666666676
+        }
+    },
+    "aes-python-7000-7070": {
+        "name": "aes-python-7000-7070",
+        "yaml": "./yamls/aes-python/kn-aes-python-7000-7070.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 50.595,
+            "5-percentile": 51.56785714285714,
+            "25-percentile": 52.57715053763441,
+            "50-percentile": 53.20642076502732,
+            "75-percentile": 54.58717948717948,
+            "95-percentile": 55.370000000000005,
+            "99-percentile": 55.54585386697052,
+            "100-percentile": 55.61666666666667
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.65833333333333,
+            "5-percentile": 43.70357142857143,
+            "25-percentile": 47.39784946236559,
+            "50-percentile": 48.95846994535519,
+            "75-percentile": 49.96117216117216,
+            "95-percentile": 50.38666666666666,
+            "99-percentile": 50.45129183876941,
+            "100-percentile": 50.46666666666667
+        },
+        "duration": {
+            "0-percentile": 52.552,
+            "1-percentile": 53.70583,
+            "5-percentile": 57.300893888888886,
+            "25-percentile": 61.1093,
+            "50-percentile": 63.09549932844932,
+            "75-percentile": 64.91567275326798,
+            "95-percentile": 67.40229728682169,
+            "99-percentile": 68.37319683729835,
+            "100-percentile": 68.72755000000001
+        }
+    },
+    "aes-python-10000-10100": {
+        "name": "aes-python-10000-10100",
+        "yaml": "./yamls/aes-python/kn-aes-python-10000-10100.yaml",
+        "cpu": {
+            "0-percentile": 53.0,
+            "1-percentile": 53.0,
+            "5-percentile": 53.0,
+            "25-percentile": 53.73978494623656,
+            "50-percentile": 54.34699453551913,
+            "75-percentile": 56.07747252747253,
+            "95-percentile": 57.081086956521744,
+            "99-percentile": 57.30176399373309,
+            "100-percentile": 57.36666666666667
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 41.65833333333333,
+            "5-percentile": 43.55952380952381,
+            "25-percentile": 47.527956989247315,
+            "50-percentile": 49.20642076502732,
+            "75-percentile": 50.12738095238095,
+            "95-percentile": 50.518188405797105,
+            "99-percentile": 50.577545221478424,
+            "100-percentile": 50.59166666666667
+        },
+        "duration": {
+            "0-percentile": 71.139,
+            "1-percentile": 73.37148,
+            "5-percentile": 76.43507388888888,
+            "25-percentile": 80.70990217391304,
+            "50-percentile": 83.26575463980464,
+            "75-percentile": 85.69285751633987,
+            "95-percentile": 88.83923168604652,
+            "99-percentile": 89.9445583048773,
+            "100-percentile": 90.29166666666669
+        }
+    },
+    "aes-python-20000-20200": {
+        "name": "aes-python-20000-20200",
+        "yaml": "./yamls/aes-python/kn-aes-python-20000-20200.yaml",
+        "cpu": {
+            "0-percentile": 56.0,
+            "1-percentile": 56.531666666666666,
+            "5-percentile": 56.85595238095238,
+            "25-percentile": 57.95913978494624,
+            "50-percentile": 58.908879781420765,
+            "75-percentile": 62.11062271062271,
+            "95-percentile": 63.84521739130435,
+            "99-percentile": 64.17748682523857,
+            "100-percentile": 64.29166666666667
+        },
+        "memory": {
+            "0-percentile": 41.0,
+            "1-percentile": 42.06333333333333,
+            "5-percentile": 43.983333333333334,
+            "25-percentile": 47.69059139784946,
+            "50-percentile": 49.25601092896175,
+            "75-percentile": 50.16062271062271,
+            "95-percentile": 50.553695652173914,
+            "99-percentile": 50.6516870816123,
+            "100-percentile": 50.675
+        },
+        "duration": {
+            "0-percentile": 130.232,
+            "1-percentile": 133.33608500000003,
+            "5-percentile": 138.24777333333333,
+            "25-percentile": 144.2611251207729,
+            "50-percentile": 148.35721172161166,
+            "75-percentile": 152.64610714869272,
+            "95-percentile": 157.59458572351411,
+            "99-percentile": 159.1998562099051,
+            "100-percentile": 159.7628888888888
+        }
+    },
+    "aes-python-45000-45450": {
+        "name": "aes-python-45000-45450",
+        "yaml": "./yamls/aes-python/kn-aes-python-45000-45450.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 58.165,
+            "5-percentile": 64.975,
+            "25-percentile": 68.3736559139785,
+            "50-percentile": 70.21352459016393,
+            "75-percentile": 77.14093406593406,
+            "95-percentile": 80.57688405797101,
+            "99-percentile": 81.28763851303233,
+            "100-percentile": 81.69166666666666
+        },
+        "memory": {
+            "0-percentile": 39.0,
+            "1-percentile": 41.785,
+            "5-percentile": 45.40714285714286,
+            "25-percentile": 49.36532258064516,
+            "50-percentile": 51.04945355191256,
+            "75-percentile": 51.8503663003663,
+            "95-percentile": 52.29898550724638,
+            "99-percentile": 52.367122916963396,
+            "100-percentile": 52.391666666666666
+        },
+        "duration": {
+            "0-percentile": 291.649,
+            "1-percentile": 296.974085,
+            "5-percentile": 301.13017055555554,
+            "25-percentile": 307.5403760869566,
+            "50-percentile": 313.63193089133097,
+            "75-percentile": 320.06311858660126,
+            "95-percentile": 326.86148294573627,
+            "99-percentile": 329.77456864352513,
+            "100-percentile": 331.1695888888888
+        }
+    },
+    "aes-python-70000-70700": {
+        "name": "aes-python-70000-70700",
+        "yaml": "./yamls/aes-python/kn-aes-python-70000-70700.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 63.48166666666667,
+            "5-percentile": 74.10238095238095,
+            "25-percentile": 79.04005376344085,
+            "50-percentile": 81.40437158469945,
+            "75-percentile": 91.89697802197801,
+            "95-percentile": 96.98282608695652,
+            "99-percentile": 97.84834995014954,
+            "100-percentile": 98.10833333333333
+        },
+        "memory": {
+            "0-percentile": 45.0,
+            "1-percentile": 45.06333333333333,
+            "5-percentile": 46.135714285714286,
+            "25-percentile": 48.47123655913978,
+            "50-percentile": 49.65273224043716,
+            "75-percentile": 50.42655677655678,
+            "95-percentile": 50.825507246376816,
+            "99-percentile": 50.91261073921094,
+            "100-percentile": 50.93333333333333
+        },
+        "duration": {
+            "0-percentile": 452.101,
+            "1-percentile": 453.3229283333334,
+            "5-percentile": 456.74081444444437,
+            "25-percentile": 466.6243307971013,
+            "50-percentile": 476.01149731379724,
+            "75-percentile": 486.19204317810454,
+            "95-percentile": 496.16177932816527,
+            "99-percentile": 499.3957379834912,
+            "100-percentile": 500.54356111111093
+        }
+    },
+    "aes-python-100000-101000": {
+        "name": "aes-python-100000-101000",
+        "yaml": "./yamls/aes-python/kn-aes-python-100000-101000.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 71.925,
+            "5-percentile": 86.65357142857142,
+            "25-percentile": 93.48709677419355,
+            "50-percentile": 96.32759562841531,
+            "75-percentile": 112.01584249084249,
+            "95-percentile": 119.70702898550725,
+            "99-percentile": 121.05306366614442,
+            "100-percentile": 121.48333333333333
+        },
+        "memory": {
+            "0-percentile": 44.0,
+            "1-percentile": 45.595,
+            "5-percentile": 47.27142857142857,
+            "25-percentile": 50.438709677419354,
+            "50-percentile": 51.685792349726775,
+            "75-percentile": 52.49578754578754,
+            "95-percentile": 53.05391304347826,
+            "99-percentile": 53.17192422731805,
+            "100-percentile": 53.2
+        },
+        "duration": {
+            "0-percentile": 641.179,
+            "1-percentile": 651.9755916666667,
+            "5-percentile": 659.8964855555555,
+            "25-percentile": 677.2121388888888,
+            "50-percentile": 691.9468537851037,
+            "75-percentile": 705.450083006536,
+            "95-percentile": 718.8827206395347,
+            "99-percentile": 723.2116620152531,
+            "100-percentile": 725.1830111111109
+        }
+    },
+    "aes-python-200000-202000": {
+        "name": "aes-python-200000-202000",
+        "yaml": "./yamls/aes-python/kn-aes-python-200000-202000.yaml",
+        "cpu": {
+            "0-percentile": 136.0,
+            "1-percentile": 136.595,
+            "5-percentile": 137.84761904761905,
+            "25-percentile": 139.9508064516129,
+            "50-percentile": 143.73428961748635,
+            "75-percentile": 172.42509157509159,
+            "95-percentile": 186.63065217391303,
+            "99-percentile": 189.0380601053981,
+            "100-percentile": 189.69166666666666
+        },
+        "memory": {
+            "0-percentile": 49.0,
+            "1-percentile": 50.19,
+            "5-percentile": 52.83928571428571,
+            "25-percentile": 56.59301075268817,
+            "50-percentile": 57.9172131147541,
+            "75-percentile": 58.68415750915751,
+            "95-percentile": 59.25601449275362,
+            "99-percentile": 59.42121065375303,
+            "100-percentile": 59.46666666666667
+        },
+        "duration": {
+            "0-percentile": 1260.842,
+            "1-percentile": 1273.1759616666668,
+            "5-percentile": 1289.1391666666666,
+            "25-percentile": 1318.320514009662,
+            "50-percentile": 1343.17950006105,
+            "75-percentile": 1370.0456660539214,
+            "95-percentile": 1394.619601905685,
+            "99-percentile": 1401.2515672920724,
+            "100-percentile": 1404.2920833333337
+        }
+    },
+    "aes-python-450000-454500": {
+        "name": "aes-python-450000-454500",
+        "yaml": "./yamls/aes-python/kn-aes-python-450000-454500.yaml",
+        "cpu": {
+            "0-percentile": 173.0,
+            "1-percentile": 219.09333333333333,
+            "5-percentile": 293.71666666666664,
+            "25-percentile": 327.0784946236559,
+            "50-percentile": 337.4771857923497,
+            "75-percentile": 349.714010989011,
+            "95-percentile": 356.7105072463768,
+            "99-percentile": 358.38688505910835,
+            "100-percentile": 358.8
+        },
+        "memory": {
+            "0-percentile": 48.0,
+            "1-percentile": 53.975,
+            "5-percentile": 59.82261904761904,
+            "25-percentile": 65.81236559139785,
+            "50-percentile": 67.77663934426229,
+            "75-percentile": 69.13287545787546,
+            "95-percentile": 70.08108695652174,
+            "99-percentile": 70.33221122347244,
+            "100-percentile": 70.40833333333333
+        },
+        "duration": {
+            "0-percentile": 2882.651,
+            "1-percentile": 2900.642961666667,
+            "5-percentile": 2945.7268133333337,
+            "25-percentile": 2996.1865868357486,
+            "50-percentile": 3032.9502869352873,
+            "75-percentile": 3064.1781899918305,
+            "95-percentile": 3096.814892312662,
+            "99-percentile": 3108.7996261571784,
+            "100-percentile": 3112.0094666666673
+        }
+    },
+    "aes-python-700000-707000": {
+        "name": "aes-python-700000-707000",
+        "yaml": "./yamls/aes-python/kn-aes-python-700000-707000.yaml",
+        "cpu": {
+            "0-percentile": 305.0,
+            "1-percentile": 343.06666666666666,
+            "5-percentile": 396.775,
+            "25-percentile": 423.0543010752688,
+            "50-percentile": 434.79043715846996,
+            "75-percentile": 497.1132783882784,
+            "95-percentile": 526.0780434782608,
+            "99-percentile": 530.9278364905284,
+            "100-percentile": 532.1166666666667
+        },
+        "memory": {
+            "0-percentile": 52.0,
+            "1-percentile": 60.165,
+            "5-percentile": 68.67023809523809,
+            "25-percentile": 75.90161290322581,
+            "50-percentile": 78.850956284153,
+            "75-percentile": 80.66749084249084,
+            "95-percentile": 81.91492753623189,
+            "99-percentile": 82.19754094858283,
+            "100-percentile": 82.275
+        },
+        "duration": {
+            "0-percentile": 4571.407,
+            "1-percentile": 4588.163206666667,
+            "5-percentile": 4644.332821666667,
+            "25-percentile": 4721.971728019325,
+            "50-percentile": 4765.70589822955,
+            "75-percentile": 4806.363354616014,
+            "95-percentile": 4849.066143443153,
+            "99-percentile": 4859.7595612736195,
+            "100-percentile": 4865.280866666669
+        }
+    },
+    "aes-python-1000000-1010000": {
+        "name": "aes-python-1000000-1010000",
+        "yaml": "./yamls/aes-python/kn-aes-python-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 179.0,
+            "1-percentile": 376.61833333333334,
+            "5-percentile": 549.6214285714286,
+            "25-percentile": 620.1403225806451,
+            "50-percentile": 641.7979508196722,
+            "75-percentile": 703.3653846153846,
+            "95-percentile": 732.5006521739131,
+            "99-percentile": 737.476910696482,
+            "100-percentile": 738.6833333333333
+        },
+        "memory": {
+            "0-percentile": 52.0,
+            "1-percentile": 65.33,
+            "5-percentile": 81.21309523809525,
+            "25-percentile": 90.31612903225806,
+            "50-percentile": 93.74344262295082,
+            "75-percentile": 95.83644688644688,
+            "95-percentile": 97.40768115942029,
+            "99-percentile": 97.839200968523,
+            "100-percentile": 97.95833333333333
+        },
+        "duration": {
+            "0-percentile": 6635.636,
+            "1-percentile": 6663.037758333334,
+            "5-percentile": 6694.488358333333,
+            "25-percentile": 6774.28552705314,
+            "50-percentile": 6836.852614529918,
+            "75-percentile": 6892.823198856212,
+            "95-percentile": 6949.364521931526,
+            "99-percentile": 6963.193299536753,
+            "100-percentile": 6967.046855555556
+        }
+    }
+}

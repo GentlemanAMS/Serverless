@@ -2,9 +2,9 @@
 
 #This Bash script sets up SSH Connection
 
-# Generate the SSH keys: Not required
-#cd $HOME/.ssh/
-#ssh-keygen -t rsa -b 4096 -C "arunkrish2603@gmail.com"
+# Generate the SSH keys: 
+# ssh-keygen -t rsa -b 4096 -C "ee19b001@smail.iitm.ac.in"
+# cat ~/.ssh/id_rsa.pub
 
 # Set the desired ClientAliveInterval and ClientAliveCountMax values
 CLIENT_ALIVE_INTERVAL=3

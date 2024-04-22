@@ -71,7 +71,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 
 # clone vSwarm repository
 cd $HOME
-git clone --depth=1 https://github.com/vhive-serverless/vSwarm.git
+git clone --depth=1 git@github.com:vhive-serverless/vSwarm.git
 echo "vSwarm repository cloned"
 
 
