@@ -370,11 +370,6 @@
         "postdeployment-commands": []
     },
     {
-        "yaml-location": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000000-1010000.yaml",
-        "predeployment-commands": [],
-        "postdeployment-commands": []
-    },
-    {
         "yaml-location": "./yamls/fibonacci-python/kn-fibonacci-python-10-10.yaml",
         "predeployment-commands": [],
         "postdeployment-commands": []

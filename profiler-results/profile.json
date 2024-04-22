@@ -2737,33 +2737,6 @@
             "100-percentile": 7814.156986666666
         }
     },
-    "fibonacci-nodejs-1000000-1010000": {
-        "name": "fibonacci-nodejs-1000000-1010000",
-        "yaml": "./yamls/fibonacci-nodejs/kn-fibonacci-nodejs-1000000-1010000.yaml",
-        "cpu": {
-            "0-percentile": 2.0,
-            "1-percentile": 2.5316666666666667,
-            "5-percentile": 2.855952380952381,
-            "25-percentile": 2.96747311827957,
-            "50-percentile": 53.406284153005465,
-            "75-percentile": 366.1543956043956,
-            "95-percentile": 499.0613043478261,
-            "99-percentile": 519.2847927645635,
-            "100-percentile": 524.1166666666667
-        },
-        "memory": {
-            "0-percentile": 73.0,
-            "1-percentile": 73.53166666666667,
-            "5-percentile": 74.4154761904762,
-            "25-percentile": 80.72231182795699,
-            "50-percentile": 85.85068306010929,
-            "75-percentile": 88.86135531135531,
-            "95-percentile": 90.19550724637682,
-            "99-percentile": 90.4280173764421,
-            "100-percentile": 90.48333333333333
-        },
-        "duration": {}
-    },
     "fibonacci-python-10-10": {
         "name": "fibonacci-python-10-10",
         "yaml": "./yamls/fibonacci-python/kn-fibonacci-python-10-10.yaml",
