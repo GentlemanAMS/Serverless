@@ -1,0 +1,187 @@
+{
+    "hotel-app-geo": {
+        "name": "hotel-app-geo",
+        "yaml": "./yamls/hotel-app/kn-geo.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.1666666666666665,
+            "50-percentile": 3.5652173913043477,
+            "75-percentile": 3.7058823529411766,
+            "95-percentile": 3.7663344407530452,
+            "99-percentile": 4.009555555555557,
+            "100-percentile": 4.177777777777778
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 19.22,
+            "5-percentile": 20.05,
+            "25-percentile": 23.25,
+            "50-percentile": 25.652173913043477,
+            "75-percentile": 27.323529411764707,
+            "95-percentile": 28.28471760797342,
+            "99-percentile": 28.44377777777778,
+            "100-percentile": 28.488888888888887
+        },
+        "duration": {
+            "0-percentile": 0.514,
+            "1-percentile": 0.5568550000000001,
+            "5-percentile": 0.6613205555555556,
+            "25-percentile": 0.7764921497584544,
+            "50-percentile": 0.8179923687423685,
+            "75-percentile": 0.848272589869281,
+            "95-percentile": 0.8776526808785527,
+            "99-percentile": 0.9001861979787834,
+            "100-percentile": 0.9335166666666664
+        }
+    },
+    "hotel-app-profile": {
+        "name": "hotel-app-profile",
+        "yaml": "./yamls/hotel-app/kn-profile.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.0,
+            "95-percentile": 4.163617886178862,
+            "99-percentile": 4.196590909090909,
+            "100-percentile": 4.204545454545454
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 19.43,
+            "5-percentile": 20.395833333333332,
+            "25-percentile": 24.25,
+            "50-percentile": 26.66501976284585,
+            "75-percentile": 27.871657754010695,
+            "95-percentile": 28.65447154471545,
+            "99-percentile": 28.786363636363635,
+            "100-percentile": 28.818181818181817
+        },
+        "duration": {
+            "0-percentile": 1.513,
+            "1-percentile": 1.530371666666667,
+            "5-percentile": 1.5718616666666665,
+            "25-percentile": 1.65198345410628,
+            "50-percentile": 1.7024009157509148,
+            "75-percentile": 1.7397437908496736,
+            "95-percentile": 1.7745512273901807,
+            "99-percentile": 1.8022914462368966,
+            "100-percentile": 1.917927777777778
+        }
+    },
+    "hotel-app-recommendation": {
+        "name": "hotel-app-recommendation",
+        "yaml": "./yamls/hotel-app/kn-recommendation.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.5738636363636367,
+            "50-percentile": 3.7776679841897236,
+            "75-percentile": 3.8495989304812834,
+            "95-percentile": 3.9246515679442506,
+            "99-percentile": 3.98,
+            "100-percentile": 4.0
+        },
+        "memory": {
+            "0-percentile": 19.0,
+            "1-percentile": 19.215,
+            "5-percentile": 19.71666666666667,
+            "25-percentile": 22.1875,
+            "50-percentile": 24.57608695652174,
+            "75-percentile": 25.90909090909091,
+            "95-percentile": 26.750058072009292,
+            "99-percentile": 26.87818181818182,
+            "100-percentile": 26.90909090909091
+        },
+        "duration": {
+            "0-percentile": 0.707,
+            "1-percentile": 0.7403733333333333,
+            "5-percentile": 0.8590527777777777,
+            "25-percentile": 0.9531379227053138,
+            "50-percentile": 0.9860642857142861,
+            "75-percentile": 1.0175313316993466,
+            "95-percentile": 1.0476947997416026,
+            "99-percentile": 1.0801311022534688,
+            "100-percentile": 1.1121500000000006
+        }
+    },
+    "hotel-app-reservation": {
+        "name": "hotel-app-reservation",
+        "yaml": "./yamls/hotel-app/kn-reservation.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.22,
+            "5-percentile": 3.683333333333333,
+            "25-percentile": 3.9166666666666665,
+            "50-percentile": 3.9565217391304346,
+            "75-percentile": 3.9705882352941178,
+            "95-percentile": 4.1354374307862685,
+            "99-percentile": 4.169555555555556,
+            "100-percentile": 4.177777777777778
+        },
+        "memory": {
+            "0-percentile": 20.0,
+            "1-percentile": 20.0,
+            "5-percentile": 20.416666666666664,
+            "25-percentile": 23.416666666666668,
+            "50-percentile": 25.130434782608695,
+            "75-percentile": 26.470588235294116,
+            "95-percentile": 27.33145071982281,
+            "99-percentile": 27.476222222222223,
+            "100-percentile": 27.511111111111113
+        },
+        "duration": {
+            "0-percentile": 1.202,
+            "1-percentile": 1.4950933333333332,
+            "5-percentile": 1.6464044444444446,
+            "25-percentile": 1.7526500000000003,
+            "50-percentile": 1.8005885836385835,
+            "75-percentile": 1.840152246732026,
+            "95-percentile": 1.8792585271317828,
+            "99-percentile": 1.9248171828510456,
+            "100-percentile": 2.003683333333334
+        }
+    },
+    "hotel-app-user": {
+        "name": "hotel-app-user",
+        "yaml": "./yamls/hotel-app/kn-user.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.088235294117647,
+            "95-percentile": 4.294241417497231,
+            "99-percentile": 4.51088888888889,
+            "100-percentile": 4.644444444444445
+        },
+        "memory": {
+            "0-percentile": 21.0,
+            "1-percentile": 21.22,
+            "5-percentile": 21.733333333333334,
+            "25-percentile": 24.666666666666668,
+            "50-percentile": 26.08695652173913,
+            "75-percentile": 27.176470588235293,
+            "95-percentile": 27.756810631229236,
+            "99-percentile": 27.845333333333333,
+            "100-percentile": 27.866666666666667
+        },
+        "duration": {
+            "0-percentile": 1.926,
+            "1-percentile": 1.9332116666666666,
+            "5-percentile": 1.9595761111111114,
+            "25-percentile": 2.0158915458937203,
+            "50-percentile": 2.055246520146521,
+            "75-percentile": 2.091980269607844,
+            "95-percentile": 2.1313205103359167,
+            "99-percentile": 2.145134624317368,
+            "100-percentile": 2.1595222222222215
+        }
+    }
+}

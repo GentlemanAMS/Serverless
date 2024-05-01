@@ -1,0 +1,17 @@
+[
+    {
+        "yaml-location": "./yamls/auth/kn-auth-go.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/auth/kn-auth-python.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/auth/kn-auth-nodejs.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    }
+]

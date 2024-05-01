@@ -1,0 +1,42 @@
+[
+    {
+        "yaml-location": "./yamls/hotel-app/kn-geo.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/hotel-app/database.yaml",
+            "kubectl apply -f ./yamls/hotel-app/memcached.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/hotel-app/kn-profile.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/hotel-app/database.yaml",
+            "kubectl apply -f ./yamls/hotel-app/memcached.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/hotel-app/kn-recommendation.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/hotel-app/database.yaml",
+            "kubectl apply -f ./yamls/hotel-app/memcached.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/hotel-app/kn-reservation.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/hotel-app/database.yaml",
+            "kubectl apply -f ./yamls/hotel-app/memcached.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/hotel-app/kn-user.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/hotel-app/database.yaml",
+            "kubectl apply -f ./yamls/hotel-app/memcached.yaml"
+        ],
+        "postdeployment-commands": []
+    }
+]

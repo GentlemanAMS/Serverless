@@ -405,42 +405,5 @@
             "99-percentile": 3958.406194381711,
             "100-percentile": 3960.31087777778
         }
-    },
-    "fibonacci-go-1000000-1010000": {
-        "name": "fibonacci-go-1000000-1010000",
-        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-1000000-1010000.yaml",
-        "cpu": {
-            "0-percentile": 379.0,
-            "1-percentile": 489.6716666666666,
-            "5-percentile": 699.4964285714286,
-            "25-percentile": 779.0994623655914,
-            "50-percentile": 800.4516393442623,
-            "75-percentile": 842.8869963369964,
-            "95-percentile": 864.0036231884059,
-            "99-percentile": 867.6835265631676,
-            "100-percentile": 868.6583333333333
-        },
-        "memory": {
-            "0-percentile": 22.0,
-            "1-percentile": 24.253333333333334,
-            "5-percentile": 27.415476190476188,
-            "25-percentile": 31.46290322580645,
-            "50-percentile": 33.11557377049181,
-            "75-percentile": 34.01657509157509,
-            "95-percentile": 34.5186231884058,
-            "99-percentile": 34.6180195128899,
-            "100-percentile": 34.641666666666666
-        },
-        "duration": {
-            "0-percentile": 7725.116,
-            "1-percentile": 7854.469413333334,
-            "5-percentile": 7944.663184444444,
-            "25-percentile": 8042.1801015700485,
-            "50-percentile": 8093.239605494506,
-            "75-percentile": 8135.185007679738,
-            "95-percentile": 8173.603060917316,
-            "99-percentile": 8183.748153906538,
-            "100-percentile": 8187.390172222225
-        }
     }
 }

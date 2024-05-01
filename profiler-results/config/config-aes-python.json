@@ -73,10 +73,5 @@
         "yaml-location": "./yamls/aes-python/kn-aes-python-700000-707000.yaml",
         "predeployment-commands": [],
         "postdeployment-commands": []
-    },
-    {
-        "yaml-location": "./yamls/aes-python/kn-aes-python-1000000-1010000.yaml",
-        "predeployment-commands": [],
-        "postdeployment-commands": []
     }
 ]

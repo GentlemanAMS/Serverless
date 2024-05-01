@@ -1,0 +1,7 @@
+[
+    {
+        "yaml-location": "./yamls/gptj/kn-gptj-python.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    }
+]

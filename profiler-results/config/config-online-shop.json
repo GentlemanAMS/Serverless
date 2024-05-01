@@ -1,0 +1,51 @@
+[
+    {
+        "yaml-location": "./yamls/online-shop/kn-adservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/online-shop/kn-cartservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/online-shop/kn-currencyservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/online-shop/kn-emailservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/online-shop/kn-paymentservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/online-shop/kn-productcatalogservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/online-shop/kn-shippingservice.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/online-shop/database.yaml"
+        ],
+        "postdeployment-commands": []
+    }
+]

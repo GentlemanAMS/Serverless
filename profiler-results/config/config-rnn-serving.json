@@ -1,0 +1,82 @@
+[
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-1-1.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-5-5.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-10-10.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-20-20.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-45-45.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-100-101.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-200-202.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-300-303.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-450-454.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-700-707.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-1000-1010.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-1500-1515.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-2000-2020.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-2500-2525.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-3000-3030.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/rnn-serving/kn-rnn-serving-python-4500-4545.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    }
+]

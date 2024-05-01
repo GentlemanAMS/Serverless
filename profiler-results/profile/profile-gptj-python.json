@@ -1,0 +1,39 @@
+{
+    "gptj-python": {
+        "name": "gptj-python",
+        "yaml": "./yamls/gptj/kn-gptj-python.yaml",
+        "cpu": {
+            "0-percentile": 6.0,
+            "1-percentile": 6.0,
+            "5-percentile": 6.05,
+            "25-percentile": 6.75,
+            "50-percentile": 6.869565217391305,
+            "75-percentile": 7.0588235294117645,
+            "95-percentile": 7.252270210409745,
+            "99-percentile": 7.294222222222222,
+            "100-percentile": 7.311111111111111
+        },
+        "memory": {
+            "0-percentile": 249.0,
+            "1-percentile": 249.0,
+            "5-percentile": 249.0,
+            "25-percentile": 250.25,
+            "50-percentile": 251.08695652173913,
+            "75-percentile": 251.61764705882354,
+            "95-percentile": 251.9017718715393,
+            "99-percentile": 251.98000000000002,
+            "100-percentile": 252.0
+        },
+        "duration": {
+            "0-percentile": 2.063,
+            "1-percentile": 2.0912716666666666,
+            "5-percentile": 2.1259838888888885,
+            "25-percentile": 2.1734047101449274,
+            "50-percentile": 2.2229969474969464,
+            "75-percentile": 2.274976184640522,
+            "95-percentile": 2.330856686046511,
+            "99-percentile": 2.3723507877722674,
+            "100-percentile": 2.410727777777777
+        }
+    }
+}

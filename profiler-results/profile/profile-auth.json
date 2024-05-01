@@ -1,0 +1,113 @@
+{
+    "auth-go": {
+        "name": "auth-go",
+        "yaml": "./yamls/auth/kn-auth-go.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.0,
+            "50-percentile": 3.0,
+            "75-percentile": 3.235294117647059,
+            "95-percentile": 3.3924695459579177,
+            "99-percentile": 3.5906666666666673,
+            "100-percentile": 3.7333333333333334
+        },
+        "memory": {
+            "0-percentile": 18.0,
+            "1-percentile": 18.22,
+            "5-percentile": 18.733333333333334,
+            "25-percentile": 21.166666666666668,
+            "50-percentile": 23.0,
+            "75-percentile": 24.235294117647058,
+            "95-percentile": 24.985714285714284,
+            "99-percentile": 25.104666666666667,
+            "100-percentile": 25.133333333333333
+        },
+        "duration": {
+            "0-percentile": 0.601,
+            "1-percentile": 0.6106333333333334,
+            "5-percentile": 0.6376266666666667,
+            "25-percentile": 0.693581038647343,
+            "50-percentile": 0.7269429181929187,
+            "75-percentile": 0.7567883578431375,
+            "95-percentile": 0.7833937661498709,
+            "99-percentile": 0.7966316913564749,
+            "100-percentile": 0.8098055555555557
+        }
+    },
+    "auth-python": {
+        "name": "auth-python",
+        "yaml": "./yamls/auth/kn-auth-python.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.0,
+            "25-percentile": 50.25,
+            "50-percentile": 50.608695652173914,
+            "75-percentile": 50.73529411764706,
+            "95-percentile": 50.90177187153931,
+            "99-percentile": 52.26177777777778,
+            "100-percentile": 53.28888888888889
+        },
+        "memory": {
+            "0-percentile": 40.0,
+            "1-percentile": 40.0,
+            "5-percentile": 40.36666666666667,
+            "25-percentile": 43.083333333333336,
+            "50-percentile": 45.130434782608695,
+            "75-percentile": 46.205882352941174,
+            "95-percentile": 46.79878183831672,
+            "99-percentile": 46.92511111111111,
+            "100-percentile": 46.955555555555556
+        },
+        "duration": {
+            "0-percentile": 1.551,
+            "1-percentile": 1.6067000000000002,
+            "5-percentile": 1.6762422222222224,
+            "25-percentile": 1.7689864734299516,
+            "50-percentile": 1.8337699633699636,
+            "75-percentile": 1.900869158496732,
+            "95-percentile": 2.4661275193798446,
+            "99-percentile": 2.5776823702215803,
+            "100-percentile": 2.8009277777777775
+        }
+    },
+    "auth-nodejs": {
+        "name": "auth-nodejs",
+        "yaml": "./yamls/auth/kn-auth-nodejs.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.5833333333333335,
+            "50-percentile": 3.782608695652174,
+            "75-percentile": 3.8529411764705883,
+            "95-percentile": 4.018604651162791,
+            "99-percentile": 4.266444444444446,
+            "100-percentile": 4.4222222222222225
+        },
+        "memory": {
+            "0-percentile": 37.0,
+            "1-percentile": 37.22,
+            "5-percentile": 37.733333333333334,
+            "25-percentile": 40.0,
+            "50-percentile": 41.21739130434783,
+            "75-percentile": 42.088235294117645,
+            "95-percentile": 42.593244739756365,
+            "99-percentile": 42.68822222222222,
+            "100-percentile": 42.71111111111111
+        },
+        "duration": {
+            "0-percentile": 2.398,
+            "1-percentile": 2.4046333333333334,
+            "5-percentile": 2.4209222222222215,
+            "25-percentile": 2.460679951690821,
+            "50-percentile": 2.4938214285714286,
+            "75-percentile": 2.5301590277777772,
+            "95-percentile": 2.661198352713177,
+            "99-percentile": 2.74822847812441,
+            "100-percentile": 2.8869722222222207
+        }
+    }
+}

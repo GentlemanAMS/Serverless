@@ -1,0 +1,594 @@
+{
+    "rnn-serving-python-1-1": {
+        "name": "rnn-serving-python-1-1",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-1-1.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 47.495,
+            "5-percentile": 47.83166666666667,
+            "25-percentile": 48.261923076923075,
+            "50-percentile": 48.62372549019608,
+            "75-percentile": 48.93684210526315,
+            "95-percentile": 49.21145833333333,
+            "99-percentile": 49.283100000000005,
+            "100-percentile": 49.31
+        },
+        "memory": {
+            "0-percentile": 222.0,
+            "1-percentile": 222.0,
+            "5-percentile": 222.32666666666668,
+            "25-percentile": 224.0676923076923,
+            "50-percentile": 224.93058823529412,
+            "75-percentile": 225.49828947368422,
+            "95-percentile": 225.81114583333334,
+            "99-percentile": 225.8587,
+            "100-percentile": 225.87
+        },
+        "duration": {
+            "0-percentile": 3.604,
+            "1-percentile": 3.85907,
+            "5-percentile": 4.061460416666667,
+            "25-percentile": 4.83081006097561,
+            "50-percentile": 5.7384087962963,
+            "75-percentile": 7.0875848140495865,
+            "95-percentile": 8.103918055555553,
+            "99-percentile": 8.34419341374094,
+            "100-percentile": 8.452024999999995
+        }
+    },
+    "rnn-serving-python-5-5": {
+        "name": "rnn-serving-python-5-5",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-5-5.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 48.495,
+            "5-percentile": 48.83166666666667,
+            "25-percentile": 49.378461538461536,
+            "50-percentile": 49.83156862745098,
+            "75-percentile": 50.485,
+            "95-percentile": 50.916875000000005,
+            "99-percentile": 51.085600000000035,
+            "100-percentile": 57.56
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.0,
+            "5-percentile": 216.99,
+            "25-percentile": 220.8923076923077,
+            "50-percentile": 222.6829411764706,
+            "75-percentile": 223.7540789473684,
+            "95-percentile": 224.22197916666667,
+            "99-percentile": 224.2931,
+            "100-percentile": 224.31
+        },
+        "duration": {
+            "0-percentile": 9.909,
+            "1-percentile": 10.444686666666668,
+            "5-percentile": 11.73359513888889,
+            "25-percentile": 14.909241006097558,
+            "50-percentile": 16.747222762345675,
+            "75-percentile": 18.256879132231404,
+            "95-percentile": 19.345224387254902,
+            "99-percentile": 19.651502258578137,
+            "100-percentile": 19.74565
+        }
+    },
+    "rnn-serving-python-10-10": {
+        "name": "rnn-serving-python-10-10",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-10-10.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 49.0,
+            "5-percentile": 49.32666666666667,
+            "25-percentile": 49.84461538461539,
+            "50-percentile": 50.34647058823529,
+            "75-percentile": 50.900263157894734,
+            "95-percentile": 51.338229166666665,
+            "99-percentile": 51.4448,
+            "100-percentile": 51.48
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.495,
+            "5-percentile": 216.99,
+            "25-percentile": 220.43615384615384,
+            "50-percentile": 222.0592156862745,
+            "75-percentile": 223.08960526315792,
+            "95-percentile": 223.6959375,
+            "99-percentile": 223.7881,
+            "100-percentile": 223.81
+        },
+        "duration": {
+            "0-percentile": 15.151,
+            "1-percentile": 16.757554999999996,
+            "5-percentile": 18.423418750000003,
+            "25-percentile": 21.962139786585368,
+            "50-percentile": 24.942591743827165,
+            "75-percentile": 26.86394504132231,
+            "95-percentile": 28.51507324346405,
+            "99-percentile": 28.992586680996734,
+            "100-percentile": 29.118568749999998
+        }
+    },
+    "rnn-serving-python-20-20": {
+        "name": "rnn-serving-python-20-20",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-20-20.yaml",
+        "cpu": {
+            "0-percentile": 50.0,
+            "1-percentile": 50.0,
+            "5-percentile": 50.15833333333333,
+            "25-percentile": 50.80576923076923,
+            "50-percentile": 51.43549019607843,
+            "75-percentile": 52.249078947368425,
+            "95-percentile": 52.88583333333333,
+            "99-percentile": 53.0105,
+            "100-percentile": 53.05
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.0,
+            "5-percentile": 216.99,
+            "25-percentile": 220.3196153846154,
+            "50-percentile": 221.97,
+            "75-percentile": 222.9667105263158,
+            "95-percentile": 223.51708333333332,
+            "99-percentile": 223.6164,
+            "100-percentile": 223.64
+        },
+        "duration": {
+            "0-percentile": 27.674,
+            "1-percentile": 27.82523,
+            "5-percentile": 29.369430555555553,
+            "25-percentile": 34.81864390243903,
+            "50-percentile": 38.85813379629631,
+            "75-percentile": 41.64473915289257,
+            "95-percentile": 43.780990441176456,
+            "99-percentile": 44.441943346867276,
+            "100-percentile": 44.64550624999999
+        }
+    },
+    "rnn-serving-python-45-45": {
+        "name": "rnn-serving-python-45-45",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-45-45.yaml",
+        "cpu": {
+            "0-percentile": 51.0,
+            "1-percentile": 51.0,
+            "5-percentile": 51.663333333333334,
+            "25-percentile": 53.67923076923077,
+            "50-percentile": 55.00960784313725,
+            "75-percentile": 56.5878947368421,
+            "95-percentile": 57.624375,
+            "99-percentile": 57.92420000000001,
+            "100-percentile": 61.42
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.495,
+            "5-percentile": 217.65333333333334,
+            "25-percentile": 220.78576923076923,
+            "50-percentile": 222.64333333333332,
+            "75-percentile": 223.63776315789474,
+            "95-percentile": 224.33822916666665,
+            "99-percentile": 224.4447,
+            "100-percentile": 224.47
+        },
+        "duration": {
+            "0-percentile": 52.393,
+            "1-percentile": 52.68691,
+            "5-percentile": 55.9452861111111,
+            "25-percentile": 70.12175762195123,
+            "50-percentile": 77.83807854938273,
+            "75-percentile": 83.49835764462811,
+            "95-percentile": 89.47103157679743,
+            "99-percentile": 91.02994031804798,
+            "100-percentile": 91.56973750000004
+        }
+    },
+    "rnn-serving-python-100-101": {
+        "name": "rnn-serving-python-100-101",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-100-101.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 51.465,
+            "5-percentile": 54.14833333333333,
+            "25-percentile": 57.630384615384614,
+            "50-percentile": 59.71235294117647,
+            "75-percentile": 63.04289473684211,
+            "95-percentile": 65.39552083333334,
+            "99-percentile": 65.9681,
+            "100-percentile": 66.81
+        },
+        "memory": {
+            "0-percentile": 217.0,
+            "1-percentile": 217.495,
+            "5-percentile": 218.15833333333333,
+            "25-percentile": 221.5526923076923,
+            "50-percentile": 223.50470588235294,
+            "75-percentile": 224.63447368421052,
+            "95-percentile": 225.12729166666668,
+            "99-percentile": 225.2023,
+            "100-percentile": 225.23
+        },
+        "duration": {
+            "0-percentile": 97.383,
+            "1-percentile": 99.97426333333333,
+            "5-percentile": 106.23700208333334,
+            "25-percentile": 133.4221155487805,
+            "50-percentile": 153.59799305555558,
+            "75-percentile": 165.96101849173553,
+            "95-percentile": 176.7801845996732,
+            "99-percentile": 180.40522009155322,
+            "100-percentile": 181.44271874999998
+        }
+    },
+    "rnn-serving-python-200-202": {
+        "name": "rnn-serving-python-200-202",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-200-202.yaml",
+        "cpu": {
+            "0-percentile": 61.0,
+            "1-percentile": 61.495,
+            "5-percentile": 62.64333333333333,
+            "25-percentile": 67.62038461538462,
+            "50-percentile": 70.62313725490196,
+            "75-percentile": 76.05592105263158,
+            "95-percentile": 80.07302083333333,
+            "99-percentile": 80.90129999999999,
+            "100-percentile": 81.13
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.495,
+            "5-percentile": 216.99,
+            "25-percentile": 220.35846153846154,
+            "50-percentile": 222.2472549019608,
+            "75-percentile": 223.2357894736842,
+            "95-percentile": 223.81166666666667,
+            "99-percentile": 223.8992,
+            "100-percentile": 223.92
+        },
+        "duration": {
+            "0-percentile": 184.609,
+            "1-percentile": 187.04517666666666,
+            "5-percentile": 193.2792173611111,
+            "25-percentile": 234.47630731707306,
+            "50-percentile": 277.62878749999993,
+            "75-percentile": 302.85503987603306,
+            "95-percentile": 320.5138274509804,
+            "99-percentile": 324.6301849355147,
+            "100-percentile": 326.02056875000005
+        }
+    },
+    "rnn-serving-python-300-303": {
+        "name": "rnn-serving-python-300-303",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-300-303.yaml",
+        "cpu": {
+            "0-percentile": 66.0,
+            "1-percentile": 66.495,
+            "5-percentile": 71.435,
+            "25-percentile": 79.10538461538462,
+            "50-percentile": 84.31529411764706,
+            "75-percentile": 92.65697368421053,
+            "95-percentile": 98.99770833333332,
+            "99-percentile": 100.84600000000002,
+            "100-percentile": 104.6
+        },
+        "memory": {
+            "0-percentile": 215.0,
+            "1-percentile": 215.495,
+            "5-percentile": 216.495,
+            "25-percentile": 220.34846153846155,
+            "50-percentile": 222.42549019607844,
+            "75-percentile": 223.58131578947368,
+            "95-percentile": 224.23302083333334,
+            "99-percentile": 224.3437,
+            "100-percentile": 224.37
+        },
+        "duration": {
+            "0-percentile": 270.849,
+            "1-percentile": 273.4001383333333,
+            "5-percentile": 289.63462847222223,
+            "25-percentile": 370.1309786585365,
+            "50-percentile": 433.42859945987647,
+            "75-percentile": 470.1891280475206,
+            "95-percentile": 500.497038970588,
+            "99-percentile": 509.27781812395483,
+            "100-percentile": 512.1751874999998
+        }
+    },
+    "rnn-serving-python-450-454": {
+        "name": "rnn-serving-python-450-454",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-450-454.yaml",
+        "cpu": {
+            "0-percentile": 47.0,
+            "1-percentile": 61.355,
+            "5-percentile": 71.94,
+            "25-percentile": 90.55038461538462,
+            "50-percentile": 98.90803921568627,
+            "75-percentile": 112.4903947368421,
+            "95-percentile": 121.30489583333333,
+            "99-percentile": 123.01610000000001,
+            "100-percentile": 123.61
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.495,
+            "5-percentile": 217.31666666666666,
+            "25-percentile": 220.78576923076923,
+            "50-percentile": 222.6235294117647,
+            "75-percentile": 223.63447368421052,
+            "95-percentile": 224.29614583333333,
+            "99-percentile": 224.4043,
+            "100-percentile": 224.43
+        },
+        "duration": {
+            "0-percentile": 413.89,
+            "1-percentile": 414.84418666666664,
+            "5-percentile": 423.1602423611111,
+            "25-percentile": 528.6860042682927,
+            "50-percentile": 634.048617824074,
+            "75-percentile": 689.2309363119832,
+            "95-percentile": 723.2995703022873,
+            "99-percentile": 730.7162546950877,
+            "100-percentile": 732.8227437499997
+        }
+    },
+    "rnn-serving-python-700-707": {
+        "name": "rnn-serving-python-700-707",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-700-707.yaml",
+        "cpu": {
+            "0-percentile": 90.0,
+            "1-percentile": 92.475,
+            "5-percentile": 98.9,
+            "25-percentile": 117.20076923076923,
+            "50-percentile": 128.57039215686274,
+            "75-percentile": 147.74565789473684,
+            "95-percentile": 161.46625,
+            "99-percentile": 164.9895,
+            "100-percentile": 165.95
+        },
+        "memory": {
+            "0-percentile": 217.0,
+            "1-percentile": 217.0,
+            "5-percentile": 217.81166666666667,
+            "25-percentile": 221.74692307692308,
+            "50-percentile": 223.52450980392157,
+            "75-percentile": 224.51486842105263,
+            "95-percentile": 225.03260416666666,
+            "99-percentile": 225.14170000000001,
+            "100-percentile": 225.17
+        },
+        "duration": {
+            "0-percentile": 619.509,
+            "1-percentile": 623.250335,
+            "5-percentile": 653.05560625,
+            "25-percentile": 833.2603772865854,
+            "50-percentile": 984.5893715277779,
+            "75-percentile": 1064.845077634298,
+            "95-percentile": 1127.8073775735297,
+            "99-percentile": 1147.9797869660063,
+            "100-percentile": 1154.1661312500005
+        }
+    },
+    "rnn-serving-python-1000-1010": {
+        "name": "rnn-serving-python-1000-1010",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-1000-1010.yaml",
+        "cpu": {
+            "0-percentile": 107.0,
+            "1-percentile": 107.495,
+            "5-percentile": 110.63333333333334,
+            "25-percentile": 135.6546153846154,
+            "50-percentile": 150.77843137254902,
+            "75-percentile": 180.3292105263158,
+            "95-percentile": 201.17364583333335,
+            "99-percentile": 205.11430000000001,
+            "100-percentile": 206.43
+        },
+        "memory": {
+            "0-percentile": 217.0,
+            "1-percentile": 217.0,
+            "5-percentile": 218.1483333333333,
+            "25-percentile": 221.8923076923077,
+            "50-percentile": 224.12843137254902,
+            "75-percentile": 225.19592105263158,
+            "95-percentile": 225.78010416666666,
+            "99-percentile": 225.8689,
+            "100-percentile": 225.89
+        },
+        "duration": {
+            "0-percentile": 871.132,
+            "1-percentile": 888.4957416666666,
+            "5-percentile": 920.8567909722223,
+            "25-percentile": 1187.5387422256097,
+            "50-percentile": 1386.8956416666663,
+            "75-percentile": 1494.0557857438007,
+            "95-percentile": 1570.58533112745,
+            "99-percentile": 1591.8137877497804,
+            "100-percentile": 1599.0142874999995
+        }
+    },
+    "rnn-serving-python-1500-1515": {
+        "name": "rnn-serving-python-1500-1515",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-1500-1515.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 95.52,
+            "5-percentile": 143.155,
+            "25-percentile": 194.1726923076923,
+            "50-percentile": 235.05137254901962,
+            "75-percentile": 271.89723684210526,
+            "95-percentile": 294.1309375,
+            "99-percentile": 298.7899,
+            "100-percentile": 299.99
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.495,
+            "5-percentile": 217.81166666666667,
+            "25-percentile": 222.2419230769231,
+            "50-percentile": 224.4056862745098,
+            "75-percentile": 225.55473684210526,
+            "95-percentile": 226.06416666666667,
+            "99-percentile": 226.1416,
+            "100-percentile": 226.16
+        },
+        "duration": {
+            "0-percentile": 1378.28,
+            "1-percentile": 1385.44062,
+            "5-percentile": 1424.7526458333334,
+            "25-percentile": 1726.6447469512195,
+            "50-percentile": 2076.101267438271,
+            "75-percentile": 2272.9548419421485,
+            "95-percentile": 2440.6910214460777,
+            "99-percentile": 2482.024190359843,
+            "100-percentile": 2493.9059312499994
+        }
+    },
+    "rnn-serving-python-2000-2020": {
+        "name": "rnn-serving-python-2000-2020",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-2000-2020.yaml",
+        "cpu": {
+            "0-percentile": 276.0,
+            "1-percentile": 277.98,
+            "5-percentile": 284.93,
+            "25-percentile": 306.91423076923076,
+            "50-percentile": 335.9264705882353,
+            "75-percentile": 354.11776315789473,
+            "95-percentile": 368.1658333333333,
+            "99-percentile": 371.5647,
+            "100-percentile": 372.47
+        },
+        "memory": {
+            "0-percentile": 217.0,
+            "1-percentile": 217.495,
+            "5-percentile": 218.8216666666667,
+            "25-percentile": 222.97,
+            "50-percentile": 224.83137254901962,
+            "75-percentile": 225.87368421052633,
+            "95-percentile": 226.36979166666669,
+            "99-percentile": 226.47500000000002,
+            "100-percentile": 226.5
+        },
+        "duration": {
+            "0-percentile": 1782.285,
+            "1-percentile": 1806.9783683333333,
+            "5-percentile": 1869.489391666667,
+            "25-percentile": 2360.9981204268297,
+            "50-percentile": 2819.225137422839,
+            "75-percentile": 3062.126935537189,
+            "95-percentile": 3214.2792389705864,
+            "99-percentile": 3251.4665924631777,
+            "100-percentile": 3261.862287499998
+        }
+    },
+    "rnn-serving-python-2500-2525": {
+        "name": "rnn-serving-python-2500-2525",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-2500-2525.yaml",
+        "cpu": {
+            "0-percentile": 257.0,
+            "1-percentile": 258.98,
+            "5-percentile": 268.08833333333337,
+            "25-percentile": 340.2069230769231,
+            "50-percentile": 379.7849019607843,
+            "75-percentile": 426.2548684210526,
+            "95-percentile": 460.90989583333334,
+            "99-percentile": 470.5391,
+            "100-percentile": 472.91
+        },
+        "memory": {
+            "0-percentile": 217.0,
+            "1-percentile": 217.495,
+            "5-percentile": 218.98,
+            "25-percentile": 222.58153846153846,
+            "50-percentile": 224.61352941176472,
+            "75-percentile": 225.7275,
+            "95-percentile": 226.29614583333333,
+            "99-percentile": 226.4043,
+            "100-percentile": 226.43
+        },
+        "duration": {
+            "0-percentile": 2266.0,
+            "1-percentile": 2317.1206249999996,
+            "5-percentile": 2433.3589888888887,
+            "25-percentile": 3175.581939786585,
+            "50-percentile": 3629.3661612654314,
+            "75-percentile": 3910.56686642562,
+            "95-percentile": 4137.629464950981,
+            "99-percentile": 4203.532565373777,
+            "100-percentile": 4224.175737500001
+        }
+    },
+    "rnn-serving-python-3000-3030": {
+        "name": "rnn-serving-python-3000-3030",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-3000-3030.yaml",
+        "cpu": {
+            "0-percentile": 302.0,
+            "1-percentile": 303.485,
+            "5-percentile": 305.97,
+            "25-percentile": 377.925,
+            "50-percentile": 424.3574509803922,
+            "75-percentile": 477.0378947368421,
+            "95-percentile": 516.844375,
+            "99-percentile": 525.1653,
+            "100-percentile": 527.53
+        },
+        "memory": {
+            "0-percentile": 216.0,
+            "1-percentile": 216.99,
+            "5-percentile": 218.98,
+            "25-percentile": 223.0476923076923,
+            "50-percentile": 225.06901960784313,
+            "75-percentile": 226.38526315789474,
+            "95-percentile": 227.13833333333332,
+            "99-percentile": 227.2528,
+            "100-percentile": 227.28
+        },
+        "duration": {
+            "0-percentile": 2673.069,
+            "1-percentile": 2713.8583883333336,
+            "5-percentile": 2816.396535416667,
+            "25-percentile": 3620.7492972560985,
+            "50-percentile": 4178.978142361112,
+            "75-percentile": 4499.7255438533075,
+            "95-percentile": 4720.808219812092,
+            "99-percentile": 4783.101423158587,
+            "100-percentile": 4805.3743375
+        }
+    },
+    "rnn-serving-python-4500-4545": {
+        "name": "rnn-serving-python-4500-4545",
+        "yaml": "./yamls/rnn-serving/kn-rnn-serving-python-4500-4545.yaml",
+        "cpu": {
+            "0-percentile": 211.0,
+            "1-percentile": 311.485,
+            "5-percentile": 445.04,
+            "25-percentile": 579.4273076923077,
+            "50-percentile": 657.1839215686275,
+            "75-percentile": 721.2338157894737,
+            "95-percentile": 766.6603125,
+            "99-percentile": 777.7641000000001,
+            "100-percentile": 780.41
+        },
+        "memory": {
+            "0-percentile": 218.0,
+            "1-percentile": 218.495,
+            "5-percentile": 220.31666666666666,
+            "25-percentile": 224.3873076923077,
+            "50-percentile": 226.51450980392156,
+            "75-percentile": 227.66105263157894,
+            "95-percentile": 228.31718750000002,
+            "99-percentile": 228.42450000000002,
+            "100-percentile": 228.45
+        },
+        "duration": {
+            "0-percentile": 4083.255,
+            "1-percentile": 4099.266178333333,
+            "5-percentile": 4156.298034722222,
+            "25-percentile": 5226.411391615853,
+            "50-percentile": 6279.966986419755,
+            "75-percentile": 6874.567389049586,
+            "95-percentile": 7317.9012066993455,
+            "99-percentile": 7457.8706295903985,
+            "100-percentile": 7494.32274375
+        }
+    }
+}

@@ -1,0 +1,261 @@
+{
+    "adservice": {
+        "name": "adservice",
+        "yaml": "./yamls/online-shop/kn-adservice.yaml",
+        "cpu": {
+            "0-percentile": 38.0,
+            "1-percentile": 38.0,
+            "5-percentile": 38.05,
+            "25-percentile": 39.0,
+            "50-percentile": 39.69565217391305,
+            "75-percentile": 40.23529411764706,
+            "95-percentile": 40.99955703211517,
+            "99-percentile": 41.61511111111111,
+            "100-percentile": 41.955555555555556
+        },
+        "memory": {
+            "0-percentile": 183.0,
+            "1-percentile": 183.0,
+            "5-percentile": 183.73333333333332,
+            "25-percentile": 187.91666666666666,
+            "50-percentile": 191.1304347826087,
+            "75-percentile": 193.61764705882354,
+            "95-percentile": 194.9294573643411,
+            "99-percentile": 195.16444444444446,
+            "100-percentile": 195.22222222222223
+        },
+        "duration": {
+            "0-percentile": 4.329,
+            "1-percentile": 4.571986666666667,
+            "5-percentile": 4.78501111111111,
+            "25-percentile": 5.173797463768116,
+            "50-percentile": 5.613109462759462,
+            "75-percentile": 6.115855269607842,
+            "95-percentile": 6.841859560723511,
+            "99-percentile": 7.429053444855942,
+            "100-percentile": 8.363327777777776
+        }
+    },
+    "cartservice": {
+        "name": "cartservice",
+        "yaml": "./yamls/online-shop/kn-cartservice.yaml",
+        "cpu": {
+            "0-percentile": 6.0,
+            "1-percentile": 6.0,
+            "5-percentile": 6.358333333333333,
+            "25-percentile": 6.829545454545454,
+            "50-percentile": 6.911067193675889,
+            "75-percentile": 7.157754010695188,
+            "95-percentile": 7.715185830429733,
+            "99-percentile": 8.305,
+            "100-percentile": 8.5
+        },
+        "memory": {
+            "0-percentile": 61.0,
+            "1-percentile": 61.0,
+            "5-percentile": 61.50833333333333,
+            "25-percentile": 67.48295454545455,
+            "50-percentile": 70.5088932806324,
+            "75-percentile": 72.18716577540107,
+            "95-percentile": 73.26846689895471,
+            "99-percentile": 73.455,
+            "100-percentile": 73.5
+        },
+        "duration": {
+            "0-percentile": 2.361,
+            "1-percentile": 2.3854283333333335,
+            "5-percentile": 2.473817777777778,
+            "25-percentile": 2.6019339371980674,
+            "50-percentile": 2.704132234432234,
+            "75-percentile": 2.817422916666666,
+            "95-percentile": 2.9715597222222225,
+            "99-percentile": 3.1362516310966058,
+            "100-percentile": 7.434977777777778
+        }
+    },
+    "currencyservice": {
+        "name": "currencyservice",
+        "yaml": "./yamls/online-shop/kn-currencyservice.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.0,
+            "95-percentile": 4.182170542635659,
+            "99-percentile": 4.363777777777778,
+            "100-percentile": 4.488888888888889
+        },
+        "memory": {
+            "0-percentile": 33.0,
+            "1-percentile": 33.0,
+            "5-percentile": 33.41666666666667,
+            "25-percentile": 36.166666666666664,
+            "50-percentile": 37.82608695652174,
+            "75-percentile": 38.76470588235294,
+            "95-percentile": 39.289479512735326,
+            "99-percentile": 39.39644444444445,
+            "100-percentile": 39.422222222222224
+        },
+        "duration": {
+            "0-percentile": 2.226,
+            "1-percentile": 2.5685783333333334,
+            "5-percentile": 2.769601111111111,
+            "25-percentile": 2.8888789855072465,
+            "50-percentile": 2.944980402930403,
+            "75-percentile": 3.0031439133986932,
+            "95-percentile": 3.1451607235142114,
+            "99-percentile": 3.236922684075074,
+            "100-percentile": 3.388177777777778
+        }
+    },
+    "emailservice": {
+        "name": "emailservice",
+        "yaml": "./yamls/online-shop/kn-emailservice.yaml",
+        "cpu": {
+            "0-percentile": 52.0,
+            "1-percentile": 52.215,
+            "5-percentile": 52.67916666666667,
+            "25-percentile": 52.91477272727273,
+            "50-percentile": 52.955533596837945,
+            "75-percentile": 53.157754010695186,
+            "95-percentile": 53.330894308943094,
+            "99-percentile": 53.35727272727273,
+            "100-percentile": 53.36363636363637
+        },
+        "memory": {
+            "0-percentile": 56.0,
+            "1-percentile": 56.215,
+            "5-percentile": 56.71666666666666,
+            "25-percentile": 58.80681818181819,
+            "50-percentile": 59.577075098814234,
+            "75-percentile": 60.13502673796792,
+            "95-percentile": 60.51840882694541,
+            "99-percentile": 60.57681818181818,
+            "100-percentile": 60.59090909090909
+        },
+        "duration": {
+            "0-percentile": 2.4,
+            "1-percentile": 2.417478333333333,
+            "5-percentile": 2.4553305555555553,
+            "25-percentile": 2.547253985507246,
+            "50-percentile": 2.6467774114774123,
+            "75-percentile": 2.7795509803921576,
+            "95-percentile": 3.579400872093024,
+            "99-percentile": 3.833163307701967,
+            "100-percentile": 3.9199500000000014
+        }
+    },
+    "paymentservice": {
+        "name": "paymentservice",
+        "yaml": "./yamls/online-shop/kn-paymentservice.yaml",
+        "cpu": {
+            "0-percentile": 4.0,
+            "1-percentile": 4.0,
+            "5-percentile": 4.0,
+            "25-percentile": 4.0,
+            "50-percentile": 4.0,
+            "75-percentile": 4.0,
+            "95-percentile": 4.11582462253194,
+            "99-percentile": 4.150681818181818,
+            "100-percentile": 4.159090909090909
+        },
+        "memory": {
+            "0-percentile": 33.0,
+            "1-percentile": 33.215,
+            "5-percentile": 34.43333333333334,
+            "25-percentile": 37.03977272727273,
+            "50-percentile": 38.420948616600796,
+            "75-percentile": 39.41310160427807,
+            "95-percentile": 39.944889663182344,
+            "99-percentile": 40.06181818181818,
+            "100-percentile": 40.09090909090909
+        },
+        "duration": {
+            "0-percentile": 2.841,
+            "1-percentile": 2.89322,
+            "5-percentile": 2.9539066666666667,
+            "25-percentile": 3.0394317632850236,
+            "50-percentile": 3.0996258852258856,
+            "75-percentile": 3.1731397875817002,
+            "95-percentile": 3.3155790051679603,
+            "99-percentile": 3.4374723586090035,
+            "100-percentile": 3.599344444444446
+        }
+    },
+    "productcatalogservice": {
+        "name": "productcatalogservice",
+        "yaml": "./yamls/online-shop/kn-productcatalogservice.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.22,
+            "5-percentile": 3.683333333333333,
+            "25-percentile": 3.9166666666666665,
+            "50-percentile": 3.9565217391304346,
+            "75-percentile": 3.9705882352941178,
+            "95-percentile": 4.1774086378737545,
+            "99-percentile": 4.261777777777778,
+            "100-percentile": 4.288888888888889
+        },
+        "memory": {
+            "0-percentile": 23.0,
+            "1-percentile": 23.22,
+            "5-percentile": 23.783333333333335,
+            "25-percentile": 27.083333333333332,
+            "50-percentile": 29.17391304347826,
+            "75-percentile": 30.41176470588235,
+            "95-percentile": 31.12591362126246,
+            "99-percentile": 31.23933333333333,
+            "100-percentile": 31.266666666666666
+        },
+        "duration": {
+            "0-percentile": 1.087,
+            "1-percentile": 1.0967916666666668,
+            "5-percentile": 1.1190005555555556,
+            "25-percentile": 1.1769830917874395,
+            "50-percentile": 1.2255110500610502,
+            "75-percentile": 1.2755824346405227,
+            "95-percentile": 1.3291250322997412,
+            "99-percentile": 1.3675410062142992,
+            "100-percentile": 1.3926055555555552
+        }
+    },
+    "shippingservice": {
+        "name": "shippingservice",
+        "yaml": "./yamls/online-shop/kn-shippingservice.yaml",
+        "cpu": {
+            "0-percentile": 3.0,
+            "1-percentile": 3.0,
+            "5-percentile": 3.0,
+            "25-percentile": 3.5833333333333335,
+            "50-percentile": 3.782608695652174,
+            "75-percentile": 3.8529411764705883,
+            "95-percentile": 4.060575858250277,
+            "99-percentile": 4.348666666666667,
+            "100-percentile": 4.533333333333333
+        },
+        "memory": {
+            "0-percentile": 23.0,
+            "1-percentile": 23.22,
+            "5-percentile": 23.733333333333334,
+            "25-percentile": 26.416666666666668,
+            "50-percentile": 28.304347826086957,
+            "75-percentile": 29.323529411764707,
+            "95-percentile": 29.873643410852715,
+            "99-percentile": 29.957555555555558,
+            "100-percentile": 29.977777777777778
+        },
+        "duration": {
+            "0-percentile": 0.895,
+            "1-percentile": 0.9532716666666666,
+            "5-percentile": 0.9974088888888888,
+            "25-percentile": 1.052881521739131,
+            "50-percentile": 1.085633516483516,
+            "75-percentile": 1.1153132761437905,
+            "95-percentile": 1.1456142764857873,
+            "99-percentile": 1.182935254221329,
+            "100-percentile": 1.210077777777777
+        }
+    }
+}
