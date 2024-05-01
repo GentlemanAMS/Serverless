@@ -1,0 +1,483 @@
+{
+    "video-processing-python-10": {
+        "name": "video-processing-python-10",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-10.yaml",
+        "cpu": {
+            "0-percentile": 191.0,
+            "1-percentile": 193.475,
+            "5-percentile": 195.98,
+            "25-percentile": 200.98884615384617,
+            "50-percentile": 204.2866666666667,
+            "75-percentile": 206.8136842105263,
+            "95-percentile": 209.25979166666664,
+            "99-percentile": 209.8342,
+            "100-percentile": 211.42
+        },
+        "memory": {
+            "0-percentile": 140.0,
+            "1-percentile": 140.495,
+            "5-percentile": 141.8216666666667,
+            "25-percentile": 146.465,
+            "50-percentile": 148.97980392156865,
+            "75-percentile": 150.4517105263158,
+            "95-percentile": 151.22302083333332,
+            "99-percentile": 151.3741,
+            "100-percentile": 151.41
+        },
+        "duration": {
+            "0-percentile": 92.833,
+            "1-percentile": 95.5970295,
+            "5-percentile": 100.98909393382353,
+            "25-percentile": 112.4179313657407,
+            "50-percentile": 118.06860283385092,
+            "75-percentile": 121.75219789937763,
+            "95-percentile": 125.86806084016393,
+            "99-percentile": 127.86785758185923,
+            "100-percentile": 128.62195625000004
+        }
+    },
+    "video-processing-python-20": {
+        "name": "video-processing-python-20",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-20.yaml",
+        "cpu": {
+            "0-percentile": 200.0,
+            "1-percentile": 229.205,
+            "5-percentile": 253.355,
+            "25-percentile": 266.62923076923073,
+            "50-percentile": 270.9894117647059,
+            "75-percentile": 274.0594736842105,
+            "95-percentile": 276.91312500000004,
+            "99-percentile": 277.7257,
+            "100-percentile": 279.57
+        },
+        "memory": {
+            "0-percentile": 59.0,
+            "1-percentile": 100.085,
+            "5-percentile": 129.345,
+            "25-percentile": 145.0853846153846,
+            "50-percentile": 149.07862745098038,
+            "75-percentile": 151.02644736842103,
+            "95-percentile": 151.9073958333333,
+            "99-percentile": 152.0711,
+            "100-percentile": 152.11
+        },
+        "duration": {
+            "0-percentile": 111.676,
+            "1-percentile": 112.89641699999999,
+            "5-percentile": 119.44650974264707,
+            "25-percentile": 130.17837719907408,
+            "50-percentile": 134.86355524068324,
+            "75-percentile": 138.41905006483404,
+            "95-percentile": 143.0951840983607,
+            "99-percentile": 145.0679276268818,
+            "100-percentile": 145.74259062500005
+        }
+    },
+    "video-processing-python-45": {
+        "name": "video-processing-python-45",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-45.yaml",
+        "cpu": {
+            "0-percentile": 180.0,
+            "1-percentile": 261.675,
+            "5-percentile": 349.84666666666664,
+            "25-percentile": 394.2761538461539,
+            "50-percentile": 405.23607843137256,
+            "75-percentile": 411.1855263157895,
+            "95-percentile": 415.63375,
+            "99-percentile": 416.89320000000004,
+            "100-percentile": 417.32
+        },
+        "memory": {
+            "0-percentile": 137.0,
+            "1-percentile": 140.96,
+            "5-percentile": 145.29666666666668,
+            "25-percentile": 152.33846153846153,
+            "50-percentile": 155.3956862745098,
+            "75-percentile": 156.58131578947368,
+            "95-percentile": 157.23302083333334,
+            "99-percentile": 157.3437,
+            "100-percentile": 157.37
+        },
+        "duration": {
+            "0-percentile": 148.072,
+            "1-percentile": 151.0489195,
+            "5-percentile": 158.42420183823532,
+            "25-percentile": 170.0148873842593,
+            "50-percentile": 176.64114638975164,
+            "75-percentile": 181.2907136670126,
+            "95-percentile": 185.85744218237724,
+            "99-percentile": 187.64563638511783,
+            "100-percentile": 188.5079843750002
+        }
+    },
+    "video-processing-python-70": {
+        "name": "video-processing-python-70",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-70.yaml",
+        "cpu": {
+            "0-percentile": 49.0,
+            "1-percentile": 245.02,
+            "5-percentile": 452.445,
+            "25-percentile": 543.6888461538462,
+            "50-percentile": 563.581568627451,
+            "75-percentile": 573.9094736842105,
+            "95-percentile": 580.8098958333334,
+            "99-percentile": 582.5306,
+            "100-percentile": 583.06
+        },
+        "memory": {
+            "0-percentile": 146.0,
+            "1-percentile": 147.98,
+            "5-percentile": 150.97,
+            "25-percentile": 157.3773076923077,
+            "50-percentile": 159.85117647058823,
+            "75-percentile": 161.12947368421052,
+            "95-percentile": 161.88583333333335,
+            "99-percentile": 162.0206,
+            "100-percentile": 162.06
+        },
+        "duration": {
+            "0-percentile": 176.024,
+            "1-percentile": 190.19753150000003,
+            "5-percentile": 201.78055202205883,
+            "25-percentile": 212.92521886574076,
+            "50-percentile": 220.11374402173914,
+            "75-percentile": 226.205396408195,
+            "95-percentile": 232.11698130122952,
+            "99-percentile": 233.80089581300166,
+            "100-percentile": 234.46834374999997
+        }
+    },
+    "video-processing-python-100": {
+        "name": "video-processing-python-100",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-100.yaml",
+        "cpu": {
+            "0-percentile": 555.0,
+            "1-percentile": 635.19,
+            "5-percentile": 694.3533333333334,
+            "25-percentile": 727.83,
+            "50-percentile": 739.0774509803921,
+            "75-percentile": 746.9261842105263,
+            "95-percentile": 753.3064583333332,
+            "99-percentile": 755.1265,
+            "100-percentile": 755.65
+        },
+        "memory": {
+            "0-percentile": 143.0,
+            "1-percentile": 143.99,
+            "5-percentile": 145.81166666666667,
+            "25-percentile": 151.22192307692308,
+            "50-percentile": 153.84117647058824,
+            "75-percentile": 155.22578947368422,
+            "95-percentile": 156.01208333333332,
+            "99-percentile": 156.1316,
+            "100-percentile": 156.16
+        },
+        "duration": {
+            "0-percentile": 222.71,
+            "1-percentile": 233.212408,
+            "5-percentile": 240.8116369485294,
+            "25-percentile": 252.83615937499997,
+            "50-percentile": 261.4869249417702,
+            "75-percentile": 270.32393008298754,
+            "95-percentile": 277.852354897541,
+            "99-percentile": 279.8575048843988,
+            "100-percentile": 280.8371249999999
+        }
+    },
+    "video-processing-python-200": {
+        "name": "video-processing-python-200",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-200.yaml",
+        "cpu": {
+            "0-percentile": 334.0,
+            "1-percentile": 674.0649999999999,
+            "5-percentile": 1086.6116666666667,
+            "25-percentile": 1281.0957692307693,
+            "50-percentile": 1324.1431372549018,
+            "75-percentile": 1348.7186842105264,
+            "95-percentile": 1365.4960416666665,
+            "99-percentile": 1369.7394,
+            "100-percentile": 1370.94
+        },
+        "memory": {
+            "0-percentile": 58.0,
+            "1-percentile": 101.065,
+            "5-percentile": 131.67166666666668,
+            "25-percentile": 148.9976923076923,
+            "50-percentile": 153.25686274509803,
+            "75-percentile": 155.14605263157893,
+            "95-percentile": 155.94895833333334,
+            "99-percentile": 156.071,
+            "100-percentile": 156.1
+        },
+        "duration": {
+            "0-percentile": 366.992,
+            "1-percentile": 369.1460395,
+            "5-percentile": 379.5039880514707,
+            "25-percentile": 397.75506458333336,
+            "50-percentile": 415.89583837344725,
+            "75-percentile": 430.61164594139,
+            "95-percentile": 442.4340370594265,
+            "99-percentile": 445.36843245348035,
+            "100-percentile": 446.41278125000036
+        }
+    },
+    "video-processing-python-320": {
+        "name": "video-processing-python-320",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-320.yaml",
+        "cpu": {
+            "0-percentile": 564.0,
+            "1-percentile": 577.365,
+            "5-percentile": 1174.305,
+            "25-percentile": 1458.4326923076924,
+            "50-percentile": 1526.139411764706,
+            "75-percentile": 1564.4019736842106,
+            "95-percentile": 1592.5131250000002,
+            "99-percentile": 1599.4722000000002,
+            "100-percentile": 1601.22
+        },
+        "memory": {
+            "0-percentile": 130.0,
+            "1-percentile": 131.485,
+            "5-percentile": 134.13833333333332,
+            "25-percentile": 140.49384615384616,
+            "50-percentile": 143.15803921568627,
+            "75-percentile": 144.53144736842106,
+            "95-percentile": 145.2540625,
+            "99-percentile": 145.3639,
+            "100-percentile": 145.39
+        },
+        "duration": {
+            "0-percentile": 443.872,
+            "1-percentile": 448.854108,
+            "5-percentile": 457.0739205882353,
+            "25-percentile": 472.4641836805555,
+            "50-percentile": 491.4658810170809,
+            "75-percentile": 513.2332663770748,
+            "95-percentile": 534.2914786577869,
+            "99-percentile": 540.318746560416,
+            "100-percentile": 542.183946875
+        }
+    },
+    "video-processing-python-450": {
+        "name": "video-processing-python-450",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-450.yaml",
+        "cpu": {
+            "0-percentile": 48.0,
+            "1-percentile": 763.275,
+            "5-percentile": 1602.6683333333335,
+            "25-percentile": 1989.386923076923,
+            "50-percentile": 2076.640980392157,
+            "75-percentile": 2131.5994736842104,
+            "95-percentile": 2176.406875,
+            "99-percentile": 2187.8936,
+            "100-percentile": 2191.36
+        },
+        "memory": {
+            "0-percentile": 132.0,
+            "1-percentile": 132.495,
+            "5-percentile": 134.475,
+            "25-percentile": 140.03769230769228,
+            "50-percentile": 142.41549019607842,
+            "75-percentile": 143.5978947368421,
+            "95-percentile": 144.30666666666667,
+            "99-percentile": 144.4145,
+            "100-percentile": 144.45
+        },
+        "duration": {
+            "0-percentile": 603.526,
+            "1-percentile": 608.687819,
+            "5-percentile": 617.0024878676472,
+            "25-percentile": 636.874389351852,
+            "50-percentile": 661.2576065023288,
+            "75-percentile": 691.1693196187754,
+            "95-percentile": 722.6176546311472,
+            "99-percentile": 729.678639205067,
+            "100-percentile": 731.5687874999996
+        }
+    },
+    "video-processing-python-700": {
+        "name": "video-processing-python-700",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-700.yaml",
+        "cpu": {
+            "0-percentile": 2437.0,
+            "1-percentile": 2734.99,
+            "5-percentile": 2983.4,
+            "25-percentile": 3167.335,
+            "50-percentile": 3247.531960784314,
+            "75-percentile": 3307.5030263157896,
+            "95-percentile": 3356.3646875,
+            "99-percentile": 3369.9085,
+            "100-percentile": 3374.85
+        },
+        "memory": {
+            "0-percentile": 146.0,
+            "1-percentile": 146.99,
+            "5-percentile": 148.485,
+            "25-percentile": 153.99884615384616,
+            "50-percentile": 156.63333333333333,
+            "75-percentile": 158.00986842105263,
+            "95-percentile": 158.654375,
+            "99-percentile": 158.7882,
+            "100-percentile": 158.82
+        },
+        "duration": {
+            "0-percentile": 885.708,
+            "1-percentile": 903.5629680000001,
+            "5-percentile": 920.6905926470589,
+            "25-percentile": 957.7106813657406,
+            "50-percentile": 996.3861790954967,
+            "75-percentile": 1037.3282325077798,
+            "95-percentile": 1077.7929687192623,
+            "99-percentile": 1087.7502733410536,
+            "100-percentile": 1090.8226343750002
+        }
+    },
+    "video-processing-python-1000": {
+        "name": "video-processing-python-1000",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-1000.yaml",
+        "cpu": {
+            "0-percentile": 1685.0,
+            "1-percentile": 1951.805,
+            "5-percentile": 3584.103333333333,
+            "25-percentile": 4284.421153846153,
+            "50-percentile": 4443.025294117647,
+            "75-percentile": 4541.689078947368,
+            "95-percentile": 4614.722083333333,
+            "99-percentile": 4633.3665,
+            "100-percentile": 4638.65
+        },
+        "memory": {
+            "0-percentile": 138.0,
+            "1-percentile": 138.495,
+            "5-percentile": 139.81166666666667,
+            "25-percentile": 145.68807692307692,
+            "50-percentile": 148.41549019607842,
+            "75-percentile": 149.90355263157895,
+            "95-percentile": 150.54864583333332,
+            "99-percentile": 150.64669999999998,
+            "100-percentile": 150.67
+        },
+        "duration": {
+            "0-percentile": 1244.541,
+            "1-percentile": 1256.3324485,
+            "5-percentile": 1272.378959926471,
+            "25-percentile": 1322.9375181712967,
+            "50-percentile": 1381.0341256017082,
+            "75-percentile": 1433.6345023080912,
+            "95-percentile": 1483.5138650614758,
+            "99-percentile": 1497.5675744842872,
+            "100-percentile": 1502.5279562500004
+        }
+    },
+    "video-processing-python-1500": {
+        "name": "video-processing-python-1500",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-1500.yaml",
+        "cpu": {
+            "0-percentile": 4820.0,
+            "1-percentile": 5642.195,
+            "5-percentile": 6233.175,
+            "25-percentile": 6551.27576923077,
+            "50-percentile": 6670.792156862745,
+            "75-percentile": 6765.323026315789,
+            "95-percentile": 6854.7228125,
+            "99-percentile": 6879.208799999999,
+            "100-percentile": 6886.88
+        },
+        "memory": {
+            "0-percentile": 136.0,
+            "1-percentile": 138.475,
+            "5-percentile": 141.97,
+            "25-percentile": 147.64923076923077,
+            "50-percentile": 150.3956862745098,
+            "75-percentile": 151.58131578947368,
+            "95-percentile": 152.24354166666666,
+            "99-percentile": 152.3538,
+            "100-percentile": 152.38
+        },
+        "duration": {
+            "0-percentile": 1838.204,
+            "1-percentile": 1861.3730329999999,
+            "5-percentile": 1892.7921533088233,
+            "25-percentile": 1952.9434402777788,
+            "50-percentile": 2018.2257981560574,
+            "75-percentile": 2077.7429536825734,
+            "95-percentile": 2140.7322948463125,
+            "99-percentile": 2160.2333280464613,
+            "100-percentile": 2166.9954812500014
+        }
+    },
+    "video-processing-python-2000": {
+        "name": "video-processing-python-2000",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-2000.yaml",
+        "cpu": {
+            "0-percentile": 6881.0,
+            "1-percentile": 7692.8,
+            "5-percentile": 8397.925,
+            "25-percentile": 8905.914615384616,
+            "50-percentile": 9145.893529411765,
+            "75-percentile": 9309.7925,
+            "95-percentile": 9437.847708333333,
+            "99-percentile": 9466.5393,
+            "100-percentile": 9474.93
+        },
+        "memory": {
+            "0-percentile": 151.0,
+            "1-percentile": 152.98,
+            "5-percentile": 155.81166666666667,
+            "25-percentile": 161.3873076923077,
+            "50-percentile": 163.83137254901962,
+            "75-percentile": 165.00986842105263,
+            "95-percentile": 165.6328125,
+            "99-percentile": 165.7377,
+            "100-percentile": 165.77
+        },
+        "duration": {
+            "0-percentile": 2450.262,
+            "1-percentile": 2485.440883,
+            "5-percentile": 2543.5645865808824,
+            "25-percentile": 2674.6673259259246,
+            "50-percentile": 2778.059058656832,
+            "75-percentile": 2872.4685614496902,
+            "95-percentile": 2960.217470030738,
+            "99-percentile": 2985.6462808752945,
+            "100-percentile": 2993.037403125
+        }
+    },
+    "video-processing-python-3000": {
+        "name": "video-processing-python-3000",
+        "yaml": "./yamls/video-processing/kn-video-processing-python-3000.yaml",
+        "cpu": {
+            "0-percentile": 8514.0,
+            "1-percentile": 10935.58,
+            "5-percentile": 12653.93,
+            "25-percentile": 13558.916923076922,
+            "50-percentile": 13874.28,
+            "75-percentile": 14050.20990990991,
+            "95-percentile": 14217.079048152294,
+            "99-percentile": 14261.868686868685,
+            "100-percentile": 14274.434343434343
+        },
+        "memory": {
+            "0-percentile": 158.0,
+            "1-percentile": 159.47,
+            "5-percentile": 162.28,
+            "25-percentile": 167.1946153846154,
+            "50-percentile": 169.76,
+            "75-percentile": 170.8254054054054,
+            "95-percentile": 171.4494960806271,
+            "99-percentile": 171.55171717171717,
+            "100-percentile": 171.58585858585857
+        },
+        "duration": {
+            "0-percentile": 3637.191,
+            "1-percentile": 3684.161309,
+            "5-percentile": 3811.5318681985295,
+            "25-percentile": 4031.8409481481476,
+            "50-percentile": 4170.999232802794,
+            "75-percentile": 4284.541639367219,
+            "95-percentile": 4393.617085163935,
+            "99-percentile": 4429.149600905742,
+            "100-percentile": 4441.271693749999
+        }
+    }
+}

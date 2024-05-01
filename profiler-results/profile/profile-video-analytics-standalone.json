@@ -1,0 +1,446 @@
+{
+    "video-analytics-standalone-python-1": {
+        "name": "video-analytics-standalone-python-1",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-1.yaml",
+        "cpu": {
+            "0-percentile": 245.0,
+            "1-percentile": 274.205,
+            "5-percentile": 296.375,
+            "25-percentile": 312.2684615384615,
+            "50-percentile": 321.85960784313727,
+            "75-percentile": 329.40460526315786,
+            "95-percentile": 335.99916666666667,
+            "99-percentile": 338.7244,
+            "100-percentile": 340.44
+        },
+        "memory": {
+            "0-percentile": 365.0,
+            "1-percentile": 365.99,
+            "5-percentile": 368.31666666666666,
+            "25-percentile": 370.67923076923074,
+            "50-percentile": 371.8017647058823,
+            "75-percentile": 372.6377631578947,
+            "95-percentile": 373.8358333333333,
+            "99-percentile": 374.1828,
+            "100-percentile": 374.28
+        },
+        "duration": {
+            "0-percentile": 109.459,
+            "1-percentile": 115.094278,
+            "5-percentile": 123.95006360294119,
+            "25-percentile": 134.7923979166667,
+            "50-percentile": 141.64679704968944,
+            "75-percentile": 148.84566723288378,
+            "95-percentile": 157.68676417008194,
+            "99-percentile": 160.02903384179209,
+            "100-percentile": 161.13099062499995
+        }
+    },
+    "video-analytics-standalone-python-2": {
+        "name": "video-analytics-standalone-python-2",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-2.yaml",
+        "cpu": {
+            "0-percentile": 226.0,
+            "1-percentile": 233.425,
+            "5-percentile": 366.97333333333336,
+            "25-percentile": 425.9065384615385,
+            "50-percentile": 438.52294117647057,
+            "75-percentile": 447.05552631578945,
+            "95-percentile": 455.62833333333333,
+            "99-percentile": 458.4434,
+            "100-percentile": 459.34
+        },
+        "memory": {
+            "0-percentile": 360.0,
+            "1-percentile": 362.97,
+            "5-percentile": 365.97,
+            "25-percentile": 370.65923076923076,
+            "50-percentile": 372.3066666666666,
+            "75-percentile": 373.1926315789474,
+            "95-percentile": 374.78479166666665,
+            "99-percentile": 375.2436,
+            "100-percentile": 375.36
+        },
+        "duration": {
+            "0-percentile": 142.178,
+            "1-percentile": 145.6945345,
+            "5-percentile": 155.60116525735293,
+            "25-percentile": 166.62617349537035,
+            "50-percentile": 171.50129285714286,
+            "75-percentile": 175.96167078578847,
+            "95-percentile": 182.3546658196722,
+            "99-percentile": 184.425702088408,
+            "100-percentile": 185.57717187500006
+        }
+    },
+    "video-analytics-standalone-python-5": {
+        "name": "video-analytics-standalone-python-5",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-5.yaml",
+        "cpu": {
+            "0-percentile": 704.0,
+            "1-percentile": 784.19,
+            "5-percentile": 841.8483333333332,
+            "25-percentile": 875.5580769230769,
+            "50-percentile": 889.7201960784314,
+            "75-percentile": 903.1115789473685,
+            "95-percentile": 916.1479166666666,
+            "99-percentile": 921.1930000000001,
+            "100-percentile": 923.3
+        },
+        "memory": {
+            "0-percentile": 368.0,
+            "1-percentile": 368.0,
+            "5-percentile": 369.3066666666667,
+            "25-percentile": 374.04769230769233,
+            "50-percentile": 375.821568627451,
+            "75-percentile": 376.8271052631579,
+            "95-percentile": 378.5317708333333,
+            "99-percentile": 378.9506,
+            "100-percentile": 379.06
+        },
+        "duration": {
+            "0-percentile": 243.448,
+            "1-percentile": 246.10920399999998,
+            "5-percentile": 257.3192924632353,
+            "25-percentile": 269.4018311342593,
+            "50-percentile": 276.7891445263974,
+            "75-percentile": 284.75861543049785,
+            "95-percentile": 294.78897114754096,
+            "99-percentile": 297.93657527013534,
+            "100-percentile": 299.26527187499994
+        }
+    },
+    "video-analytics-standalone-python-10": {
+        "name": "video-analytics-standalone-python-10",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-10.yaml",
+        "cpu": {
+            "0-percentile": 1133.0,
+            "1-percentile": 1360.7,
+            "5-percentile": 1521.5066666666667,
+            "25-percentile": 1601.688846153846,
+            "50-percentile": 1630.2033333333334,
+            "75-percentile": 1649.8388157894738,
+            "95-percentile": 1664.8863541666667,
+            "99-percentile": 1669.5613,
+            "100-percentile": 1671.13
+        },
+        "memory": {
+            "0-percentile": 368.0,
+            "1-percentile": 368.0,
+            "5-percentile": 369.81166666666667,
+            "25-percentile": 375.15423076923076,
+            "50-percentile": 377.4550980392157,
+            "75-percentile": 378.62447368421056,
+            "95-percentile": 380.04677083333337,
+            "99-percentile": 380.4456,
+            "100-percentile": 380.56
+        },
+        "duration": {
+            "0-percentile": 410.828,
+            "1-percentile": 416.22881249999995,
+            "5-percentile": 422.1442615808823,
+            "25-percentile": 439.0931133101851,
+            "50-percentile": 450.91932587344684,
+            "75-percentile": 461.518533428423,
+            "95-percentile": 471.6561941905737,
+            "99-percentile": 475.01587674779375,
+            "100-percentile": 476.25653750000004
+        }
+    },
+    "video-analytics-standalone-python-20": {
+        "name": "video-analytics-standalone-python-20",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-20.yaml",
+        "cpu": {
+            "0-percentile": 896.0,
+            "1-percentile": 1283.09,
+            "5-percentile": 2442.773333333333,
+            "25-percentile": 2941.8815384615386,
+            "50-percentile": 3045.8582352941175,
+            "75-percentile": 3096.288289473684,
+            "95-percentile": 3131.3923958333335,
+            "99-percentile": 3140.0325000000003,
+            "100-percentile": 3142.25
+        },
+        "memory": {
+            "0-percentile": 373.0,
+            "1-percentile": 377.95,
+            "5-percentile": 391.40500000000003,
+            "25-percentile": 401.3773076923077,
+            "50-percentile": 404.4550980392157,
+            "75-percentile": 406.17592105263157,
+            "95-percentile": 407.2445833333333,
+            "99-percentile": 407.43489999999997,
+            "100-percentile": 407.49
+        },
+        "duration": {
+            "0-percentile": 747.924,
+            "1-percentile": 748.9510899999999,
+            "5-percentile": 758.0178909926469,
+            "25-percentile": 778.2694637731479,
+            "50-percentile": 793.9410714868011,
+            "75-percentile": 807.856378319502,
+            "95-percentile": 820.7340657786883,
+            "99-percentile": 824.6187161371437,
+            "100-percentile": 825.8745343749997
+        }
+    },
+    "video-analytics-standalone-python-30": {
+        "name": "video-analytics-standalone-python-30",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-30.yaml",
+        "cpu": {
+            "0-percentile": 3131.0,
+            "1-percentile": 3780.935,
+            "5-percentile": 4232.966666666666,
+            "25-percentile": 4450.488461538462,
+            "50-percentile": 4510.397843137254,
+            "75-percentile": 4549.507763157895,
+            "95-percentile": 4581.5009375,
+            "99-percentile": 4589.0331,
+            "100-percentile": 4591.31
+        },
+        "memory": {
+            "0-percentile": 378.0,
+            "1-percentile": 378.495,
+            "5-percentile": 380.475,
+            "25-percentile": 385.00884615384615,
+            "50-percentile": 386.72254901960787,
+            "75-percentile": 387.50157894736844,
+            "95-percentile": 388.614375,
+            "99-percentile": 388.9504,
+            "100-percentile": 389.04
+        },
+        "duration": {
+            "0-percentile": 1063.003,
+            "1-percentile": 1068.0075625,
+            "5-percentile": 1081.1037810661765,
+            "25-percentile": 1110.9501877314813,
+            "50-percentile": 1128.2196964868015,
+            "75-percentile": 1141.579737305498,
+            "95-percentile": 1156.1304490573766,
+            "99-percentile": 1161.0307365203846,
+            "100-percentile": 1162.9692093749995
+        }
+    },
+    "video-analytics-standalone-python-40": {
+        "name": "video-analytics-standalone-python-40",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-40.yaml",
+        "cpu": {
+            "0-percentile": 2099.0,
+            "1-percentile": 2104.94,
+            "5-percentile": 4585.36,
+            "25-percentile": 5631.072692307693,
+            "50-percentile": 5821.760588235295,
+            "75-percentile": 5905.301973684211,
+            "95-percentile": 5959.208541666667,
+            "99-percentile": 5970.2917,
+            "100-percentile": 5973.17
+        },
+        "memory": {
+            "0-percentile": 361.0,
+            "1-percentile": 365.455,
+            "5-percentile": 370.455,
+            "25-percentile": 376.77576923076924,
+            "50-percentile": 378.8017647058823,
+            "75-percentile": 380.2057894736842,
+            "95-percentile": 381.9110416666667,
+            "99-percentile": 382.38530000000003,
+            "100-percentile": 382.53
+        },
+        "duration": {
+            "0-percentile": 1385.297,
+            "1-percentile": 1388.7145609999998,
+            "5-percentile": 1397.7129375000002,
+            "25-percentile": 1425.2529858796295,
+            "50-percentile": 1448.7324871118012,
+            "75-percentile": 1468.081158467323,
+            "95-percentile": 1485.1861366086061,
+            "99-percentile": 1489.8935163146382,
+            "100-percentile": 1491.4993437499993
+        }
+    },
+    "video-analytics-standalone-python-50": {
+        "name": "video-analytics-standalone-python-50",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-50.yaml",
+        "cpu": {
+            "0-percentile": 78.0,
+            "1-percentile": 2535.18,
+            "5-percentile": 5732.115,
+            "25-percentile": 7057.289230769231,
+            "50-percentile": 7290.002156862745,
+            "75-percentile": 7390.945789473684,
+            "95-percentile": 7450.965833333334,
+            "99-percentile": 7464.1586,
+            "100-percentile": 7467.86
+        },
+        "memory": {
+            "0-percentile": 284.0,
+            "1-percentile": 329.045,
+            "5-percentile": 361.97833333333335,
+            "25-percentile": 378.12423076923073,
+            "50-percentile": 382.06882352941176,
+            "75-percentile": 383.7075,
+            "95-percentile": 385.62645833333335,
+            "99-percentile": 386.0718,
+            "100-percentile": 386.18
+        },
+        "duration": {
+            "0-percentile": 1719.844,
+            "1-percentile": 1742.6209130000002,
+            "5-percentile": 1754.9698788602939,
+            "25-percentile": 1782.0517369212967,
+            "50-percentile": 1805.4733844526402,
+            "75-percentile": 1824.6265634206438,
+            "95-percentile": 1842.0357842418036,
+            "99-percentile": 1846.774967797589,
+            "100-percentile": 1848.3186000000012
+        }
+    },
+    "video-analytics-standalone-python-60": {
+        "name": "video-analytics-standalone-python-60",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-60.yaml",
+        "cpu": {
+            "0-percentile": 5306.0,
+            "1-percentile": 6887.525,
+            "5-percentile": 8151.11,
+            "25-percentile": 8741.322692307693,
+            "50-percentile": 8881.308431372549,
+            "75-percentile": 8961.066315789474,
+            "95-percentile": 9016.195729166666,
+            "99-percentile": 9029.3143,
+            "100-percentile": 9033.43
+        },
+        "memory": {
+            "0-percentile": 398.0,
+            "1-percentile": 399.485,
+            "5-percentile": 400.82166666666666,
+            "25-percentile": 404.69807692307694,
+            "50-percentile": 407.3164705882353,
+            "75-percentile": 408.8271052631579,
+            "95-percentile": 409.8127083333333,
+            "99-percentile": 409.9802,
+            "100-percentile": 410.02
+        },
+        "duration": {
+            "0-percentile": 2060.492,
+            "1-percentile": 2071.1380815000007,
+            "5-percentile": 2099.188234007353,
+            "25-percentile": 2137.996638194445,
+            "50-percentile": 2160.7222539984477,
+            "75-percentile": 2180.0980388874486,
+            "95-percentile": 2196.849003698771,
+            "99-percentile": 2202.154342722417,
+            "100-percentile": 2203.7601875
+        }
+    },
+    "video-analytics-standalone-python-70": {
+        "name": "video-analytics-standalone-python-70",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-70.yaml",
+        "cpu": {
+            "0-percentile": 8511.0,
+            "1-percentile": 8751.075,
+            "5-percentile": 9703.59,
+            "25-percentile": 10206.472692307692,
+            "50-percentile": 10325.034117647057,
+            "75-percentile": 10399.154605263158,
+            "95-percentile": 10462.078229166666,
+            "99-percentile": 10477.0517,
+            "100-percentile": 10481.17
+        },
+        "memory": {
+            "0-percentile": 386.0,
+            "1-percentile": 390.95,
+            "5-percentile": 396.95,
+            "25-percentile": 402.92115384615386,
+            "50-percentile": 405.3758823529412,
+            "75-percentile": 406.8271052631579,
+            "95-percentile": 407.88635416666665,
+            "99-percentile": 408.0815,
+            "100-percentile": 408.15
+        },
+        "duration": {
+            "0-percentile": 2375.739,
+            "1-percentile": 2393.980619,
+            "5-percentile": 2427.2486534926475,
+            "25-percentile": 2467.517469097222,
+            "50-percentile": 2497.272357220496,
+            "75-percentile": 2522.316264419087,
+            "95-percentile": 2541.937472592212,
+            "99-percentile": 2546.9807671394196,
+            "100-percentile": 2548.994743749999
+        }
+    },
+    "video-analytics-standalone-python-85": {
+        "name": "video-analytics-standalone-python-85",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-85.yaml",
+        "cpu": {
+            "0-percentile": 4343.0,
+            "1-percentile": 4367.255,
+            "5-percentile": 9547.145,
+            "25-percentile": 11798.133076923077,
+            "50-percentile": 12237.986862745098,
+            "75-percentile": 12434.088289473684,
+            "95-percentile": 12546.79625,
+            "99-percentile": 12570.2544,
+            "100-percentile": 12576.44
+        },
+        "memory": {
+            "0-percentile": 387.0,
+            "1-percentile": 387.495,
+            "5-percentile": 395.59333333333336,
+            "25-percentile": 404.1442307692308,
+            "50-percentile": 406.9203921568627,
+            "75-percentile": 408.4815789473684,
+            "95-percentile": 409.6975,
+            "99-percentile": 409.90970000000004,
+            "100-percentile": 409.97
+        },
+        "duration": {
+            "0-percentile": 2874.382,
+            "1-percentile": 2880.0116960000005,
+            "5-percentile": 2907.799578492647,
+            "25-percentile": 2964.6308547453696,
+            "50-percentile": 2999.6883271739143,
+            "75-percentile": 3029.9326364107874,
+            "95-percentile": 3054.65722159836,
+            "99-percentile": 3060.72328413329,
+            "100-percentile": 3062.613299999999
+        }
+    },
+    "video-analytics-standalone-python-100": {
+        "name": "video-analytics-standalone-python-100",
+        "yaml": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-100.yaml",
+        "cpu": {
+            "0-percentile": 9907.0,
+            "1-percentile": 12195.385,
+            "5-percentile": 13776.521666666667,
+            "25-percentile": 14520.202307692307,
+            "50-percentile": 14674.435098039216,
+            "75-percentile": 14764.720394736842,
+            "95-percentile": 14825.424791666666,
+            "99-percentile": 14840.5094,
+            "100-percentile": 14844.94
+        },
+        "memory": {
+            "0-percentile": 376.0,
+            "1-percentile": 376.495,
+            "5-percentile": 378.6433333333334,
+            "25-percentile": 383.3873076923077,
+            "50-percentile": 385.7719607843137,
+            "75-percentile": 387.1560526315789,
+            "95-percentile": 388.32979166666667,
+            "99-percentile": 388.61699999999996,
+            "100-percentile": 388.7
+        },
+        "duration": {
+            "0-percentile": 3416.523,
+            "1-percentile": 3418.6560710000003,
+            "5-percentile": 3436.837275000001,
+            "25-percentile": 3483.4587482638894,
+            "50-percentile": 3513.589719409936,
+            "75-percentile": 3539.5792276192938,
+            "95-percentile": 3563.4042116495884,
+            "99-percentile": 3569.439864677552,
+            "100-percentile": 3571.3912187499977
+        }
+    }
+}
