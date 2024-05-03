@@ -1,0 +1,121 @@
+[
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-1.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-2.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-3.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-4.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-5.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-6.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-7.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-8.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-9.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-10.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-11.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-12.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-13.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-14.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-15.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-16.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/image-rotate-python/kn-image-rotate-python-17.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/image-rotate/image-rotate-database.yaml"
+        ],
+        "postdeployment-commands": []
+    }
+]

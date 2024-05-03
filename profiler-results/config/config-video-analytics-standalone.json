@@ -82,5 +82,61 @@
             "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
         ],
         "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-200.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-300.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-400.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-500.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-600.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-700.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-800.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-analytics-standalone/kn-video-analytics-standalone-python-900.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-analytics-standalone/video-analytics-standalone-database.yaml"
+        ],
+        "postdeployment-commands": []
     }
 ]

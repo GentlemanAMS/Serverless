@@ -33,7 +33,7 @@ spec:
 """
 
 # List of x values
-x_values = [1, 5, 10, 20, 45, 100, 200, 300, 450, 700, 1000, 1500, 2000, 2500, 3000, 4500, 7000]
+x_values = [1, 5, 10, 20, 45, 100, 200, 300, 450, 700, 1000, 1500, 2000, 2500, 3000, 4500, 7000, 8500, 10000, 12000, 14000, 16000, 18000, 20000]
 
 # Generate YAML files for each combination of x and y values
 for x in x_values:

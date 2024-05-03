@@ -53,5 +53,15 @@
         "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-700000-707000.yaml",
         "predeployment-commands": [],
         "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-1000000-1010000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-go/kn-fibonacci-go-1500000-1515000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
     }
 ]

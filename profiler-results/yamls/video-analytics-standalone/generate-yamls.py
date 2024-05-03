@@ -19,7 +19,7 @@ spec:
             - --function-endpoint-url=0.0.0.0
             - --function-endpoint-port=50051
             - --function-name=video-analytics-standalone-python
-            - --value=video1.mp4
+            - --value=video2.mp4
             - --profile-function=true
         - image: docker.io/vhiveease/video-analytics-standalone-python:latest
           args:
@@ -32,7 +32,8 @@ spec:
 """
 
 # List of x values
-x_values = [1, 2, 5, 10, 20, 30, 40, 50, 60, 70, 85, 100]
+# x_values = [1, 2, 5, 10, 20, 30, 40, 50, 60, 70, 85, 100, 200]
+x_values = [300, 400, 500, 600, 700, 800, 900]
 
 # Generate YAML files for each combination of x and y values
 for x in x_values:

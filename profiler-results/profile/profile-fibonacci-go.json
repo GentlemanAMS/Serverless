@@ -405,5 +405,79 @@
             "99-percentile": 3958.406194381711,
             "100-percentile": 3960.31087777778
         }
+    },
+    "fibonacci-go-1000000-1010000": {
+        "name": "fibonacci-go-1000000-1010000",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-1000000-1010000.yaml",
+        "cpu": {
+            "0-percentile": 532.0,
+            "1-percentile": 681.49,
+            "5-percentile": 790.6083333333333,
+            "25-percentile": 839.6057692307692,
+            "50-percentile": 854.7292156862745,
+            "75-percentile": 879.625394736842,
+            "95-percentile": 896.7850000000001,
+            "99-percentile": 899.7352000000001,
+            "100-percentile": 900.52
+        },
+        "memory": {
+            "0-percentile": 20.0,
+            "1-percentile": 22.475,
+            "5-percentile": 25.148333333333333,
+            "25-percentile": 29.24192307692308,
+            "50-percentile": 30.900784313725488,
+            "75-percentile": 31.80723684210526,
+            "95-percentile": 32.285624999999996,
+            "99-percentile": 32.3942,
+            "100-percentile": 32.42
+        },
+        "duration": {
+            "0-percentile": 7877.582,
+            "1-percentile": 7906.886913333333,
+            "5-percentile": 7961.2047111111115,
+            "25-percentile": 8058.082976190477,
+            "50-percentile": 8109.541469879518,
+            "75-percentile": 8150.056733870969,
+            "95-percentile": 8182.334578793074,
+            "99-percentile": 8189.907225180308,
+            "100-percentile": 8192.461606060606
+        }
+    },
+    "fibonacci-go-1500000-1515000": {
+        "name": "fibonacci-go-1500000-1515000",
+        "yaml": "./yamls/fibonacci-go/kn-fibonacci-go-1500000-1515000.yaml",
+        "cpu": {
+            "0-percentile": 25.0,
+            "1-percentile": 428.425,
+            "5-percentile": 712.5600000000001,
+            "25-percentile": 829.2892307692308,
+            "50-percentile": 852.6105882352941,
+            "75-percentile": 880.0952631578947,
+            "95-percentile": 916.4373958333333,
+            "99-percentile": 922.5909,
+            "100-percentile": 924.09
+        },
+        "memory": {
+            "0-percentile": 16.0,
+            "1-percentile": 21.445,
+            "5-percentile": 26.465,
+            "25-percentile": 31.008846153846157,
+            "50-percentile": 32.80176470588235,
+            "75-percentile": 33.83381578947369,
+            "95-percentile": 34.3803125,
+            "99-percentile": 34.5155,
+            "100-percentile": 34.55
+        },
+        "duration": {
+            "0-percentile": 18460.109,
+            "1-percentile": 18530.290279999997,
+            "5-percentile": 18633.11474,
+            "25-percentile": 18731.970999999994,
+            "50-percentile": 18802.189837837836,
+            "75-percentile": 18862.305418181815,
+            "95-percentile": 18919.30307453416,
+            "99-percentile": 18932.416174520546,
+            "100-percentile": 18937.22212328767
+        }
     }
 }

@@ -89,5 +89,33 @@
             "kubectl apply -f ./yamls/video-processing/video-processing-database.yaml"
         ],
         "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-processing/kn-video-processing-python-4000.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-processing/video-processing-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-processing/kn-video-processing-python-5000.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-processing/video-processing-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-processing/kn-video-processing-python-6000.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-processing/video-processing-database.yaml"
+        ],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/video-processing/kn-video-processing-python-7000.yaml",
+        "predeployment-commands": [
+            "kubectl apply -f ./yamls/video-processing/video-processing-database.yaml"
+        ],
+        "postdeployment-commands": []
     }
 ]

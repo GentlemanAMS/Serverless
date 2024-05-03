@@ -48,5 +48,15 @@
         "yaml-location": "./yamls/fibonacci-python/kn-fibonacci-python-450000-454500.yaml",
         "predeployment-commands": [],
         "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-python/kn-fibonacci-python-700000-707000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
+    },
+    {
+        "yaml-location": "./yamls/fibonacci-python/kn-fibonacci-python-1000000-1010000.yaml",
+        "predeployment-commands": [],
+        "postdeployment-commands": []
     }
 ]
