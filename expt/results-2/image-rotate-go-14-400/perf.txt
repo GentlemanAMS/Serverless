@@ -1,0 +1,13 @@
+# started on Wed May 29 01:52:28 2024
+
+
+ Performance counter stats for process id '3744249':
+
+       249,551,420      cpu-cycles                                                  
+       249,551,420      CPU_CLK_UNHALTED.THREAD                                     
+       110,386,082      instructions              #    0.44  insn per cycle         
+       110,386,082      INST_RETIRED.ANY                                            
+             3,466      context-switches                                            
+
+     720.000478136 seconds time elapsed
+

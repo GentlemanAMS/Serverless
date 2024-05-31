@@ -1,0 +1,6 @@
+time="2024-05-30T12:25:16.788312372-06:00" level=info msg="Reading the endpoints from the file: video-processing-python-1500-400/endpoints.json"
+time="2024-05-30T12:38:19.537102803-06:00" level=info msg="Issued / completed requests: 156, 155"
+time="2024-05-30T12:38:19.537175209-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-30T12:38:19.537186205-06:00" level=info msg="Experiment finished!"
+time="2024-05-30T12:38:19.537198426-06:00" level=info msg="The measured latencies are saved in video-processing-python-1500-400/lat.txt"
+time="2024-05-30T12:38:19.537341838-06:00" level=info msg="The measured function durations are saved in video-processing-python-1500-400/dur.txt"

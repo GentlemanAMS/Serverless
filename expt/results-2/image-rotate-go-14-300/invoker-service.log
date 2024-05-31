@@ -1,0 +1,6 @@
+time="2024-05-28T23:08:24.11391079-06:00" level=info msg="Reading the endpoints from the file: image-rotate-go-14-300/endpoints.json"
+time="2024-05-28T23:21:24.247960172-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-28T23:21:24.24813359-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-28T23:21:24.248160566-06:00" level=info msg="Experiment finished!"
+time="2024-05-28T23:21:24.248197226-06:00" level=info msg="The measured latencies are saved in image-rotate-go-14-300/lat.txt"
+time="2024-05-28T23:21:24.248449821-06:00" level=info msg="The measured function durations are saved in image-rotate-go-14-300/dur.txt"

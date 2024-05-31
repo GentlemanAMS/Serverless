@@ -70,9 +70,9 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 
 
 # clone vSwarm repository
-cd $HOME
-git clone --depth=1 git@github.com:vhive-serverless/vSwarm.git
-echo "vSwarm repository cloned"
+# cd $HOME
+# git clone git@github.com:vhive-serverless/vSwarm.git
+# echo "vSwarm repository cloned"
 
 
 # Build the setup tool

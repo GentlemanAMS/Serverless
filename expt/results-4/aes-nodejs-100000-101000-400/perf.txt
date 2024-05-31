@@ -1,0 +1,13 @@
+# started on Thu May 30 09:13:49 2024
+
+
+ Performance counter stats for process id '847800':
+
+     3,192,013,733      cpu-cycles                                                  
+     3,192,013,733      CPU_CLK_UNHALTED.THREAD                                     
+     3,064,458,065      instructions              #    0.96  insn per cycle         
+     3,064,458,065      INST_RETIRED.ANY                                            
+            18,682      context-switches                                            
+
+     720.000612825 seconds time elapsed
+

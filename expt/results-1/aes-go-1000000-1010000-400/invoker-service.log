@@ -1,0 +1,6 @@
+time="2024-05-28T23:53:10.44212736-06:00" level=info msg="Reading the endpoints from the file: aes-go-1000000-1010000-400/endpoints.json"
+time="2024-05-29T00:06:10.791991674-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-29T00:06:10.792067876-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-29T00:06:10.792080534-06:00" level=info msg="Experiment finished!"
+time="2024-05-29T00:06:10.792094646-06:00" level=info msg="The measured latencies are saved in aes-go-1000000-1010000-400/lat.txt"
+time="2024-05-29T00:06:10.792225879-06:00" level=info msg="The measured function durations are saved in aes-go-1000000-1010000-400/dur.txt"

@@ -1,0 +1,6 @@
+time="2024-05-30T04:17:04.469027123-06:00" level=info msg="Reading the endpoints from the file: video-analytics-standalone-python-30-200/endpoints.json"
+time="2024-05-30T04:30:08.297393407-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-30T04:30:08.297518964-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-30T04:30:08.297545689-06:00" level=info msg="Experiment finished!"
+time="2024-05-30T04:30:08.297570059-06:00" level=info msg="The measured latencies are saved in video-analytics-standalone-python-30-200/lat.txt"
+time="2024-05-30T04:30:08.297826629-06:00" level=info msg="The measured function durations are saved in video-analytics-standalone-python-30-200/dur.txt"

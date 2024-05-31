@@ -1,0 +1,6 @@
+time="2024-05-30T04:58:06.678986917-06:00" level=info msg="Reading the endpoints from the file: gptj-python-200/endpoints.json"
+time="2024-05-30T05:11:06.769181034-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-30T05:11:06.769334453-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-30T05:11:06.769365707-06:00" level=info msg="Experiment finished!"
+time="2024-05-30T05:11:06.769392308-06:00" level=info msg="The measured latencies are saved in gptj-python-200/lat.txt"
+time="2024-05-30T05:11:06.769657318-06:00" level=info msg="The measured function durations are saved in gptj-python-200/dur.txt"

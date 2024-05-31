@@ -1,0 +1,26 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: gptj-python-4fhmxml
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+      - args:
+        - --addr=0.0.0.0:50000
+        - --function-endpoint-url=0.0.0.0
+        - --function-endpoint-port=50051
+        - --function-name=gptj-python
+        - --profile-function=true
+        image: docker.io/vhiveease/relay-latency:latest
+        ports:
+        - containerPort: 50000
+          name: h2c
+      - args:
+        - --addr=0.0.0.0
+        - --port=50051
+        - --dataset-path=python/data/cnn_eval.json
+        - --mlperf_conf=python/config/mlperf.conf
+        - --user_conf=python/config/user.conf
+        image: docker.io/vhiveease/gptj-python:latest

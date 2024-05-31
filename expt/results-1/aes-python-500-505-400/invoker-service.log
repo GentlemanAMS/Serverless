@@ -1,0 +1,6 @@
+time="2024-05-29T03:31:53.64601248-06:00" level=info msg="Reading the endpoints from the file: aes-python-500-505-400/endpoints.json"
+time="2024-05-29T03:44:53.774395884-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-29T03:44:53.774560131-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-29T03:44:53.774585682-06:00" level=info msg="Experiment finished!"
+time="2024-05-29T03:44:53.774600407-06:00" level=info msg="The measured latencies are saved in aes-python-500-505-400/lat.txt"
+time="2024-05-29T03:44:53.774748734-06:00" level=info msg="The measured function durations are saved in aes-python-500-505-400/dur.txt"

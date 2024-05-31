@@ -1,0 +1,6 @@
+time="2024-05-28T22:58:28.563794217-06:00" level=info msg="Reading the endpoints from the file: fibonacci-go-70000-70700-300/endpoints.json"
+time="2024-05-28T23:11:28.701737123-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-28T23:11:28.701807834-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-28T23:11:28.701817885-06:00" level=info msg="Experiment finished!"
+time="2024-05-28T23:11:28.70182748-06:00" level=info msg="The measured latencies are saved in fibonacci-go-70000-70700-300/lat.txt"
+time="2024-05-28T23:11:28.701943922-06:00" level=info msg="The measured function durations are saved in fibonacci-go-70000-70700-300/dur.txt"

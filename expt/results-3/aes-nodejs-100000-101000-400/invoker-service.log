@@ -1,0 +1,6 @@
+time="2024-05-30T09:19:01.631133477-06:00" level=info msg="Reading the endpoints from the file: aes-nodejs-100000-101000-400/endpoints.json"
+time="2024-05-30T09:32:01.896017939-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-30T09:32:01.896091004-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-30T09:32:01.896101933-06:00" level=info msg="Experiment finished!"
+time="2024-05-30T09:32:01.89611263-06:00" level=info msg="The measured latencies are saved in aes-nodejs-100000-101000-400/lat.txt"
+time="2024-05-30T09:32:01.896239586-06:00" level=info msg="The measured function durations are saved in aes-nodejs-100000-101000-400/dur.txt"

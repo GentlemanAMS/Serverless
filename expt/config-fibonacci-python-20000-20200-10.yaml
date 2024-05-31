@@ -1,0 +1,61 @@
+
+output-files-path: fibonacci-python-20000-20200-10
+log-files-path: fibonacci-python-20000-20200-10
+
+load-generator:
+  deploy: false
+  python_file: /users/ArunAMS/vSwarm/tools/load-generator/main.py
+  load_json: /users/ArunAMS/vSwarm/tools/load-generator/load.json
+  trace_path: /users/ArunAMS/vSwarm/tools/load-generator/10
+  profile_json: /users/ArunAMS/vSwarm/tools/load-generator/profile.json
+  config_json: /users/ArunAMS/vSwarm/tools/load-generator/config.json
+  build_path: /users/ArunAMS/vSwarm/tools/load-generator/build
+  expt_dur: 11
+  warmup_dur: 3
+
+invoke-load:
+  run: true
+  binary_path: /users/ArunAMS/vSwarm/tools/load-generator/invoker
+  log_file: invoker-load.log
+  expt_dur: 11
+  warmup_dur: 3
+
+profile-service:
+  deploy: true
+  yaml_path: /users/ArunAMS/vSwarm/tools/load-generator/yamls/fibonacci-python/kn-fibonacci-python-20000-20200.yaml
+  predeployment_commands: []
+  postdeployment_commands: []
+  endpoints_file: endpoints.json  
+
+invoke-service:
+  run: true
+  binary_path: .
+  log_file: invoker-service.log
+  dur_file: dur.txt
+  lat_file: lat.txt
+  expt_dur: 13
+  rps: 0.2
+
+taskset-service:
+  set: true
+  cpuid: 2
+
+perf:
+  collect: true
+  grep_string: "python /app/server.py"
+  event_list:
+    - cpu-cycles
+    - CPU_CLK_UNHALTED.THREAD
+    - instructions
+    - INST_RETIRED.ANY
+    - context-switches
+  expt_dur: 9
+  warmup_dur: 3
+  output_file: perf.txt
+
+mpstat:
+  collect: true
+  expt_dur: 9
+  warmup_dur: 3
+  interval: 60
+  output_file: mpstat.txt

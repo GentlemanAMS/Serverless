@@ -1,0 +1,6 @@
+time="2024-05-29T02:45:10.266011886-06:00" level=info msg="Reading the endpoints from the file: fibonacci-python-20000-20200-400/endpoints.json"
+time="2024-05-29T02:58:10.451900701-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-29T02:58:10.451991366-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-29T02:58:10.45200542-06:00" level=info msg="Experiment finished!"
+time="2024-05-29T02:58:10.452018868-06:00" level=info msg="The measured latencies are saved in fibonacci-python-20000-20200-400/lat.txt"
+time="2024-05-29T02:58:10.452182779-06:00" level=info msg="The measured function durations are saved in fibonacci-python-20000-20200-400/dur.txt"

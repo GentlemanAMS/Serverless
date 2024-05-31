@@ -1,0 +1,6 @@
+time="2024-05-28T21:20:24.422529734-06:00" level=info msg="Reading the endpoints from the file: rnn-serving-python-1000-1010-200/endpoints.json"
+time="2024-05-28T21:33:26.786355876-06:00" level=info msg="Issued / completed requests: 156, 157"
+time="2024-05-28T21:33:26.786453378-06:00" level=info msg="Real / target RPS: 0.20 / 0.2"
+time="2024-05-28T21:33:26.786467721-06:00" level=info msg="Experiment finished!"
+time="2024-05-28T21:33:26.786480698-06:00" level=info msg="The measured latencies are saved in rnn-serving-python-1000-1010-200/lat.txt"
+time="2024-05-28T21:33:26.786634525-06:00" level=info msg="The measured function durations are saved in rnn-serving-python-1000-1010-200/dur.txt"
