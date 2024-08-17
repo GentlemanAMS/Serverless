@@ -1,0 +1,19 @@
+https://github.com/knative/serving/issues/11388
+
+kubectl -n knative-serving edit cm config-features
+
+apiVersion: v1
+data:
+   kubernetes.podspec-nodeselector: "enabled"
+   kubernetes.podspec-tolerations: "enabled"
+
+
+
+
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes/
+
+kubectl get nodes --show-labels
+kubectl label nodes node0 node-role=master
+kubectl label nodes node1 node-role=invoker
+kubectl label nodes node2 node-role=perfer

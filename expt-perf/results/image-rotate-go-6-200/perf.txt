@@ -1,0 +1,737 @@
+# started on Thu Jul  4 14:01:01 2024
+
+#           time             counts unit events
+    60.500283210      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    60.500283210      <not counted>      INST_RETIRED.ANY                                            
+    61.000540762      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    61.000540762      <not counted>      INST_RETIRED.ANY                                            
+    61.500740776      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    61.500740776      <not counted>      INST_RETIRED.ANY                                            
+    62.000948627      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    62.000948627      <not counted>      INST_RETIRED.ANY                                            
+    62.501147843            611,948      CPU_CLK_UNHALTED.THREAD                                     
+    62.501147843            299,959      INST_RETIRED.ANY                                            
+    63.001388893      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    63.001388893      <not counted>      INST_RETIRED.ANY                                            
+    63.501600008      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    63.501600008      <not counted>      INST_RETIRED.ANY                                            
+    64.001794498            896,528      CPU_CLK_UNHALTED.THREAD                                     
+    64.001794498            453,133      INST_RETIRED.ANY                                            
+    64.502017472      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    64.502017472      <not counted>      INST_RETIRED.ANY                                            
+    65.002178447            613,781      CPU_CLK_UNHALTED.THREAD                                     
+    65.002178447            221,194      INST_RETIRED.ANY                                            
+    65.502396020      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    65.502396020      <not counted>      INST_RETIRED.ANY                                            
+    66.002624587      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    66.002624587      <not counted>      INST_RETIRED.ANY                                            
+    66.502830755      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    66.502830755      <not counted>      INST_RETIRED.ANY                                            
+    67.003092121      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    67.003092121      <not counted>      INST_RETIRED.ANY                                            
+    67.503350557      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    67.503350557      <not counted>      INST_RETIRED.ANY                                            
+    68.003553888      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    68.003553888      <not counted>      INST_RETIRED.ANY                                            
+    68.503691673      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    68.503691673      <not counted>      INST_RETIRED.ANY                                            
+    69.003854340            881,266      CPU_CLK_UNHALTED.THREAD                                     
+    69.003854340            440,245      INST_RETIRED.ANY                                            
+    69.504074179      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    69.504074179      <not counted>      INST_RETIRED.ANY                                            
+    70.004279070            516,113      CPU_CLK_UNHALTED.THREAD                                     
+    70.004279070            183,605      INST_RETIRED.ANY                                            
+    70.504614831      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    70.504614831      <not counted>      INST_RETIRED.ANY                                            
+    71.004836406      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    71.004836406      <not counted>      INST_RETIRED.ANY                                            
+    71.505048321      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    71.505048321      <not counted>      INST_RETIRED.ANY                                            
+    72.005252436      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    72.005252436      <not counted>      INST_RETIRED.ANY                                            
+    72.505452819            788,440      CPU_CLK_UNHALTED.THREAD                                     
+    72.505452819            298,619      INST_RETIRED.ANY                                            
+#           time             counts unit events
+    73.005712590      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    73.005712590      <not counted>      INST_RETIRED.ANY                                            
+    73.505918863      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    73.505918863      <not counted>      INST_RETIRED.ANY                                            
+    74.006089196            905,064      CPU_CLK_UNHALTED.THREAD                                     
+    74.006089196            432,179      INST_RETIRED.ANY                                            
+    74.506312126      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    74.506312126      <not counted>      INST_RETIRED.ANY                                            
+    75.006565810            774,983      CPU_CLK_UNHALTED.THREAD                                     
+    75.006565810            277,474      INST_RETIRED.ANY                                            
+    75.506801272      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    75.506801272      <not counted>      INST_RETIRED.ANY                                            
+    76.007013964      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    76.007013964      <not counted>      INST_RETIRED.ANY                                            
+    76.507185487      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    76.507185487      <not counted>      INST_RETIRED.ANY                                            
+    77.007375174      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    77.007375174      <not counted>      INST_RETIRED.ANY                                            
+    77.507571555      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    77.507571555      <not counted>      INST_RETIRED.ANY                                            
+    78.007772216      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    78.007772216      <not counted>      INST_RETIRED.ANY                                            
+    78.507949146      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    78.507949146      <not counted>      INST_RETIRED.ANY                                            
+    79.008173001          9,136,802      CPU_CLK_UNHALTED.THREAD                                     
+    79.008173001          6,341,649      INST_RETIRED.ANY                                            
+    79.508390934      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    79.508390934      <not counted>      INST_RETIRED.ANY                                            
+    80.008565198            828,893      CPU_CLK_UNHALTED.THREAD                                     
+    80.008565198            262,168      INST_RETIRED.ANY                                            
+    80.508844206      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    80.508844206      <not counted>      INST_RETIRED.ANY                                            
+    81.009048390      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    81.009048390      <not counted>      INST_RETIRED.ANY                                            
+    81.509254538      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    81.509254538      <not counted>      INST_RETIRED.ANY                                            
+    82.009460838      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    82.009460838      <not counted>      INST_RETIRED.ANY                                            
+    82.509656146            604,342      CPU_CLK_UNHALTED.THREAD                                     
+    82.509656146            287,134      INST_RETIRED.ANY                                            
+    83.009857624      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    83.009857624      <not counted>      INST_RETIRED.ANY                                            
+    83.509976460      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    83.509976460      <not counted>      INST_RETIRED.ANY                                            
+    84.010182821          1,449,672      CPU_CLK_UNHALTED.THREAD                                     
+    84.010182821            850,868      INST_RETIRED.ANY                                            
+    84.510377431      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    84.510377431      <not counted>      INST_RETIRED.ANY                                            
+    85.010571850            522,759      CPU_CLK_UNHALTED.THREAD                                     
+    85.010571850            199,309      INST_RETIRED.ANY                                            
+#           time             counts unit events
+    85.510750129      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    85.510750129      <not counted>      INST_RETIRED.ANY                                            
+    86.010954544      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    86.010954544      <not counted>      INST_RETIRED.ANY                                            
+    86.511150885      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    86.511150885      <not counted>      INST_RETIRED.ANY                                            
+    87.011357897      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    87.011357897      <not counted>      INST_RETIRED.ANY                                            
+    87.513748793      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    87.513748793      <not counted>      INST_RETIRED.ANY                                            
+    88.013966130      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    88.013966130      <not counted>      INST_RETIRED.ANY                                            
+    88.514181059      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    88.514181059      <not counted>      INST_RETIRED.ANY                                            
+    89.014405581            825,426      CPU_CLK_UNHALTED.THREAD                                     
+    89.014405581            467,470      INST_RETIRED.ANY                                            
+    89.514632921      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    89.514632921      <not counted>      INST_RETIRED.ANY                                            
+    90.014846536            695,960      CPU_CLK_UNHALTED.THREAD                                     
+    90.014846536            272,700      INST_RETIRED.ANY                                            
+    90.515114220      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    90.515114220      <not counted>      INST_RETIRED.ANY                                            
+    91.015330651      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    91.015330651      <not counted>      INST_RETIRED.ANY                                            
+    91.515547874      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    91.515547874      <not counted>      INST_RETIRED.ANY                                            
+    92.015775214      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    92.015775214      <not counted>      INST_RETIRED.ANY                                            
+    92.515982077          1,016,087      CPU_CLK_UNHALTED.THREAD                                     
+    92.515982077            472,382      INST_RETIRED.ANY                                            
+    93.016220717      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    93.016220717      <not counted>      INST_RETIRED.ANY                                            
+    93.516454704      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    93.516454704      <not counted>      INST_RETIRED.ANY                                            
+    94.016663501            979,863      CPU_CLK_UNHALTED.THREAD                                     
+    94.016663501            477,062      INST_RETIRED.ANY                                            
+    94.516927294      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    94.516927294      <not counted>      INST_RETIRED.ANY                                            
+    95.017150226            666,882      CPU_CLK_UNHALTED.THREAD                                     
+    95.017150226            236,627      INST_RETIRED.ANY                                            
+    95.517381213      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    95.517381213      <not counted>      INST_RETIRED.ANY                                            
+    96.017611726      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    96.017611726      <not counted>      INST_RETIRED.ANY                                            
+    96.517832362      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    96.517832362      <not counted>      INST_RETIRED.ANY                                            
+    97.018052503      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    97.018052503      <not counted>      INST_RETIRED.ANY                                            
+    97.518275197      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    97.518275197      <not counted>      INST_RETIRED.ANY                                            
+#           time             counts unit events
+    98.018470699      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    98.018470699      <not counted>      INST_RETIRED.ANY                                            
+    98.518644474      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    98.518644474      <not counted>      INST_RETIRED.ANY                                            
+    99.018859464            787,637      CPU_CLK_UNHALTED.THREAD                                     
+    99.018859464            477,081      INST_RETIRED.ANY                                            
+    99.519150033      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+    99.519150033      <not counted>      INST_RETIRED.ANY                                            
+   100.019362583            662,320      CPU_CLK_UNHALTED.THREAD                                     
+   100.019362583            264,952      INST_RETIRED.ANY                                            
+   100.519639483      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   100.519639483      <not counted>      INST_RETIRED.ANY                                            
+   101.019885506      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   101.019885506      <not counted>      INST_RETIRED.ANY                                            
+   101.520090753      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   101.520090753      <not counted>      INST_RETIRED.ANY                                            
+   102.020264867      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   102.020264867      <not counted>      INST_RETIRED.ANY                                            
+   102.520481911            506,051      CPU_CLK_UNHALTED.THREAD                                     
+   102.520481911            245,944      INST_RETIRED.ANY                                            
+   103.020706452      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   103.020706452      <not counted>      INST_RETIRED.ANY                                            
+   103.520900819      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   103.520900819      <not counted>      INST_RETIRED.ANY                                            
+   104.021107521            858,628      CPU_CLK_UNHALTED.THREAD                                     
+   104.021107521            453,477      INST_RETIRED.ANY                                            
+   104.521295668      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   104.521295668      <not counted>      INST_RETIRED.ANY                                            
+   105.021506594            487,635      CPU_CLK_UNHALTED.THREAD                                     
+   105.021506594            183,083      INST_RETIRED.ANY                                            
+   105.521751564      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   105.521751564      <not counted>      INST_RETIRED.ANY                                            
+   106.022010558      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   106.022010558      <not counted>      INST_RETIRED.ANY                                            
+   106.522230483      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   106.522230483      <not counted>      INST_RETIRED.ANY                                            
+   107.022477610      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   107.022477610      <not counted>      INST_RETIRED.ANY                                            
+   107.522646275      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   107.522646275      <not counted>      INST_RETIRED.ANY                                            
+   108.022851426      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   108.022851426      <not counted>      INST_RETIRED.ANY                                            
+   108.523119422      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   108.523119422      <not counted>      INST_RETIRED.ANY                                            
+   109.023331570            895,442      CPU_CLK_UNHALTED.THREAD                                     
+   109.023331570            460,698      INST_RETIRED.ANY                                            
+   109.523551935      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   109.523551935      <not counted>      INST_RETIRED.ANY                                            
+   110.023709421            812,630      CPU_CLK_UNHALTED.THREAD                                     
+   110.023709421            210,553      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   110.524025771      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   110.524025771      <not counted>      INST_RETIRED.ANY                                            
+   111.024207702      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   111.024207702      <not counted>      INST_RETIRED.ANY                                            
+   111.524376541      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   111.524376541      <not counted>      INST_RETIRED.ANY                                            
+   112.024589980      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   112.024589980      <not counted>      INST_RETIRED.ANY                                            
+   112.524822913            565,140      CPU_CLK_UNHALTED.THREAD                                     
+   112.524822913            226,255      INST_RETIRED.ANY                                            
+   113.025111491      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   113.025111491      <not counted>      INST_RETIRED.ANY                                            
+   113.525331711      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   113.525331711      <not counted>      INST_RETIRED.ANY                                            
+   114.025542821            854,925      CPU_CLK_UNHALTED.THREAD                                     
+   114.025542821            421,696      INST_RETIRED.ANY                                            
+   114.525770277      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   114.525770277      <not counted>      INST_RETIRED.ANY                                            
+   115.025967337            684,214      CPU_CLK_UNHALTED.THREAD                                     
+   115.025967337            299,659      INST_RETIRED.ANY                                            
+   115.526173984      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   115.526173984      <not counted>      INST_RETIRED.ANY                                            
+   116.026417708      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   116.026417708      <not counted>      INST_RETIRED.ANY                                            
+   116.526595227      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   116.526595227      <not counted>      INST_RETIRED.ANY                                            
+   117.026817439      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   117.026817439      <not counted>      INST_RETIRED.ANY                                            
+   117.527092348      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   117.527092348      <not counted>      INST_RETIRED.ANY                                            
+   118.027308474      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   118.027308474      <not counted>      INST_RETIRED.ANY                                            
+   118.527524777      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   118.527524777      <not counted>      INST_RETIRED.ANY                                            
+   119.027775728            855,449      CPU_CLK_UNHALTED.THREAD                                     
+   119.027775728            519,548      INST_RETIRED.ANY                                            
+   119.528013634      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   119.528013634      <not counted>      INST_RETIRED.ANY                                            
+   120.028225332            646,331      CPU_CLK_UNHALTED.THREAD                                     
+   120.028225332            277,843      INST_RETIRED.ANY                                            
+   120.528498640      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   120.528498640      <not counted>      INST_RETIRED.ANY                                            
+   121.028711497      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   121.028711497      <not counted>      INST_RETIRED.ANY                                            
+   121.528943333      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   121.528943333      <not counted>      INST_RETIRED.ANY                                            
+   122.029135426      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   122.029135426      <not counted>      INST_RETIRED.ANY                                            
+   122.529342773            680,329      CPU_CLK_UNHALTED.THREAD                                     
+   122.529342773            216,898      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   123.029574034      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   123.029574034      <not counted>      INST_RETIRED.ANY                                            
+   123.529790666      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   123.529790666      <not counted>      INST_RETIRED.ANY                                            
+   124.030043344            838,181      CPU_CLK_UNHALTED.THREAD                                     
+   124.030043344            471,978      INST_RETIRED.ANY                                            
+   124.530203583      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   124.530203583      <not counted>      INST_RETIRED.ANY                                            
+   125.030363240            521,036      CPU_CLK_UNHALTED.THREAD                                     
+   125.030363240            175,078      INST_RETIRED.ANY                                            
+   125.530599836      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   125.530599836      <not counted>      INST_RETIRED.ANY                                            
+   126.040768340      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   126.040768340      <not counted>      INST_RETIRED.ANY                                            
+   126.540931778      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   126.540931778      <not counted>      INST_RETIRED.ANY                                            
+   127.041145337      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   127.041145337      <not counted>      INST_RETIRED.ANY                                            
+   127.541343269      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   127.541343269      <not counted>      INST_RETIRED.ANY                                            
+   128.041566329      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   128.041566329      <not counted>      INST_RETIRED.ANY                                            
+   128.541748866      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   128.541748866      <not counted>      INST_RETIRED.ANY                                            
+   129.041895551          1,000,585      CPU_CLK_UNHALTED.THREAD                                     
+   129.041895551            455,184      INST_RETIRED.ANY                                            
+   129.542056070      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   129.542056070      <not counted>      INST_RETIRED.ANY                                            
+   130.042253959            488,486      CPU_CLK_UNHALTED.THREAD                                     
+   130.042253959            211,349      INST_RETIRED.ANY                                            
+   130.542503287      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   130.542503287      <not counted>      INST_RETIRED.ANY                                            
+   131.042717128      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   131.042717128      <not counted>      INST_RETIRED.ANY                                            
+   131.542979082      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   131.542979082      <not counted>      INST_RETIRED.ANY                                            
+   132.043177830      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   132.043177830      <not counted>      INST_RETIRED.ANY                                            
+   132.543347925            597,165      CPU_CLK_UNHALTED.THREAD                                     
+   132.543347925            198,963      INST_RETIRED.ANY                                            
+   133.043549868      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   133.043549868      <not counted>      INST_RETIRED.ANY                                            
+   133.543737829      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   133.543737829      <not counted>      INST_RETIRED.ANY                                            
+   134.043942710            910,200      CPU_CLK_UNHALTED.THREAD                                     
+   134.043942710            576,553      INST_RETIRED.ANY                                            
+   134.544103028      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   134.544103028      <not counted>      INST_RETIRED.ANY                                            
+   135.044268738            623,490      CPU_CLK_UNHALTED.THREAD                                     
+   135.044268738            212,062      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   135.544486973      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   135.544486973      <not counted>      INST_RETIRED.ANY                                            
+   136.044677553      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   136.044677553      <not counted>      INST_RETIRED.ANY                                            
+   136.544896541      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   136.544896541      <not counted>      INST_RETIRED.ANY                                            
+   137.045086151      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   137.045086151      <not counted>      INST_RETIRED.ANY                                            
+   137.545312035      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   137.545312035      <not counted>      INST_RETIRED.ANY                                            
+   138.045499176      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   138.045499176      <not counted>      INST_RETIRED.ANY                                            
+   138.545648644      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   138.545648644      <not counted>      INST_RETIRED.ANY                                            
+   139.045846733            894,423      CPU_CLK_UNHALTED.THREAD                                     
+   139.045846733            553,172      INST_RETIRED.ANY                                            
+   139.546039041      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   139.546039041      <not counted>      INST_RETIRED.ANY                                            
+   140.046293449            644,636      CPU_CLK_UNHALTED.THREAD                                     
+   140.046293449            184,477      INST_RETIRED.ANY                                            
+   140.546551624      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   140.546551624      <not counted>      INST_RETIRED.ANY                                            
+   141.046781052      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   141.046781052      <not counted>      INST_RETIRED.ANY                                            
+   141.546998813      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   141.546998813      <not counted>      INST_RETIRED.ANY                                            
+   142.047213077      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   142.047213077      <not counted>      INST_RETIRED.ANY                                            
+   142.547438965            613,101      CPU_CLK_UNHALTED.THREAD                                     
+   142.547438965            291,509      INST_RETIRED.ANY                                            
+   143.047651752      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   143.047651752      <not counted>      INST_RETIRED.ANY                                            
+   143.547876561      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   143.547876561      <not counted>      INST_RETIRED.ANY                                            
+   144.048075130          1,223,612      CPU_CLK_UNHALTED.THREAD                                     
+   144.048075130            483,814      INST_RETIRED.ANY                                            
+   144.548213924      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   144.548213924      <not counted>      INST_RETIRED.ANY                                            
+   145.048370339            765,078      CPU_CLK_UNHALTED.THREAD                                     
+   145.048370339            247,182      INST_RETIRED.ANY                                            
+   145.548588751      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   145.548588751      <not counted>      INST_RETIRED.ANY                                            
+   146.048758121      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   146.048758121      <not counted>      INST_RETIRED.ANY                                            
+   146.548983051      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   146.548983051      <not counted>      INST_RETIRED.ANY                                            
+   147.049209724      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   147.049209724      <not counted>      INST_RETIRED.ANY                                            
+   147.549431500      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   147.549431500      <not counted>      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   148.049709597      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   148.049709597      <not counted>      INST_RETIRED.ANY                                            
+   148.549919173      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   148.549919173      <not counted>      INST_RETIRED.ANY                                            
+   149.050082717            674,052      CPU_CLK_UNHALTED.THREAD                                     
+   149.050082717            409,353      INST_RETIRED.ANY                                            
+   149.550249837      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   149.550249837      <not counted>      INST_RETIRED.ANY                                            
+   150.050479489            736,709      CPU_CLK_UNHALTED.THREAD                                     
+   150.050479489            253,704      INST_RETIRED.ANY                                            
+   150.550691213      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   150.550691213      <not counted>      INST_RETIRED.ANY                                            
+   151.050862010      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   151.050862010      <not counted>      INST_RETIRED.ANY                                            
+   151.551082578      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   151.551082578      <not counted>      INST_RETIRED.ANY                                            
+   152.051295680      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   152.051295680      <not counted>      INST_RETIRED.ANY                                            
+   152.551479628            606,503      CPU_CLK_UNHALTED.THREAD                                     
+   152.551479628            205,572      INST_RETIRED.ANY                                            
+   153.051684435      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   153.051684435      <not counted>      INST_RETIRED.ANY                                            
+   153.551897591      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   153.551897591      <not counted>      INST_RETIRED.ANY                                            
+   154.052093591          1,088,730      CPU_CLK_UNHALTED.THREAD                                     
+   154.052093591            453,563      INST_RETIRED.ANY                                            
+   154.552327549      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   154.552327549      <not counted>      INST_RETIRED.ANY                                            
+   155.052536794            595,433      CPU_CLK_UNHALTED.THREAD                                     
+   155.052536794            208,719      INST_RETIRED.ANY                                            
+   155.552745137      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   155.552745137      <not counted>      INST_RETIRED.ANY                                            
+   156.052946241      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   156.052946241      <not counted>      INST_RETIRED.ANY                                            
+   156.553117516      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   156.553117516      <not counted>      INST_RETIRED.ANY                                            
+   157.053293050      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   157.053293050      <not counted>      INST_RETIRED.ANY                                            
+   157.553529088      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   157.553529088      <not counted>      INST_RETIRED.ANY                                            
+   158.053724257      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   158.053724257      <not counted>      INST_RETIRED.ANY                                            
+   158.553873973      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   158.553873973      <not counted>      INST_RETIRED.ANY                                            
+   159.054032967            936,555      CPU_CLK_UNHALTED.THREAD                                     
+   159.054032967            431,411      INST_RETIRED.ANY                                            
+   159.554264554      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   159.554264554      <not counted>      INST_RETIRED.ANY                                            
+   160.054518330            517,041      CPU_CLK_UNHALTED.THREAD                                     
+   160.054518330            182,145      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   160.554743617      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   160.554743617      <not counted>      INST_RETIRED.ANY                                            
+   161.054879066      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   161.054879066      <not counted>      INST_RETIRED.ANY                                            
+   161.555005934      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   161.555005934      <not counted>      INST_RETIRED.ANY                                            
+   162.055165946      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   162.055165946      <not counted>      INST_RETIRED.ANY                                            
+   162.555384276            569,616      CPU_CLK_UNHALTED.THREAD                                     
+   162.555384276            224,414      INST_RETIRED.ANY                                            
+   163.055611967      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   163.055611967      <not counted>      INST_RETIRED.ANY                                            
+   163.555848326      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   163.555848326      <not counted>      INST_RETIRED.ANY                                            
+   164.056026505            749,128      CPU_CLK_UNHALTED.THREAD                                     
+   164.056026505            424,162      INST_RETIRED.ANY                                            
+   164.556259838      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   164.556259838      <not counted>      INST_RETIRED.ANY                                            
+   165.056452536            834,647      CPU_CLK_UNHALTED.THREAD                                     
+   165.056452536            243,099      INST_RETIRED.ANY                                            
+   165.556631279      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   165.556631279      <not counted>      INST_RETIRED.ANY                                            
+   166.056848744      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   166.056848744      <not counted>      INST_RETIRED.ANY                                            
+   166.557026996      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   166.557026996      <not counted>      INST_RETIRED.ANY                                            
+   167.057228857      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   167.057228857      <not counted>      INST_RETIRED.ANY                                            
+   167.557403455      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   167.557403455      <not counted>      INST_RETIRED.ANY                                            
+   168.057623774      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   168.057623774      <not counted>      INST_RETIRED.ANY                                            
+   168.557916195      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   168.557916195      <not counted>      INST_RETIRED.ANY                                            
+   169.058151814            810,852      CPU_CLK_UNHALTED.THREAD                                     
+   169.058151814            472,863      INST_RETIRED.ANY                                            
+   169.558438652      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   169.558438652      <not counted>      INST_RETIRED.ANY                                            
+   170.058744479            601,173      CPU_CLK_UNHALTED.THREAD                                     
+   170.058744479            302,472      INST_RETIRED.ANY                                            
+   170.558966256      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   170.558966256      <not counted>      INST_RETIRED.ANY                                            
+   171.059169457      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   171.059169457      <not counted>      INST_RETIRED.ANY                                            
+   171.559335232      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   171.559335232      <not counted>      INST_RETIRED.ANY                                            
+   172.059542742      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   172.059542742      <not counted>      INST_RETIRED.ANY                                            
+   172.559712786            525,590      CPU_CLK_UNHALTED.THREAD                                     
+   172.559712786            256,850      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   173.059995697      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   173.059995697      <not counted>      INST_RETIRED.ANY                                            
+   173.560201774      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   173.560201774      <not counted>      INST_RETIRED.ANY                                            
+   174.060378817            794,208      CPU_CLK_UNHALTED.THREAD                                     
+   174.060378817            434,103      INST_RETIRED.ANY                                            
+   174.560593753      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   174.560593753      <not counted>      INST_RETIRED.ANY                                            
+   175.060795246            550,602      CPU_CLK_UNHALTED.THREAD                                     
+   175.060795246            183,882      INST_RETIRED.ANY                                            
+   175.561036407      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   175.561036407      <not counted>      INST_RETIRED.ANY                                            
+   176.061261831      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   176.061261831      <not counted>      INST_RETIRED.ANY                                            
+   176.561478450      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   176.561478450      <not counted>      INST_RETIRED.ANY                                            
+   177.061697512      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   177.061697512      <not counted>      INST_RETIRED.ANY                                            
+   177.561931066      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   177.561931066      <not counted>      INST_RETIRED.ANY                                            
+   178.062102139      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   178.062102139      <not counted>      INST_RETIRED.ANY                                            
+   178.562327904      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   178.562327904      <not counted>      INST_RETIRED.ANY                                            
+   179.062610437          1,110,509      CPU_CLK_UNHALTED.THREAD                                     
+   179.062610437            719,066      INST_RETIRED.ANY                                            
+   179.562824063      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   179.562824063      <not counted>      INST_RETIRED.ANY                                            
+   180.062993414            808,748      CPU_CLK_UNHALTED.THREAD                                     
+   180.062993414            429,721      INST_RETIRED.ANY                                            
+   180.563181633      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   180.563181633      <not counted>      INST_RETIRED.ANY                                            
+   181.063405388      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   181.063405388      <not counted>      INST_RETIRED.ANY                                            
+   181.563621351      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   181.563621351      <not counted>      INST_RETIRED.ANY                                            
+   182.063828875      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   182.063828875      <not counted>      INST_RETIRED.ANY                                            
+   182.563968297            654,998      CPU_CLK_UNHALTED.THREAD                                     
+   182.563968297            276,196      INST_RETIRED.ANY                                            
+   183.064126392      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   183.064126392      <not counted>      INST_RETIRED.ANY                                            
+   183.564355219      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   183.564355219      <not counted>      INST_RETIRED.ANY                                            
+   184.064533907          1,096,389      CPU_CLK_UNHALTED.THREAD                                     
+   184.064533907            600,662      INST_RETIRED.ANY                                            
+   184.564708920      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   184.564708920      <not counted>      INST_RETIRED.ANY                                            
+   185.064902112            570,087      CPU_CLK_UNHALTED.THREAD                                     
+   185.064902112            212,486      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   185.565131182      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   185.565131182      <not counted>      INST_RETIRED.ANY                                            
+   186.065324208      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   186.065324208      <not counted>      INST_RETIRED.ANY                                            
+   186.565503600      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   186.565503600      <not counted>      INST_RETIRED.ANY                                            
+   187.065714385      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   187.065714385      <not counted>      INST_RETIRED.ANY                                            
+   187.565931726      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   187.565931726      <not counted>      INST_RETIRED.ANY                                            
+   188.066115498      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   188.066115498      <not counted>      INST_RETIRED.ANY                                            
+   188.566255318      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   188.566255318      <not counted>      INST_RETIRED.ANY                                            
+   189.066395478            898,834      CPU_CLK_UNHALTED.THREAD                                     
+   189.066395478            396,183      INST_RETIRED.ANY                                            
+   189.566555560      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   189.566555560      <not counted>      INST_RETIRED.ANY                                            
+   190.066774752            445,736      CPU_CLK_UNHALTED.THREAD                                     
+   190.066774752            193,660      INST_RETIRED.ANY                                            
+   190.566960151      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   190.566960151      <not counted>      INST_RETIRED.ANY                                            
+   191.067104158      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   191.067104158      <not counted>      INST_RETIRED.ANY                                            
+   191.567259277      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   191.567259277      <not counted>      INST_RETIRED.ANY                                            
+   192.067433340      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   192.067433340      <not counted>      INST_RETIRED.ANY                                            
+   192.567698722            665,712      CPU_CLK_UNHALTED.THREAD                                     
+   192.567698722            217,342      INST_RETIRED.ANY                                            
+   193.067935648      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   193.067935648      <not counted>      INST_RETIRED.ANY                                            
+   193.568152503      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   193.568152503      <not counted>      INST_RETIRED.ANY                                            
+   194.068355966            840,638      CPU_CLK_UNHALTED.THREAD                                     
+   194.068355966            459,355      INST_RETIRED.ANY                                            
+   194.568584779      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   194.568584779      <not counted>      INST_RETIRED.ANY                                            
+   195.068749869            594,252      CPU_CLK_UNHALTED.THREAD                                     
+   195.068749869            216,609      INST_RETIRED.ANY                                            
+   195.568978321      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   195.568978321      <not counted>      INST_RETIRED.ANY                                            
+   196.069151918      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   196.069151918      <not counted>      INST_RETIRED.ANY                                            
+   196.569300508      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   196.569300508      <not counted>      INST_RETIRED.ANY                                            
+   197.069470383      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   197.069470383      <not counted>      INST_RETIRED.ANY                                            
+   197.569622904      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   197.569622904      <not counted>      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   198.069783618      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   198.069783618      <not counted>      INST_RETIRED.ANY                                            
+   198.569935298      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   198.569935298      <not counted>      INST_RETIRED.ANY                                            
+   199.070085334          4,906,451      CPU_CLK_UNHALTED.THREAD                                     
+   199.070085334          4,671,201      INST_RETIRED.ANY                                            
+   199.570245721      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   199.570245721      <not counted>      INST_RETIRED.ANY                                            
+   200.070505978          1,490,781      CPU_CLK_UNHALTED.THREAD                                     
+   200.070505978            615,853      INST_RETIRED.ANY                                            
+   200.570758909      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   200.570758909      <not counted>      INST_RETIRED.ANY                                            
+   201.070986062            144,556      CPU_CLK_UNHALTED.THREAD                                     
+   201.070986062             47,067      INST_RETIRED.ANY                                            
+   201.571231322      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   201.571231322      <not counted>      INST_RETIRED.ANY                                            
+   202.071455302      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   202.071455302      <not counted>      INST_RETIRED.ANY                                            
+   202.571669437            669,396      CPU_CLK_UNHALTED.THREAD                                     
+   202.571669437            209,097      INST_RETIRED.ANY                                            
+   203.071896961      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   203.071896961      <not counted>      INST_RETIRED.ANY                                            
+   203.572043612      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   203.572043612      <not counted>      INST_RETIRED.ANY                                            
+   204.072215291            780,783      CPU_CLK_UNHALTED.THREAD                                     
+   204.072215291            474,477      INST_RETIRED.ANY                                            
+   204.572453204      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   204.572453204      <not counted>      INST_RETIRED.ANY                                            
+   205.072668571            502,681      CPU_CLK_UNHALTED.THREAD                                     
+   205.072668571            189,058      INST_RETIRED.ANY                                            
+   205.572900215      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   205.572900215      <not counted>      INST_RETIRED.ANY                                            
+   206.073109818      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   206.073109818      <not counted>      INST_RETIRED.ANY                                            
+   206.573322158      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   206.573322158      <not counted>      INST_RETIRED.ANY                                            
+   207.073546178      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   207.073546178      <not counted>      INST_RETIRED.ANY                                            
+   207.573824790      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   207.573824790      <not counted>      INST_RETIRED.ANY                                            
+   208.074049965      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   208.074049965      <not counted>      INST_RETIRED.ANY                                            
+   208.574268179      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   208.574268179      <not counted>      INST_RETIRED.ANY                                            
+   209.074438514          1,177,804      CPU_CLK_UNHALTED.THREAD                                     
+   209.074438514            648,596      INST_RETIRED.ANY                                            
+   209.574660193      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   209.574660193      <not counted>      INST_RETIRED.ANY                                            
+   210.074908138            678,779      CPU_CLK_UNHALTED.THREAD                                     
+   210.074908138            276,524      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   210.575134606      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   210.575134606      <not counted>      INST_RETIRED.ANY                                            
+   211.075346773      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   211.075346773      <not counted>      INST_RETIRED.ANY                                            
+   211.575539193      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   211.575539193      <not counted>      INST_RETIRED.ANY                                            
+   212.075741054      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   212.075741054      <not counted>      INST_RETIRED.ANY                                            
+   212.575919503            809,704      CPU_CLK_UNHALTED.THREAD                                     
+   212.575919503            387,445      INST_RETIRED.ANY                                            
+   213.076144290      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   213.076144290      <not counted>      INST_RETIRED.ANY                                            
+   213.576351400      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   213.576351400      <not counted>      INST_RETIRED.ANY                                            
+   214.076514642            967,177      CPU_CLK_UNHALTED.THREAD                                     
+   214.076514642            489,253      INST_RETIRED.ANY                                            
+   214.576757184      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   214.576757184      <not counted>      INST_RETIRED.ANY                                            
+   215.076952147            637,943      CPU_CLK_UNHALTED.THREAD                                     
+   215.076952147            208,062      INST_RETIRED.ANY                                            
+   215.577161424      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   215.577161424      <not counted>      INST_RETIRED.ANY                                            
+   216.077358874      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   216.077358874      <not counted>      INST_RETIRED.ANY                                            
+   216.577541856      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   216.577541856      <not counted>      INST_RETIRED.ANY                                            
+   217.077714491      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   217.077714491      <not counted>      INST_RETIRED.ANY                                            
+   217.577930338      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   217.577930338      <not counted>      INST_RETIRED.ANY                                            
+   218.078155899      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   218.078155899      <not counted>      INST_RETIRED.ANY                                            
+   218.578374719      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   218.578374719      <not counted>      INST_RETIRED.ANY                                            
+   219.078589381            989,251      CPU_CLK_UNHALTED.THREAD                                     
+   219.078589381            441,565      INST_RETIRED.ANY                                            
+   219.578760301      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   219.578760301      <not counted>      INST_RETIRED.ANY                                            
+   220.079039353            539,313      CPU_CLK_UNHALTED.THREAD                                     
+   220.079039353            211,111      INST_RETIRED.ANY                                            
+   220.579288688      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   220.579288688      <not counted>      INST_RETIRED.ANY                                            
+   221.079484096      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   221.079484096      <not counted>      INST_RETIRED.ANY                                            
+   221.579651230      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   221.579651230      <not counted>      INST_RETIRED.ANY                                            
+   222.079878684      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   222.079878684      <not counted>      INST_RETIRED.ANY                                            
+   222.580072465            482,867      CPU_CLK_UNHALTED.THREAD                                     
+   222.580072465            232,575      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   223.080265821      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   223.080265821      <not counted>      INST_RETIRED.ANY                                            
+   223.580489838      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   223.580489838      <not counted>      INST_RETIRED.ANY                                            
+   224.080700893            975,976      CPU_CLK_UNHALTED.THREAD                                     
+   224.080700893            541,641      INST_RETIRED.ANY                                            
+   224.580896021      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   224.580896021      <not counted>      INST_RETIRED.ANY                                            
+   225.081089068            967,882      CPU_CLK_UNHALTED.THREAD                                     
+   225.081089068            492,350      INST_RETIRED.ANY                                            
+   225.581252584      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   225.581252584      <not counted>      INST_RETIRED.ANY                                            
+   226.081531286      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   226.081531286      <not counted>      INST_RETIRED.ANY                                            
+   226.581745736      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   226.581745736      <not counted>      INST_RETIRED.ANY                                            
+   227.081952836      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   227.081952836      <not counted>      INST_RETIRED.ANY                                            
+   227.582166088      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   227.582166088      <not counted>      INST_RETIRED.ANY                                            
+   228.082390421      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   228.082390421      <not counted>      INST_RETIRED.ANY                                            
+   228.582580687      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   228.582580687      <not counted>      INST_RETIRED.ANY                                            
+   229.082764648          1,085,472      CPU_CLK_UNHALTED.THREAD                                     
+   229.082764648            542,546      INST_RETIRED.ANY                                            
+   229.583126845      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   229.583126845      <not counted>      INST_RETIRED.ANY                                            
+   230.083329313            553,185      CPU_CLK_UNHALTED.THREAD                                     
+   230.083329313            197,351      INST_RETIRED.ANY                                            
+   230.583590903      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   230.583590903      <not counted>      INST_RETIRED.ANY                                            
+   231.083785647      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   231.083785647      <not counted>      INST_RETIRED.ANY                                            
+   231.584005710      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   231.584005710      <not counted>      INST_RETIRED.ANY                                            
+   232.084207426      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   232.084207426      <not counted>      INST_RETIRED.ANY                                            
+   232.584353779            505,028      CPU_CLK_UNHALTED.THREAD                                     
+   232.584353779            244,768      INST_RETIRED.ANY                                            
+   233.084553446      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   233.084553446      <not counted>      INST_RETIRED.ANY                                            
+   233.584749995      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   233.584749995      <not counted>      INST_RETIRED.ANY                                            
+   234.084964042            800,798      CPU_CLK_UNHALTED.THREAD                                     
+   234.084964042            479,235      INST_RETIRED.ANY                                            
+   234.585257037      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   234.585257037      <not counted>      INST_RETIRED.ANY                                            
+   235.085514860            522,707      CPU_CLK_UNHALTED.THREAD                                     
+   235.085514860            207,033      INST_RETIRED.ANY                                            
+#           time             counts unit events
+   235.585746166      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   235.585746166      <not counted>      INST_RETIRED.ANY                                            
+   236.085957377      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   236.085957377      <not counted>      INST_RETIRED.ANY                                            
+   236.586220849      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   236.586220849      <not counted>      INST_RETIRED.ANY                                            
+   237.086420897      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   237.086420897      <not counted>      INST_RETIRED.ANY                                            
+   237.586591297      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   237.586591297      <not counted>      INST_RETIRED.ANY                                            
+   238.086801238      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   238.086801238      <not counted>      INST_RETIRED.ANY                                            
+   238.587001466      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   238.587001466      <not counted>      INST_RETIRED.ANY                                            
+   239.087171591            945,790      CPU_CLK_UNHALTED.THREAD                                     
+   239.087171591            502,926      INST_RETIRED.ANY                                            
+   239.587447324      <not counted>      CPU_CLK_UNHALTED.THREAD                                     
+   239.587447324      <not counted>      INST_RETIRED.ANY                                            
+   240.087658584            532,693      CPU_CLK_UNHALTED.THREAD                                     
+   240.087658584            173,592      INST_RETIRED.ANY                                            
