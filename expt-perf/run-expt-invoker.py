@@ -16,7 +16,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Perf analysis.")
 parser.add_argument("-iIP","--invokerIP",required=True)
 parser.add_argument("-iPORT","--invokerPORT",required=True)
-parser.add_argument("-iHOST","--invokerHOSTNAME",required=False, default="ArunAMS")
+parser.add_argument("-iHOST","--invokerHOSTNAME",required=False, default="Lakshman")
 args = parser.parse_args()
 
 yaml_files = [
@@ -139,8 +139,10 @@ while True:
 
     if not os.path.exists(config_data['output-files-path']):
         os.makedirs(config_data['output-files-path'])
+        os.chmod(config_data['output-files-path'], stat.S_IRWXO)
     if not os.path.exists(config_data['log-files-path']):
         os.makedirs(config_data['log-files-path'])
+        os.chmod(config_data['log-files-path'], stat.S_IRWXO)
 
     if(config_data['invoke-load']['run']):
         invoke_load(

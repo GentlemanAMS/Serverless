@@ -1,28 +1,28 @@
 
-output-files-path: /users/ArunAMS/vSwarm/tools/load-generator/expt/rnn-serving-python-20-20-10
-log-files-path: /users/ArunAMS/vSwarm/tools/load-generator/expt/rnn-serving-python-20-20-10
+output-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/rnn-serving-python-20-20-10
+log-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/rnn-serving-python-20-20-10
 
 load-generator:
   deploy: true
-  python_file: /users/ArunAMS/vSwarm/tools/load-generator/main.py
-  load_json: /users/ArunAMS/vSwarm/tools/load-generator/load.json
-  trace_path: /users/ArunAMS/vSwarm/tools/load-generator/10
-  profile_json: /users/ArunAMS/vSwarm/tools/load-generator/profile.json
-  config_json: /users/ArunAMS/vSwarm/tools/load-generator/config.json
-  build_path: /users/ArunAMS/vSwarm/tools/load-generator/build
+  python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
+  load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
+  trace_path: /users/Lakshman/vSwarm/tools/load-generator/10
+  profile_json: /users/Lakshman/vSwarm/tools/load-generator/profile.json
+  config_json: /users/Lakshman/vSwarm/tools/load-generator/config.json
+  build_path: /users/Lakshman/vSwarm/tools/load-generator/build
   expt_dur: 11
   warmup_dur: 3
 
 invoke-load:
   run: true
-  binary_path: /users/ArunAMS/vSwarm/tools/load-generator/invoker
+  binary_path: /users/Lakshman/vSwarm/tools/load-generator/invoker
   log_file: invoker-load.log
   expt_dur: 5
   warmup_dur: 1
 
 profile-service:
   deploy: true
-  yaml_path: /users/ArunAMS/vSwarm/tools/load-generator/yamls/rnn-serving/kn-rnn-serving-python-20-20.yaml
+  yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/rnn-serving/kn-rnn-serving-python-20-20.yaml
   predeployment_commands: []
   postdeployment_commands: []
   endpoints_file: endpoints.json  

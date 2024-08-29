@@ -6,18 +6,18 @@ log-files-path: {log_files_path}
 
 load-generator:
   deploy: true
-  python_file: /users/ArunAMS/vSwarm/tools/load-generator/main.py
-  load_json: /users/ArunAMS/vSwarm/tools/load-generator/load.json
-  trace_path: /users/ArunAMS/vSwarm/tools/load-generator/{trace_path}
-  profile_json: /users/ArunAMS/vSwarm/tools/load-generator/profile.json
-  config_json: /users/ArunAMS/vSwarm/tools/load-generator/config.json
-  build_path: /users/ArunAMS/vSwarm/tools/load-generator/build
+  python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
+  load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
+  trace_path: /users/Lakshman/vSwarm/tools/load-generator/{trace_path}
+  profile_json: /users/Lakshman/vSwarm/tools/load-generator/profile.json
+  config_json: /users/Lakshman/vSwarm/tools/load-generator/config.json
+  build_path: /users/Lakshman/vSwarm/tools/load-generator/build
   expt_dur: {load_expt_dur}
   warmup_dur: {load_warmup_dur}
 
 invoke-load:
   run: true
-  binary_path: /users/ArunAMS/vSwarm/tools/load-generator/invoker
+  binary_path: /users/Lakshman/vSwarm/tools/load-generator/invoker
   log_file: invoker-load.log
   expt_dur: {load_expt_dur}
   warmup_dur: {load_warmup_dur}
@@ -66,9 +66,9 @@ mpstat:
 
 trace_path = [10,200,450]
 function_name="video-processing-python-1500"
-yaml_path = "/users/ArunAMS/vSwarm/tools/load-generator/yamls/video-processing/kn-video-processing-python-1500.yaml"
+yaml_path = "/users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/kn-video-processing-python-1500.yaml"
 grep_string = "python3 /app/server.py"
-predeployment_command = "kubectl apply -f /users/ArunAMS/vSwarm/tools/load-generator/yamls/video-processing/video-processing-database.yaml"
+predeployment_command = "kubectl apply -f /users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/video-processing-database.yaml"
 load_expt_dur = 4
 load_warmup_dur = 1
 service_expt_dur = load_expt_dur + load_warmup_dur

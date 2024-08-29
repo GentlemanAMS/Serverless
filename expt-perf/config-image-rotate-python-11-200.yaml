@@ -1,29 +1,29 @@
 
-output-files-path: /users/ArunAMS/vSwarm/tools/load-generator/expt/image-rotate-python-11-200
-log-files-path: /users/ArunAMS/vSwarm/tools/load-generator/expt/image-rotate-python-11-200
+output-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/image-rotate-python-11-200
+log-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/image-rotate-python-11-200
 
 load-generator:
   deploy: false
-  python_file: /users/ArunAMS/vSwarm/tools/load-generator/main.py
-  load_json: /users/ArunAMS/vSwarm/tools/load-generator/load.json
-  trace_path: /users/ArunAMS/vSwarm/tools/load-generator/200
-  profile_json: /users/ArunAMS/vSwarm/tools/load-generator/profile.json
-  config_json: /users/ArunAMS/vSwarm/tools/load-generator/config.json
-  build_path: /users/ArunAMS/vSwarm/tools/load-generator/build
+  python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
+  load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
+  trace_path: /users/Lakshman/vSwarm/tools/load-generator/200
+  profile_json: /users/Lakshman/vSwarm/tools/load-generator/profile.json
+  config_json: /users/Lakshman/vSwarm/tools/load-generator/config.json
+  build_path: /users/Lakshman/vSwarm/tools/load-generator/build
   expt_dur: 4
   warmup_dur: 1
 
 invoke-load:
   run: true
-  binary_path: /users/ArunAMS/vSwarm/tools/load-generator/invoker
+  binary_path: /users/Lakshman/vSwarm/tools/load-generator/invoker
   log_file: invoker-load.log
   expt_dur: 4
   warmup_dur: 1
 
 profile-service:
   deploy: true
-  yaml_path: /users/ArunAMS/vSwarm/tools/load-generator/yamls/image-rotate-python/kn-image-rotate-python-11.yaml
-  predeployment_commands: [kubectl apply -f /users/ArunAMS/vSwarm/tools/load-generator/yamls/image-rotate-go/image-rotate-database.yaml]
+  yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/image-rotate-python/kn-image-rotate-python-11.yaml
+  predeployment_commands: [kubectl apply -f /users/Lakshman/vSwarm/tools/load-generator/yamls/image-rotate-go/image-rotate-database.yaml]
   postdeployment_commands: []
   endpoints_file: endpoints.json  
 
@@ -53,7 +53,7 @@ perf:
   output_file: perf.txt
 
 mpstat:
-  collect: false
+  collect: true
   expt_dur: 3
   warmup_dur: 1
   interval: 60
