@@ -59,11 +59,8 @@ for filepath in yaml_files:
 
     if not os.path.exists(config_data['output-files-path']):
         os.makedirs(config_data['output-files-path'])
-        os.chmod(config_data['output-files-path'], stat.S_IRWXO)
     if not os.path.exists(config_data['log-files-path']):
         os.makedirs(config_data['log-files-path'])
-        os.chmod(config_data['log-files-path'], stat.S_IRWXO)
-
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_address = (args.perfIP, int(args.perfPORT))

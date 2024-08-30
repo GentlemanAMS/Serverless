@@ -528,10 +528,8 @@ for filepath in yaml_files:
 
     if not os.path.exists(config_data['output-files-path']):
         os.makedirs(config_data['output-files-path'])
-        os.chmod(config_data['output-files-path'], stat.S_IRWXO)
     if not os.path.exists(config_data['log-files-path']):
         os.makedirs(config_data['log-files-path'])
-        os.chmod(config_data['log-files-path'], stat.S_IRWXO)
 
     if (config_data['load-generator']['deploy'] == True):
         delete_all_services()
