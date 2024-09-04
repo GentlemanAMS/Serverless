@@ -8,7 +8,7 @@ spec:
   template:
     spec:
       containers:
-        - image: docker.io/vhiveease/relay-latency:latest
+        - image: docker.io/vhiveease/relay:latest
           ports:
             - name: h2c
               containerPort: 50000
@@ -20,7 +20,7 @@ spec:
             - --value=10
             - --generator=random
             - --lowerBound=10
-            - --upperBound=11
+            - --upperBound=10
             - --profile-function=true
         - image: docker.io/vhiveease/aes-python:latest
           args:

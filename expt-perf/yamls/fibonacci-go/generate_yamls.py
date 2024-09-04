@@ -11,7 +11,7 @@ spec:
   template:
     spec:
       containers:
-        - image: docker.io/vhiveease/relay-latency:latest
+        - image: docker.io/vhiveease/relay:latest
           ports:
             - name: h2c
               containerPort: 50000
@@ -31,8 +31,7 @@ spec:
 """
 
 # List of x values
-# x_values = [10, 1000, 4500, 10000, 20000, 45000, 70000, 100000, 200000, 450000, 700000]
-x_values = [1000000, 1500000, 2000000, 3500000, 5500000]
+x_values = [10, 1000, 4500, 10000, 20000, 45000, 70000, 100000, 200000, 450000, 700000, 1000000, 1500000, 2000000, 3500000, 5500000]
 
 # Generate YAML files for each combination of x and y values
 for x in x_values:

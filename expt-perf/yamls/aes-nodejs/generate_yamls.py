@@ -11,7 +11,7 @@ spec:
   template:
     spec:
       containers:
-        - image: docker.io/vhiveease/relay-latency:latest
+        - image: docker.io/vhiveease/relay:latest
           ports:
             - name: h2c
               containerPort: 50000

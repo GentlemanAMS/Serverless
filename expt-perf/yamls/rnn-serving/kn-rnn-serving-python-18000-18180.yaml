@@ -2,7 +2,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: aes-nodejs-20000-20200
+  name: rnn-serving-python-18000-18180
   namespace: default
 spec:
   template:
@@ -16,15 +16,17 @@ spec:
             - --addr=0.0.0.0:50000
             - --function-endpoint-url=0.0.0.0
             - --function-endpoint-port=50051
-            - --function-name=aes-nodejs
-            - --value=10
+            - --function-name=rnn-serving-python
+            - --value=French
             - --generator=random
-            - --lowerBound=20000
-            - --upperBound=20200
+            - --lowerBound=18000
+            - --upperBound=18180
             - --profile-function=true
-        - image: docker.io/vhiveease/aes-nodejs:latest
+        - image: docker.io/vhiveease/rnn-serving-python:latest
           args:
             - --addr=0.0.0.0
             - --port=50051
+            - --default_language=French
+            - --num_strings=15
       nodeSelector:
         node-role: perfer

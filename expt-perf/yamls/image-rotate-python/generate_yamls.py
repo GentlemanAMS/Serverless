@@ -1,17 +1,16 @@
 import yaml
 
-# Template YAML content
 template_yaml = """
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: fibonacci-python-{x}-{y}
+  name: image-rotate-python-{x}
   namespace: default
 spec:
   template:
     spec:
       containers:
-        - image: docker.io/vhiveease/relay-latency:latest
+        - image: docker.io/vhiveease/relay:latest
           ports:
             - name: h2c
               containerPort: 50000
@@ -19,27 +18,25 @@ spec:
             - --addr=0.0.0.0:50000
             - --function-endpoint-url=0.0.0.0
             - --function-endpoint-port=50051
-            - --function-name=fibonacci-python
-            - --value=10
-            - --generator=random
-            - --lowerBound={x}
-            - --upperBound={y}
+            - --function-name=image-rotate-python
+            - --value=img{x}.jpg
             - --profile-function=true
-        - image: docker.io/vhiveease/fibonacci-python-mod:latest
+        - image: docker.io/vhiveease/image-rotate-python:latest
           args:
             - --addr=0.0.0.0
             - --port=50051
+            - --db_addr=mongodb://image-rotate-database:27017
 """
 
 # List of x values
-# x_values = [10, 1000, 4500, 10000, 20000, 45000, 70000, 100000, 200000, 450000]
-x_values = [700000, 1000000, 1500000, 2000000, 3500000]
+x_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
 
 # Generate YAML files for each combination of x and y values
 for x in x_values:
     y = int(1.01 * x)
-    yaml_content = template_yaml.format(x=x, y=y)
-    filename = f"kn-fibonacci-python-{x}-{y}.yaml"
+    yaml_content = template_yaml.format(x=x)
+    filename = f"kn-image-rotate-python-{x}.yaml"
     with open(filename, "w") as f:
         f.write(yaml_content)
     print(f"Created {filename}")
+

@@ -58,6 +58,10 @@ spec:
     - name: database
       port: 27017
       targetPort: 27017
+  template:
+    spec:
+      nodeSelector:
+        node-role: perfer
 ---
 apiVersion: batch/v1
 kind: Job
@@ -72,3 +76,5 @@ spec:
           args:
             - --db_addr=mongodb://image-rotate-database:27017
       restartPolicy: Never
+      nodeSelector:
+        node-role: perfer

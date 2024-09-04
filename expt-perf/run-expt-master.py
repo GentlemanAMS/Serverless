@@ -137,7 +137,10 @@ def deploy_load(python_file, build_path, load_file, trace_path, profile_path, co
 
     try:
         # Execute the command and wait for it to complete
-        result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)  
+        process = subprocess.Popen(command, stdout=subprocess.PIPE)
+        # replace "" with b'' for Python 3
+        for c in iter(lambda: process.stdout.read(1), b''):
+            sys.stdout.write(c)
         # Successful execution
         log.info(f"Load generated and deployed successfully")
         return 0

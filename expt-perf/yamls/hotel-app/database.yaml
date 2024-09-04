@@ -58,3 +58,7 @@ spec:
     - name: database
       port: 27017
       targetPort: 27017
+  template:
+    spec:
+      nodeSelector:
+        node-role: perfer

@@ -58,3 +58,7 @@ spec:
     - name: database
       port: 6379
       targetPort: 6379
+  template:
+    spec:
+      nodeSelector:
+        node-role: perfer
