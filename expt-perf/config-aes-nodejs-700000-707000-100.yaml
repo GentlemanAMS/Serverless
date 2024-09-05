@@ -22,7 +22,7 @@ invoke-load:
 
 profile-service:
   deploy: true
-  yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/video-aes-nodejs/kn-aes-nodejs-700000-707000.yaml
+  yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/aes-nodejs/kn-aes-nodejs-700000-707000.yaml
   predeployment_commands: []
   postdeployment_commands: []
   endpoints_file: endpoints.json  
@@ -42,7 +42,7 @@ taskset-service:
 
 perf:
   collect: true
-  grep_string: "python3 /app/server.py"
+  grep_string: "/app/server"
   event_list:
     - CPU_CLK_UNHALTED.THREAD
     - INST_RETIRED.ANY
