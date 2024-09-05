@@ -5,7 +5,7 @@ output-files-path: {output_files_path}
 log-files-path: {log_files_path}
 
 load-generator:
-  deploy: true
+  deploy: false
   python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
   load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
   trace_path: /users/Lakshman/vSwarm/tools/load-generator/{trace_path}
@@ -64,9 +64,9 @@ mpstat:
 
 
 
-trace_path = [10,200,450]
-function_name="video-processing-python-1500"
-yaml_path = "/users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/kn-video-processing-python-1500.yaml"
+trace_path = [10,100,200,300,450]
+function_name="video-processing-python-450"
+yaml_path = "/users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/kn-video-processing-python-450.yaml"
 grep_string = "python3 /app/server.py"
 predeployment_command = "kubectl apply -f /users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/video-processing-database.yaml"
 load_expt_dur = 4
@@ -75,13 +75,13 @@ service_expt_dur = load_expt_dur + load_warmup_dur
 rps=0.2
 stat_expt_dur = load_expt_dur - 1
 stat_warmup_dur = load_warmup_dur
-stat_interval_print_ms = 250
+stat_interval_print_ms = 500
 
 for i in range(len(trace_path)):
 
     file_name=f"config-{function_name}-{trace_path[i]}.yaml"
-    output_files_path = f"{function_name}-{trace_path[i]}"
-    log_files_path = f"{function_name}-{trace_path[i]}" 
+    output_files_path = f"/users/Lakshman/vSwarm/tools/load-generator/expt/{function_name}-{trace_path[i]}"
+    log_files_path = f"/users/Lakshman/vSwarm/tools/load-generator/expt/{function_name}-{trace_path[i]}" 
 
     yaml_content = template_yaml.format(
         output_files_path=output_files_path,

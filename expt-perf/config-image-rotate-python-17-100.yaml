@@ -1,12 +1,12 @@
 
-output-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/image-rotate-go-3-200
-log-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/image-rotate-go-3-200
+output-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/image-rotate-python-17-100
+log-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/image-rotate-python-17-100
 
 load-generator:
   deploy: false
   python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
   load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
-  trace_path: /users/Lakshman/vSwarm/tools/load-generator/200
+  trace_path: /users/Lakshman/vSwarm/tools/load-generator/100
   profile_json: /users/Lakshman/vSwarm/tools/load-generator/profile.json
   config_json: /users/Lakshman/vSwarm/tools/load-generator/config.json
   build_path: /users/Lakshman/vSwarm/tools/load-generator/build
@@ -22,7 +22,7 @@ invoke-load:
 
 profile-service:
   deploy: true
-  yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/image-rotate-go/kn-image-rotate-go-3.yaml
+  yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/image-rotate-python/kn-image-rotate-python-17.yaml
   predeployment_commands: [kubectl apply -f /users/Lakshman/vSwarm/tools/load-generator/yamls/image-rotate-go/image-rotate-database.yaml]
   postdeployment_commands: []
   endpoints_file: endpoints.json  

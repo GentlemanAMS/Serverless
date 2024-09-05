@@ -42,7 +42,7 @@ taskset-service:
 
 perf:
   collect: true
-  grep_string: "/app/server"
+  grep_string: "python3 /app/server.py"
   event_list:
     - CPU_CLK_UNHALTED.THREAD
     - INST_RETIRED.ANY
