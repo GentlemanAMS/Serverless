@@ -23,50 +23,56 @@ args = parser.parse_args()
 
 yaml_files = [
     "config-aes-nodejs-700000-707000-10.yaml",
-    "config-fibonacci-python-200000-202000-10.yaml",
-    "config-image-rotate-go-3-10.yaml",
-    "config-image-rotate-go-6-10.yaml",
-    "config-image-rotate-python-11-10.yaml",
-    "config-image-rotate-python-17-10.yaml",
-    "config-rnn-serving-python-1000-1010-10.yaml",
-    "config-video-processing-python-1500-10.yaml",
-    "config-video-processing-python-450-10.yaml",
+    #"config-fibonacci-python-200000-202000-10.yaml",
+    #"config-image-rotate-go-3-10.yaml",
+    #"config-image-rotate-go-6-10.yaml",
+    #"config-image-rotate-python-11-10.yaml",
+    #"config-image-rotate-python-17-10.yaml",
+    #"config-rnn-serving-python-1000-1010-10.yaml",
+    #"config-video-processing-python-1500-10.yaml",
+    #"config-video-processing-python-450-10.yaml",
     "config-aes-nodejs-700000-707000-100.yaml",
-    "config-fibonacci-python-200000-202000-100.yaml",
-    "config-image-rotate-go-3-100.yaml",
-    "config-image-rotate-go-6-100.yaml",
-    "config-image-rotate-python-11-100.yaml",
-    "config-image-rotate-python-17-100.yaml",
-    "config-rnn-serving-python-1000-1010-100.yaml",
-    "config-video-processing-python-1500-100.yaml",
-    "config-video-processing-python-450-100.yaml",
+    #"config-fibonacci-python-200000-202000-100.yaml",
+    #"config-image-rotate-go-3-100.yaml",
+    #"config-image-rotate-go-6-100.yaml",
+    #"config-image-rotate-python-11-100.yaml",
+    #"config-image-rotate-python-17-100.yaml",
+    #"config-rnn-serving-python-1000-1010-100.yaml",
+    #"config-video-processing-python-1500-100.yaml",
+    #"config-video-processing-python-450-100.yaml",
     "config-aes-nodejs-700000-707000-200.yaml",
-    "config-fibonacci-python-200000-202000-200.yaml",
-    "config-image-rotate-go-3-200.yaml",
-    "config-image-rotate-go-6-200.yaml",
-    "config-image-rotate-python-11-200.yaml",
-    "config-image-rotate-python-17-200.yaml",
-    "config-rnn-serving-python-1000-1010-200.yaml",
-    "config-video-processing-python-1500-200.yaml",
-    "config-video-processing-python-450-200.yaml",
+    #"config-fibonacci-python-200000-202000-200.yaml",
+    #"config-image-rotate-go-3-200.yaml",
+    #"config-image-rotate-go-6-200.yaml",
+    #"config-image-rotate-python-11-200.yaml",
+    #"config-image-rotate-python-17-200.yaml",
+    #"config-rnn-serving-python-1000-1010-200.yaml",
+    #"config-video-processing-python-1500-200.yaml",
+    #"config-video-processing-python-450-200.yaml",
     "config-aes-nodejs-700000-707000-300.yaml",
-    "config-fibonacci-python-200000-202000-300.yaml",
-    "config-image-rotate-go-3-300.yaml",
-    "config-image-rotate-go-6-300.yaml",
-    "config-image-rotate-python-11-300.yaml",
-    "config-image-rotate-python-17-300.yaml",
-    "config-rnn-serving-python-1000-1010-300.yaml",
-    "config-video-processing-python-1500-300.yaml",
-    "config-video-processing-python-450-300.yaml",
+    #"config-fibonacci-python-200000-202000-300.yaml",
+    #"config-image-rotate-go-3-300.yaml",
+    #"config-image-rotate-go-6-300.yaml",
+    #"config-image-rotate-python-11-300.yaml",
+    #"config-image-rotate-python-17-300.yaml",
+    #"config-rnn-serving-python-1000-1010-300.yaml",
+    #"config-video-processing-python-1500-300.yaml",
+    #"config-video-processing-python-450-300.yaml",
     "config-aes-nodejs-700000-707000-450.yaml",
-    "config-fibonacci-python-200000-202000-450.yaml",
-    "config-image-rotate-go-3-450.yaml",
-    "config-image-rotate-go-6-450.yaml",
-    "config-image-rotate-python-11-450.yaml",
-    "config-image-rotate-python-17-450.yaml",
-    "config-rnn-serving-python-1000-1010-450.yaml",
-    "config-video-processing-python-1500-450.yaml",
-    "config-video-processing-python-450-450.yaml",
+    #"config-fibonacci-python-200000-202000-450.yaml",
+    #"config-image-rotate-go-3-450.yaml",
+    #"config-image-rotate-go-6-450.yaml",
+    #"config-image-rotate-python-11-450.yaml",
+    #"config-image-rotate-python-17-450.yaml",
+    #"config-rnn-serving-python-1000-1010-450.yaml",
+    #"config-video-processing-python-1500-450.yaml",
+    #"config-video-processing-python-450-450.yaml",
+    "config-aes-nodejs-700000-707000-500.yaml",
+    "config-aes-nodejs-700000-707000-600.yaml",
+    "config-aes-nodejs-700000-707000-700.yaml",
+    "config-aes-nodejs-700000-707000-800.yaml",
+    "config-aes-nodejs-700000-707000-900.yaml",
+    "config-aes-nodejs-700000-707000-1000.yaml",
 ]
 
 invoker_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -616,27 +622,28 @@ for filepath in yaml_files:
     if e == -1: continue
             
 
-    e = send_file_via_scp(
-        server_ip=args.invokerIP,
-        username=args.invokerHOSTNAME,
-        file_path=f"{config_data['log-files-path']}/{config_data['profile-service']['endpoints_file']}",
-        remote_path=f"{config_data['log-files-path']}/{config_data['profile-service']['endpoints_file']}"
-    )
-    scp_iter = 0
-    while e == -1:
+    if (config_data['profile-service']['deploy'] == True):
         e = send_file_via_scp(
             server_ip=args.invokerIP,
             username=args.invokerHOSTNAME,
             file_path=f"{config_data['log-files-path']}/{config_data['profile-service']['endpoints_file']}",
             remote_path=f"{config_data['log-files-path']}/{config_data['profile-service']['endpoints_file']}"
         )
-        scp_iter += 1
-        time.sleep(2)
-        if (scp_iter == 30):
-            log.critical(f"An error occurred while sending endpoints.json to invoker node {args.invokerHOSTNAME}@{args.invokerIP}")
-            if(config_data['profile-service']['deploy']):  delete_service(function_name)
-            break
-    if e == -1: continue
+        scp_iter = 0
+        while e == -1:
+            e = send_file_via_scp(
+                server_ip=args.invokerIP,
+                username=args.invokerHOSTNAME,
+                file_path=f"{config_data['log-files-path']}/{config_data['profile-service']['endpoints_file']}",
+                remote_path=f"{config_data['log-files-path']}/{config_data['profile-service']['endpoints_file']}"
+            )
+            scp_iter += 1
+            time.sleep(2)
+            if (scp_iter == 30):
+                log.critical(f"An error occurred while sending endpoints.json to invoker node {args.invokerHOSTNAME}@{args.invokerIP}")
+                if(config_data['profile-service']['deploy']):  delete_service(function_name)
+                break
+        if e == -1: continue
 
 
 
@@ -676,19 +683,22 @@ for filepath in yaml_files:
 
     time.sleep(50)
 
-    pod_name = get_pod_name(function_name)
-    pod_name_iter = 0
-    while pod_name is None:
+    if(config_data['profile-service']['deploy']):
         pod_name = get_pod_name(function_name)
-        pod_name_iter += 1
-        time.sleep(15)
-        if (pod_name_iter == 30): 
-            time.sleep(config_data['invoke-service']['expt_dur']*60)
-            if(config_data['profile-service']['deploy']):  delete_service(function_name)
-            time_difference = time.time() - start_time
-            if (time_difference < time_to_sleep): time.sleep(time_to_sleep - time_difference)
-            break
-    if pod_name is None: continue
+        pod_name_iter = 0
+        while pod_name is None:
+            pod_name = get_pod_name(function_name)
+            pod_name_iter += 1
+            time.sleep(15)
+            if (pod_name_iter == 30): 
+                time.sleep(config_data['invoke-service']['expt_dur']*60)
+                if(config_data['profile-service']['deploy']):  delete_service(function_name)
+                time_difference = time.time() - start_time
+                if (time_difference < time_to_sleep): time.sleep(time_to_sleep - time_difference)
+                break
+        if pod_name is None: continue
+    else:
+        pod_name = None
 
 
     e = send_start_perf_command_to_perfer(

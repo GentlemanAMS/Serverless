@@ -21,14 +21,14 @@ invoke-load:
   warmup_dur: 1
 
 profile-service:
-  deploy: true
+  deploy: false
   yaml_path: /users/Lakshman/vSwarm/tools/load-generator/yamls/aes-nodejs/kn-aes-nodejs-700000-707000.yaml
   predeployment_commands: []
   postdeployment_commands: []
   endpoints_file: endpoints.json  
 
 invoke-service:
-  run: true
+  run: false
   binary_path: .
   log_file: invoker-service.log
   dur_file: dur.txt
@@ -37,11 +37,11 @@ invoke-service:
   rps: 0.2
 
 taskset-service:
-  set: true
+  set: false
   cpuid: 2
 
 perf:
-  collect: true
+  collect: false
   grep_string: "/app/server"
   event_list:
     - CPU_CLK_UNHALTED.THREAD

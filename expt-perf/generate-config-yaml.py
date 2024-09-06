@@ -5,7 +5,7 @@ output-files-path: {output_files_path}
 log-files-path: {log_files_path}
 
 load-generator:
-  deploy: false
+  deploy: true
   python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
   load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
   trace_path: /users/Lakshman/vSwarm/tools/load-generator/{trace_path}
@@ -23,14 +23,14 @@ invoke-load:
   warmup_dur: {load_warmup_dur}
 
 profile-service:
-  deploy: true
+  deploy: false
   yaml_path: {yaml_path}
   predeployment_commands: [{predeployment_command}]
   postdeployment_commands: []
   endpoints_file: endpoints.json  
 
 invoke-service:
-  run: true
+  run: false
   binary_path: .
   log_file: invoker-service.log
   dur_file: dur.txt
@@ -39,11 +39,11 @@ invoke-service:
   rps: {rps}
 
 taskset-service:
-  set: true
+  set: false
   cpuid: 2
 
 perf:
-  collect: true
+  collect: false
   grep_string: \"{grep_string}\"
   event_list:
     - CPU_CLK_UNHALTED.THREAD
@@ -64,11 +64,11 @@ mpstat:
 
 
 
-trace_path = [10,100,200,300,450]
-function_name="video-processing-python-450"
-yaml_path = "/users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/kn-video-processing-python-450.yaml"
-grep_string = "python3 /app/server.py"
-predeployment_command = "kubectl apply -f /users/Lakshman/vSwarm/tools/load-generator/yamls/video-processing/video-processing-database.yaml"
+trace_path = [10,100,200,300,450,500,600,700,800,900,1000]
+function_name="aes-nodejs-700000-707000"
+yaml_path = "/users/Lakshman/vSwarm/tools/load-generator/yamls/aes-nodejs/kn-aes-nodejs-700000-707000.yaml"
+grep_string = "/app/server"
+predeployment_command = ""
 load_expt_dur = 4
 load_warmup_dur = 1
 service_expt_dur = load_expt_dur + load_warmup_dur

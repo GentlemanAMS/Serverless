@@ -35,12 +35,18 @@ files = glob.glob(os.path.join(args.directory, '*/mpstat.txt'))
 data = {}
 x_ticks_labels = []
 for file in files:
-    data[file] = parse_mpstat_file(file)
-    x_ticks_labels.append(file.split('/')[-2])
+    #data[file] = parse_mpstat_file(file)
+    label = file.split('/')[-2]
+    # Get only the last token from the hyphen separated string
+    label = label.split('-')[-1]
+    label = int(label)
+    data[label] = parse_mpstat_file(file)
+    x_ticks_labels.append(label)
+
 
 # Sort data by file name
 x_ticks_labels = sorted(x_ticks_labels)
-files = sorted(files)
+#files = sorted(files)
 
 # NOTE: DICTIONARY IS NOT SORTED
     
@@ -51,15 +57,15 @@ syst = []
 idle = []
 
 # Gather user times
-for file in files:
-    user.append([x[0] for x in data[file]])
-    syst.append([x[2] for x in data[file]])
-    idle.append([x[9] for x in data[file]])
+for label in x_ticks_labels:
+    user.append([x[0] for x in data[label]])
+    syst.append([x[2] for x in data[label]])
+    idle.append([x[9] for x in data[label]])
 
 fig, ax = plt.subplots()
-ax.plot(x_ticks_labels, user, label='User Time')
-ax.plot(x_ticks_labels, syst, label='Sys Time')
-ax.plot(x_ticks_labels, idle, label='Idle Time')
+ax.plot(x_ticks_labels, user, label='User Time', marker='o')
+ax.plot(x_ticks_labels, syst, label='Sys Time', marker='x')
+ax.plot(x_ticks_labels, idle, label='Idle Time', marker='s')
 ax.set_xlabel('Functions', fontsize=10)
 ax.set_ylabel('Time (in %)')
 ax.set_title('User, Sys and Idle Times')

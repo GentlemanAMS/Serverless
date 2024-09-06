@@ -20,7 +20,7 @@ parser.add_argument("-pHOST","--perfHOSTNAME",required=False, default="Lakshman"
 args = parser.parse_args()
 
 yaml_files = [
-    #"config-aes-nodejs-700000-707000-10.yaml",
+    "config-aes-nodejs-700000-707000-10.yaml",
     #"config-fibonacci-python-200000-202000-10.yaml",
     #"config-image-rotate-go-3-10.yaml",
     #"config-image-rotate-go-6-10.yaml",
@@ -30,15 +30,15 @@ yaml_files = [
     #"config-video-processing-python-1500-10.yaml",
     #"config-video-processing-python-450-10.yaml",
     "config-aes-nodejs-700000-707000-100.yaml",
-    "config-fibonacci-python-200000-202000-100.yaml",
-    "config-image-rotate-go-3-100.yaml",
-    "config-image-rotate-go-6-100.yaml",
-    "config-image-rotate-python-11-100.yaml",
-    "config-image-rotate-python-17-100.yaml",
-    "config-rnn-serving-python-1000-1010-100.yaml",
-    "config-video-processing-python-1500-100.yaml",
-    "config-video-processing-python-450-100.yaml",
-    #"config-aes-nodejs-700000-707000-200.yaml",
+    #"config-fibonacci-python-200000-202000-100.yaml",
+    #"config-image-rotate-go-3-100.yaml",
+    #"config-image-rotate-go-6-100.yaml",
+    #"config-image-rotate-python-11-100.yaml",
+    #"config-image-rotate-python-17-100.yaml",
+    #"config-rnn-serving-python-1000-1010-100.yaml",
+    #"config-video-processing-python-1500-100.yaml",
+    #"config-video-processing-python-450-100.yaml",
+    "config-aes-nodejs-700000-707000-200.yaml",
     #"config-fibonacci-python-200000-202000-200.yaml",
     #"config-image-rotate-go-3-200.yaml",
     #"config-image-rotate-go-6-200.yaml",
@@ -48,15 +48,15 @@ yaml_files = [
     #"config-video-processing-python-1500-200.yaml",
     #"config-video-processing-python-450-200.yaml",
     "config-aes-nodejs-700000-707000-300.yaml",
-    "config-fibonacci-python-200000-202000-300.yaml",
-    "config-image-rotate-go-3-300.yaml",
-    "config-image-rotate-go-6-300.yaml",
-    "config-image-rotate-python-11-300.yaml",
-    "config-image-rotate-python-17-300.yaml",
-    "config-rnn-serving-python-1000-1010-300.yaml",
-    "config-video-processing-python-1500-300.yaml",
-    "config-video-processing-python-450-300.yaml",
-    #"config-aes-nodejs-700000-707000-450.yaml",
+    #"config-fibonacci-python-200000-202000-300.yaml",
+    #"config-image-rotate-go-3-300.yaml",
+    #"config-image-rotate-go-6-300.yaml",
+    #"config-image-rotate-python-11-300.yaml",
+    #"config-image-rotate-python-17-300.yaml",
+    #"config-rnn-serving-python-1000-1010-300.yaml",
+    #"config-video-processing-python-1500-300.yaml",
+    #"config-video-processing-python-450-300.yaml",
+    "config-aes-nodejs-700000-707000-450.yaml",
     #"config-fibonacci-python-200000-202000-450.yaml",
     #"config-image-rotate-go-3-450.yaml",
     #"config-image-rotate-go-6-450.yaml",
@@ -65,6 +65,12 @@ yaml_files = [
     #"config-rnn-serving-python-1000-1010-450.yaml",
     #"config-video-processing-python-1500-450.yaml",
     #"config-video-processing-python-450-450.yaml",
+    "config-aes-nodejs-700000-707000-500.yaml",
+    "config-aes-nodejs-700000-707000-600.yaml",
+    "config-aes-nodejs-700000-707000-700.yaml",
+    "config-aes-nodejs-700000-707000-800.yaml",
+    "config-aes-nodejs-700000-707000-900.yaml",
+    "config-aes-nodejs-700000-707000-1000.yaml",
 ]
 
 for filepath in yaml_files:
@@ -252,12 +258,14 @@ while True:
         os.makedirs(config_data['output-files-path'])
     if not os.path.exists(config_data['log-files-path']):
         os.makedirs(config_data['log-files-path'])
-
-    pid = get_pid(pod_name=pod_name, grep_string=config_data['perf']['grep_string'])
-    if pid is None:
-        log.critical(f"perf failed. PID not found. WRONG: Sending reply although perf is failed")
-        send_start_perfer_command_response(connection=connection, config_filename=filename, success=False)
-        continue
+    if(config_data['perf']['collect']):
+        pid = get_pid(pod_name=pod_name, grep_string=config_data['perf']['grep_string'])
+        if pid is None:
+            log.critical(f"perf failed. PID not found. WRONG: Sending reply although perf is failed")
+            send_start_perfer_command_response(connection=connection, config_filename=filename, success=False)
+            continue
+    else:
+        log.info(f"Perf not going to be collected. Only mpstat logs.")
 
     if(config_data['taskset-service']['set']):
         run_taskset(cpu=config_data['taskset-service']['cpuid'], pid=pid)
@@ -278,6 +286,8 @@ while True:
             interval_print=config_data['perf']['interval_print_ms'],
             output_file=f"{config_data['output-files-path']}/{config_data['perf']['output_file']}"
         )
+    else:
+        time.sleep((config_data['perf']['warmup_dur']+config_data['perf']['expt_dur'])*60)
 
     send_start_perfer_command_response(connection=connection, config_filename=filename, success=True)
 
