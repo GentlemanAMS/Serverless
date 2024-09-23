@@ -41,7 +41,7 @@ taskset-service:
   cpuid: 2
 
 perf:
-  collect: false
+  collect: true
   grep_string: "/app/server"
   event_list:
     - CPU_CLK_UNHALTED.THREAD

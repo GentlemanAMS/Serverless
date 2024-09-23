@@ -28,6 +28,7 @@ metadata:
 spec:
   template:
     spec:
+      containerConcurrency: 1
       containers:
         # Relay
         - name: relay

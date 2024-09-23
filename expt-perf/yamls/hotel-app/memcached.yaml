@@ -47,8 +47,7 @@ spec:
               value: "128"
             - name: MEMCACHED_THREADS
               value: "2"
-      nodeSelector:
-        node-role: perfer
+
 ---
 apiVersion: v1
 kind: Service
@@ -63,7 +62,3 @@ spec:
     - name: memcached
       port: 11211
       targetPort: 11211
-  template:
-    spec:
-      nodeSelector:
-        node-role: perfer

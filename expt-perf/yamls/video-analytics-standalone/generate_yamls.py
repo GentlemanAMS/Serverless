@@ -8,7 +8,8 @@ metadata:
   namespace: default
 spec:
   template:
-    spec:
+    spec: 
+      containerConcurrency: 1
       containers:
         - image: docker.io/vhiveease/relay:latest
           ports:

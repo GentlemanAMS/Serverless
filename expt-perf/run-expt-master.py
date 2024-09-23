@@ -58,6 +58,7 @@ yaml_files = [
     #"config-rnn-serving-python-1000-1010-300.yaml",
     #"config-video-processing-python-1500-300.yaml",
     #"config-video-processing-python-450-300.yaml",
+    "config-aes-nodejs-700000-707000-400.yaml",
     "config-aes-nodejs-700000-707000-450.yaml",
     #"config-fibonacci-python-200000-202000-450.yaml",
     #"config-image-rotate-go-3-450.yaml",
@@ -110,6 +111,92 @@ def delete_all_services():
         log.warning(f"Services not deleted. Error: {e}")
         return -1
 
+    # Delete all jobs
+
+    try:
+        delete_service_command = f"kubectl delete deployments --all"
+        result = subprocess.run(
+            delete_service_command,
+            shell=True,
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        log.info(
+            f"Deployments delete completed with return code {result.returncode}"
+        )
+    except subprocess.CalledProcessError as e:
+        log.warning(
+            f"Deployments not deleted. Return code: {e.returncode}. Error: {e.stderr.decode('utf-8')}"
+        )
+        return -1
+    except Exception as e:
+        log.warning(f"Deployments not deleted. Error: {e}")
+        return -1
+    
+    try:
+        delete_service_command = f"kubectl delete jobs --all"
+        result = subprocess.run(
+            delete_service_command,
+            shell=True,
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        log.info(
+            f"Jobs delete completed with return code {result.returncode}"
+        )
+    except subprocess.CalledProcessError as e:
+        log.warning(
+            f"Jobs not deleted. Return code: {e.returncode}. Error: {e.stderr.decode('utf-8')}"
+        )
+        return -1
+    except Exception as e:
+        log.warning(f"Jobs not deleted. Error: {e}")
+        return -1
+
+    try:
+        delete_service_command = f"kubectl delete services --all"
+        result = subprocess.run(
+            delete_service_command,
+            shell=True,
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        log.info(
+            f"services delete completed with return code {result.returncode}"
+        )
+    except subprocess.CalledProcessError as e:
+        log.warning(
+            f"services not deleted. Return code: {e.returncode}. Error: {e.stderr.decode('utf-8')}"
+        )
+        return -1
+    except Exception as e:
+        log.warning(f"services not deleted. Error: {e}")
+        return -1
+    
+    try:
+        delete_service_command = f"kubectl delete pods --all"
+        result = subprocess.run(
+            delete_service_command,
+            shell=True,
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        log.info(
+            f"pods delete completed with return code {result.returncode}"
+        )
+    except subprocess.CalledProcessError as e:
+        log.warning(
+            f"pods not deleted. Return code: {e.returncode}. Error: {e.stderr.decode('utf-8')}"
+        )
+        return -1
+    except Exception as e:
+        log.warning(f"pods not deleted. Error: {e}")
+        return -1
+
     # Monitor the service list whether everything is deleted. Wait until all the services are deleted.
     def are_services_deleted() -> bool:
         try:
@@ -136,13 +223,39 @@ def delete_all_services():
             log.warning(f"Service List can't be monitored. Error: {e}")
             return False
 
+    def are_pods_deleted() -> bool:
+        try:
+            get_servicelist_command = f"kubectl get pods"
+            result = subprocess.run(
+                get_servicelist_command,
+                shell=True,
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            )
+            services = result.stderr.decode('utf-8').strip().split("\n")
+            for s in services:
+                if "No resources found in default namespace." in s:
+                    return True
+            return False
+        except subprocess.CalledProcessError as e:
+            log.warning(
+                f"Pod List can't be monitored. Return code: {e.returncode}. Error: {e.stderr.decode('utf-8')}"
+            )
+            return False
+        except Exception as e:
+            log.warning(f"Pod List can't be monitored. Error: {e}")
+            return False
+    
     # Monitor the service list, until all are deleted.
     # Monitoring happens every 2 second for 15 minutes. If it shows failure even after that then it returns failure
     monitor_time = 15 * 60
     sleep_time = 2
     status = False
     for _ in range(int(monitor_time / sleep_time)):
-        status = are_services_deleted()
+        status_service = are_services_deleted()
+        status_pods = are_pods_deleted()
+        status = status_pods & status_service 
         if status:
             break
         else:

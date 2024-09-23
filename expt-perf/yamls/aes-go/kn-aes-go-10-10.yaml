@@ -7,6 +7,7 @@ metadata:
 spec:
   template:
     spec:
+      containerConcurrency: 1
       containers:
         - image: docker.io/vhiveease/relay:latest
           ports:
@@ -20,7 +21,7 @@ spec:
             - --value=10
             - --generator=random
             - --lowerBound=10
-            - --upperBound=10
+            - --upperBound=11
             - --profile-function=true
         - image: docker.io/vhiveease/aes-go:latest
           args:

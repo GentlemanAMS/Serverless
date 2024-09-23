@@ -10,6 +10,7 @@ metadata:
 spec:
   template:
     spec:
+      containerConcurrency: 1
       containers:
         - image: docker.io/vhiveease/relay:latest
           ports:
@@ -41,4 +42,4 @@ for x in x_values:
     filename = f"kn-fibonacci-nodejs-{x}-{y}.yaml"
     with open(filename, "w") as f:
         f.write(yaml_content)
-
+    print(f"Created {filename}")

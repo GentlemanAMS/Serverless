@@ -1,12 +1,12 @@
 
-output-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/aes-nodejs-700000-707000-1000
-log-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/aes-nodejs-700000-707000-1000
+output-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/aes-nodejs-700000-707000-400
+log-files-path: /users/Lakshman/vSwarm/tools/load-generator/expt/aes-nodejs-700000-707000-400
 
 load-generator:
   deploy: true
   python_file: /users/Lakshman/vSwarm/tools/load-generator/main.py
   load_json: /users/Lakshman/vSwarm/tools/load-generator/load.json
-  trace_path: /users/Lakshman/vSwarm/tools/load-generator/1000
+  trace_path: /users/Lakshman/vSwarm/tools/load-generator/400
   profile_json: /users/Lakshman/vSwarm/tools/load-generator/profile.json
   config_json: /users/Lakshman/vSwarm/tools/load-generator/config.json
   build_path: /users/Lakshman/vSwarm/tools/load-generator/build

@@ -42,8 +42,7 @@ spec:
           image: redis:alpine
           ports:
             - containerPort: 6379
-      nodeSelector:
-        node-role: perfer
+      
 ---
 apiVersion: v1
 kind: Service
@@ -58,7 +57,4 @@ spec:
     - name: database
       port: 6379
       targetPort: 6379
-  template:
-    spec:
-      nodeSelector:
-        node-role: perfer
+
