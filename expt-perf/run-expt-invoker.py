@@ -56,6 +56,7 @@ yaml_files = [
     #"config-rnn-serving-python-1000-1010-300.yaml",
     #"config-video-processing-python-1500-300.yaml",
     #"config-video-processing-python-450-300.yaml",
+    "config-aes-nodejs-700000-707000-400.yaml"
     "config-aes-nodejs-700000-707000-450.yaml",
     #"config-fibonacci-python-200000-202000-450.yaml",
     #"config-image-rotate-go-3-450.yaml",

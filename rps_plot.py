@@ -42,7 +42,7 @@ for label in x_ticks_labels:
 # Plot
 fig, ax = plt.subplots()
 ax.plot(x_ticks_labels, rps, marker='o')
-ax.set_xlabel('Trace')
+ax.set_xlabel('Number of Functions')
 ax.set_ylabel('RPS')
-ax.set_title('RPS vs Trace')
+ax.set_title('RPS vs Number of Functions')
 plt.savefig(args.output)
