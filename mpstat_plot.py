@@ -46,6 +46,7 @@ for file in files:
 
 # Sort data by file name
 x_ticks_labels = sorted(x_ticks_labels)
+x_ticks_labels = [str(x) for x in x_ticks_labels]
 #files = sorted(files)
 
 # NOTE: DICTIONARY IS NOT SORTED
@@ -58,18 +59,26 @@ idle = []
 
 # Gather user times
 for label in x_ticks_labels:
-    user.append([x[0] for x in data[label]])
-    syst.append([x[2] for x in data[label]])
-    idle.append([x[9] for x in data[label]])
+    for x in data[int(label)]:
+        user.append(x[0])
+        syst.append(x[2])
+        idle.append(x[9])
 
-fig, ax = plt.subplots()
-ax.plot(x_ticks_labels, user, label='User Time', marker='o')
-ax.plot(x_ticks_labels, syst, label='Sys Time', marker='x')
-ax.plot(x_ticks_labels, idle, label='Idle Time', marker='s')
-ax.set_xlabel('Functions', fontsize=10)
-ax.set_ylabel('Time (in %)')
-ax.set_title('User, Sys and Idle Times')
-ax.legend()
-plt.xticks(rotation=90)
-plt.tight_layout()
+print(user)
+print(x_ticks_labels)
+
+#fig, ax = plt.subplots()
+#ax.bar(x_ticks_labels, user, label='User Time')
+#ax.bar(x_ticks_labels, syst, label='Sys Time', bottom=user)
+##ax.plot(x_ticks_labels, idle, label='Idle Time', marker='s')
+#ax.set_xlabel('Functions', fontsize=10)
+#ax.set_ylabel('Time (in %)')
+#ax.set_title('User, Sys and Idle Times')
+#ax.legend()
+plt.bar(x_ticks_labels, user, label='User Time')
+plt.bar(x_ticks_labels, syst, label='Sys Time', bottom=user)
+plt.xlabel('Number of Functions')
+plt.ylabel('CPU Utilization (%)')
+plt.title('CPU Utilization by Number of Functions')
+plt.legend()
 plt.savefig(args.output)

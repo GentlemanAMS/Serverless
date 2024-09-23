@@ -56,6 +56,7 @@ yaml_files = [
     #"config-rnn-serving-python-1000-1010-300.yaml",
     #"config-video-processing-python-1500-300.yaml",
     #"config-video-processing-python-450-300.yaml",
+    "config-aes-nodejs-700000-707000-400.yaml"
     "config-aes-nodejs-700000-707000-450.yaml",
     #"config-fibonacci-python-200000-202000-450.yaml",
     #"config-image-rotate-go-3-450.yaml",
@@ -193,16 +194,17 @@ def run_mpstat( output_file, interval, count):
 def run_perf(event_list, pid, warmup_dur, expt_dur, interval_print, output_file):
 
     interval_count = int(expt_dur/interval_print)
-    run_perf_command = f"sudo perf stat -e "
-    for i in range(len(event_list)):
-        run_perf_command += f"{event_list[i]}"
-        if i != len(event_list)-1: run_perf_command += f","
-    run_perf_command += f" -p {pid}"
+    #run_perf_command = f"sudo perf stat -e "
+    run_perf_command = f"sudo perf stat"
+    #for i in range(len(event_list)):
+    #    run_perf_command += f"{event_list[i]}"
+    #    if i != len(event_list)-1: run_perf_command += f","
+    #run_perf_command += f" -p {pid}"
     run_perf_command += f" --delay {warmup_dur}"
     run_perf_command += f" -o {output_file}"
-    # run_perf_command += f" --timeout {expt_dur}"
-    run_perf_command += f" -I {interval_print}"
-    run_perf_command += f" --interval-count {interval_count}"
+    run_perf_command += f" --timeout {expt_dur}"
+    #run_perf_command += f" -I {interval_print}"
+    #run_perf_command += f" --interval-count {interval_count}"
     try:
         # process = subprocess.Popen(
         #     run_perf_command,
@@ -211,7 +213,7 @@ def run_perf(event_list, pid, warmup_dur, expt_dur, interval_print, output_file)
         #     stderr=subprocess.PIPE,
         # )
 
-        # log.info(f"Perf stat collection. Command started asynchronously. PID: {process.pid}")
+        log.info(f"Perf stat collection. Command started asynchronously.")
         _ = subprocess.run(
             run_perf_command,
             shell=True,
@@ -259,11 +261,15 @@ while True:
     if not os.path.exists(config_data['log-files-path']):
         os.makedirs(config_data['log-files-path'])
     if(config_data['perf']['collect']):
-        pid = get_pid(pod_name=pod_name, grep_string=config_data['perf']['grep_string'])
-        if pid is None:
-            log.critical(f"perf failed. PID not found. WRONG: Sending reply although perf is failed")
-            send_start_perfer_command_response(connection=connection, config_filename=filename, success=False)
-            continue
+        if(config_data['taskset-service']['set']):
+            pid = get_pid(pod_name=pod_name, grep_string=config_data['perf']['grep_string'])
+            if pid is None:
+                log.critical(f"perf failed. PID not found. WRONG: Sending reply although perf is failed")
+                send_start_perfer_command_response(connection=connection, config_filename=filename, success=False)
+                continue
+        else:
+            log.info(f"Perf and mpstat logs for whole system will be collected.")
+            pid = None
     else:
         log.info(f"Perf not going to be collected. Only mpstat logs.")
 
